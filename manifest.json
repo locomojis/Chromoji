@@ -1,0 +1,19 @@
+{
+  "name": "__MSG_extName__",
+  "version": "0.1.0.0",
+  "manifest_version": 2,
+  "default_locale": "en_GB",
+  "permissions": [
+    "tabs"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+	  "css": ["emoji.css"],
+      "js": ["emoji.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    "images/*.png"
+  ]
+}
