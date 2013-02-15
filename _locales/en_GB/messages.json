@@ -3,6 +3,9 @@
 		"message": "Chromoji",
 		"description": "Extension name."
 	},
+    "desc": {
+        "message": "Chromoji adds the Mac OS X style emoji font symbols to Google Chrome for Windows, Linux, and even older version of OS X."
+    },
 	"1f300": {
 		"message": "Cyclone"
 	},
