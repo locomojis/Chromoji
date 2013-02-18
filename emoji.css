@@ -1,3 +1,4 @@
-.emoji {
-	height: 1em;
+img.emoji {
+	height: 1em !important;
+    margin: 0px !important;
 }
