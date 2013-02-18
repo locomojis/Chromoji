@@ -1,7 +1,7 @@
 {
   "name": "__MSG_extName__",
   "description": "__MSG_desc__",
-  "version": "1.0.0.0",
+  "version": "1.0.1.0",
   "manifest_version": 2,
   "default_locale": "en_GB",
   "icons": { "16": "icon16.png",

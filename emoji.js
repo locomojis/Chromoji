@@ -60,7 +60,12 @@ function getLowSurrogate(i) {
 
 function createReplacementString(i, image) {
 	var message = getMessage(i);
-	var replacement = "<img src='" + image + "' alt='" + message + "' title='" + message + "' class='emoji' />";
+	var replacement = "<img src='" + image + "' class='emoji' ";
+    if(message.length > 0)
+    {
+        replacement += "alt='" + message + "' title='" + message + "' ";
+    }
+    replacement += "/>";
 	return replacement;
 }
 
