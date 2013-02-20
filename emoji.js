@@ -279,8 +279,7 @@ function replaceSpecificChars(s) {
 }
 
 jQuery.fn.justtext = function() {
-   
-    return $(this)  .clone()
+    return $(this).clone()
             .children()
             .remove()
             .end()
@@ -293,7 +292,7 @@ function doReplace(id, from, to)
 	if(settings[id]) {
 		var pattern = createSearchPattern(from, to);
 		var regexp = new RegExp(pattern, 'g');
-		var nodes = $('body').find('*').filter(function(index) {
+		var nodes = $('body').find('[contenteditable!="true"][contenteditable!="plaintext-only"]').filter(function(index) {
 			var contents = regexp.test($(this).justtext());
 			return contents;
 		});
@@ -328,6 +327,9 @@ function getLocalStorageVal(id, from, to) {
 function getSettings() {	
     // Multi & indidual chars
 	//body = replaceSpecificChars(body);
+	
+	//Apple logo
+	getLocalStorageVal("uF8FF", 0xF8FF, 0xF8FF);
     
     // Latin-1 Supplement
     getLocalStorageVal("u80", 0x80, 0xFF);
@@ -385,6 +387,9 @@ function getSettings() {
 }
 
 function run() {
+	//Apple logo
+	doReplace("uF8FF", 0xF8FF, 0xF8FF);
+
 	// Latin-1 Supplement
     doReplace("u80", 0x80, 0xFF);
     
