@@ -294,7 +294,6 @@ function doReplace(id, from, to)
 		var pattern = createSearchPattern(from, to);
 		var regexp = new RegExp(pattern, 'g');
 		var nodes = $('body').find('*').filter(function(index) {
-		
 			var contents = regexp.test($(this).justtext());
 			return contents;
 		});
@@ -326,7 +325,7 @@ function getLocalStorageVal(id, from, to) {
     });
 }
 
-function init() {	
+function getSettings() {	
     // Multi & indidual chars
 	//body = replaceSpecificChars(body);
     
@@ -383,8 +382,6 @@ function init() {
     
     // Transport and Map Symbols
     getLocalStorageVal("u1F680", 0x1F680, 0x1F6FF);
-	
-	onDOMChanged('body', DOMChangedEventHandler, 1000);
 }
 
 function run() {
@@ -444,27 +441,19 @@ function run() {
 }
 
 function DOMChangedEventHandler () {
-    run();
-}
-
-function onDOMChanged(selector, actionFunction, delay)
-{
-    $(selector).bind ('DOMSubtreeModified', fireOnDelay);
-
-    function fireOnDelay () {
-        if (typeof this.domTimer == "number") {
-            clearTimeout (this.domTimer);
-        }
-        
-        this.domTimer  = setTimeout(function() { onTimer (); }, delay);
-    }
-
-    function onTimer () {
-        $(selector).unbind ('DOMSubtreeModified', fireOnDelay);
-        actionFunction ();
-        $(selector).bind ('DOMSubtreeModified', fireOnDelay);
-    }
+	console.log("Chromji Unbinding");
+    $('body').unbind('DOMSubtreeModified', DOMChangedEventHandler);
+	console.log("Chromoji Running");
+	run();
+	console.log("Chromoji Rebinding");
+	setTimeout(
+		function() {
+			run();
+			$('body').bind('DOMSubtreeModified', DOMChangedEventHandler);
+		}, 1000
+	);
 }
 
 var settings = new Object();
-init();
+getSettings();
+DOMChangedEventHandler();
