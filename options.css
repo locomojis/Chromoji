@@ -4,7 +4,13 @@ body {
 }
 
 .warning {
-    color: red;
+	color: red;
+	font-weight: bold;
+	background: url('images/26a0.png') no-repeat;
+	background-size: 1em;
+	padding-left: 1.5em;
+	height: 1em;
+	font-size: 16px;
 }
 
 img.emoji {
