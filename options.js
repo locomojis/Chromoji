@@ -1,4 +1,5 @@
 function saveOptions() {
+    saveOption("uF8FF");
     saveOption("u80");
     saveOption("u2000");
     saveOption("u2139");
@@ -26,6 +27,7 @@ function saveOptions() {
 }
 
 function loadOptions() {
+    loadOption("uF8FF");
     loadOption("u80");
     loadOption("u2000");
     loadOption("u2139");
@@ -98,6 +100,7 @@ function setChars(id, from, to) {
 }
 
 function init() {
+    setChars("0xF8FF", 0xF8FF, 0xF8FF);
     setChars("0x80", 0x80, 0xFF);
     setChars("0x2000", 0x2000, 0x206F);
     setChars("0x2139", 0x2139, 0x214F);
