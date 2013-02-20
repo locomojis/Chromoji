@@ -317,7 +317,7 @@ function doReplace(id, from, to)
 	}
 }
 
-function getLocalStorageVal(id, from, to) {
+function getLocalStorageVal(id) {
     chrome.extension.sendMessage({greeting: id}, function(response) {
         var res = response.farewell;
 		settings[id] = (res == "true" || res == "True" || res == "TRUE");
@@ -329,61 +329,61 @@ function getSettings() {
 	//body = replaceSpecificChars(body);
 	
 	//Apple logo
-	getLocalStorageVal("uF8FF", 0xF8FF, 0xF8FF);
+	getLocalStorageVal("uF8FF");
     
     // Latin-1 Supplement
-    getLocalStorageVal("u80", 0x80, 0xFF);
+    getLocalStorageVal("u80");
     
     // General Punctuation
-    getLocalStorageVal("u2000", 0x2000, 0x206F);
+    getLocalStorageVal("u2000");
     
     // Letterlike Symbols
-    getLocalStorageVal("u2139", 0x2139, 0x214F);
+    getLocalStorageVal("u2139");
     
     // Arrows
-    getLocalStorageVal("u2194", 0x2194, 0x21FF);
+    getLocalStorageVal("u2194");
     
     // Miscellaneous Technical
-    getLocalStorageVal("u2300", 0x2300, 0x23FF);
+    getLocalStorageVal("u2300");
     
     // Enclosed Alphanumerics
-    getLocalStorageVal("u2460", 0x2460, 0x24FF);
+    getLocalStorageVal("u2460");
     
     // Geometric Shapes
-    getLocalStorageVal("u25A0", 0x25A0, 0x25FF);
+    getLocalStorageVal("u25A0");
     
     // Miscellaneous Symbols
-    getLocalStorageVal("u2600", 0x2600, 0x26FF);
+    getLocalStorageVal("u2600");
     
     // Dingbats
-    getLocalStorageVal("u2700", 0x2700, 0x27BF);
+    getLocalStorageVal("u2700");
     
     // Supplemental Arrows-B
-    getLocalStorageVal("u2900", 0x2900, 0x29FF);
+    getLocalStorageVal("u2900");
     
     // Miscellaneous Symbols and Arrows
-    getLocalStorageVal("u2B00", 0x2B00, 0x2BFF);
+    getLocalStorageVal("u2B00");
     
     // CJK Symbols and Punctuation
-    getLocalStorageVal("u3000", 0x3000, 0x303F);
+    getLocalStorageVal("u3000");
     
     // Enclosed CJK Letters and Months
-    getLocalStorageVal("u3200", 0x3200, 0x32FF);
+    getLocalStorageVal("u3200");
     
     // Enclosed Alphanumeric Supplement
-    getLocalStorageVal("u1F100", 0x1F100, 0x1F1FF);
+    getLocalStorageVal("u1F100");
     
     // Enclosed Ideographic Supplement
-    getLocalStorageVal("u1F200", 0x1F200, 0x1F2FF);
+    getLocalStorageVal("u1F200");
     
     // Miscellaneous Symbols and Pictographs
-    getLocalStorageVal("u1F300", 0x1F300, 0x1F5FF);
+    getLocalStorageVal("u1F300");
     
     // Emoticons
-    getLocalStorageVal("u1F600", 0x1F600, 0x1F64F);
+    getLocalStorageVal("u1F600");
     
     // Transport and Map Symbols
-    getLocalStorageVal("u1F680", 0x1F680, 0x1F6FF);
+    getLocalStorageVal("u1F680");
 }
 
 function run() {
@@ -391,49 +391,49 @@ function run() {
 	doReplace("uF8FF", 0xF8FF, 0xF8FF);
 
 	// Latin-1 Supplement
-    doReplace("u80", 0x80, 0xFF);
+    doReplace("u80", 0xA9, 0xAE);
     
     // General Punctuation
-    doReplace("u2000", 0x2000, 0x206F);
+    doReplace("u2000", 0x203C, 0x2049);
     
     // Letterlike Symbols
-    doReplace("u2139", 0x2139, 0x214F);
+    doReplace("u2139", 0x2139, 0x2139);
     
     // Arrows
-    doReplace("u2194", 0x2194, 0x21FF);
+    doReplace("u2194", 0x2194, 0x21AA);
     
     // Miscellaneous Technical
-    doReplace("u2300", 0x2300, 0x23FF);
+    doReplace("u2300", 0x231A, 0x23F3);
     
     // Enclosed Alphanumerics
-    doReplace("u2460", 0x2460, 0x24FF);
+    doReplace("u2460", 0x24C2, 0x24C2);
     
     // Geometric Shapes
-    doReplace("u25A0", 0x25A0, 0x25FF);
+    doReplace("u25A0", 0x25AA, 0x25FE);
     
     // Miscellaneous Symbols
-    doReplace("u2600", 0x2600, 0x26FF);
+    doReplace("u2600", 0x2600, 0x26FD);
     
     // Dingbats
-    doReplace("u2700", 0x2700, 0x27BF);
+    doReplace("u2700", 0x2702, 0x27BF);
     
     // Supplemental Arrows-B
-    doReplace("u2900", 0x2900, 0x29FF);
+    doReplace("u2900", 0x2934, 0x2935);
     
     // Miscellaneous Symbols and Arrows
-    doReplace("u2B00", 0x2B00, 0x2BFF);
+    doReplace("u2B00", 0x2B05, 0x2B55);
     
     // CJK Symbols and Punctuation
-    doReplace("u3000", 0x3000, 0x303F);
+    doReplace("u3000", 0x3030, 0x303D);
     
     // Enclosed CJK Letters and Months
-    doReplace("u3200", 0x3200, 0x32FF);
+    doReplace("u3200", 0x3297, 0x3299);
     
     // Enclosed Alphanumeric Supplement
-    doReplace("u1F100", 0x1F100, 0x1F1FF);
+    doReplace("u1F100", 0x1F170, 0x1F19A);
     
     // Enclosed Ideographic Supplement
-    doReplace("u1F200", 0x1F200, 0x1F2FF);
+    doReplace("u1F200", 0x1F201, 0x1F251);
     
     // Miscellaneous Symbols and Pictographs
     doReplace("u1F300", 0x1F300, 0x1F5FF);
@@ -442,15 +442,23 @@ function run() {
     doReplace("u1F600", 0x1F600, 0x1F64F);
     
     // Transport and Map Symbols
-    doReplace("u1F680", 0x1F680, 0x1F6FF);
+    doReplace("u1F680", 0x1F680, 0x1F6C5);
 }
 
 function DOMChangedEventHandler () {
-	console.log("Chromji Unbinding");
+	console.log((new Date()).toTimeString() + ": Chromoji - Unbinding");
     $('body').unbind('DOMSubtreeModified', DOMChangedEventHandler);
-	console.log("Chromoji Running");
+	var start = new Date();
+	console.log(start.toTimeString() + ": Chromoji - Run Started");
 	run();
-	console.log("Chromoji Rebinding");
+	var end = new Date();
+	console.log(end.toTimeString() + ": Chromoji - Run Finished");
+	console.log((new Date()).toTimeString() + ": Chromoji - Rebinding");
+	
+	if(end - start > new Date(0, 0, 0, 0, 0, 5)) {
+		console.warning((new Date()).toTimeString() + ": Chromoji - Parsing is taking a long time to complete. It is recommended you disable some Emoji symbols in the options");
+	}
+	
 	setTimeout(
 		function() {
 			run();
@@ -461,4 +469,8 @@ function DOMChangedEventHandler () {
 
 var settings = new Object();
 getSettings();
-DOMChangedEventHandler();
+$(document).ready(
+	function() {
+		DOMChangedEventHandler();
+	}
+);
