@@ -222,7 +222,6 @@ function testAndReplace(from, to, s) {
 			var path = "images/" + getHexString(i) + ".png";
 			var image = chrome.extension.getURL(path);
 			if(fileExists(image)) {
-				console.log(path);
 				return createReplacementString(i, image);
 			}
 			return s;
@@ -297,93 +296,133 @@ function doReplace(id, from, to)
 			return contents;
 		});
 		nodes.each(function(i, v) {
-			$(this).html($(this).html().replace(regexp,
-				function(a) {
-					var i;
-					if(a.length == 2) {
-						i = convertStrToUtf32(a);
-					} else {
-						i = a.charCodeAt(0);
-					}
-					var path = "images/" + getHexString(i) + ".png";
-					var image = chrome.extension.getURL(path);
-					if(fileExists(image)) {
-						return createReplacementString(i, image);
-					}
+			var node = $(this);
+			node.html(node.html().replace(regexp, function(a) {
+				var c;
+				if(a.length == 2) {
+					c = convertStrToUtf32(a);
+				} else {
+					c = a.charCodeAt(0);
+				}
+				var hex = getHexString(c);
+				var replacement = replacements[hex];
+				if(replacement) {
+					return replacement;
+				} else {
 					return a;
 				}
-			))
+			}));
 		});
 	}
 }
 
-function getLocalStorageVal(id) {
-    chrome.extension.sendMessage({greeting: id}, function(response) {
-        var res = response.farewell;
+function getLocalStorageVal(id, from, to) {
+	requests++;
+    chrome.extension.sendMessage({setting: id}, function(response) {
+    	responses++;
+        var res = response.value;
 		settings[id] = (res == "true" || res == "True" || res == "TRUE");
+		if(settings[id]) {
+			var pattern = createSearchPattern(from, to);
+			var regexp = new RegExp(pattern, 'g');
+			var matches = $('body').text().match(regexp);
+			if(matches != null) {
+				for(var i = 0; i < matches.length; i++) {
+					var match = matches[i];
+					var c;
+					if(match.length == 2) {
+						c = convertStrToUtf32(match);
+					} else {
+						c = match.charCodeAt(0);
+					}
+
+					var s = getHexString(c);
+					var replacement = replacements[s];
+					if(!replacement) {
+						requests++;
+						chrome.extension.sendMessage({character: s}, function(response) {
+							responses++;
+							var image = response.image;
+							var character = response.character
+							if(image != "") {
+								replacement = createReplacementString(character, image);
+								replacements[character] = replacement;
+							}
+
+							if(requests == responses) {
+								run();
+							}
+						});
+					}
+				}
+			}
+		}
     });
 }
+
+var requests = 0;
+var responses = 0;
 
 function getSettings() {	
     // Multi & indidual chars
 	//body = replaceSpecificChars(body);
 	
 	//Apple logo
-	getLocalStorageVal("uF8FF");
-    
-    // Latin-1 Supplement
-    getLocalStorageVal("u80");
+	getLocalStorageVal("uF8FF", 0xF8FF, 0xF8FF);
+
+	// Latin-1 Supplement
+    getLocalStorageVal("u80", 0xA9, 0xAE);
     
     // General Punctuation
-    getLocalStorageVal("u2000");
+    getLocalStorageVal("u2000", 0x203C, 0x2049);
     
     // Letterlike Symbols
-    getLocalStorageVal("u2139");
+    getLocalStorageVal("u2139", 0x2139, 0x2139);
     
     // Arrows
-    getLocalStorageVal("u2194");
+    getLocalStorageVal("u2194", 0x2194, 0x21AA);
     
     // Miscellaneous Technical
-    getLocalStorageVal("u2300");
+    getLocalStorageVal("u2300", 0x231A, 0x23F3);
     
     // Enclosed Alphanumerics
-    getLocalStorageVal("u2460");
+    getLocalStorageVal("u2460", 0x24C2, 0x24C2);
     
     // Geometric Shapes
-    getLocalStorageVal("u25A0");
+    getLocalStorageVal("u25A0", 0x25AA, 0x25FE);
     
     // Miscellaneous Symbols
-    getLocalStorageVal("u2600");
+    getLocalStorageVal("u2600", 0x2600, 0x26FD);
     
     // Dingbats
-    getLocalStorageVal("u2700");
+    getLocalStorageVal("u2700", 0x2702, 0x27BF);
     
     // Supplemental Arrows-B
-    getLocalStorageVal("u2900");
+    getLocalStorageVal("u2900", 0x2934, 0x2935);
     
     // Miscellaneous Symbols and Arrows
-    getLocalStorageVal("u2B00");
+    getLocalStorageVal("u2B00", 0x2B05, 0x2B55);
     
     // CJK Symbols and Punctuation
-    getLocalStorageVal("u3000");
+    getLocalStorageVal("u3000", 0x3030, 0x303D);
     
     // Enclosed CJK Letters and Months
-    getLocalStorageVal("u3200");
+    getLocalStorageVal("u3200", 0x3297, 0x3299);
     
     // Enclosed Alphanumeric Supplement
-    getLocalStorageVal("u1F100");
+    getLocalStorageVal("u1F100", 0x1F170, 0x1F19A);
     
     // Enclosed Ideographic Supplement
-    getLocalStorageVal("u1F200");
+    getLocalStorageVal("u1F200", 0x1F201, 0x1F251);
     
     // Miscellaneous Symbols and Pictographs
-    getLocalStorageVal("u1F300");
+    getLocalStorageVal("u1F300", 0x1F300, 0x1F5FF);
     
     // Emoticons
-    getLocalStorageVal("u1F600");
+    getLocalStorageVal("u1F600", 0x1F600, 0x1F64F);
     
     // Transport and Map Symbols
-    getLocalStorageVal("u1F680");
+    getLocalStorageVal("u1F680", 0x1F680, 0x1F6C5);
 }
 
 function run() {
@@ -456,7 +495,7 @@ function DOMChangedEventHandler () {
 	console.log((new Date()).toTimeString() + ": Chromoji - Rebinding");
 	
 	if(end - start > new Date(0, 0, 0, 0, 0, 5)) {
-		console.warning((new Date()).toTimeString() + ": Chromoji - Parsing is taking a long time to complete. It is recommended you disable some Emoji symbols in the options");
+		console.warn((new Date()).toTimeString() + ": Chromoji - Parsing is taking a long time to complete. It is recommended you disable some Emoji symbols in the options");
 	}
 	
 	setTimeout(
@@ -468,9 +507,12 @@ function DOMChangedEventHandler () {
 }
 
 var settings = new Object();
-getSettings();
+var replacements = new Object();
+
+
 $(document).ready(
 	function() {
-		DOMChangedEventHandler();
+		getSettings();
 	}
 );
+

@@ -13,13 +13,13 @@
     "tabs"
   ],
   "background": {
-    "scripts": ["background.js"]
+    "scripts": ["shared.js", "background.js"]
   },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
 	  "css": ["emoji.css"],
-      "js": ["jquery-1.9.1.min.js", "emoji.js"]
+      "js": ["jquery-1.9.1.min.js", "shared.js", "emoji.js"]
     }
   ],
   "web_accessible_resources": [

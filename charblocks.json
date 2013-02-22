@@ -1,0 +1,24 @@
+{
+	"blocks": [
+		{
+			"name": "Miscellaneous Symbols",
+			"start": "0x2600",
+			"end": "0x26FF"
+		},
+		{
+			"name": "Miscellaneous Symbols and Pictographs",
+			"start": "0x1F300",
+			"end": "0x1F5FF"
+		},
+		{
+			"name": "Emoticons",
+			"start": "0x1F600",
+			"end": "0x1F64F"
+		},
+		{
+			"name": "Transport and Map Symbols",
+			"start": "0x1F680",
+			"end": "0x1F6FF"
+		}
+	]
+}

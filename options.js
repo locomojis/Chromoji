@@ -30,9 +30,6 @@ function loadOption(id) {
     var val = localStorage[id];
     if(!val) {
         val = false;
-        console.log(id + " using default");
-    } else {
-        console.log(id + " == " + val);
     }
     
     var checkbox = document.getElementById(id);
@@ -41,17 +38,6 @@ function loadOption(id) {
 
 function getBoolVal(stringVal) {
     return stringVal == "true" || stringVal == "True" || stringVal == "TRUE";
-}
-
-function fileExists(path){
-	try {
-		var HttpRequest = new XMLHttpRequest();
-		HttpRequest.open("GET", path, false );
-		HttpRequest.send(null);
-		return true;
-	} catch(e) {
-		return false;
-	}
 }
 
 function setChars(id, from, to) {
@@ -71,7 +57,7 @@ function setChars(id, from, to) {
     }
 }
 
-function init() {    
+function init() {
     //Apple logo
 	setChars("0xF8FF", 0xF8FF, 0xF8FF);
 
