@@ -4,7 +4,6 @@ function loadImagesFromTo(from, to) {
 		if(fileExists(image)) {
 			var hex = getHexString(i);
 			images[hex] = image;
-			console.log(hex + " = " + image);
 		}
 	}
 }
@@ -17,7 +16,6 @@ function loadImages() {
 			var name = block.name;
 			var from = parseInt(block.char_start);
 			var to = parseInt(block.char_end);
-			console.log("Loading " + name);
 			loadImagesFromTo(from, to);
 		}
 	});

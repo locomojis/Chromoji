@@ -15,17 +15,6 @@ function getMessageMulti(first, second) {
 	return message;
 }
 
-function fileExists(path){
-	try {
-		var HttpRequest = new XMLHttpRequest();
-		HttpRequest.open("GET", path, false );
-		HttpRequest.send(null);
-		return true;
-	} catch(e) {
-		return false;
-	}
-}
-
 function convertCharFromUtf32 (i) {
 	var vd = i - 0x10000;
 	var vh = vd >> 10;
@@ -278,24 +267,28 @@ jQuery.fn.justtext = function() {
  
 };
 
-function doReplaceNodes(id, from, to, regexp, nodes) {
-    nodes.each(function(i, v) {
+function doReplaceNodes(regexp, nodes) {
+    $.each(nodes, function(i, v) {
         var node = $(this);
-        node.html(node.html().replace(regexp, function(a) {
-            var c;
-            if(a.length == 2) {
-                c = convertStrToUtf32(a);
-            } else {
-                c = a.charCodeAt(0);
-            }
-            var hex = getHexString(c);
-            var replacement = replacements[hex];
-            if(replacement) {
-                return replacement;
-            } else {
-                return a;
-            }
-        }));
+        if(node && node.html()) {
+            node.html(node.html().replace(regexp, 
+                function(a) {
+                    var c;
+                    if(a.length == 2) {
+                        c = convertStrToUtf32(a);
+                    } else {
+                        c = a.charCodeAt(0);
+                    }
+                    var hex = getHexString(c);                    
+                    var replacement = replacements[hex];
+                    if(replacement) {
+                        return replacement;
+                    } else {
+                        return a;
+                    }
+                })
+            );
+        }
     });
 }
 
@@ -308,7 +301,7 @@ function doReplace(id, from, to)
 			var contents = regexp.test($(this).justtext());
 			return contents;
 		});
-		doReplaceNodes(id, from, to, regexp, nodes);
+		doReplaceNodes(regexp, nodes);
 	}
 }
 
@@ -332,24 +325,14 @@ function processLocalStorageResponse(response) {
     var res = response.result;
     settings[id] = (res == "true" || res == "True" || res == "TRUE");
     if(settings[id]) {
-        var regexp = new RegExp(response.pattern, 'g');
-        var matches = $('body').text().match(regexp);
-        if(matches != null) {
-            for(var i = 0; i < matches.length; i++) {
-                var match = matches[i];
-                var c;
-                if(match.length == 2) {
-                    c = convertStrToUtf32(match);
-                } else {
-                    c = match.charCodeAt(0);
-                }
-
-                var s = getHexString(c);
-                var replacement = replacements[s];
-                if(!replacement) {
-                    requests++;
-                    chrome.extension.sendMessage({character: s}, processImageCacheResponse);
-                }
+        var from = response.from;
+        var to = response.to;
+        for(var i = from; i <= to; i++) {
+            var s = getHexString(i);
+            var replacement = replacements[s];
+            if(!replacement) {
+                requests++;
+                chrome.extension.sendMessage({character: s}, processImageCacheResponse);
             }
         }
     }
@@ -357,15 +340,15 @@ function processLocalStorageResponse(response) {
 
 function getLocalStorageVal(id, from, to) {
 	requests++;
-	var pattern = createSearchPattern(from, to);
-    chrome.extension.sendMessage({setting: id, pattern: pattern}, processLocalStorageResponse);
+    chrome.extension.sendMessage({setting: id, from: from, to: to}, processLocalStorageResponse);
 }
 
 var requests = 0;
 var responses = 0;
 
 function init() {	
-    getCharBlocks(function(blocks) {
+    getCharBlocks(function(result) {
+        blocks = result;
 		var length = blocks.length;
 		for(var i = 0; i < length; i++) {
 			var block = blocks[i];
@@ -378,34 +361,52 @@ function init() {
 	});
 }
 
-function run() {
-    getCharBlocks(function(blocks) {
+function run(node) {
+    if(blocks) {
         var length = blocks.length;
 		for(var i = 0; i < length; i++) {
 			var block = blocks[i];
 			var start = parseInt(block.block_start);
-			var from = parseInt(block.char_start);
-			var to = parseInt(block.char_end);
 			var id = "u" + start.toString(16).toUpperCase();
-			doReplace(id, from, to);
+            if(settings[id]) {
+                var from = parseInt(block.char_start);
+                var to = parseInt(block.char_end);
+                if(node) {
+                    var pattern = createSearchPattern(from, to);
+                    var regexp = new RegExp(pattern, 'g');
+                    doReplaceNode(id, from, to, node);
+                } else {
+                    doReplace(id, from, to);
+                }
+            }
 		}
-    });
+    }
 }
 
 function on_mutation(mutations) {
     var length = mutations.length;
     for(var i = 0; i < length; i++) {
         var mutation = mutations[i];
-        var type = mutation.type;
-        var target = mutation.target;
         var added = mutation.addedNodes;
-        console.log("Type        = " + type);
-        console.log("Target      = " + target);
-        console.log("Added Nodes = " + added);
-        console.log("");
+        if(added && blocks) {
+            var length = blocks.length;
+            for(var i = 0; i < length; i++) {
+                var block = blocks[i];
+                var start = parseInt(block.block_start);
+                var id = "u" + start.toString(16).toUpperCase();
+                if(settings[id]) {
+                    var from = parseInt(block.char_start);
+                    var to = parseInt(block.char_end);
+                    var pattern = createSearchPattern(from, to);
+                    var regexp = new RegExp(pattern, 'g');
+                    doReplaceNodes(regexp, added);
+                }
+            }
+        }
     }
 }
 
+var blocks;
 var settings = new Object();
 var replacements = new Object();
 var target = document.body;
