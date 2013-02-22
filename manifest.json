@@ -13,7 +13,7 @@
     "tabs"
   ],
   "background": {
-    "scripts": ["shared.js", "background.js"]
+    "scripts": ["jquery-1.9.1.min.js", "shared.js", "background.js"]
   },
   "content_scripts": [
     {

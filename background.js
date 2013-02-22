@@ -16,8 +16,8 @@ function loadImages() {
 		for(var i = 0; i < length; i++) {
 			var block = blocks[i];
 			var name = block.name;
-			var from = parseInt(block.start);
-			var to = parseInt(block.end);
+			var from = parseInt(block.char_start);
+			var to = parseInt(block.char_end);
 			console.log("Loading " + name);
 			loadImagesFromTo(from, to);
 		}
@@ -25,21 +25,23 @@ function loadImages() {
 }
 
 function listener(request, sender, sendResponse) {
+    var response = $.extend(true, {}, request);
     if(request.setting) {
     	//Request for setting
 	    var value = localStorage[request.setting];
 	    if(!value) {
 	        value = "false";
 	    }
-	    sendResponse({setting: request.setting, value: value})
+	    response.result = value;
 	} else if(request.character) {
 		// Request for image
 		var image = images[request.character];
 		if(!image) {
 			image = "";
 		}
-		sendResponse({character: request.character, image: image})
+		response.result = image;
 	}
+	sendResponse(response);
 }
 
 function versionCallback(currentVersion) {

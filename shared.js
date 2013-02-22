@@ -1,5 +1,18 @@
-function getHexString(i) {
-	return i.toString(16);
+function getHexString(i, addPadding) {
+	var str = i.toString(16);
+	var fullPad = "0000";
+	var minLen = fullPad.length;
+	if(addPadding && str.length < minLen) {
+		var len = str.length;
+		var padLen = minLen - len;
+		var pad = fullPad.substr(0, padLen);
+		str = pad + str;
+	}
+	return str;
+}
+
+function getAsUtf16(i) {
+	return "\\u" + getHexString(i, true);
 }
 
 function getImageUrl(i) {

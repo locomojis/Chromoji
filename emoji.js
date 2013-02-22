@@ -1,14 +1,6 @@
 ﻿var BMP_MAX = 0xFFFF;
 var ASCII_MAX = 0xFF;
 
-function getHexString(i) {
-	return i.toString(16);
-}
-
-function getAsUtf16(i) {
-	return "\\u" + getHexString(i);
-}
-
 function getMessage(i) {
 	var messageName = getHexString(i);
 	var message = chrome.i18n.getMessage(messageName);
@@ -318,13 +310,13 @@ function doReplace(id, from, to)
 
 function getLocalStorageVal(id, from, to) {
 	requests++;
-    chrome.extension.sendMessage({setting: id}, function(response) {
+	var pattern = createSearchPattern(from, to);
+    chrome.extension.sendMessage({setting: id, pattern: pattern}, function(response) {
     	responses++;
-        var res = response.value;
+        var res = response.result;
 		settings[id] = (res == "true" || res == "True" || res == "TRUE");
 		if(settings[id]) {
-			var pattern = createSearchPattern(from, to);
-			var regexp = new RegExp(pattern, 'g');
+			var regexp = new RegExp(response.pattern, 'g');
 			var matches = $('body').text().match(regexp);
 			if(matches != null) {
 				for(var i = 0; i < matches.length; i++) {
@@ -342,7 +334,7 @@ function getLocalStorageVal(id, from, to) {
 						requests++;
 						chrome.extension.sendMessage({character: s}, function(response) {
 							responses++;
-							var image = response.image;
+							var image = response.result;
 							var character = response.character
 							if(image != "") {
 								replacement = createReplacementString(character, image);
