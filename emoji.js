@@ -278,6 +278,27 @@ jQuery.fn.justtext = function() {
  
 };
 
+function doReplaceNodes(id, from, to, regexp, nodes) {
+    nodes.each(function(i, v) {
+        var node = $(this);
+        node.html(node.html().replace(regexp, function(a) {
+            var c;
+            if(a.length == 2) {
+                c = convertStrToUtf32(a);
+            } else {
+                c = a.charCodeAt(0);
+            }
+            var hex = getHexString(c);
+            var replacement = replacements[hex];
+            if(replacement) {
+                return replacement;
+            } else {
+                return a;
+            }
+        }));
+    });
+}
+
 function doReplace(id, from, to)
 {
 	if(settings[id]) {
@@ -287,224 +308,114 @@ function doReplace(id, from, to)
 			var contents = regexp.test($(this).justtext());
 			return contents;
 		});
-		nodes.each(function(i, v) {
-			var node = $(this);
-			node.html(node.html().replace(regexp, function(a) {
-				var c;
-				if(a.length == 2) {
-					c = convertStrToUtf32(a);
-				} else {
-					c = a.charCodeAt(0);
-				}
-				var hex = getHexString(c);
-				var replacement = replacements[hex];
-				if(replacement) {
-					return replacement;
-				} else {
-					return a;
-				}
-			}));
-		});
+		doReplaceNodes(id, from, to, regexp, nodes);
 	}
+}
+
+function processImageCacheResponse(response) {
+    responses++;
+    var image = response.result;
+    var character = response.character
+    if(image != "") {
+        replacement = createReplacementString(character, image);
+        replacements[character] = replacement;
+    }
+
+    if(requests == responses) {
+        run();
+    }
+}
+
+function processLocalStorageResponse(response) {
+    responses++;
+    var id = response.setting;
+    var res = response.result;
+    settings[id] = (res == "true" || res == "True" || res == "TRUE");
+    if(settings[id]) {
+        var regexp = new RegExp(response.pattern, 'g');
+        var matches = $('body').text().match(regexp);
+        if(matches != null) {
+            for(var i = 0; i < matches.length; i++) {
+                var match = matches[i];
+                var c;
+                if(match.length == 2) {
+                    c = convertStrToUtf32(match);
+                } else {
+                    c = match.charCodeAt(0);
+                }
+
+                var s = getHexString(c);
+                var replacement = replacements[s];
+                if(!replacement) {
+                    requests++;
+                    chrome.extension.sendMessage({character: s}, processImageCacheResponse);
+                }
+            }
+        }
+    }
 }
 
 function getLocalStorageVal(id, from, to) {
 	requests++;
 	var pattern = createSearchPattern(from, to);
-    chrome.extension.sendMessage({setting: id, pattern: pattern}, function(response) {
-    	responses++;
-        var res = response.result;
-		settings[id] = (res == "true" || res == "True" || res == "TRUE");
-		if(settings[id]) {
-			var regexp = new RegExp(response.pattern, 'g');
-			var matches = $('body').text().match(regexp);
-			if(matches != null) {
-				for(var i = 0; i < matches.length; i++) {
-					var match = matches[i];
-					var c;
-					if(match.length == 2) {
-						c = convertStrToUtf32(match);
-					} else {
-						c = match.charCodeAt(0);
-					}
-
-					var s = getHexString(c);
-					var replacement = replacements[s];
-					if(!replacement) {
-						requests++;
-						chrome.extension.sendMessage({character: s}, function(response) {
-							responses++;
-							var image = response.result;
-							var character = response.character
-							if(image != "") {
-								replacement = createReplacementString(character, image);
-								replacements[character] = replacement;
-							}
-
-							if(requests == responses) {
-								run();
-							}
-						});
-					}
-				}
-			}
-		}
-    });
+    chrome.extension.sendMessage({setting: id, pattern: pattern}, processLocalStorageResponse);
 }
 
 var requests = 0;
 var responses = 0;
 
-function getSettings() {	
-    // Multi & indidual chars
-	//body = replaceSpecificChars(body);
-	
-	//Apple logo
-	getLocalStorageVal("uF8FF", 0xF8FF, 0xF8FF);
-
-	// Latin-1 Supplement
-    getLocalStorageVal("u80", 0xA9, 0xAE);
-    
-    // General Punctuation
-    getLocalStorageVal("u2000", 0x203C, 0x2049);
-    
-    // Letterlike Symbols
-    getLocalStorageVal("u2139", 0x2139, 0x2139);
-    
-    // Arrows
-    getLocalStorageVal("u2194", 0x2194, 0x21AA);
-    
-    // Miscellaneous Technical
-    getLocalStorageVal("u2300", 0x231A, 0x23F3);
-    
-    // Enclosed Alphanumerics
-    getLocalStorageVal("u2460", 0x24C2, 0x24C2);
-    
-    // Geometric Shapes
-    getLocalStorageVal("u25A0", 0x25AA, 0x25FE);
-    
-    // Miscellaneous Symbols
-    getLocalStorageVal("u2600", 0x2600, 0x26FD);
-    
-    // Dingbats
-    getLocalStorageVal("u2700", 0x2702, 0x27BF);
-    
-    // Supplemental Arrows-B
-    getLocalStorageVal("u2900", 0x2934, 0x2935);
-    
-    // Miscellaneous Symbols and Arrows
-    getLocalStorageVal("u2B00", 0x2B05, 0x2B55);
-    
-    // CJK Symbols and Punctuation
-    getLocalStorageVal("u3000", 0x3030, 0x303D);
-    
-    // Enclosed CJK Letters and Months
-    getLocalStorageVal("u3200", 0x3297, 0x3299);
-    
-    // Enclosed Alphanumeric Supplement
-    getLocalStorageVal("u1F100", 0x1F170, 0x1F19A);
-    
-    // Enclosed Ideographic Supplement
-    getLocalStorageVal("u1F200", 0x1F201, 0x1F251);
-    
-    // Miscellaneous Symbols and Pictographs
-    getLocalStorageVal("u1F300", 0x1F300, 0x1F5FF);
-    
-    // Emoticons
-    getLocalStorageVal("u1F600", 0x1F600, 0x1F64F);
-    
-    // Transport and Map Symbols
-    getLocalStorageVal("u1F680", 0x1F680, 0x1F6C5);
+function init() {	
+    getCharBlocks(function(blocks) {
+		var length = blocks.length;
+		for(var i = 0; i < length; i++) {
+			var block = blocks[i];
+			var start = parseInt(block.block_start);
+			var from = parseInt(block.char_start);
+			var to = parseInt(block.char_end);
+			var id = "u" + start.toString(16).toUpperCase();
+			getLocalStorageVal(id, from, to);
+		}
+	});
 }
 
 function run() {
-	//Apple logo
-	doReplace("uF8FF", 0xF8FF, 0xF8FF);
-
-	// Latin-1 Supplement
-    doReplace("u80", 0xA9, 0xAE);
-    
-    // General Punctuation
-    doReplace("u2000", 0x203C, 0x2049);
-    
-    // Letterlike Symbols
-    doReplace("u2139", 0x2139, 0x2139);
-    
-    // Arrows
-    doReplace("u2194", 0x2194, 0x21AA);
-    
-    // Miscellaneous Technical
-    doReplace("u2300", 0x231A, 0x23F3);
-    
-    // Enclosed Alphanumerics
-    doReplace("u2460", 0x24C2, 0x24C2);
-    
-    // Geometric Shapes
-    doReplace("u25A0", 0x25AA, 0x25FE);
-    
-    // Miscellaneous Symbols
-    doReplace("u2600", 0x2600, 0x26FD);
-    
-    // Dingbats
-    doReplace("u2700", 0x2702, 0x27BF);
-    
-    // Supplemental Arrows-B
-    doReplace("u2900", 0x2934, 0x2935);
-    
-    // Miscellaneous Symbols and Arrows
-    doReplace("u2B00", 0x2B05, 0x2B55);
-    
-    // CJK Symbols and Punctuation
-    doReplace("u3000", 0x3030, 0x303D);
-    
-    // Enclosed CJK Letters and Months
-    doReplace("u3200", 0x3297, 0x3299);
-    
-    // Enclosed Alphanumeric Supplement
-    doReplace("u1F100", 0x1F170, 0x1F19A);
-    
-    // Enclosed Ideographic Supplement
-    doReplace("u1F200", 0x1F201, 0x1F251);
-    
-    // Miscellaneous Symbols and Pictographs
-    doReplace("u1F300", 0x1F300, 0x1F5FF);
-    
-    // Emoticons
-    doReplace("u1F600", 0x1F600, 0x1F64F);
-    
-    // Transport and Map Symbols
-    doReplace("u1F680", 0x1F680, 0x1F6C5);
+    getCharBlocks(function(blocks) {
+        var length = blocks.length;
+		for(var i = 0; i < length; i++) {
+			var block = blocks[i];
+			var start = parseInt(block.block_start);
+			var from = parseInt(block.char_start);
+			var to = parseInt(block.char_end);
+			var id = "u" + start.toString(16).toUpperCase();
+			doReplace(id, from, to);
+		}
+    });
 }
 
-function DOMChangedEventHandler () {
-	console.log((new Date()).toTimeString() + ": Chromoji - Unbinding");
-    $('body').unbind('DOMSubtreeModified', DOMChangedEventHandler);
-	var start = new Date();
-	console.log(start.toTimeString() + ": Chromoji - Run Started");
-	run();
-	var end = new Date();
-	console.log(end.toTimeString() + ": Chromoji - Run Finished");
-	console.log((new Date()).toTimeString() + ": Chromoji - Rebinding");
-	
-	if(end - start > new Date(0, 0, 0, 0, 0, 5)) {
-		console.warn((new Date()).toTimeString() + ": Chromoji - Parsing is taking a long time to complete. It is recommended you disable some Emoji symbols in the options");
-	}
-	
-	setTimeout(
-		function() {
-			run();
-			$('body').bind('DOMSubtreeModified', DOMChangedEventHandler);
-		}, 1000
-	);
+function on_mutation(mutations) {
+    var length = mutations.length;
+    for(var i = 0; i < length; i++) {
+        var mutation = mutations[i];
+        var type = mutation.type;
+        var target = mutation.target;
+        var added = mutation.addedNodes;
+        console.log("Type        = " + type);
+        console.log("Target      = " + target);
+        console.log("Added Nodes = " + added);
+        console.log("");
+    }
 }
 
 var settings = new Object();
 var replacements = new Object();
-
+var target = document.body;
+var config = { childList: true, characterData: true, subtree: true };
+var observer = new WebKitMutationObserver(on_mutation);
+observer.observe(target, config);
 
 $(document).ready(
 	function() {
-		getSettings();
+		init();
 	}
 );
 

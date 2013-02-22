@@ -10,8 +10,7 @@ function loadImagesFromTo(from, to) {
 }
 
 function loadImages() {
-	getCharBlocks(function(cb){
-		var blocks = cb.blocks;
+	getCharBlocks(function(blocks){
 		var length = blocks.length;
 		for(var i = 0; i < length; i++) {
 			var block = blocks[i];

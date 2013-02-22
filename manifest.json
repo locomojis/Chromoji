@@ -23,6 +23,7 @@
     }
   ],
   "web_accessible_resources": [
-    "images/*.png"
+    "images/*.png",
+    "chars.json"
   ]
 }

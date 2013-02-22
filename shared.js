@@ -23,10 +23,12 @@ function getImageUrl(i) {
 
 function getCharBlocks(callback) {
 	var request = new XMLHttpRequest();
-	request.open('GET', 'charblocks.json');
+	var path = "chars.json"
+	var url = chrome.extension.getURL(path);
+	request.open('GET', url);
 	request.onload = function(e) {
-		var blocks = JSON.parse(request.responseText);
-		callback(blocks);
+		var chars = JSON.parse(request.responseText);
+		callback(chars.blocks);
 	}
 	request.send(null);
 }
