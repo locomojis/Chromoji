@@ -105,8 +105,18 @@ function loadBlockImages() {
     }
 }
 
-function loadBlockImages() {
-    //TODO
+function loadMultiImages() {
+    for(var i = 0; i < multis.length; i++) {
+        var multi = multis[i];
+        var id = multi.id;
+        var items = multi.items;
+        for(var j = 0; j < items.length; j++) {
+            var item = items[j];
+            var chars = item.chars;
+            var s = getMultiCharName(chars);
+            chrome.extension.sendMessage({character: s, id: id}, processImageCacheResponse);
+        }
+    }
 }
 
 function loadImages() {

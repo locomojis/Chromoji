@@ -64,19 +64,43 @@ jQuery.fn.justtext = function() {
  
 };
 
+function getMultibyteHexString(s) {
+    var result = "";
+    for(var i = 0; i < s.length; i++) {
+        var c1 = s.charCodeAt(i);
+        if(c1 >= 0xD800 && c1 <= 0xDB7F) {
+            // High surrogate
+            var h = s[i] + s[i + 1];
+            var c = convertStrToUtf32(h);
+            result += getHexString(c);
+            i++;
+        } else {
+            result += getHexString(c1);
+        }
+        result += "-";
+    }
+    
+    if(result != "") {
+        result = result.substr(0, result.length - 1);
+    }
+    
+    return result;
+}
+
 function doReplaceNodes(regexp, nodes) {
     $.each(nodes, function(i, v) {
         var node = $(this);
         if(node && node.html()) {
             node.html(node.html().replace(regexp, 
                 function(a) {
-                    var c;
-                    if(a.length == 2) {
-                        c = convertStrToUtf32(a);
+                    var hex;
+                    if(a.length > 2) {
+                        hex = getMultibyteHexString(a);
+                    } else if (a.length == 2) {
+                        hex = getHexString(convertStrToUtf32(a));
                     } else {
-                        c = a.charCodeAt(0);
+                        hex = getHexString(a.charCodeAt(0));
                     }
-                    var hex = getHexString(c);                    
                     var replacement = replacements[hex];
                     if(replacement) {
                         return replacement;
@@ -109,6 +133,7 @@ function processImageCacheResponse(response) {
     }
 
     if(requests == responses) {
+        console.log("Run");
         run();
     }
 }
@@ -134,13 +159,19 @@ function processLocalStorageResponse(response) {
             }
         } else if (chars) {
             for(var i = 0; i < chars.length; i++) {
-                requests++;
                 var val = parseInt(chars[i]);
                 var s = getHexString(val);
+                requests++;
                 chrome.extension.sendMessage({character: s}, processImageCacheResponse);
             }
         } else if (items) {
-            console.warn("TODO");
+            for(var i = 0; i < items.length; i++) {
+                var item = items[i];
+                var chars = item.chars;
+                var s = getMultiCharName(chars);
+                requests++;
+                chrome.extension.sendMessage({character: s}, processImageCacheResponse);
+            }
         }
     }
 }
@@ -211,24 +242,51 @@ function filterNodes(nodes, regexp) {
 }
 
 function createSinglesPattern(singles) {
-    var pattern = "[";
+    var pattern = "";
     
-    for(var j = 0; j < singles.length; j++) {
-        var single = singles[j];
+    for(var i = 0; i < singles.length; i++) {
+        var single = singles[i];
         var id = single.id;
         if(settings[id]) {
             var chars = single.chars;
-            for(var k = 0; k < chars.length; k++) {
-                var c = parseInt(chars[k]);
+            for(var j = 0; j < chars.length; j++) {
+                var c = parseInt(chars[j]);
                 var s = getAsUtf16(c);
                 pattern += (s + "|");
             }
         }
     }
-    pattern = pattern.substr(0, pattern.length - 1);
     
     if(pattern != "") {
-        pattern += "]";
+        pattern = pattern.substr(0, pattern.length - 1);
+    }
+    
+    return pattern;
+}
+
+function createMultisPattern(multis) {
+    var pattern = "";
+    
+    for(var i = 0; i < multis.length; i++) {
+        var multi = multis[i];
+        var id = multi.id;
+        if(settings[id]) {
+            var items = multi.items;
+            for(var j = 0; j < items.length; j++) {
+                var item = items[j];
+                var chars = item.chars;
+                for(var k = 0; k < chars.length; k++) {
+                    var c = parseInt(chars[k]);
+                    var s = getAsUnicode(c);
+                    pattern += s;
+                }
+                pattern += "|";
+            }
+        }
+    }
+    
+    if(pattern != "") {
+        pattern = pattern.substr(0, pattern.length - 1);
     }
     
     return pattern;
@@ -263,13 +321,24 @@ function run(nodes) {
                 var target = getBodyNodes(regexp);
                 doReplaceNodes(regexp, target);
             } else {
+                var target = filterNodes(nodes, regexp);
                 doReplaceNodes(regexp, nodes);
             }
         }
     }
     
     if(multis) {
-        console.warn("TODO");
+        var pattern = createMultisPattern(multis);
+        if(pattern != "") {
+            regexp = new RegExp(pattern, 'g');
+            if(!nodes) {
+                var target = getBodyNodes(regexp);
+                doReplaceNodes(regexp, target);
+            } else {
+                var target = filterNodes(nodes, regexp);
+                doReplaceNodes(regexp, nodes);
+            }
+        }
     }
 }
 
@@ -304,7 +373,12 @@ function on_mutation(mutations) {
             }
             
             if(multis) {
-                // TODO
+                var pattern = createMultisPattern(multis);
+                if(pattern != "") {
+                    regexp = new RegExp(pattern, 'g');                    
+                    var target = getBodyNodes(regexp);
+                    doReplaceNodes(regexp, target);
+                }
             }
         }
     }

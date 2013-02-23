@@ -11,6 +11,21 @@ function getHexString(i, addPadding) {
 	return str;
 }
 
+function getMultiCharName(chars) {
+    if(chars.length == 0) {
+        return "";
+    }
+
+    var name = "";
+    for(var i = 0; i < chars.length; i++) {
+        var n = parseInt(chars[i]);
+        var s = n.toString(16);
+        name += (s + "-");
+    }
+    name = name.substr(0, name.length - 1);
+    return name;
+}
+
 function getMessage(i) {
 	var messageName = getHexString(i);
 	var message = chrome.i18n.getMessage(messageName);
@@ -27,7 +42,11 @@ function getAsUtf16(i) {
 
 function getImageUrl(i) {
 	var hex = getHexString(i);
-	var path = "images/" + hex + ".png";
+	return getImageUrlFromString(hex);
+}
+
+function getImageUrlFromString(str) {
+    var path = "images/" + str + ".png";
 	return chrome.extension.getURL(path);
 }
 
@@ -74,6 +93,18 @@ function fileExists(path){
 	} catch(e) {
 		return false;
 	}
+}
+
+function getAsUnicode(i) {
+    if(i > 0xFFFF) {
+        var high = getHexString(getHighSurrogate(i), true);
+        var low = getHexString(getLowSurrogate(i), true);
+        return "\\u" + high + "\\u" + low;
+    } else if (i > 0xFF) {
+        return "\\u" + getHexString(i, true);
+    } else {
+        return String.fromCharCode(i);
+    }
 }
 
 function convertCharFromUtf32 (i) {

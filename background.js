@@ -14,14 +14,23 @@ function loadImagesFromTo(from, to) {
 	}
 }
 
+function loadMultiImage(chars) {
+    var name = getMultiCharName(chars);
+    if(!images[name]) {
+        var image = getImageUrlFromString(name);
+        if(fileExists(image)) {
+            images[name] = image;
+        }
+    }
+}
+
 function loadImages() {
     getCharBlocks(
         function(blocks) {
-            var length = blocks.length;
-            for(var i = 0; i < length; i++) {
+            for(var i = 0; i < blocks.length; i++) {
                 var block = blocks[i];
                 var name = block.name;
-                console.log("Loading " + name);
+                console.log("Loading block:  " + name);
                 var from = parseInt(block.char_start);
                 var to = parseInt(block.char_end);
                 loadImagesFromTo(from, to);
@@ -31,16 +40,30 @@ function loadImages() {
     
     getSingles(
         function(singles) {
-            var length = singles.length;
-            for(var i = 0; i < length; i++) {
+            for(var i = 0; i < singles.length; i++) {
                 var single = singles[i];
                 var name = single.name;
-                console.log("Loading " + name);
+                console.log("Loading single: " + name);
                 var chars = single.chars;
                 var charsLength = chars.length;
                 for(var j = 0; j < charsLength; j++) {
                     var val = parseInt(chars[j]);
                     loadImage(val);
+                }
+            }
+        }
+    );
+    
+    getMultis(
+        function(multis) {
+            for(var i = 0; i < multis.length; i++) {
+                var multi = multis[i];
+                var name = multi.name;
+                console.log("Loading multi:  " + name);
+                var items = multi.items;
+                for(var j = 0; j < items.length; j++) {
+                    var item = items[j];
+                    loadMultiImage(item.chars);
                 }
             }
         }
