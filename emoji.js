@@ -133,7 +133,6 @@ function processImageCacheResponse(response) {
     }
 
     if(requests == responses) {
-        console.log("Run");
         run();
     }
 }
@@ -376,7 +375,7 @@ function on_mutation(mutations) {
                 var pattern = createMultisPattern(multis);
                 if(pattern != "") {
                     regexp = new RegExp(pattern, 'g');                    
-                    var target = getBodyNodes(regexp);
+                    var target = filterNodes(added, regexp);
                     doReplaceNodes(regexp, target);
                 }
             }
