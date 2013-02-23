@@ -54,9 +54,9 @@ function createSearchPattern(from, to) {
 		var lowMin = surrogatesMinMax.lowMin;
 		var highMax = surrogatesMinMax.highMax;
 		var lowMax = surrogatesMinMax.lowMax;
-		pattern = "([" + getAsUtf16(highMin) + "-" + getAsUtf16(highMax) + "][" + getAsUtf16(lowMin) + "-" + getAsUtf16(lowMax) + "])";
+		pattern = "[" + getAsUtf16(highMin) + "-" + getAsUtf16(highMax) + "][" + getAsUtf16(lowMin) + "-" + getAsUtf16(lowMax) + "]";
 	} else {
-		pattern = "([" + getAsUtf16(from) + "-" + getAsUtf16(to) + "])";
+		pattern = "[" + getAsUtf16(from) + "-" + getAsUtf16(to) + "]";
 	}
 	return pattern;
 }
@@ -71,6 +71,8 @@ jQuery.fn.justtext = function() {
 };
 
 function doReplaceNodes(regexp, nodes) {
+    console.log(regexp);
+    console.log(nodes);
     $.each(nodes, function(i, v) {
         var node = $(this);
         if(node && node.html()) {
@@ -100,10 +102,7 @@ function doReplace(id, from, to)
 	if(settings[id]) {
 		var pattern = createSearchPattern(from, to);
 		var regexp = new RegExp(pattern, 'g');
-		var nodes = $('body').find('[contenteditable!="true"][contenteditable!="plaintext-only"]').filter(function(index) {
-			var contents = regexp.test($(this).justtext());
-			return contents;
-		});
+		var nodes = getBodyNodes(regexp);
 		doReplaceNodes(regexp, nodes);
 	}
 }
@@ -130,11 +129,21 @@ function processLocalStorageResponse(response) {
     if(settings[id]) {
         var from = response.from;
         var to = response.to;
-        for(var i = from; i <= to; i++) {
-            var s = getHexString(i);
-            var replacement = replacements[s];
-            if(!replacement) {
+        var chars = response.chars;
+        if(from && to) {
+            for(var i = from; i <= to; i++) {
+                var s = getHexString(i);
+                var replacement = replacements[s];
+                if(!replacement) {
+                    requests++;
+                    chrome.extension.sendMessage({character: s}, processImageCacheResponse);
+                }
+            }
+        } else if (chars) {
+            for(var i = 0; i < chars.length; i++) {
                 requests++;
+                var val = parseInt(chars[i]);
+                var s = getHexString(val);
                 chrome.extension.sendMessage({character: s}, processImageCacheResponse);
             }
         }
@@ -164,7 +173,7 @@ function init() {
 			var from = parseInt(block.char_start);
 			var to = parseInt(block.char_end);
 			var id = block.id;
-			getLocalStorageVal(id, from, to);
+			getLocalStorageForBlock(id, from, to);
 		}
 	});
     
@@ -175,25 +184,34 @@ function init() {
             var single = singles[i];
             var chars = single.chars;
             var id = single.id;
-            getLocalStorageForSingles(id, chars);
+            getLocalStorageForSingle(id, chars);
         }
     });
 }
 
-function run(node) {
+function getBodyNodes(regexp) {
+    return $('body').find('[contenteditable!="true"][contenteditable!="plaintext-only"]').filter(
+        function(index) {
+			var contents = regexp.test($(this).justtext());
+			return contents;
+		}
+    );
+}
+
+function run(nodes) {
+    var regexp;
+    
     if(blocks) {
-        var length = blocks.length;
-		for(var i = 0; i < length; i++) {
+		for(var i = 0; i < blocks.length; i++) {
 			var block = blocks[i];
-			var start = parseInt(block.block_start);
-			var id = "u" + start.toString(16).toUpperCase();
+			var id = block.id;
             if(settings[id]) {
                 var from = parseInt(block.char_start);
                 var to = parseInt(block.char_end);
-                if(node) {
+                if(nodes) {
                     var pattern = createSearchPattern(from, to);
-                    var regexp = new RegExp(pattern, 'g');
-                    doReplaceNode(id, from, to, node);
+                    regexp = new RegExp(pattern, 'g');
+                    doReplaceNodes(regexp, nodes);
                 } else {
                     doReplace(id, from, to);
                 }
@@ -202,20 +220,42 @@ function run(node) {
     }
     
     if(singles) {
+        var pattern = "[";
+        for(var j = 0; j < singles.length; j++) {
+            var single = singles[j];
+            var id = single.id;
+            if(settings[id]) {
+                var chars = single.chars;
+                for(var k = 0; k < chars.length; k++) {
+                    var c = parseInt(chars[k]);
+                    var s = getAsUtf16(c);
+                    pattern += (s + "|");
+                }
+            }
+        }
+        pattern = pattern.substr(0, pattern.length - 1);
+        if(pattern != "") {
+            pattern += "]";
+            regexp = new RegExp(pattern, 'g');
+            if(!nodes) {
+                var target = getBodyNodes(regexp);
+                doReplaceNodes(regexp, target);
+            } else {
+                doReplaceNodes(regexp, nodes);
+            }
+        }
     }
 }
 
 function on_mutation(mutations) {
-    var length = mutations.length;
-    for(var i = 0; i < length; i++) {
+    for(var i = 0; i < mutations.length; i++) {
         var mutation = mutations[i];
         var added = mutation.addedNodes;
+        
         if(added && blocks) {
-            var length = blocks.length;
-            for(var i = 0; i < length; i++) {
-                var block = blocks[i];
-                var start = parseInt(block.block_start);
-                var id = "u" + start.toString(16).toUpperCase();
+            for(var j = 0; j < blocks.length; j++) {
+                var block = blocks[j];
+                var id = block.id;
                 if(settings[id]) {
                     var from = parseInt(block.char_start);
                     var to = parseInt(block.char_end);
@@ -223,6 +263,29 @@ function on_mutation(mutations) {
                     var regexp = new RegExp(pattern, 'g');
                     doReplaceNodes(regexp, added);
                 }
+            }
+        }
+        
+        if (added && singles) {
+            var pattern = "[";
+            for(var j = 0; j < singles.length; j++) {
+                var single = singles[j];
+                var id = single.id;
+                if(settings[id]) {
+                    var chars = single.chars;
+                    for(var k = 0; k < chars.length; k++) {
+                        var c = parseInt(chars[k]);
+                        var s = getAsUtf16(c);
+                        pattern += (s + "|");
+                    }
+                }
+            }
+            
+            pattern = pattern.substr(0, pattern.length - 1);
+            if(pattern != "") {
+                pattern += "]";
+                var regexp = new RegExp(pattern, 'g');
+                doReplaceNodes(regexp, added);
             }
         }
     }

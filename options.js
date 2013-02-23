@@ -9,7 +9,9 @@ function saveOptions() {
 }
 
 function loadOptions() {
-    allCheckboxes(loadOption);
+    if(singles && blocks) {
+        allCheckboxes(loadOption);
+    }
 }
 
 function allCheckboxes(callback) {
@@ -57,66 +59,75 @@ function setChars(id, from, to) {
     }
 }
 
-function init() {
-    //Apple logo
-	setChars("0xF8FF", 0xF8FF, 0xF8FF);
+function createOption(name, id, parent) {
+    var div = document.createElement("div");
+    parent.appendChild(div);
 
-	// Latin-1 Supplement
-    setChars("0x80", 0xA9, 0xAE);
+    var input = document.createElement("input");
+    input["type"] = "checkbox";
+    input["id"] = id;
+    input["name"] = "codepage";
     
-    // General Punctuation
-    setChars("0x2000", 0x203C, 0x2049);
+    var label = document.createElement("label");
+    label["htmlFor"] = id;
     
-    // Letterlike Symbols
-    setChars("0x2139", 0x2139, 0x2139);
+    var labelText = document.createTextNode(name);
+    label.appendChild(labelText);
     
-    // Arrows
-    setChars("0x2194", 0x2194, 0x21AA);
-    
-    // Miscellaneous Technical
-    setChars("0x2300", 0x231A, 0x23F3);
-    
-    // Enclosed Alphanumerics
-    setChars("0x2460", 0x24C2, 0x24C2);
-    
-    // Geometric Shapes
-    setChars("0x25A0", 0x25AA, 0x25FE);
-    
-    // Miscellaneous Symbols
-    setChars("0x2600", 0x2600, 0x26FD);
-    
-    // Dingbats
-    setChars("0x2700", 0x2702, 0x27BF);
-    
-    // Supplemental Arrows-B
-    setChars("0x2900", 0x2934, 0x2935);
-    
-    // Miscellaneous Symbols and Arrows
-    setChars("0x2B00", 0x2B05, 0x2B55);
-    
-    // CJK Symbols and Punctuation
-    setChars("0x3000", 0x3030, 0x303D);
-    
-    // Enclosed CJK Letters and Months
-    setChars("0x3200", 0x3297, 0x3299);
-    
-    // Enclosed Alphanumeric Supplement
-    setChars("0x1F100", 0x1F170, 0x1F19A);
-    
-    // Enclosed Ideographic Supplement
-    setChars("0x1F200", 0x1F201, 0x1F251);
-    
-    // Miscellaneous Symbols and Pictographs
-    setChars("0x1F300", 0x1F300, 0x1F5FF);
-    
-    // Emoticons
-    setChars("0x1F600", 0x1F600, 0x1F64F);
-    
-    // Transport and Map Symbols
-    setChars("0x1F680", 0x1F680, 0x1F6C5);
-    
-    loadOptions();
+    div.appendChild(input);
+    div.appendChild(label);
 }
+
+function init() {
+    options = document.getElementById("options");
+}
+
+function createCheckboxes(items) {
+    var length = items.length;
+    for(var i = 0; i < length; i++) {
+        var item = items[i];
+        var name = item.name;
+        var id = item.id;
+        
+        createOption(name, id, options);
+    }
+}
+
+function createOptions() {
+    if(singles && blocks && multis) {
+        createCheckboxes(singles);
+        createCheckboxes(multis);
+        createCheckboxes(blocks);
+        loadOptions();
+    }
+}
+
+var singles;
+var blocks;
+var multis;
+var options;
+
+getSingles(
+    function(s) {
+        singles = s;
+        createOptions();
+    }
+);
+
+getCharBlocks(
+    function(b) {
+        blocks = b;
+        createOptions();
+    }
+);
+
+getMultis(
+    function(m) {
+        multis = m;
+        createOptions();
+    }
+);
+
 
 document.addEventListener('DOMContentLoaded', init);
 document.querySelector('#save').addEventListener('click', saveOptions)
