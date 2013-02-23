@@ -1,12 +1,6 @@
 ﻿var BMP_MAX = 0xFFFF;
 var ASCII_MAX = 0xFF;
 
-function getMessage(i) {
-	var messageName = getHexString(i);
-	var message = chrome.i18n.getMessage(messageName);
-	return message;
-}
-
 function createReplacementString(i, image) {
 	var message = getMessage(i);
 	var replacement = "<img src='" + image + "' class='emoji' ";
@@ -71,8 +65,6 @@ jQuery.fn.justtext = function() {
 };
 
 function doReplaceNodes(regexp, nodes) {
-    console.log(regexp);
-    console.log(nodes);
     $.each(nodes, function(i, v) {
         var node = $(this);
         if(node && node.html()) {
@@ -130,6 +122,7 @@ function processLocalStorageResponse(response) {
         var from = response.from;
         var to = response.to;
         var chars = response.chars;
+        var items = response.items;
         if(from && to) {
             for(var i = from; i <= to; i++) {
                 var s = getHexString(i);
@@ -146,6 +139,8 @@ function processLocalStorageResponse(response) {
                 var s = getHexString(val);
                 chrome.extension.sendMessage({character: s}, processImageCacheResponse);
             }
+        } else if (items) {
+            console.warn("TODO");
         }
     }
 }
@@ -160,14 +155,18 @@ function getLocalStorageForSingle(id, chars) {
     chrome.extension.sendMessage({setting: id, chars: chars}, processLocalStorageResponse);
 }
 
+function getLocalStorageForMulti(id, items) {
+    requests++;
+    chrome.extension.sendMessage({setting: id, items: items}, processLocalStorageResponse);
+}
+
 var requests = 0;
 var responses = 0;
 
 function init() {	
     getCharBlocks(function(result) {
         blocks = result;
-		var length = blocks.length;
-		for(var i = 0; i < length; i++) {
+		for(var i = 0; i < blocks.length; i++) {
 			var block = blocks[i];
 			var start = parseInt(block.block_start);
 			var from = parseInt(block.char_start);
@@ -179,23 +178,60 @@ function init() {
     
     getSingles(function(result) {
         singles = result;
-        var length = singles.length;
-        for(var i = 0; i < length; i++) {
+        for(var i = 0; i < singles.length; i++) {
             var single = singles[i];
             var chars = single.chars;
             var id = single.id;
             getLocalStorageForSingle(id, chars);
         }
     });
+    
+    getMultis(function(result) {
+        multis = result;
+        for(var i = 0; i < multis.length; i++) {
+            var multi = multis[i];
+            var id = multi.id;
+            var items = multi.items;
+            getLocalStorageForMulti(id, items);
+        }
+    });
 }
 
 function getBodyNodes(regexp) {
-    return $('body').find('[contenteditable!="true"][contenteditable!="plaintext-only"]').filter(
+    return filterNodes(document.body, regexp);
+}
+
+function filterNodes(nodes, regexp) {
+    return $(nodes).find('[contenteditable!="true"][contenteditable!="plaintext-only"]').filter(
         function(index) {
 			var contents = regexp.test($(this).justtext());
 			return contents;
 		}
     );
+}
+
+function createSinglesPattern(singles) {
+    var pattern = "[";
+    
+    for(var j = 0; j < singles.length; j++) {
+        var single = singles[j];
+        var id = single.id;
+        if(settings[id]) {
+            var chars = single.chars;
+            for(var k = 0; k < chars.length; k++) {
+                var c = parseInt(chars[k]);
+                var s = getAsUtf16(c);
+                pattern += (s + "|");
+            }
+        }
+    }
+    pattern = pattern.substr(0, pattern.length - 1);
+    
+    if(pattern != "") {
+        pattern += "]";
+    }
+    
+    return pattern;
 }
 
 function run(nodes) {
@@ -220,22 +256,8 @@ function run(nodes) {
     }
     
     if(singles) {
-        var pattern = "[";
-        for(var j = 0; j < singles.length; j++) {
-            var single = singles[j];
-            var id = single.id;
-            if(settings[id]) {
-                var chars = single.chars;
-                for(var k = 0; k < chars.length; k++) {
-                    var c = parseInt(chars[k]);
-                    var s = getAsUtf16(c);
-                    pattern += (s + "|");
-                }
-            }
-        }
-        pattern = pattern.substr(0, pattern.length - 1);
+        var pattern = createSinglesPattern(singles);
         if(pattern != "") {
-            pattern += "]";
             regexp = new RegExp(pattern, 'g');
             if(!nodes) {
                 var target = getBodyNodes(regexp);
@@ -245,6 +267,10 @@ function run(nodes) {
             }
         }
     }
+    
+    if(multis) {
+        console.warn("TODO");
+    }
 }
 
 function on_mutation(mutations) {
@@ -252,40 +278,33 @@ function on_mutation(mutations) {
         var mutation = mutations[i];
         var added = mutation.addedNodes;
         
-        if(added && blocks) {
-            for(var j = 0; j < blocks.length; j++) {
-                var block = blocks[j];
-                var id = block.id;
-                if(settings[id]) {
-                    var from = parseInt(block.char_start);
-                    var to = parseInt(block.char_end);
-                    var pattern = createSearchPattern(from, to);
-                    var regexp = new RegExp(pattern, 'g');
-                    doReplaceNodes(regexp, added);
-                }
-            }
-        }
-        
-        if (added && singles) {
-            var pattern = "[";
-            for(var j = 0; j < singles.length; j++) {
-                var single = singles[j];
-                var id = single.id;
-                if(settings[id]) {
-                    var chars = single.chars;
-                    for(var k = 0; k < chars.length; k++) {
-                        var c = parseInt(chars[k]);
-                        var s = getAsUtf16(c);
-                        pattern += (s + "|");
+        if(added.length > 0) {
+            if(blocks) {
+                for(var j = 0; j < blocks.length; j++) {
+                    var block = blocks[j];
+                    var id = block.id;
+                    if(settings[id]) {
+                        var from = parseInt(block.char_start);
+                        var to = parseInt(block.char_end);
+                        var pattern = createSearchPattern(from, to);
+                        var regexp = new RegExp(pattern, 'g');
+                        var target = filterNodes(added, regexp);
+                        doReplaceNodes(regexp, target);
                     }
                 }
             }
             
-            pattern = pattern.substr(0, pattern.length - 1);
-            if(pattern != "") {
-                pattern += "]";
-                var regexp = new RegExp(pattern, 'g');
-                doReplaceNodes(regexp, added);
+            if (singles) {
+                var pattern = createSinglesPattern(singles);
+                if(pattern != "") {
+                    var regexp = new RegExp(pattern, 'g');
+                    var target = filterNodes(added, regexp);
+                    doReplaceNodes(regexp, target);
+                }
+            }
+            
+            if(multis) {
+                // TODO
             }
         }
     }
@@ -293,6 +312,7 @@ function on_mutation(mutations) {
 
 var blocks;
 var singles;
+var multis;
 var settings = new Object();
 var replacements = new Object();
 var target = document.body;

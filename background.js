@@ -15,7 +15,7 @@ function loadImagesFromTo(from, to) {
 }
 
 function loadImages() {
-	getCharBlocks(
+    getCharBlocks(
         function(blocks) {
             var length = blocks.length;
             for(var i = 0; i < length; i++) {
@@ -49,6 +49,7 @@ function loadImages() {
 
 function listener(request, sender, sendResponse) {
     var response = $.extend(true, {}, request);
+    
     if(request.setting) {
     	//Request for setting
 	    var value = localStorage[request.setting];

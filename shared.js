@@ -11,6 +11,12 @@ function getHexString(i, addPadding) {
 	return str;
 }
 
+function getMessage(i) {
+	var messageName = getHexString(i);
+	var message = chrome.i18n.getMessage(messageName);
+	return message;
+}
+
 function getUnicode(i) {
     return i.toString(16).toUpperCase();
 }

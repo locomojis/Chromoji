@@ -1,6 +1,5 @@
 function saveOptions() {
     allCheckboxes(saveOption);
-    
     var status = document.getElementById("status");
     status.innerHTML = "Options Saved.";
     setTimeout(function() {
@@ -9,7 +8,7 @@ function saveOptions() {
 }
 
 function loadOptions() {
-    if(singles && blocks) {
+    if(singles && blocks && multis) {
         allCheckboxes(loadOption);
     }
 }
@@ -34,8 +33,8 @@ function loadOption(id) {
         val = false;
     }
     
-    var checkbox = document.getElementById(id);
-    checkbox.checked = getBoolVal(val);
+    var checkbox = $('input#' + id);
+    checkbox[0].checked = getBoolVal(val);
 }
 
 function getBoolVal(stringVal) {
@@ -59,8 +58,67 @@ function setChars(id, from, to) {
     }
 }
 
+function processImageCacheResponse(response) {
+    var path = response.result;
+    if(path != "") {
+        var div = document.getElementById("settings-" + response.id);
+        var image = new Image();
+        image.src = response.result;
+        image.className = "emoji";
+        
+        var i = parseInt("0x" + response.character);
+        var message = getMessage(i);
+        if(message != "") {
+            image.title = message;
+            image.alt = message;
+        }
+        
+        div.appendChild(image);
+    }
+}
+
+function loadSingleImages() {
+    for(var i = 0; i < singles.length; i++) {
+        var single = singles[i];
+        var id = single.id;
+        
+        for(var j = 0; j < single.chars.length; j++) {
+            var c = single.chars[i];
+            var n = parseInt(c);
+            var s = getHexString(n);
+            chrome.extension.sendMessage({character: s, id: id}, processImageCacheResponse);
+        }
+    }
+}
+
+function loadBlockImages() {
+    for(var i = 0; i < blocks.length; i++) {
+        var block = blocks[i];
+        var id = block.id;
+        
+        var from = parseInt(block.char_start);
+        var to = parseInt(block.char_end);
+        for(var j = from; j <= to; j++) {
+            var s = getHexString(j);
+            chrome.extension.sendMessage({character: s, id: id}, processImageCacheResponse);
+        }
+    }
+}
+
+function loadBlockImages() {
+    //TODO
+}
+
+function loadImages() {
+    loadSingleImages();
+    loadMultiImages();
+    loadBlockImages()
+}
+
 function createOption(name, id, parent) {
     var div = document.createElement("div");
+    div["id"] = "settings-" + id;
+    div.className = "setting";
     parent.appendChild(div);
 
     var input = document.createElement("input");
@@ -74,8 +132,10 @@ function createOption(name, id, parent) {
     var labelText = document.createTextNode(name);
     label.appendChild(labelText);
     
+    div.appendChild(document.createElement("br"));
     div.appendChild(input);
     div.appendChild(label);
+    div.appendChild(document.createElement("br"));
 }
 
 function init() {
@@ -98,6 +158,7 @@ function createOptions() {
         createCheckboxes(singles);
         createCheckboxes(multis);
         createCheckboxes(blocks);
+        loadImages();
         loadOptions();
     }
 }
