@@ -1,24 +1,50 @@
+function loadImage(i) {
+    var hex = getHexString(i);
+    if(!images[hex]) {
+        var image = getImageUrl(i);
+        if(fileExists(image)) {
+            images[hex] = image;
+        }
+    }
+}
+
 function loadImagesFromTo(from, to) {
 	for(var i = from; i <= to; i++) {
-		var image = getImageUrl(i);
-		if(fileExists(image)) {
-			var hex = getHexString(i);
-			images[hex] = image;
-		}
+        loadImage(i);
 	}
 }
 
 function loadImages() {
-	getCharBlocks(function(blocks){
-		var length = blocks.length;
-		for(var i = 0; i < length; i++) {
-			var block = blocks[i];
-			var name = block.name;
-			var from = parseInt(block.char_start);
-			var to = parseInt(block.char_end);
-			loadImagesFromTo(from, to);
-		}
-	});
+	getCharBlocks(
+        function(blocks) {
+            var length = blocks.length;
+            for(var i = 0; i < length; i++) {
+                var block = blocks[i];
+                var name = block.name;
+                console.log("Loading " + name);
+                var from = parseInt(block.char_start);
+                var to = parseInt(block.char_end);
+                loadImagesFromTo(from, to);
+            }            
+        }
+    );
+    
+    getSingles(
+        function(singles) {
+            var length = singles.length;
+            for(var i = 0; i < length; i++) {
+                var single = singles[i];
+                var name = single.name;
+                console.log("Loading " + name);
+                var chars = single.chars;
+                var charsLength = chars.length;
+                for(var j = 0; j < charsLength; j++) {
+                    var val = parseInt(chars[j]);
+                    loadImage(val);
+                }
+            }
+        }
+    );
 }
 
 function listener(request, sender, sendResponse) {
