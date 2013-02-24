@@ -150,6 +150,12 @@ function createOption(name, id, parent) {
 
 function init() {
     options = document.getElementById("options");
+    getVersion(
+        function(version) {
+            var element = document.getElementById("version");
+            element.textContent = "Version " + version;
+        }
+    );
 }
 
 function createCheckboxes(items) {
@@ -172,6 +178,9 @@ function createOptions() {
         loadOptions();
     }
 }
+
+document.addEventListener('DOMContentLoaded', init);
+document.querySelector('#save').addEventListener('click', saveOptions)
 
 var singles;
 var blocks;
@@ -198,7 +207,3 @@ getMultis(
         createOptions();
     }
 );
-
-
-document.addEventListener('DOMContentLoaded', init);
-document.querySelector('#save').addEventListener('click', saveOptions)

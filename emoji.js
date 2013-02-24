@@ -101,6 +101,7 @@ function doReplaceNodes(regexp, nodes) {
                     } else {
                         hex = getHexString(a.charCodeAt(0));
                     }
+                    console.log(node.html());
                     var replacement = replacements[hex];
                     if(replacement) {
                         return replacement;
@@ -291,25 +292,39 @@ function createMultisPattern(multis) {
     return pattern;
 }
 
+function createBlocksPattern(blocks) {
+    var pattern = "";
+    
+    for(var i = 0; i < blocks.length; i++) {
+        var block = blocks[i];
+        var from = parseInt(block.char_start);
+        var to = parseInt(block.char_end);
+        pattern += createSearchPattern(from, to);
+        pattern += "|";
+    }
+    
+    if(pattern != "") {
+        pattern = pattern.substr(0, pattern.length - 1);
+    }
+    
+    return pattern;
+}
+
 function run(nodes) {
     var regexp;
     
     if(blocks) {
-		for(var i = 0; i < blocks.length; i++) {
-			var block = blocks[i];
-			var id = block.id;
-            if(settings[id]) {
-                var from = parseInt(block.char_start);
-                var to = parseInt(block.char_end);
-                if(nodes) {
-                    var pattern = createSearchPattern(from, to);
-                    regexp = new RegExp(pattern, 'g');
-                    doReplaceNodes(regexp, nodes);
-                } else {
-                    doReplace(id, from, to);
-                }
+        var pattern = createBlocksPattern(blocks);
+		if(pattern != "") {
+            regexp = new RegExp(pattern, 'g');
+            if(!nodes) {
+                var target = getBodyNodes(regexp);
+                doReplaceNodes(regexp, target);
+            } else {
+                var target = filterNodes(nodes, regexp);
+                doReplaceNodes(regexp, nodes);
             }
-		}
+        }
     }
     
     if(singles) {
@@ -348,17 +363,11 @@ function on_mutation(mutations) {
         
         if(added.length > 0) {
             if(blocks) {
-                for(var j = 0; j < blocks.length; j++) {
-                    var block = blocks[j];
-                    var id = block.id;
-                    if(settings[id]) {
-                        var from = parseInt(block.char_start);
-                        var to = parseInt(block.char_end);
-                        var pattern = createSearchPattern(from, to);
-                        var regexp = new RegExp(pattern, 'g');
-                        var target = filterNodes(added, regexp);
-                        doReplaceNodes(regexp, target);
-                    }
+                var pattern = createBlocksPattern(blocks);
+                if(pattern != "") {
+                    var regexp = new RegExp(pattern, 'g');
+                    var target = filterNodes(added, regexp);
+                    doReplaceNodes(regexp, target);
                 }
             }
             
