@@ -1,5 +1,16 @@
-{
-    "items": [],
+﻿{
+    "items": [
+        {
+            "name": "Grinning Face",
+            "id": "grinning_face",
+            "chars": [
+                "\uD83D\uDE00",
+                "\uF996",
+                "\uF64A",
+                "\uF99A"
+            ]
+        }
+    ],
     "blocks": [
         {
             "name": "Basic Latin",
