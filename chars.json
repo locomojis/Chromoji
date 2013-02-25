@@ -85,8 +85,8 @@
             "id": "miscsymarrows",
 			"block_start": "0x2B00",
 			"block_end": "0x2BFF",
-			"char_start": "0x0x2B05",
-			"char_end": "0x0x2B55"
+			"char_start": "0x2B05",
+			"char_end": "0x2B55"
 		},
         {
 			"name": "CJK Symbols and Punctuation",
