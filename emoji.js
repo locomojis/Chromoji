@@ -94,10 +94,8 @@ function doReplaceNodes(regexp, nodes) {
             node.html(node.html().replace(regexp, 
                 function(a) {
                     var hex;
-                    if(a.length > 2) {
+                    if(a.length >= 2) {
                         hex = getMultibyteHexString(a);
-                    } else if (a.length == 2) {
-                        hex = getHexString(convertStrToUtf32(a));
                     } else {
                         hex = getHexString(a.charCodeAt(0));
                     }
@@ -297,10 +295,13 @@ function createBlocksPattern(blocks) {
     
     for(var i = 0; i < blocks.length; i++) {
         var block = blocks[i];
-        var from = parseInt(block.char_start);
-        var to = parseInt(block.char_end);
-        pattern += createSearchPattern(from, to);
-        pattern += "|";
+        var id = block.id;
+        if(settings[id]) {
+            var from = parseInt(block.char_start);
+            var to = parseInt(block.char_end);
+            pattern += createSearchPattern(from, to);
+            pattern += "|";
+        }
     }
     
     if(pattern != "") {
