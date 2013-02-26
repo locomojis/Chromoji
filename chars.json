@@ -105,6 +105,22 @@
 			"char_end": "0x3299"
 		},
         {
+			"name": "Mahjong Tiles",
+            "id": "mahjongtiles",
+			"block_start": "0x1F000",
+			"block_end": "0x1F02F",
+			"char_start": "0x1F004",
+			"char_end": "0x1F004"
+		},
+        {
+			"name": "PlayingCards",
+            "id": "playingcards",
+			"block_start": "0x1F0A0",
+			"block_end": "0x1F0FF",
+			"char_start": "0x1F0CF",
+			"char_end": "0x1F0CF"
+		},
+        {
 			"name": "Enclosed Alphanumeric Supplement",
             "id": "encalphanumsup",
 			"block_start": "0x1F100",
