@@ -1,1117 +1,8270 @@
 {
-    "items": [
-        {
-            "name": "Grinning Face",
-            "id": "grinning_face",
-            "chars": [
-                "\uD83D\uDE00",
-                "\uF996",
-                "\uF64A",
-                "\uF99A"
-            ]
-        }
-    ],
-    "blocks": [
-        {
-            "name": "Basic Latin",
-            "start": "\u0000",
-            "end": "\u007F"
-        },
-        {
-            "name": "Latin-1 Supplement",
-            "start": "\u0080",
-            "end": "\u00FF"
-        },
-        {
-            "name": "Latin Extended-A",
-            "start": "\u0100",
-            "end": "\u017F"
-        },
-        {
-            "name": "Latin Extended-B",
-            "start": "\u0180",
-            "end": "\u024F"
-        },
-        {
-            "name": "IPA Extensions",
-            "start": "\u0250",
-            "end": "\u02AF"
-        },
-        {
-            "name": "Spacing Modifier Letters",
-            "start": "\u02B0",
-            "end": "\u02FF"
-        },
-        {
-            "name": "Combining Diacritical Marks",
-            "start": "\u0300",
-            "end": "\u036F"
-        },
-        {
-            "name": "Greek and Coptic",
-            "start": "\u0370",
-            "end": "\u03FF"
-        },
-        {
-            "name": "Cyrillic",
-            "start": "\u0400",
-            "end": "\u04FF"
-        },
-        {
-            "name": "Cyrillic Supplement",
-            "start": "\u0500",
-            "end": "\u052F"
-        },
-        {
-            "name": "Armenian",
-            "start": "\u0530",
-            "end": "\u058F"
-        },
-        {
-            "name": "Hebrew",
-            "start": "\u0590",
-            "end": "\u05FF"
-        },
-        {
-            "name": "Arabic",
-            "start": "\u0600",
-            "end": "\u06FF"
-        },
-        {
-            "name": "Syriac",
-            "start": "\u0700",
-            "end": "\u074F"
-        },
-        {
-            "name": "Arabic Supplement",
-            "start": "\u0750",
-            "end": "\u077F"
-        },
-        {
-            "name": "Thaana",
-            "start": "\u0780",
-            "end": "\u07BF"
-        },
-        {
-            "name": "NKo",
-            "start": "\u07C0",
-            "end": "\u07FF"
-        },
-        {
-            "name": "Samaritan",
-            "start": "\u0800",
-            "end": "\u083F"
-        },
-        {
-            "name": "Mandaic",
-            "start": "\u0840",
-            "end": "\u085F"
-        },
-        {
-            "name": "Arabic Extended-A",
-            "start": "\u08A0",
-            "end": "\u08FF"
-        },
-        {
-            "name": "Devanagari",
-            "start": "\u0900",
-            "end": "\u097F"
-        },
-        {
-            "name": "Bengali",
-            "start": "\u0980",
-            "end": "\u09FF"
-        },
-        {
-            "name": "Gurmukhi",
-            "start": "\u0A00",
-            "end": "\u0A7F"
-        },
-        {
-            "name": "Gujarati",
-            "start": "\u0A80",
-            "end": "\u0AFF"
-        },
-        {
-            "name": "Oriya",
-            "start": "\u0B00",
-            "end": "\u0B7F"
-        },
-        {
-            "name": "Tamil",
-            "start": "\u0B80",
-            "end": "\u0BFF"
-        },
-        {
-            "name": "Telugu",
-            "start": "\u0C00",
-            "end": "\u0C7F"
-        },
-        {
-            "name": "Kannada",
-            "start": "\u0C80",
-            "end": "\u0CFF"
-        },
-        {
-            "name": "Malayalam",
-            "start": "\u0D00",
-            "end": "\u0D7F"
-        },
-        {
-            "name": "Sinhala",
-            "start": "\u0D80",
-            "end": "\u0DFF"
-        },
-        {
-            "name": "Thai",
-            "start": "\u0E00",
-            "end": "\u0E7F"
-        },
-        {
-            "name": "Lao",
-            "start": "\u0E80",
-            "end": "\u0EFF"
-        },
-        {
-            "name": "Tibetan",
-            "start": "\u0F00",
-            "end": "\u0FFF"
-        },
-        {
-            "name": "Myanmar",
-            "start": "\u1000",
-            "end": "\u109F"
-        },
-        {
-            "name": "Georgian",
-            "start": "\u10A0",
-            "end": "\u10FF"
-        },
-        {
-            "name": "Hangul Jamo",
-            "start": "\u1100",
-            "end": "\u11FF"
-        },
-        {
-            "name": "Ethiopic",
-            "start": "\u1200",
-            "end": "\u137F"
-        },
-        {
-            "name": "Ethiopic Supplement",
-            "start": "\u1380",
-            "end": "\u139F"
-        },
-        {
-            "name": "Cherokee",
-            "start": "\u13A0",
-            "end": "\u13FF"
-        },
-        {
-            "name": "Unified Canadian Aboriginal Syllabics",
-            "start": "\u1400",
-            "end": "\u167F"
-        },
-        {
-            "name": "Ogham",
-            "start": "\u1680",
-            "end": "\u169F"
-        },
-        {
-            "name": "Runic",
-            "start": "\u16A0",
-            "end": "\u16FF"
-        },
-        {
-            "name": "Tagalog",
-            "start": "\u1700",
-            "end": "\u171F"
-        },
-        {
-            "name": "Hanunoo",
-            "start": "\u1720",
-            "end": "\u173F"
-        },
-        {
-            "name": "Buhid",
-            "start": "\u1740",
-            "end": "\u175F"
-        },
-        {
-            "name": "Tagbanwa",
-            "start": "\u1760",
-            "end": "\u177F"
-        },
-        {
-            "name": "Khmer",
-            "start": "\u1780",
-            "end": "\u17FF"
-        },
-        {
-            "name": "Mongolian",
-            "start": "\u1800",
-            "end": "\u18AF"
-        },
-        {
-            "name": "Unified Canadian Aboriginal Syllabics Extended",
-            "start": "\u18B0",
-            "end": "\u18FF"
-        },
-        {
-            "name": "Limbu",
-            "start": "\u1900",
-            "end": "\u194F"
-        },
-        {
-            "name": "Tai Le",
-            "start": "\u1950",
-            "end": "\u197F"
-        },
-        {
-            "name": "New Tai Lue",
-            "start": "\u1980",
-            "end": "\u19DF"
-        },
-        {
-            "name": "Khmer Symbols",
-            "start": "\u19E0",
-            "end": "\u19FF"
-        },
-        {
-            "name": "Buginese",
-            "start": "\u1A00",
-            "end": "\u1A1F"
-        },
-        {
-            "name": "Tai Tham",
-            "start": "\u1A20",
-            "end": "\u1AAF"
-        },
-        {
-            "name": "Balinese",
-            "start": "\u1B00",
-            "end": "\u1B7F"
-        },
-        {
-            "name": "Sundanese",
-            "start": "\u1B80",
-            "end": "\u1BBF"
-        },
-        {
-            "name": "Batak",
-            "start": "\u1BC0",
-            "end": "\u1BFF"
-        },
-        {
-            "name": "Lepcha",
-            "start": "\u1C00",
-            "end": "\u1C4F"
-        },
-        {
-            "name": "Ol Chiki",
-            "start": "\u1C50",
-            "end": "\u1C7F"
-        },
-        {
-            "name": "Sundanese Supplement",
-            "start": "\u1CC0",
-            "end": "\u1CCF"
-        },
-        {
-            "name": "Vedic Extensions",
-            "start": "\u1CD0",
-            "end": "\u1CFF"
-        },
-        {
-            "name": "Phonetic Extensions",
-            "start": "\u1D00",
-            "end": "\u1D7F"
-        },
-        {
-            "name": "Phonetic Extensions Supplement",
-            "start": "\u1D80",
-            "end": "\u1DBF"
-        },
-        {
-            "name": "Combining Diacritical Marks Supplement",
-            "start": "\u1DC0",
-            "end": "\u1DFF"
-        },
-        {
-            "name": "Latin Extended Additional",
-            "start": "\u1E00",
-            "end": "\u1EFF"
-        },
-        {
-            "name": "Greek Extended",
-            "start": "\u1F00",
-            "end": "\u1FFF"
-        },
-        {
-            "name": "General Punctuation",
-            "start": "\u2000",
-            "end": "\u206F"
-        },
-        {
-            "name": "Superscripts and Subscripts",
-            "start": "\u2070",
-            "end": "\u209F"
-        },
-        {
-            "name": "Currency Symbols",
-            "start": "\u20A0",
-            "end": "\u20CF"
-        },
-        {
-            "name": "Combining Diacritical Marks for Symbols",
-            "start": "\u20D0",
-            "end": "\u20FF"
-        },
-        {
-            "name": "Letterlike Symbols",
-            "start": "\u2100",
-            "end": "\u214F"
-        },
-        {
-            "name": "Number Forms",
-            "start": "\u2150",
-            "end": "\u218F"
-        },
-        {
-            "name": "Arrows",
-            "start": "\u2190",
-            "end": "\u21FF"
-        },
-        {
-            "name": "Mathematical Operators",
-            "start": "\u2200",
-            "end": "\u22FF"
-        },
-        {
-            "name": "Miscellaneous Technical",
-            "start": "\u2300",
-            "end": "\u23FF"
-        },
-        {
-            "name": "Control Pictures",
-            "start": "\u2400",
-            "end": "\u243F"
-        },
-        {
-            "name": "Optical Character Recognition",
-            "start": "\u2440",
-            "end": "\u245F"
-        },
-        {
-            "name": "Enclosed Alphanumerics",
-            "start": "\u2460",
-            "end": "\u24FF"
-        },
-        {
-            "name": "Box Drawing",
-            "start": "\u2500",
-            "end": "\u257F"
-        },
-        {
-            "name": "Block Elements",
-            "start": "\u2580",
-            "end": "\u259F"
-        },
-        {
-            "name": "Geometric Shapes",
-            "start": "\u25A0",
-            "end": "\u25FF"
-        },
-        {
-            "name": "Miscellaneous Symbols",
-            "start": "\u2600",
-            "end": "\u26FF"
-        },
-        {
-            "name": "Dingbats",
-            "start": "\u2700",
-            "end": "\u27BF"
-        },
-        {
-            "name": "Miscellaneous Mathematical Symbols-A",
-            "start": "\u27C0",
-            "end": "\u27EF"
-        },
-        {
-            "name": "Supplemental Arrows-A",
-            "start": "\u27F0",
-            "end": "\u27FF"
-        },
-        {
-            "name": "Braille Patterns",
-            "start": "\u2800",
-            "end": "\u28FF"
-        },
-        {
-            "name": "Supplemental Arrows-B",
-            "start": "\u2900",
-            "end": "\u297F"
-        },
-        {
-            "name": "Miscellaneous Mathematical Symbols-B",
-            "start": "\u2980",
-            "end": "\u29FF"
-        },
-        {
-            "name": "Supplemental Mathematical Operators",
-            "start": "\u2A00",
-            "end": "\u2AFF"
-        },
-        {
-            "name": "Miscellaneous Symbols and Arrows",
-            "start": "\u2B00",
-            "end": "\u2BFF"
-        },
-        {
-            "name": "Glagolitic",
-            "start": "\u2C00",
-            "end": "\u2C5F"
-        },
-        {
-            "name": "Latin Extended-C",
-            "start": "\u2C60",
-            "end": "\u2C7F"
-        },
-        {
-            "name": "Coptic",
-            "start": "\u2C80",
-            "end": "\u2CFF"
-        },
-        {
-            "name": "Georgian Supplement",
-            "start": "\u2D00",
-            "end": "\u2D2F"
-        },
-        {
-            "name": "Tifinagh",
-            "start": "\u2D30",
-            "end": "\u2D7F"
-        },
-        {
-            "name": "Ethiopic Extended",
-            "start": "\u2D80",
-            "end": "\u2DDF"
-        },
-        {
-            "name": "Cyrillic Extended-A",
-            "start": "\u2DE0",
-            "end": "\u2DFF"
-        },
-        {
-            "name": "Supplemental Punctuation",
-            "start": "\u2E00",
-            "end": "\u2E7F"
-        },
-        {
-            "name": "CJK Radicals Supplement",
-            "start": "\u2E80",
-            "end": "\u2EFF"
-        },
-        {
-            "name": "Kangxi Radicals",
-            "start": "\u2F00",
-            "end": "\u2FDF"
-        },
-        {
-            "name": "Ideographic Description Characters",
-            "start": "\u2FF0",
-            "end": "\u2FFF"
-        },
-        {
-            "name": "CJK Symbols and Punctuation",
-            "start": "\u3000",
-            "end": "\u303F"
-        },
-        {
-            "name": "Hiragana",
-            "start": "\u3040",
-            "end": "\u309F"
-        },
-        {
-            "name": "Katakana",
-            "start": "\u30A0",
-            "end": "\u30FF"
-        },
-        {
-            "name": "Bopomofo",
-            "start": "\u3100",
-            "end": "\u312F"
-        },
-        {
-            "name": "Hangul Compatibility Jamo",
-            "start": "\u3130",
-            "end": "\u318F"
-        },
-        {
-            "name": "Kanbun",
-            "start": "\u3190",
-            "end": "\u319F"
-        },
-        {
-            "name": "Bopomofo Extended",
-            "start": "\u31A0",
-            "end": "\u31BF"
-        },
-        {
-            "name": "CJK Strokes",
-            "start": "\u31C0",
-            "end": "\u31EF"
-        },
-        {
-            "name": "Katakana Phonetic Extensions",
-            "start": "\u31F0",
-            "end": "\u31FF"
-        },
-        {
-            "name": "Enclosed CJK Letters and Months",
-            "start": "\u3200",
-            "end": "\u32FF"
-        },
-        {
-            "name": "CJK Compatibility",
-            "start": "\u3300",
-            "end": "\u33FF"
-        },
-        {
-            "name": "CJK Unified Ideographs Extension A",
-            "start": "\u3400",
-            "end": "\u4DBF"
-        },
-        {
-            "name": "Yijing Hexagram Symbols",
-            "start": "\u4DC0",
-            "end": "\u4DFF"
-        },
-        {
-            "name": "CJK Unified Ideographs",
-            "start": "\u4E00",
-            "end": "\u9FFF"
-        },
-        {
-            "name": "Yi Syllables",
-            "start": "\uA000",
-            "end": "\uA48F"
-        },
-        {
-            "name": "Yi Radicals",
-            "start": "\uA490",
-            "end": "\uA4CF"
-        },
-        {
-            "name": "Lisu",
-            "start": "\uA4D0",
-            "end": "\uA4FF"
-        },
-        {
-            "name": "Vai",
-            "start": "\uA500",
-            "end": "\uA63F"
-        },
-        {
-            "name": "Cyrillic Extended-B",
-            "start": "\uA640",
-            "end": "\uA69F"
-        },
-        {
-            "name": "Bamum",
-            "start": "\uA6A0",
-            "end": "\uA6FF"
-        },
-        {
-            "name": "Modifier Tone Letters",
-            "start": "\uA700",
-            "end": "\uA71F"
-        },
-        {
-            "name": "Latin Extended-D",
-            "start": "\uA720",
-            "end": "\uA7FF"
-        },
-        {
-            "name": "Syloti Nagri",
-            "start": "\uA800",
-            "end": "\uA82F"
-        },
-        {
-            "name": "Common Indic Number Forms",
-            "start": "\uA830",
-            "end": "\uA83F"
-        },
-        {
-            "name": "Phags-pa",
-            "start": "\uA840",
-            "end": "\uA87F"
-        },
-        {
-            "name": "Saurashtra",
-            "start": "\uA880",
-            "end": "\uA8DF"
-        },
-        {
-            "name": "Devanagari Extended",
-            "start": "\uA8E0",
-            "end": "\uA8FF"
-        },
-        {
-            "name": "Kayah Li",
-            "start": "\uA900",
-            "end": "\uA92F"
-        },
-        {
-            "name": "Rejang",
-            "start": "\uA930",
-            "end": "\uA95F"
-        },
-        {
-            "name": "Hangul Jamo Extended-A",
-            "start": "\uA960",
-            "end": "\uA97F"
-        },
-        {
-            "name": "Javanese",
-            "start": "\uA980",
-            "end": "\uA9DF"
-        },
-        {
-            "name": "Cham",
-            "start": "\uAA00",
-            "end": "\uAA5F"
-        },
-        {
-            "name": "Myanmar Extended-A",
-            "start": "\uAA60",
-            "end": "\uAA7F"
-        },
-        {
-            "name": "Tai Viet",
-            "start": "\uAA80",
-            "end": "\uAADF"
-        },
-        {
-            "name": "Meetei Mayek Extensions",
-            "start": "\uAAE0",
-            "end": "\uAAFF"
-        },
-        {
-            "name": "Ethiopic Extended-A",
-            "start": "\uAB00",
-            "end": "\uAB2F"
-        },
-        {
-            "name": "Meetei Mayek",
-            "start": "\uABC0",
-            "end": "\uABFF"
-        },
-        {
-            "name": "Hangul Syllables",
-            "start": "\uAC00",
-            "end": "\uD7AF"
-        },
-        {
-            "name": "Hangul Jamo Extended-B",
-            "start": "\uD7B0",
-            "end": "\uD7FF"
-        },
-        {
-            "name": "High Surrogates",
-            "start": "\uD800",
-            "end": "\uDB7F"
-        },
-        {
-            "name": "High Private Use Surrogates",
-            "start": "\uDB80",
-            "end": "\uDBFF"
-        },
-        {
-            "name": "Low Surrogates",
-            "start": "\uDC00",
-            "end": "\uDFFF"
-        },
-        {
-            "name": "Private Use Area",
-            "start": "\uE000",
-            "end": "\uF8FF"
-        },
-        {
-            "name": "CJK Compatibility Ideographs",
-            "start": "\uF900",
-            "end": "\uFAFF"
-        },
-        {
-            "name": "Alphabetic Presentation Forms",
-            "start": "\uFB00",
-            "end": "\uFB4F"
-        },
-        {
-            "name": "Arabic Presentation Forms-A",
-            "start": "\uFB50",
-            "end": "\uFDFF"
-        },
-        {
-            "name": "Variation Selectors",
-            "start": "\uFE00",
-            "end": "\uFE0F"
-        },
-        {
-            "name": "Vertical Forms",
-            "start": "\uFE10",
-            "end": "\uFE1F"
-        },
-        {
-            "name": "Combining Half Marks",
-            "start": "\uFE20",
-            "end": "\uFE2F"
-        },
-        {
-            "name": "CJK Compatibility Forms",
-            "start": "\uFE30",
-            "end": "\uFE4F"
-        },
-        {
-            "name": "Small Form Variants",
-            "start": "\uFE50",
-            "end": "\uFE6F"
-        },
-        {
-            "name": "Arabic Presentation Forms-B",
-            "start": "\uFE70",
-            "end": "\uFEFF"
-        },
-        {
-            "name": "Halfwidth and Fullwidth Forms",
-            "start": "\uFF00",
-            "end": "\uFFEF"
-        },
-        {
-            "name": "Specials",
-            "start": "\uFFF0",
-            "end": "\uFFFF"
-        },
-        {
-            "name": "Linear B Syllabary",
-            "start": "\uD800\uDC00",
-            "end": "\uD800\uDC7F"
-        },
-        {
-            "name": "Linear B Ideograms",
-            "start": "\uD800\uDC80",
-            "end": "\uD800\uDCFF"
-        },
-        {
-            "name": "Aegean Numbers",
-            "start": "\uD800\uDD00",
-            "end": "\uD800\uDD3F"
-        },
-        {
-            "name": "Ancient Greek Numbers",
-            "start": "\uD800\uDD40",
-            "end": "\uD800\uDD8F"
-        },
-        {
-            "name": "Ancient Symbols",
-            "start": "\uD800\uDD90",
-            "end": "\uD800\uDDCF"
-        },
-        {
-            "name": "Phaistos Disc",
-            "start": "\uD800\uDDD0",
-            "end": "\uD800\uDDFF"
-        },
-        {
-            "name": "Lycian",
-            "start": "\uD800\uDE80",
-            "end": "\uD800\uDE9F"
-        },
-        {
-            "name": "Carian",
-            "start": "\uD800\uDEA0",
-            "end": "\uD800\uDEDF"
-        },
-        {
-            "name": "Old Italic",
-            "start": "\uD800\uDF00",
-            "end": "\uD800\uDF2F"
-        },
-        {
-            "name": "Gothic",
-            "start": "\uD800\uDF30",
-            "end": "\uD800\uDF4F"
-        },
-        {
-            "name": "Ugaritic",
-            "start": "\uD800\uDF80",
-            "end": "\uD800\uDF9F"
-        },
-        {
-            "name": "Old Persian",
-            "start": "\uD800\uDFA0",
-            "end": "\uD800\uDFDF"
-        },
-        {
-            "name": "Deseret",
-            "start": "\uD801\uDC00",
-            "end": "\uD801\uDC4F"
-        },
-        {
-            "name": "Shavian",
-            "start": "\uD801\uDC50",
-            "end": "\uD801\uDC7F"
-        },
-        {
-            "name": "Osmanya",
-            "start": "\uD801\uDC80",
-            "end": "\uD801\uDCAF"
-        },
-        {
-            "name": "Cypriot Syllabary",
-            "start": "\uD802\uDC00",
-            "end": "\uD802\uDC3F"
-        },
-        {
-            "name": "Imperial Aramaic",
-            "start": "\uD802\uDC40",
-            "end": "\uD802\uDC5F"
-        },
-        {
-            "name": "Phoenician",
-            "start": "\uD802\uDD00",
-            "end": "\uD802\uDD1F"
-        },
-        {
-            "name": "Lydian",
-            "start": "\uD802\uDD20",
-            "end": "\uD802\uDD3F"
-        },
-        {
-            "name": "Meroitic Hieroglyphs",
-            "start": "\uD802\uDD80",
-            "end": "\uD802\uDD9F"
-        },
-        {
-            "name": "Meroitic Cursive",
-            "start": "\uD802\uDDA0",
-            "end": "\uD802\uDDFF"
-        },
-        {
-            "name": "Kharoshthi",
-            "start": "\uD802\uDE00",
-            "end": "\uD802\uDE5F"
-        },
-        {
-            "name": "Old South Arabian",
-            "start": "\uD802\uDE60",
-            "end": "\uD802\uDE7F"
-        },
-        {
-            "name": "Avestan",
-            "start": "\uD802\uDF00",
-            "end": "\uD802\uDF3F"
-        },
-        {
-            "name": "Inscriptional Parthian",
-            "start": "\uD802\uDF40",
-            "end": "\uD802\uDF5F"
-        },
-        {
-            "name": "Inscriptional Pahlavi",
-            "start": "\uD802\uDF60",
-            "end": "\uD802\uDF7F"
-        },
-        {
-            "name": "Old Turkic",
-            "start": "\uD803\uDC00",
-            "end": "\uD803\uDC4F"
-        },
-        {
-            "name": "Rumi Numeral Symbols",
-            "start": "\uD803\uDE60",
-            "end": "\uD803\uDE7F"
-        },
-        {
-            "name": "Brahmi",
-            "start": "\uD804\uDC00",
-            "end": "\uD804\uDC7F"
-        },
-        {
-            "name": "Kaithi",
-            "start": "\uD804\uDC80",
-            "end": "\uD804\uDCCF"
-        },
-        {
-            "name": "Sora Sompeng",
-            "start": "\uD804\uDCD0",
-            "end": "\uD804\uDCFF"
-        },
-        {
-            "name": "Chakma",
-            "start": "\uD804\uDD00",
-            "end": "\uD804\uDD4F"
-        },
-        {
-            "name": "Sharada",
-            "start": "\uD804\uDD80",
-            "end": "\uD804\uDDDF"
-        },
-        {
-            "name": "Takri",
-            "start": "\uD805\uDE80",
-            "end": "\uD805\uDECF"
-        },
-        {
-            "name": "Cuneiform",
-            "start": "\uD808\uDC00",
-            "end": "\uD808\uDFFF"
-        },
-        {
-            "name": "Cuneiform Numbers and Punctuation",
-            "start": "\uD809\uDC00",
-            "end": "\uD809\uDC7F"
-        },
-        {
-            "name": "Egyptian Hieroglyphs",
-            "start": "\uD80C\uDC00",
-            "end": "\uD80D\uDC2F"
-        },
-        {
-            "name": "Bamum Supplement",
-            "start": "\uD81A\uDC00",
-            "end": "\uD81A\uDE3F"
-        },
-        {
-            "name": "Miao",
-            "start": "\uD81B\uDF00",
-            "end": "\uD81B\uDF9F"
-        },
-        {
-            "name": "Kana Supplement",
-            "start": "\uD82C\uDC00",
-            "end": "\uD82C\uDCFF"
-        },
-        {
-            "name": "Byzantine Musical Symbols",
-            "start": "\uD834\uDC00",
-            "end": "\uD834\uDCFF"
-        },
-        {
-            "name": "Musical Symbols",
-            "start": "\uD834\uDD00",
-            "end": "\uD834\uDDFF"
-        },
-        {
-            "name": "Ancient Greek Musical Notation",
-            "start": "\uD834\uDE00",
-            "end": "\uD834\uDE4F"
-        },
-        {
-            "name": "Tai Xuan Jing Symbols",
-            "start": "\uD834\uDF00",
-            "end": "\uD834\uDF5F"
-        },
-        {
-            "name": "Counting Rod Numerals",
-            "start": "\uD834\uDF60",
-            "end": "\uD834\uDF7F"
-        },
-        {
-            "name": "Mathematical Alphanumeric Symbols",
-            "start": "\uD835\uDC00",
-            "end": "\uD835\uDFFF"
-        },
-        {
-            "name": "Arabic Mathematical Alphabetic Symbols",
-            "start": "\uD83B\uDE00",
-            "end": "\uD83B\uDEFF"
-        },
-        {
-            "name": "Mahjong Tiles",
-            "start": "\uD83C\uDC00",
-            "end": "\uD83C\uDC2F"
-        },
-        {
-            "name": "Domino Tiles",
-            "start": "\uD83C\uDC30",
-            "end": "\uD83C\uDC9F"
-        },
-        {
-            "name": "Playing Cards",
-            "start": "\uD83C\uDCA0",
-            "end": "\uD83C\uDCFF"
-        },
-        {
-            "name": "Enclosed Alphanumeric Supplement",
-            "start": "\uD83C\uDD00",
-            "end": "\uD83C\uDDFF"
-        },
-        {
-            "name": "Enclosed Ideographic Supplement",
-            "start": "\uD83C\uDE00",
-            "end": "\uD83C\uDEFF"
-        },
-        {
-            "name": "Miscellaneous Symbols And Pictographs",
-            "start": "\uD83C\uDF00",
-            "end": "\uD83D\uDDFF"
-        },
-        {
-            "name": "Emoticons",
-            "start": "\uD83D\uDE00",
-            "end": "\uD83D\uDE4F"
-        },
-        {
-            "name": "Transport And Map Symbols",
-            "start": "\uD83D\uDE80",
-            "end": "\uD83D\uDEFF"
-        },
-        {
-            "name": "Alchemical Symbols",
-            "start": "\uD83D\uDF00",
-            "end": "\uD83D\uDF7F"
-        },
-        {
-            "name": "CJK Unified Ideographs Extension B",
-            "start": "\uD840\uDC00",
-            "end": "\uD869\uDEDF"
-        },
-        {
-            "name": "CJK Unified Ideographs Extension C",
-            "start": "\uD869\uDF00",
-            "end": "\uD86D\uDF3F"
-        },
-        {
-            "name": "CJK Unified Ideographs Extension D",
-            "start": "\uD86D\uDF40",
-            "end": "\uD86E\uDC1F"
-        },
-        {
-            "name": "CJK Compatibility Ideographs Supplement",
-            "start": "\uD87E\uDC00",
-            "end": "\uD87E\uDE1F"
-        },
-        {
-            "name": "Tags",
-            "start": "\uDB40\uDC00",
-            "end": "\uDB40\uDC7F"
-        },
-        {
-            "name": "Variation Selectors Supplement",
-            "start": "\uDB40\uDD00",
-            "end": "\uDB40\uDDEF"
-        },
-        {
-            "name": "Supplementary Private Use Area-A",
-            "start": "\uDB80\uDC00",
-            "end": "\uDBBF\uDFFF"
-        },
-        {
-            "name": "Supplementary Private Use Area-B",
-            "start": "\uDBC0\uDC00",
-            "end": "\uDBFF\uDFFF"
-        }
-    ],
-    "groups": []
+   "items":[
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u0023\u20E3",
+            "\uF985",
+            "\uF489",
+            "\uF7B0"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u0030\u20E3",
+            "\uF990",
+            "\uF7C9",
+            "\uF7C5"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u0031\u20E3",
+            "\uF987",
+            "\uF6FB",
+            "\uF7BC"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u0032\u20E3",
+            "\uF988",
+            "\uF6FC",
+            "\uF7BD"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u0033\u20E3",
+            "\uF989",
+            "\uF740",
+            "\uF7BE"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u0034\u20E3",
+            "\uF98A",
+            "\uF741",
+            "\uF7BF"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u0035\u20E3",
+            "\uF98B",
+            "\uF742",
+            "\uF7C0"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u0036\u20E3",
+            "\uF98C",
+            "\uF743",
+            "\uF7C1"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u0037\u20E3",
+            "\uF98D",
+            "\uF744",
+            "\uF7C2"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u0038\u20E3",
+            "\uF98E",
+            "\uF745",
+            "\uF7C3"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u0039\u20E3",
+            "\uF98F",
+            "\uF746",
+            "\uF7C4"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u00A9",
+            "\uF9D6",
+            "\uF774",
+            "\uF7EE"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u00AE",
+            "\uF9DB",
+            "\uF775",
+            "\uF7EF"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2002",
+            "\uF7AA"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2003",
+            "\uF7A9"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2005",
+            "\uF7AB"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u203C",
+            "\uF9A9",
+            "\uF3F1"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2049",
+            "\uF9A8",
+            "\uF3F0"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2122",
+            "\uF9D7",
+            "\uF76A",
+            "\uFBD7"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2139",
+            "\uF74F"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2194",
+            "\uF9E1",
+            "\uF47E"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2195",
+            "\uF9E2",
+            "\uF480"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2196",
+            "\uF8F8",
+            "\uF768",
+            "\uF7D7"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2197",
+            "\uF8D9",
+            "\uF771",
+            "\uF7D6"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2198",
+            "\uF8F7",
+            "\uF769",
+            "\uF7D8"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2199",
+            "\uF949",
+            "\uF772",
+            "\uF7D9"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u21A9",
+            "\uF97E",
+            "\uF779"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u21AA",
+            "\uF778"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u231A",
+            "\uF9C4",
+            "\uF797"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u231B",
+            "\uF798"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u23E9",
+            "\uF74C",
+            "\uF7DC"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u23EA",
+            "\uF74B",
+            "\uF7DD"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u23EB",
+            "\uF761"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u23EC",
+            "\uF760"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u23F0",
+            "\uF95E",
+            "\uF7B1"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u23F3",
+            "\uF9C1",
+            "\uF654"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u24C2",
+            "\uF8BD"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u25AA",
+            "\uF74E"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u25AB",
+            "\uF74D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u25B6",
+            "\uF74A",
+            "\uF7DA"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u25C0",
+            "\uF749",
+            "\uF7DB"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u25FB",
+            "\uF754"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u25FC",
+            "\uF755"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u25FD",
+            "\uF750"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u25FE",
+            "\uF751"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2600",
+            "\uF89F",
+            "\uF660",
+            "\uF98B"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2601",
+            "\uF8A0",
+            "\uF665",
+            "\uF98A"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u260E",
+            "\uF8E8",
+            "\uF7B3",
+            "\uF949"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2611",
+            "\uF7D9"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2614",
+            "\uF8A1",
+            "\uF664",
+            "\uF98C"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2615",
+            "\uF8D1",
+            "\uF7B4",
+            "\uF986"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u261D",
+            "\uF6CF",
+            "\uF94F"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u263A",
+            "\uF6D4",
+            "\uFB54"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2648",
+            "\uF8A7",
+            "\uF667",
+            "\uF7DF"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2649",
+            "\uF8A8",
+            "\uF668",
+            "\uF7E0"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u264A",
+            "\uF8A9",
+            "\uF669",
+            "\uF7E1"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u264B",
+            "\uF8AA",
+            "\uF66A",
+            "\uF7E2"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u264C",
+            "\uF8AB",
+            "\uF66B",
+            "\uF7E3"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u264D",
+            "\uF8AC",
+            "\uF66C",
+            "\uF7E4"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u264E",
+            "\uF8AD",
+            "\uF66D",
+            "\uF7E5"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u264F",
+            "\uF8AE",
+            "\uF66E",
+            "\uF7E6"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2650",
+            "\uF8AF",
+            "\uF66F",
+            "\uF7E7"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2651",
+            "\uF8B0",
+            "\uF670",
+            "\uF7E8"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2652",
+            "\uF8B1",
+            "\uF671",
+            "\uF7E9"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2653",
+            "\uF8B2",
+            "\uF672",
+            "\uF7EA"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2660",
+            "\uF8EF",
+            "\uF7BE",
+            "\uF7AE"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2663",
+            "\uF8F1",
+            "\uF7C0",
+            "\uF7AF"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2665",
+            "\uF8EE",
+            "\uF378",
+            "\uF7AC"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2666",
+            "\uF8F0",
+            "\uF7BF",
+            "\uF7AD"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2668",
+            "\uF99C",
+            "\uF695",
+            "\uF763"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u267B",
+            "\uF9DA",
+            "\uF47D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u267F",
+            "\uF8FC",
+            "\uF657",
+            "\uF7AA"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2693",
+            "\uF682"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u26A0",
+            "\uF9DC",
+            "\uF659",
+            "\uF7F2"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u26A1",
+            "\uF8A3",
+            "\uF65F",
+            "\uF77D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u26AA",
+            "\uF756"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u26AB",
+            "\uF757"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u26BD",
+            "\uF8B7",
+            "\uF68F",
+            "\uF958"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u26BE",
+            "\uF8B4",
+            "\uF693",
+            "\uF956"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u26C4",
+            "\uF8A2",
+            "\uF65D",
+            "\uF989"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u26C5",
+            "\uF666"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u26CE",
+            "\uF673",
+            "\uF7EB"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u26D4",
+            "\uF65C"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u26EA",
+            "\uF7EB",
+            "\uF977"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u26F2",
+            "\uF342",
+            "\uF761"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u26F3",
+            "\uF8B5",
+            "\uF7B6",
+            "\uF954"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u26F5",
+            "\uF947",
+            "\uF68D",
+            "\uF95C"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u26FA",
+            "\uF343",
+            "\uF762"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u26FD",
+            "\uF8CC",
+            "\uF78E",
+            "\uF97A"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2702",
+            "\uF8D6",
+            "\uF6EF",
+            "\uF9B3"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2705",
+            "\uF77A"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2708",
+            "\uF8C3",
+            "\uF68C",
+            "\uF95D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2709",
+            "\uF977",
+            "\uF6FA"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u270A",
+            "\uF8F4",
+            "\uF488",
+            "\uF950"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u270B",
+            "\uF8F6",
+            "\uF7C4",
+            "\uF952"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u270C",
+            "\uF8F5",
+            "\uF7C3",
+            "\uF951"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u270F",
+            "\uF9BE",
+            "\uF679"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2712",
+            "\uF952",
+            "\uF7DA"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2714",
+            "\uF773"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2716",
+            "\uF76B"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2728",
+            "\uF99F",
+            "\uF37E",
+            "\uF9CE"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2733",
+            "\uF75A",
+            "\uF7A6"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2734",
+            "\uF651",
+            "\uF7A5"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2744",
+            "\uF662"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2747",
+            "\uF644"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u274C",
+            "\uF76C",
+            "\uF9D3"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u274E",
+            "\uF76D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2753",
+            "\uF65B",
+            "\uF960"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2754",
+            "\uF9D6"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2755",
+            "\uF9D7"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2762",
+            "\uF9A7",
+            "\uF65A",
+            "\uF961"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2764",
+            "\uF991",
+            "\uF7B2",
+            "\uF962"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2795",
+            "\uF758"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2796",
+            "\uF759"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2797",
+            "\uF770"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u27A1",
+            "\uF76E",
+            "\uF7D4"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u27B0",
+            "\uF9AF",
+            "\uF3F2"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u27BF",
+            "\uF984",
+            "\uF7B1"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2934",
+            "\uF99A",
+            "\uF3EE"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2935",
+            "\uF9A5",
+            "\uF3EF"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2B05",
+            "\uF76F",
+            "\uF7D5"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2B06",
+            "\uF75B",
+            "\uF7D2"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2B07",
+            "\uF75C",
+            "\uF7D3"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2B1B",
+            "\uF765"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2B1C",
+            "\uF764"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2B50",
+            "\uF663",
+            "\uF9CF"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u2B55",
+            "\uF381",
+            "\uF9D2"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u3030",
+            "\uF9AE"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u303D",
+            "\uF76C"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u3297",
+            "\uF36C",
+            "\uF9AD"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\u3299",
+            "\uF9D9",
+            "\uF6CA",
+            "\uF9B5"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDC04",
+            "\uF344",
+            "\uF76D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDCCF",
+            "\uF473"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDD70",
+            "\uF3E7",
+            "\uFBD2"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDD71",
+            "\uF3E8",
+            "\uFBD3"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDD7E",
+            "\uF3E9",
+            "\uFBD5"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDD7F",
+            "\uF8CD",
+            "\uF67E",
+            "\uF790"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDD8E",
+            "\uF3EA",
+            "\uFBD4"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDD91",
+            "\uF980",
+            "\uF7C8"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDD92",
+            "\uF358",
+            "\uF7B4"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDD93",
+            "\uF97B",
+            "\uF795"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDD94",
+            "\uF97C",
+            "\uF35B",
+            "\uF7C9"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDD95",
+            "\uF982",
+            "\uF7E5",
+            "\uF7B2"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDD96",
+            "\uF9D4"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDD97",
+            "\uF9B0",
+            "\uF7CA",
+            "\uF7ED"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDD98",
+            "\uF6C1"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDD99",
+            "\uF6E8",
+            "\uF7B3"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDD9A",
+            "\uF345",
+            "\uF76E"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDDE8\uD83C\uDDF3",
+            "\uF3D2",
+            "\uFBB3"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDDE9\uD83C\uDDEA",
+            "\uF3CF",
+            "\uFBAE"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDDEA\uD83C\uDDF8",
+            "\uF348",
+            "\uFBB1"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDDEB\uD83C\uDDF7",
+            "\uF3CE",
+            "\uFBAD"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDDEE\uD83C\uDDF9",
+            "\uF3D0",
+            "\uFBAF"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDDEF\uD83C\uDDF5",
+            "\uF6A5",
+            "\uFBAB"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDDF0\uD83C\uDDF7",
+            "\uF3D3",
+            "\uFBB4"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDDF7\uD83C\uDDFA",
+            "\uF349",
+            "\uFBB2"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDDFA\uD83C\uDDF0",
+            "\uF3D1",
+            "\uFBB0"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDDFA\uD83C\uDDF8",
+            "\uF790",
+            "\uFBAC"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDE01",
+            "\uF7A3"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDE02",
+            "\uF35A",
+            "\uF7C8"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDE1A",
+            "\uF7B6"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDE2F",
+            "\uF35E",
+            "\uF7CC"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDE32",
+            "\uF9DD"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDE33",
+            "\uF9DE",
+            "\uF35D",
+            "\uF7CB"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDE34",
+            "\uF9DF"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDE35",
+            "\uF9E0",
+            "\uF35C",
+            "\uF7CA"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDE36",
+            "\uF7B5"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDE37",
+            "\uF7B7"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDE38",
+            "\uF7B8"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDE39",
+            "\uF359",
+            "\uF7C7"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDE3A",
+            "\uF35F",
+            "\uF7CD"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDE50",
+            "\uF6D0",
+            "\uF7C6"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDE51",
+            "\uF7D8"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF00",
+            "\uF8A4",
+            "\uF641",
+            "\uFB84"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF01",
+            "\uF8A5",
+            "\uF7B5"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF02",
+            "\uF8A6",
+            "\uF3BC",
+            "\uFB7C"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF03",
+            "\uF957",
+            "\uF3C5",
+            "\uFB8C"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF04",
+            "\uF98E"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF05",
+            "\uF3C8",
+            "\uFB8A"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF06",
+            "\uF34D",
+            "\uF787"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF07",
+            "\uFB8B"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF08",
+            "\uF3C6",
+            "\uFB8D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF09",
+            "\uF698"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF0A",
+            "\uF9E4",
+            "\uF481",
+            "\uFB7E"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF0B",
+            "\uF457"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF0C",
+            "\uF463"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF0F",
+            "\uF7D0"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF11",
+            "\uF940",
+            "\uF7C5"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF13",
+            "\uF942",
+            "\uF7C7"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF14",
+            "\uF941",
+            "\uF7C6"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF15",
+            "\uF944"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF19",
+            "\uF943",
+            "\uF65E",
+            "\uF98D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF1B",
+            "\uF661"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF1F",
+            "\uF9D5"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF20",
+            "\uF640"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF30",
+            "\uF3F9"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF31",
+            "\uF9EB",
+            "\uF482"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF34",
+            "\uF6BB",
+            "\uF9A7"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF35",
+            "\uF369",
+            "\uF9A8"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF37",
+            "\uF9E8",
+            "\uF6BD",
+            "\uF9A4"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF38",
+            "\uF9ED",
+            "\uF6A3",
+            "\uF970"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF39",
+            "\uF7EA",
+            "\uF972"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF3A",
+            "\uF367",
+            "\uF9A3"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF3B",
+            "\uF6BC",
+            "\uF9A5"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF3C",
+            "\uF44D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF3D",
+            "\uF3F7"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF3E",
+            "\uFB85"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF3F",
+            "\uF487"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF40",
+            "\uF9E6",
+            "\uF6EC",
+            "\uF750"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF41",
+            "\uF9EC",
+            "\uF6A7",
+            "\uF758"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF42",
+            "\uF340",
+            "\uF759"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF43",
+            "\uFB88"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF44",
+            "\uF3F8"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF45",
+            "\uF38F",
+            "\uF9E9"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF46",
+            "\uF390",
+            "\uF9EA"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF47",
+            "\uF3F5"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF48",
+            "\uF3F3"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF49",
+            "\uF6A6",
+            "\uF9E8"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF4A",
+            "\uF38E",
+            "\uF9E6"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF4C",
+            "\uF9E9",
+            "\uF3F6"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF4D",
+            "\uF3F4"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF4E",
+            "\uF9EA",
+            "\uF38D",
+            "\uF9E5"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF4F",
+            "\uF45E"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF51",
+            "\uF3FA"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF52",
+            "\uF9E7",
+            "\uF6AB"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF53",
+            "\uF6AD",
+            "\uF9E7"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF54",
+            "\uF8D4",
+            "\uF6AF",
+            "\uF760"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF55",
+            "\uF3FC"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF56",
+            "\uF69D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF57",
+            "\uF440"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF58",
+            "\uF387",
+            "\uF9DD"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF59",
+            "\uF9EE",
+            "\uF6AE",
+            "\uF9E2"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF5A",
+            "\uF388",
+            "\uF9DE"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF5B",
+            "\uF38A",
+            "\uF9E1"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF5C",
+            "\uF9F1",
+            "\uF7D1",
+            "\uF9E0"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF5D",
+            "\uF389",
+            "\uF9DF"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF5E",
+            "\uF9F2",
+            "\uF383",
+            "\uF9D9"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF5F",
+            "\uF385",
+            "\uF9DB"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF60",
+            "\uF3FB"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF61",
+            "\uF386",
+            "\uF9DC"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF62",
+            "\uF38B",
+            "\uF9E3"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF63",
+            "\uF38C",
+            "\uF9E4"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF64",
+            "\uF474"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF65",
+            "\uF6C6"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF66",
+            "\uF384",
+            "\uF9DA"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF67",
+            "\uF3BE",
+            "\uFB80"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF68",
+            "\uF44E"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF69",
+            "\uF44F"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF6A",
+            "\uF450"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF6B",
+            "\uF451"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF6C",
+            "\uF452"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF6D",
+            "\uF453"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF6E",
+            "\uF45A"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF6F",
+            "\uF45D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF70",
+            "\uF9EF",
+            "\uF6A9",
+            "\uF987"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF71",
+            "\uF391",
+            "\uF9EC"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF72",
+            "\uF392",
+            "\uF9ED"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF73",
+            "\uF6AA",
+            "\uF788"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF74",
+            "\uF8D0",
+            "\uF685",
+            "\uF984"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF75",
+            "\uF9C3",
+            "\uF382",
+            "\uF9D8"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF76",
+            "\uF9F0",
+            "\uF36A",
+            "\uF9AB"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF77",
+            "\uF9FB",
+            "\uF69A"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF78",
+            "\uF8D2",
+            "\uF69B",
+            "\uF985"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF79",
+            "\uF442"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF7A",
+            "\uF8D3",
+            "\uF69C",
+            "\uF988"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF7B",
+            "\uF36B",
+            "\uF9AC"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF80",
+            "\uF8E5",
+            "\uF7BC",
+            "\uF9B4"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF81",
+            "\uF8E6",
+            "\uF6A8",
+            "\uF752"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF82",
+            "\uF8E7",
+            "\uF7BD",
+            "\uF9EB"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF83",
+            "\uF3C2",
+            "\uFB86"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF84",
+            "\uF948",
+            "\uF6A2",
+            "\uF973"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF85",
+            "\uF3C4",
+            "\uFB89"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF86",
+            "\uF7FC",
+            "\uF757"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF87",
+            "\uF3BF",
+            "\uFB81"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF88",
+            "\uF36E",
+            "\uF9B0"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF89",
+            "\uF36F",
+            "\uF9B2"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF8A",
+            "\uF647"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF8B",
+            "\uF441"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF8C",
+            "\uF34C",
+            "\uF784"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF8D",
+            "\uF3B7",
+            "\uFB76"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF8E",
+            "\uF3B8",
+            "\uFB78"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF8F",
+            "\uF3BB",
+            "\uFB7B"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF90",
+            "\uF3C1",
+            "\uFB83"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF91",
+            "\uF3C3",
+            "\uFB87"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF92",
+            "\uF3BA",
+            "\uFB7A"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDF93",
+            "\uF3B9",
+            "\uFB79"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFA0",
+            "\uF8DA"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFA1",
+            "\uF645",
+            "\uF764"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFA2",
+            "\uF3B6",
+            "\uFB73"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFA3",
+            "\uF446"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFA4",
+            "\uF8D7",
+            "\uF6DC",
+            "\uF97C"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFA5",
+            "\uF8D8",
+            "\uF6F0",
+            "\uF97D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFA6",
+            "\uFBA7"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFA7",
+            "\uF8DB",
+            "\uF6E1",
+            "\uF9AA"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFA8",
+            "\uF8DC",
+            "\uF7B9",
+            "\uFBA2"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFA9",
+            "\uF8DD",
+            "\uF3C9",
+            "\uFBA3"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFAA",
+            "\uF8DE",
+            "\uF7BB"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFAB",
+            "\uF8DF",
+            "\uF676",
+            "\uF765"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFAC",
+            "\uF950",
+            "\uF697",
+            "\uF9C4"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFAD",
+            "\uF7BA"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFAE",
+            "\uF8EC",
+            "\uF69F"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFAF",
+            "\uF69E",
+            "\uF770"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFB0",
+            "\uF646",
+            "\uF773"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFB1",
+            "\uF3B1",
+            "\uFB6C"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFB2",
+            "\uF6A1"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFB3",
+            "\uF447"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFB4",
+            "\uF472"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFB5",
+            "\uF99B",
+            "\uF7EE",
+            "\uF97E"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFB6",
+            "\uF9A4",
+            "\uF6DE",
+            "\uF9C6"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFB7",
+            "\uF981"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFB8",
+            "\uF6DF",
+            "\uF982"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFB9",
+            "\uF444"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFBA",
+            "\uF3B0",
+            "\uF983"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFBB",
+            "\uF6E0"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFBC",
+            "\uF3A0"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFBD",
+            "\uF8B3"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFBE",
+            "\uF8B6",
+            "\uF690",
+            "\uF955"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFBF",
+            "\uF8B8",
+            "\uF380",
+            "\uF953"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFC0",
+            "\uF8B9",
+            "\uF7B7",
+            "\uFB6A"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFC1",
+            "\uF8BA",
+            "\uF692",
+            "\uF772"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFC2",
+            "\uF9B7",
+            "\uF691"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFC3",
+            "\uF9D8",
+            "\uF643",
+            "\uF755"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFC4",
+            "\uF445",
+            "\uF957"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFC6",
+            "\uF346",
+            "\uF771"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFC8",
+            "\uF694",
+            "\uFB6B"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFCA",
+            "\uF3B2",
+            "\uFB6D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFE0",
+            "\uF8C4",
+            "\uF684",
+            "\uF976"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFE1",
+            "\uF7E0"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFE2",
+            "\uF8C5",
+            "\uF686",
+            "\uF978"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFE3",
+            "\uF8C6",
+            "\uF351",
+            "\uF794"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFE5",
+            "\uF8C7",
+            "\uF352",
+            "\uF796"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFE6",
+            "\uF8C8",
+            "\uF683",
+            "\uF78E"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFE7",
+            "\uF8C9",
+            "\uF67B",
+            "\uF795"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFE8",
+            "\uF8CA",
+            "\uF354",
+            "\uF799"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFE9",
+            "\uF3C7",
+            "\uFBA1"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFEA",
+            "\uF8CB",
+            "\uF67C",
+            "\uF797"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFEB",
+            "\uF9E3",
+            "\uF353",
+            "\uF798"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFEC",
+            "\uF3CA",
+            "\uFBA4"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFED",
+            "\uF3CD",
+            "\uFBA8"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFEE",
+            "\uF696"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFEF",
+            "\uF3CB",
+            "\uFBA5"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83C\uDFF0",
+            "\uF3CC",
+            "\uFBA6"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC0C",
+            "\uF9F3",
+            "\uF483"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC0D",
+            "\uF3E3",
+            "\uFBCD"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC0E",
+            "\uF774"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC11",
+            "\uFBC9"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC12",
+            "\uFBC8"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC14",
+            "\uF3E4",
+            "\uFBCE"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC17",
+            "\uF3E5",
+            "\uFBCF"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC18",
+            "\uF3E0",
+            "\uFBC6"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC19",
+            "\uF7F7",
+            "\uF74A"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC1A",
+            "\uF3C0",
+            "\uFB82"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC1B",
+            "\uF3DF",
+            "\uFBC5"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC1C",
+            "\uF6B6"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC1D",
+            "\uF45B"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC1E",
+            "\uF45C"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC1F",
+            "\uF9F6",
+            "\uF959"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC20",
+            "\uF3DE",
+            "\uFBC2"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC21",
+            "\uF6AC"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC22",
+            "\uF347"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC23",
+            "\uF34E"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC24",
+            "\uF9F4",
+            "\uF6B9",
+            "\uFBC3"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC25",
+            "\uF47A"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC26",
+            "\uFBC1"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC27",
+            "\uF9F5",
+            "\uF6B5",
+            "\uF996"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC28",
+            "\uF3E1",
+            "\uFBC7"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC29",
+            "\uF6B8"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC2B",
+            "\uF3E6",
+            "\uFBD0"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC2C",
+            "\uF3DC",
+            "\uFBC0"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC2D",
+            "\uF7F2",
+            "\uF994"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC2E",
+            "\uF3E2",
+            "\uFBCB"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC2F",
+            "\uF7F0",
+            "\uF991"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC30",
+            "\uF6B0",
+            "\uFBCC"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC31",
+            "\uF946",
+            "\uF6B4",
+            "\uF990"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC32",
+            "\uF443"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC33",
+            "\uF648",
+            "\uF995"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC34",
+            "\uF9F9",
+            "\uF6B1",
+            "\uF95A"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC35",
+            "\uF6B2",
+            "\uF749"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC36",
+            "\uF945",
+            "\uF6BA",
+            "\uF993"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC37",
+            "\uF9FA",
+            "\uF6B7",
+            "\uF74B"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC38",
+            "\uF6B3",
+            "\uFBD1"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC39",
+            "\uFBC4"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC3A",
+            "\uFBCA"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC3B",
+            "\uF7F1",
+            "\uF992"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC3C",
+            "\uF44A"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC3D",
+            "\uF44C"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC3E",
+            "\uF6C7"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC40",
+            "\uF8F2",
+            "\uF7C1",
+            "\uFB59"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC42",
+            "\uF8F3",
+            "\uF7C2",
+            "\uFB5B"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC43",
+            "\uF3A4",
+            "\uFB5A"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC44",
+            "\uF3A5",
+            "\uFB5C"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC45",
+            "\uF44B"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC46",
+            "\uF360",
+            "\uF7CE"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC47",
+            "\uF361",
+            "\uF7CF"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC48",
+            "\uF6D8",
+            "\uF7D0"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC49",
+            "\uF6D9",
+            "\uF7D1"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC4A",
+            "\uF9A2",
+            "\uF6CC",
+            "\uF94D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC4B",
+            "\uF3AA",
+            "\uFB5E"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC4C",
+            "\uF3A8",
+            "\uFB60"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC4D",
+            "\uF9CC",
+            "\uF6D2",
+            "\uF94E"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC4E",
+            "\uF3A9",
+            "\uFB61"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC4F",
+            "\uF3A7",
+            "\uFB5F"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC50",
+            "\uFB62"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC51",
+            "\uF9BF",
+            "\uF7F9",
+            "\uF74E"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC52",
+            "\uF371",
+            "\uF9B8"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC53",
+            "\uF8FB",
+            "\uF6D7"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC54",
+            "\uF366",
+            "\uF9A2"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC55",
+            "\uF9B3",
+            "\uF7E6",
+            "\uF946"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC56",
+            "\uF9B6",
+            "\uF47B"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC57",
+            "\uF46F",
+            "\uF9B9"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC58",
+            "\uF376",
+            "\uF9C1"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC59",
+            "\uF377",
+            "\uF9C2"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC5A",
+            "\uF6E6"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC5B",
+            "\uF9B4",
+            "\uF6DD"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC5C",
+            "\uF8E3",
+            "\uF674",
+            "\uF9C3"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC5D",
+            "\uF951"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC5E",
+            "\uF7E7"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC5F",
+            "\uF8FA",
+            "\uF3EC",
+            "\uF947"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC60",
+            "\uF8D5",
+            "\uF6F3",
+            "\uF77E"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC61",
+            "\uF9BA"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC62",
+            "\uF372",
+            "\uF9BB"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC63",
+            "\uF8F9",
+            "\uF3EB",
+            "\uFBD6"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC64",
+            "\uF955"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC66",
+            "\uF6D5",
+            "\uF941"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC67",
+            "\uF6D3",
+            "\uF942"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC68",
+            "\uF944"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC69",
+            "\uF945"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC6A",
+            "\uF6DA"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC6B",
+            "\uFB68"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC6E",
+            "\uF350",
+            "\uF793"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC6F",
+            "\uF3AF",
+            "\uFB69"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC70",
+            "\uF3BD"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC71",
+            "\uF3D4",
+            "\uFBB5"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC72",
+            "\uF3D5",
+            "\uFBB6"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC73",
+            "\uF3D6",
+            "\uFBB7"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC74",
+            "\uF3D7",
+            "\uFBB8"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC75",
+            "\uF3D8",
+            "\uFBB9"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC76",
+            "\uF3D9",
+            "\uFBBA"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC77",
+            "\uF3DA",
+            "\uFBBB"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC78",
+            "\uF3DB",
+            "\uFBBC"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC79",
+            "\uF448"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC7A",
+            "\uF449"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC7B",
+            "\uF6A4",
+            "\uF75B"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC7C",
+            "\uF7EF",
+            "\uF98F"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC7D",
+            "\uF6E7",
+            "\uF74C"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC7E",
+            "\uF6C5",
+            "\uF76B"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC7F",
+            "\uF6C8",
+            "\uF75A"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC80",
+            "\uF6D1",
+            "\uF75C"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC81",
+            "\uF7F3"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC82",
+            "\uFBBE"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC83",
+            "\uF3DD",
+            "\uFBBF"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC84",
+            "\uF9B5",
+            "\uF6E2",
+            "\uF9BC"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC85",
+            "\uF373",
+            "\uF9BD"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC86",
+            "\uF6E4",
+            "\uF9BE"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC87",
+            "\uF374",
+            "\uF9BF"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC88",
+            "\uF375",
+            "\uF9C0"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC89",
+            "\uF6E9",
+            "\uF77B"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC8A",
+            "\uF36D",
+            "\uF9AF"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC8B",
+            "\uF99E",
+            "\uF6C4",
+            "\uF943"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC8C",
+            "\uF9BC",
+            "\uF47C"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC8D",
+            "\uF9C0",
+            "\uF6ED",
+            "\uF974"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC8E",
+            "\uF975"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC8F",
+            "\uF7FA",
+            "\uF751"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC90",
+            "\uF368",
+            "\uF9A6"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC91",
+            "\uF3AE",
+            "\uFB65"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC92",
+            "\uFB7D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC93",
+            "\uF992",
+            "\uF479",
+            "\uF9C7"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC94",
+            "\uF993",
+            "\uF64F",
+            "\uF963"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC95",
+            "\uF994",
+            "\uF650"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC96",
+            "\uF379"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC97",
+            "\uF9C8"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC98",
+            "\uF6C3",
+            "\uF9C9"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC99",
+            "\uF37A",
+            "\uF9CA"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC9A",
+            "\uF37B",
+            "\uF9CB"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC9B",
+            "\uF37C",
+            "\uF9CC"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC9C",
+            "\uF37D",
+            "\uF9CD"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC9D",
+            "\uF458",
+            "\uFB77"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC9E",
+            "\uF7CC"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDC9F",
+            "\uF7A4"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCA0",
+            "\uF99D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCA1",
+            "\uF9A0",
+            "\uF64E",
+            "\uF74F"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCA2",
+            "\uF9A1",
+            "\uF6BE",
+            "\uF9D4"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCA3",
+            "\uF9A3",
+            "\uF652",
+            "\uF9B1"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCA4",
+            "\uF9A6",
+            "\uF64D",
+            "\uF77C"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCA5",
+            "\uF9AA",
+            "\uF7CD"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCA6",
+            "\uF9AB",
+            "\uF7CE",
+            "\uF9D1"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCA7",
+            "\uF9AC",
+            "\uF6BF"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCA8",
+            "\uF9AD",
+            "\uF6CD",
+            "\uF9D0"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCA9",
+            "\uF6CE",
+            "\uF99B"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCAA",
+            "\uF6C2",
+            "\uF78D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCAB",
+            "\uF460"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCAC",
+            "\uF6D6"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCAE",
+            "\uF6C9"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCAF",
+            "\uF6CB"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCB0",
+            "\uF9BA",
+            "\uF6A0",
+            "\uF76F"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCB1",
+            "\uF78A"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCB2",
+            "\uF796"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCB3",
+            "\uF799"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCB4",
+            "\uF97A",
+            "\uF79A"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCB5",
+            "\uF7A2"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCB8",
+            "\uF45F"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCB9",
+            "\uF34F",
+            "\uF78B"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCBA",
+            "\uF956",
+            "\uF75F"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCBB",
+            "\uF9BB",
+            "\uF7E8",
+            "\uF94C"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCBC",
+            "\uF341",
+            "\uF75E"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCBD",
+            "\uF79F",
+            "\uF9B6"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCBE",
+            "\uF77E"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCBF",
+            "\uF8ED",
+            "\uF6E5",
+            "\uF766"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCC0",
+            "\uF767"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCC1",
+            "\uF7AC"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCC2",
+            "\uF7AD"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCC3",
+            "\uF77D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCC4",
+            "\uF786"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCC5",
+            "\uF780"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCC6",
+            "\uF787"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCC7",
+            "\uF789"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCC8",
+            "\uF792"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCC9",
+            "\uF793"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCCA",
+            "\uF791"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCCB",
+            "\uF781"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCCC",
+            "\uF78A"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCCD",
+            "\uF77C"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCCE",
+            "\uF9D5",
+            "\uF678"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCCF",
+            "\uF78D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCD0",
+            "\uF67A"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCD1",
+            "\uF7E2"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCD2",
+            "\uF78B"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCD3",
+            "\uF788"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCD4",
+            "\uF675"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCD5",
+            "\uF785"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCD6",
+            "\uF8E4",
+            "\uF677",
+            "\uF789"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCD7",
+            "\uF782"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCD8",
+            "\uF783"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCD9",
+            "\uF784"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCDA",
+            "\uF78C"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCDB",
+            "\uF6F6"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCDC",
+            "\uF77B"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCDD",
+            "\uF8EA",
+            "\uF365",
+            "\uF9A1"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCDE",
+            "\uF6F7"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCDF",
+            "\uF8BB",
+            "\uF7B8"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCE0",
+            "\uF974",
+            "\uF6F9",
+            "\uF94B"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCE1",
+            "\uF681",
+            "\uF78C"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCE2",
+            "\uF783"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCE3",
+            "\uF9B7"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCE4",
+            "\uF7AF"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCE5",
+            "\uF7B0"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCE6",
+            "\uF6F8"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCE7",
+            "\uF475"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCE8",
+            "\uF7AE"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCE9",
+            "\uF973",
+            "\uF466",
+            "\uF743"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCEA",
+            "\uF6F4"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCEB",
+            "\uF7E1",
+            "\uF741"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCEE",
+            "\uF742"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCF0",
+            "\uF7A8"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCF1",
+            "\uF8E9",
+            "\uF7A5",
+            "\uF94A"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCF2",
+            "\uF972",
+            "\uF7DF",
+            "\uF744"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCF3",
+            "\uF363",
+            "\uF7F0"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCF4",
+            "\uF364",
+            "\uF7F1"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCF6",
+            "\uF357",
+            "\uF7AB"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCF7",
+            "\uF8E2",
+            "\uF6EE",
+            "\uF948"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCF9",
+            "\uF79B"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCFA",
+            "\uF8EB",
+            "\uF6DB",
+            "\uF76A"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCFB",
+            "\uF7E9",
+            "\uF768"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDCFC",
+            "\uF79D",
+            "\uF769"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD03",
+            "\uF7E4"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD0A",
+            "\uF6EA",
+            "\uF782"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD0B",
+            "\uF7A1"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD0C",
+            "\uF7A6"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD0D",
+            "\uF981",
+            "\uF6F1",
+            "\uF754"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD0E",
+            "\uF7DC"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD0F",
+            "\uF7E3"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD10",
+            "\uF7D3"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD11",
+            "\uF97D",
+            "\uF6F2",
+            "\uF980"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD12",
+            "\uF6F5",
+            "\uF785"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD13",
+            "\uF786"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD14",
+            "\uF9B8",
+            "\uF6EB",
+            "\uF9C5"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD16",
+            "\uF7DE"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD17",
+            "\uF7A7"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD18",
+            "\uF7DB"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD19",
+            "\uF7DD"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD1A",
+            "\uF95D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD1B",
+            "\uF95C"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD1C",
+            "\uF95B"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD1D",
+            "\uF7EC"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD1E",
+            "\uF356",
+            "\uF7A7"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD1F",
+            "\uF747"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD20",
+            "\uF7D4"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD21",
+            "\uF7D5"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD22",
+            "\uF7D6"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD23",
+            "\uF7D7"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD24",
+            "\uF459"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD25",
+            "\uF653",
+            "\uF75D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD26",
+            "\uF7A0"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD27",
+            "\uF9BD",
+            "\uF7A4"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD28",
+            "\uF7FB",
+            "\uF756"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD29",
+            "\uF79E"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD2A",
+            "\uF79C"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD2B",
+            "\uF6E3",
+            "\uF753"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD2E",
+            "\uF362"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD2F",
+            "\uF7DE"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD30",
+            "\uF658",
+            "\uF7A9"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD31",
+            "\uF971"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD32",
+            "\uF7BA"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD33",
+            "\uF7BB"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD34",
+            "\uF766",
+            "\uF7B9"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD35",
+            "\uF767"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD36",
+            "\uF762"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD37",
+            "\uF763"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD38",
+            "\uF752"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD39",
+            "\uF753"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD3A",
+            "\uF776"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD3B",
+            "\uF777"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD3C",
+            "\uF75F"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD3D",
+            "\uF75E"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD50",
+            "\uF964"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD51",
+            "\uF965"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD52",
+            "\uF966"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD53",
+            "\uF967"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD54",
+            "\uF968"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD55",
+            "\uF969"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD56",
+            "\uF96A"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD57",
+            "\uF96B"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD58",
+            "\uF96C"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD59",
+            "\uF96D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD5A",
+            "\uF96E"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDD5B",
+            "\uF96F"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDDFB",
+            "\uF9E5",
+            "\uF7ED",
+            "\uF97B"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDDFC",
+            "\uF699",
+            "\uFBA9"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDDFD",
+            "\uFBBD"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDDFE",
+            "\uF78F"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDDFF",
+            "\uF470"
+         ]
+      },
+      {
+         "name": "Grinning Face",
+         "id": "grinning_face",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE00",
+            "\uF996",
+            "\uF64A",
+            "\uF99A"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE01",
+            "\uF46B"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE02",
+            "\uF39E",
+            "\uFB50"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE03",
+            "\uF997",
+            "\uF999"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE04",
+            "\uF999",
+            "\uF7CB"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE05",
+            "\uF39F",
+            "\uFB4F"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE06",
+            "\uF9CA",
+            "\uF39D",
+            "\uFB4E"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE07",
+            "\uF9CB",
+            "\uF7F4",
+            "\uF746"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE08",
+            "\uF395"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE09",
+            "\uF9CD",
+            "\uF6C0",
+            "\uF745"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE0A",
+            "\uFB49"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE0B",
+            "\uF9F7"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE0C",
+            "\uF3A3",
+            "\uFB58"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE0D",
+            "\uF3A2",
+            "\uFB57"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE0E",
+            "\uF39B",
+            "\uFB4C"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE0F",
+            "\uF39C",
+            "\uFB4D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE10",
+            "\uF995",
+            "\uF649",
+            "\uF998"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE11",
+            "\uF9C7"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE12",
+            "\uF9CF"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE13",
+            "\uF9F8",
+            "\uF485",
+            "\uFB44"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE14",
+            "\uF468",
+            "\uFB52"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE15",
+            "\uF3A1",
+            "\uF997"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE16",
+            "\uFB55"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE17",
+            "\uF9D3",
+            "\uF46D",
+            "\uFB53"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE18",
+            "\uF9D2",
+            "\uF64B",
+            "\uFB51"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE19",
+            "\uF39A",
+            "\uFB4B"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE1A",
+            "\uF9D0",
+            "\uF396",
+            "\uFB46"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE1B",
+            "\uF9C9",
+            "\uF461",
+            "\uFB56"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE1C",
+            "\uF9C6",
+            "\uF399",
+            "\uFB4A"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE1D",
+            "\uF998",
+            "\uF397",
+            "\uFB47"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE1E",
+            "\uF9C5",
+            "\uF394",
+            "\uFB43"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE1F",
+            "\uF9FC",
+            "\uF7F5",
+            "\uF747"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE20",
+            "\uF398",
+            "\uFB48"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE21",
+            "\uF9D1",
+            "\uF393",
+            "\uFB42"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE22",
+            "\uF9C8",
+            "\uF7F6",
+            "\uF748"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE23",
+            "\uFB41"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE24",
+            "\uF64C"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE25",
+            "\uF9CE",
+            "\uF7F3",
+            "\uFB45"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE2B",
+            "\uF465"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE2C",
+            "\uF484"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE2D",
+            "\uF467"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE2E",
+            "\uF464"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE2F",
+            "\uF469"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE30",
+            "\uF46C"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE31",
+            "\uF462"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE32",
+            "\uF46E"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE33",
+            "\uF46A"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE34",
+            "\uF3AB",
+            "\uFB63"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE35",
+            "\uF3AC",
+            "\uFB64"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE36",
+            "\uF3AD",
+            "\uFB66"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE37",
+            "\uF454"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE38",
+            "\uF456"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE39",
+            "\uF455"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE3A",
+            "\uF48A"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE3B",
+            "\uF48B",
+            "\uFB67"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE3C",
+            "\uF48C"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE3D",
+            "\uF48D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE3E",
+            "\uF3A6",
+            "\uFB5D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE80",
+            "\uF7F8",
+            "\uF74D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE84",
+            "\uF8BE",
+            "\uFB75"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE85",
+            "\uF689",
+            "\uF95F"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE86",
+            "\uF8BC",
+            "\uF68E",
+            "\uF95E"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE87",
+            "\uF7EC",
+            "\uFB74"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE89",
+            "\uF471",
+            "\uF979"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE8D",
+            "\uF8C1",
+            "\uF688",
+            "\uF79A"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE8F",
+            "\uF680",
+            "\uF791"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE91",
+            "\uF3B4",
+            "\uFB71"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE92",
+            "\uF3B3",
+            "\uFB70"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE93",
+            "\uF3B5",
+            "\uFB72"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE95",
+            "\uF79B"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE97",
+            "\uF8BF",
+            "\uF68A",
+            "\uF95B"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE99",
+            "\uF8C0",
+            "\uFB6E"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDE9A",
+            "\uF68B",
+            "\uFB6F"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDEA2",
+            "\uF8C2",
+            "\uF355",
+            "\uF7A2"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDEA4",
+            "\uF775"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDEA5",
+            "\uF8CE",
+            "\uF642",
+            "\uF78F"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDEA7",
+            "\uF34A",
+            "\uF777"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDEA8",
+            "\uF477"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDEA9",
+            "\uF983",
+            "\uF3ED"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDEAA",
+            "\uF9B9"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDEAB",
+            "\uF75D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDEAC",
+            "\uF8E0",
+            "\uF655",
+            "\uF9AE"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDEAD",
+            "\uF8E1",
+            "\uF656",
+            "\uF7A8"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDEB2",
+            "\uF9C2",
+            "\uF687",
+            "\uF776"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDEB6",
+            "\uF476",
+            "\uF7A1"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDEB9",
+            "\uF778"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDEBA",
+            "\uF779"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDEBB",
+            "\uF8CF",
+            "\uF67D",
+            "\uF792"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDEBC",
+            "\uF77A"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDEBD",
+            "\uF781"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDEBE",
+            "\uF9A9"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image": "",
+         "chars":[
+            "\uD83D\uDEC0",
+            "\uF34B",
+            "\uF780"
+         ]
+      }
+   ],
+   "blocks":[
+      {
+         "name":"Basic Latin",
+         "start":"\u0000",
+         "end":"\u007F"
+      },
+      {
+         "name":"Latin-1 Supplement",
+         "start":"\u0080",
+         "end":"\u00FF"
+      },
+      {
+         "name":"Latin Extended-A",
+         "start":"\u0100",
+         "end":"\u017F"
+      },
+      {
+         "name":"Latin Extended-B",
+         "start":"\u0180",
+         "end":"\u024F"
+      },
+      {
+         "name":"IPA Extensions",
+         "start":"\u0250",
+         "end":"\u02AF"
+      },
+      {
+         "name":"Spacing Modifier Letters",
+         "start":"\u02B0",
+         "end":"\u02FF"
+      },
+      {
+         "name":"Combining Diacritical Marks",
+         "start":"\u0300",
+         "end":"\u036F"
+      },
+      {
+         "name":"Greek and Coptic",
+         "start":"\u0370",
+         "end":"\u03FF"
+      },
+      {
+         "name":"Cyrillic",
+         "start":"\u0400",
+         "end":"\u04FF"
+      },
+      {
+         "name":"Cyrillic Supplement",
+         "start":"\u0500",
+         "end":"\u052F"
+      },
+      {
+         "name":"Armenian",
+         "start":"\u0530",
+         "end":"\u058F"
+      },
+      {
+         "name":"Hebrew",
+         "start":"\u0590",
+         "end":"\u05FF"
+      },
+      {
+         "name":"Arabic",
+         "start":"\u0600",
+         "end":"\u06FF"
+      },
+      {
+         "name":"Syriac",
+         "start":"\u0700",
+         "end":"\u074F"
+      },
+      {
+         "name":"Arabic Supplement",
+         "start":"\u0750",
+         "end":"\u077F"
+      },
+      {
+         "name":"Thaana",
+         "start":"\u0780",
+         "end":"\u07BF"
+      },
+      {
+         "name":"NKo",
+         "start":"\u07C0",
+         "end":"\u07FF"
+      },
+      {
+         "name":"Samaritan",
+         "start":"\u0800",
+         "end":"\u083F"
+      },
+      {
+         "name":"Mandaic",
+         "start":"\u0840",
+         "end":"\u085F"
+      },
+      {
+         "name":"Arabic Extended-A",
+         "start":"\u08A0",
+         "end":"\u08FF"
+      },
+      {
+         "name":"Devanagari",
+         "start":"\u0900",
+         "end":"\u097F"
+      },
+      {
+         "name":"Bengali",
+         "start":"\u0980",
+         "end":"\u09FF"
+      },
+      {
+         "name":"Gurmukhi",
+         "start":"\u0A00",
+         "end":"\u0A7F"
+      },
+      {
+         "name":"Gujarati",
+         "start":"\u0A80",
+         "end":"\u0AFF"
+      },
+      {
+         "name":"Oriya",
+         "start":"\u0B00",
+         "end":"\u0B7F"
+      },
+      {
+         "name":"Tamil",
+         "start":"\u0B80",
+         "end":"\u0BFF"
+      },
+      {
+         "name":"Telugu",
+         "start":"\u0C00",
+         "end":"\u0C7F"
+      },
+      {
+         "name":"Kannada",
+         "start":"\u0C80",
+         "end":"\u0CFF"
+      },
+      {
+         "name":"Malayalam",
+         "start":"\u0D00",
+         "end":"\u0D7F"
+      },
+      {
+         "name":"Sinhala",
+         "start":"\u0D80",
+         "end":"\u0DFF"
+      },
+      {
+         "name":"Thai",
+         "start":"\u0E00",
+         "end":"\u0E7F"
+      },
+      {
+         "name":"Lao",
+         "start":"\u0E80",
+         "end":"\u0EFF"
+      },
+      {
+         "name":"Tibetan",
+         "start":"\u0F00",
+         "end":"\u0FFF"
+      },
+      {
+         "name":"Myanmar",
+         "start":"\u1000",
+         "end":"\u109F"
+      },
+      {
+         "name":"Georgian",
+         "start":"\u10A0",
+         "end":"\u10FF"
+      },
+      {
+         "name":"Hangul Jamo",
+         "start":"\u1100",
+         "end":"\u11FF"
+      },
+      {
+         "name":"Ethiopic",
+         "start":"\u1200",
+         "end":"\u137F"
+      },
+      {
+         "name":"Ethiopic Supplement",
+         "start":"\u1380",
+         "end":"\u139F"
+      },
+      {
+         "name":"Cherokee",
+         "start":"\u13A0",
+         "end":"\u13FF"
+      },
+      {
+         "name":"Unified Canadian Aboriginal Syllabics",
+         "start":"\u1400",
+         "end":"\u167F"
+      },
+      {
+         "name":"Ogham",
+         "start":"\u1680",
+         "end":"\u169F"
+      },
+      {
+         "name":"Runic",
+         "start":"\u16A0",
+         "end":"\u16FF"
+      },
+      {
+         "name":"Tagalog",
+         "start":"\u1700",
+         "end":"\u171F"
+      },
+      {
+         "name":"Hanunoo",
+         "start":"\u1720",
+         "end":"\u173F"
+      },
+      {
+         "name":"Buhid",
+         "start":"\u1740",
+         "end":"\u175F"
+      },
+      {
+         "name":"Tagbanwa",
+         "start":"\u1760",
+         "end":"\u177F"
+      },
+      {
+         "name":"Khmer",
+         "start":"\u1780",
+         "end":"\u17FF"
+      },
+      {
+         "name":"Mongolian",
+         "start":"\u1800",
+         "end":"\u18AF"
+      },
+      {
+         "name":"Unified Canadian Aboriginal Syllabics Extended",
+         "start":"\u18B0",
+         "end":"\u18FF"
+      },
+      {
+         "name":"Limbu",
+         "start":"\u1900",
+         "end":"\u194F"
+      },
+      {
+         "name":"Tai Le",
+         "start":"\u1950",
+         "end":"\u197F"
+      },
+      {
+         "name":"New Tai Lue",
+         "start":"\u1980",
+         "end":"\u19DF"
+      },
+      {
+         "name":"Khmer Symbols",
+         "start":"\u19E0",
+         "end":"\u19FF"
+      },
+      {
+         "name":"Buginese",
+         "start":"\u1A00",
+         "end":"\u1A1F"
+      },
+      {
+         "name":"Tai Tham",
+         "start":"\u1A20",
+         "end":"\u1AAF"
+      },
+      {
+         "name":"Balinese",
+         "start":"\u1B00",
+         "end":"\u1B7F"
+      },
+      {
+         "name":"Sundanese",
+         "start":"\u1B80",
+         "end":"\u1BBF"
+      },
+      {
+         "name":"Batak",
+         "start":"\u1BC0",
+         "end":"\u1BFF"
+      },
+      {
+         "name":"Lepcha",
+         "start":"\u1C00",
+         "end":"\u1C4F"
+      },
+      {
+         "name":"Ol Chiki",
+         "start":"\u1C50",
+         "end":"\u1C7F"
+      },
+      {
+         "name":"Sundanese Supplement",
+         "start":"\u1CC0",
+         "end":"\u1CCF"
+      },
+      {
+         "name":"Vedic Extensions",
+         "start":"\u1CD0",
+         "end":"\u1CFF"
+      },
+      {
+         "name":"Phonetic Extensions",
+         "start":"\u1D00",
+         "end":"\u1D7F"
+      },
+      {
+         "name":"Phonetic Extensions Supplement",
+         "start":"\u1D80",
+         "end":"\u1DBF"
+      },
+      {
+         "name":"Combining Diacritical Marks Supplement",
+         "start":"\u1DC0",
+         "end":"\u1DFF"
+      },
+      {
+         "name":"Latin Extended Additional",
+         "start":"\u1E00",
+         "end":"\u1EFF"
+      },
+      {
+         "name":"Greek Extended",
+         "start":"\u1F00",
+         "end":"\u1FFF"
+      },
+      {
+         "name":"General Punctuation",
+         "start":"\u2000",
+         "end":"\u206F"
+      },
+      {
+         "name":"Superscripts and Subscripts",
+         "start":"\u2070",
+         "end":"\u209F"
+      },
+      {
+         "name":"Currency Symbols",
+         "start":"\u20A0",
+         "end":"\u20CF"
+      },
+      {
+         "name":"Combining Diacritical Marks for Symbols",
+         "start":"\u20D0",
+         "end":"\u20FF"
+      },
+      {
+         "name":"Letterlike Symbols",
+         "start":"\u2100",
+         "end":"\u214F"
+      },
+      {
+         "name":"Number Forms",
+         "start":"\u2150",
+         "end":"\u218F"
+      },
+      {
+         "name":"Arrows",
+         "start":"\u2190",
+         "end":"\u21FF"
+      },
+      {
+         "name":"Mathematical Operators",
+         "start":"\u2200",
+         "end":"\u22FF"
+      },
+      {
+         "name":"Miscellaneous Technical",
+         "start":"\u2300",
+         "end":"\u23FF"
+      },
+      {
+         "name":"Control Pictures",
+         "start":"\u2400",
+         "end":"\u243F"
+      },
+      {
+         "name":"Optical Character Recognition",
+         "start":"\u2440",
+         "end":"\u245F"
+      },
+      {
+         "name":"Enclosed Alphanumerics",
+         "start":"\u2460",
+         "end":"\u24FF"
+      },
+      {
+         "name":"Box Drawing",
+         "start":"\u2500",
+         "end":"\u257F"
+      },
+      {
+         "name":"Block Elements",
+         "start":"\u2580",
+         "end":"\u259F"
+      },
+      {
+         "name":"Geometric Shapes",
+         "start":"\u25A0",
+         "end":"\u25FF"
+      },
+      {
+         "name":"Miscellaneous Symbols",
+         "start":"\u2600",
+         "end":"\u26FF"
+      },
+      {
+         "name":"Dingbats",
+         "start":"\u2700",
+         "end":"\u27BF"
+      },
+      {
+         "name":"Miscellaneous Mathematical Symbols-A",
+         "start":"\u27C0",
+         "end":"\u27EF"
+      },
+      {
+         "name":"Supplemental Arrows-A",
+         "start":"\u27F0",
+         "end":"\u27FF"
+      },
+      {
+         "name":"Braille Patterns",
+         "start":"\u2800",
+         "end":"\u28FF"
+      },
+      {
+         "name":"Supplemental Arrows-B",
+         "start":"\u2900",
+         "end":"\u297F"
+      },
+      {
+         "name":"Miscellaneous Mathematical Symbols-B",
+         "start":"\u2980",
+         "end":"\u29FF"
+      },
+      {
+         "name":"Supplemental Mathematical Operators",
+         "start":"\u2A00",
+         "end":"\u2AFF"
+      },
+      {
+         "name":"Miscellaneous Symbols and Arrows",
+         "start":"\u2B00",
+         "end":"\u2BFF"
+      },
+      {
+         "name":"Glagolitic",
+         "start":"\u2C00",
+         "end":"\u2C5F"
+      },
+      {
+         "name":"Latin Extended-C",
+         "start":"\u2C60",
+         "end":"\u2C7F"
+      },
+      {
+         "name":"Coptic",
+         "start":"\u2C80",
+         "end":"\u2CFF"
+      },
+      {
+         "name":"Georgian Supplement",
+         "start":"\u2D00",
+         "end":"\u2D2F"
+      },
+      {
+         "name":"Tifinagh",
+         "start":"\u2D30",
+         "end":"\u2D7F"
+      },
+      {
+         "name":"Ethiopic Extended",
+         "start":"\u2D80",
+         "end":"\u2DDF"
+      },
+      {
+         "name":"Cyrillic Extended-A",
+         "start":"\u2DE0",
+         "end":"\u2DFF"
+      },
+      {
+         "name":"Supplemental Punctuation",
+         "start":"\u2E00",
+         "end":"\u2E7F"
+      },
+      {
+         "name":"CJK Radicals Supplement",
+         "start":"\u2E80",
+         "end":"\u2EFF"
+      },
+      {
+         "name":"Kangxi Radicals",
+         "start":"\u2F00",
+         "end":"\u2FDF"
+      },
+      {
+         "name":"Ideographic Description Characters",
+         "start":"\u2FF0",
+         "end":"\u2FFF"
+      },
+      {
+         "name":"CJK Symbols and Punctuation",
+         "start":"\u3000",
+         "end":"\u303F"
+      },
+      {
+         "name":"Hiragana",
+         "start":"\u3040",
+         "end":"\u309F"
+      },
+      {
+         "name":"Katakana",
+         "start":"\u30A0",
+         "end":"\u30FF"
+      },
+      {
+         "name":"Bopomofo",
+         "start":"\u3100",
+         "end":"\u312F"
+      },
+      {
+         "name":"Hangul Compatibility Jamo",
+         "start":"\u3130",
+         "end":"\u318F"
+      },
+      {
+         "name":"Kanbun",
+         "start":"\u3190",
+         "end":"\u319F"
+      },
+      {
+         "name":"Bopomofo Extended",
+         "start":"\u31A0",
+         "end":"\u31BF"
+      },
+      {
+         "name":"CJK Strokes",
+         "start":"\u31C0",
+         "end":"\u31EF"
+      },
+      {
+         "name":"Katakana Phonetic Extensions",
+         "start":"\u31F0",
+         "end":"\u31FF"
+      },
+      {
+         "name":"Enclosed CJK Letters and Months",
+         "start":"\u3200",
+         "end":"\u32FF"
+      },
+      {
+         "name":"CJK Compatibility",
+         "start":"\u3300",
+         "end":"\u33FF"
+      },
+      {
+         "name":"CJK Unified Ideographs Extension A",
+         "start":"\u3400",
+         "end":"\u4DBF"
+      },
+      {
+         "name":"Yijing Hexagram Symbols",
+         "start":"\u4DC0",
+         "end":"\u4DFF"
+      },
+      {
+         "name":"CJK Unified Ideographs",
+         "start":"\u4E00",
+         "end":"\u9FFF"
+      },
+      {
+         "name":"Yi Syllables",
+         "start":"\uA000",
+         "end":"\uA48F"
+      },
+      {
+         "name":"Yi Radicals",
+         "start":"\uA490",
+         "end":"\uA4CF"
+      },
+      {
+         "name":"Lisu",
+         "start":"\uA4D0",
+         "end":"\uA4FF"
+      },
+      {
+         "name":"Vai",
+         "start":"\uA500",
+         "end":"\uA63F"
+      },
+      {
+         "name":"Cyrillic Extended-B",
+         "start":"\uA640",
+         "end":"\uA69F"
+      },
+      {
+         "name":"Bamum",
+         "start":"\uA6A0",
+         "end":"\uA6FF"
+      },
+      {
+         "name":"Modifier Tone Letters",
+         "start":"\uA700",
+         "end":"\uA71F"
+      },
+      {
+         "name":"Latin Extended-D",
+         "start":"\uA720",
+         "end":"\uA7FF"
+      },
+      {
+         "name":"Syloti Nagri",
+         "start":"\uA800",
+         "end":"\uA82F"
+      },
+      {
+         "name":"Common Indic Number Forms",
+         "start":"\uA830",
+         "end":"\uA83F"
+      },
+      {
+         "name":"Phags-pa",
+         "start":"\uA840",
+         "end":"\uA87F"
+      },
+      {
+         "name":"Saurashtra",
+         "start":"\uA880",
+         "end":"\uA8DF"
+      },
+      {
+         "name":"Devanagari Extended",
+         "start":"\uA8E0",
+         "end":"\uA8FF"
+      },
+      {
+         "name":"Kayah Li",
+         "start":"\uA900",
+         "end":"\uA92F"
+      },
+      {
+         "name":"Rejang",
+         "start":"\uA930",
+         "end":"\uA95F"
+      },
+      {
+         "name":"Hangul Jamo Extended-A",
+         "start":"\uA960",
+         "end":"\uA97F"
+      },
+      {
+         "name":"Javanese",
+         "start":"\uA980",
+         "end":"\uA9DF"
+      },
+      {
+         "name":"Cham",
+         "start":"\uAA00",
+         "end":"\uAA5F"
+      },
+      {
+         "name":"Myanmar Extended-A",
+         "start":"\uAA60",
+         "end":"\uAA7F"
+      },
+      {
+         "name":"Tai Viet",
+         "start":"\uAA80",
+         "end":"\uAADF"
+      },
+      {
+         "name":"Meetei Mayek Extensions",
+         "start":"\uAAE0",
+         "end":"\uAAFF"
+      },
+      {
+         "name":"Ethiopic Extended-A",
+         "start":"\uAB00",
+         "end":"\uAB2F"
+      },
+      {
+         "name":"Meetei Mayek",
+         "start":"\uABC0",
+         "end":"\uABFF"
+      },
+      {
+         "name":"Hangul Syllables",
+         "start":"\uAC00",
+         "end":"\uD7AF"
+      },
+      {
+         "name":"Hangul Jamo Extended-B",
+         "start":"\uD7B0",
+         "end":"\uD7FF"
+      },
+      {
+         "name":"High Surrogates",
+         "start":"\uD800",
+         "end":"\uDB7F"
+      },
+      {
+         "name":"High Private Use Surrogates",
+         "start":"\uDB80",
+         "end":"\uDBFF"
+      },
+      {
+         "name":"Low Surrogates",
+         "start":"\uDC00",
+         "end":"\uDFFF"
+      },
+      {
+         "name":"Private Use Area",
+         "start":"\uE000",
+         "end":"\uF8FF"
+      },
+      {
+         "name":"CJK Compatibility Ideographs",
+         "start":"\uF900",
+         "end":"\uFAFF"
+      },
+      {
+         "name":"Alphabetic Presentation Forms",
+         "start":"\uFB00",
+         "end":"\uFB4F"
+      },
+      {
+         "name":"Arabic Presentation Forms-A",
+         "start":"\uFB50",
+         "end":"\uFDFF"
+      },
+      {
+         "name":"Variation Selectors",
+         "start":"\uFE00",
+         "end":"\uFE0F"
+      },
+      {
+         "name":"Vertical Forms",
+         "start":"\uFE10",
+         "end":"\uFE1F"
+      },
+      {
+         "name":"Combining Half Marks",
+         "start":"\uFE20",
+         "end":"\uFE2F"
+      },
+      {
+         "name":"CJK Compatibility Forms",
+         "start":"\uFE30",
+         "end":"\uFE4F"
+      },
+      {
+         "name":"Small Form Variants",
+         "start":"\uFE50",
+         "end":"\uFE6F"
+      },
+      {
+         "name":"Arabic Presentation Forms-B",
+         "start":"\uFE70",
+         "end":"\uFEFF"
+      },
+      {
+         "name":"Halfwidth and Fullwidth Forms",
+         "start":"\uFF00",
+         "end":"\uFFEF"
+      },
+      {
+         "name":"Specials",
+         "start":"\uFFF0",
+         "end":"\uFFFF"
+      },
+      {
+         "name":"Linear B Syllabary",
+         "start":"\uD800\uDC00",
+         "end":"\uD800\uDC7F"
+      },
+      {
+         "name":"Linear B Ideograms",
+         "start":"\uD800\uDC80",
+         "end":"\uD800\uDCFF"
+      },
+      {
+         "name":"Aegean Numbers",
+         "start":"\uD800\uDD00",
+         "end":"\uD800\uDD3F"
+      },
+      {
+         "name":"Ancient Greek Numbers",
+         "start":"\uD800\uDD40",
+         "end":"\uD800\uDD8F"
+      },
+      {
+         "name":"Ancient Symbols",
+         "start":"\uD800\uDD90",
+         "end":"\uD800\uDDCF"
+      },
+      {
+         "name":"Phaistos Disc",
+         "start":"\uD800\uDDD0",
+         "end":"\uD800\uDDFF"
+      },
+      {
+         "name":"Lycian",
+         "start":"\uD800\uDE80",
+         "end":"\uD800\uDE9F"
+      },
+      {
+         "name":"Carian",
+         "start":"\uD800\uDEA0",
+         "end":"\uD800\uDEDF"
+      },
+      {
+         "name":"Old Italic",
+         "start":"\uD800\uDF00",
+         "end":"\uD800\uDF2F"
+      },
+      {
+         "name":"Gothic",
+         "start":"\uD800\uDF30",
+         "end":"\uD800\uDF4F"
+      },
+      {
+         "name":"Ugaritic",
+         "start":"\uD800\uDF80",
+         "end":"\uD800\uDF9F"
+      },
+      {
+         "name":"Old Persian",
+         "start":"\uD800\uDFA0",
+         "end":"\uD800\uDFDF"
+      },
+      {
+         "name":"Deseret",
+         "start":"\uD801\uDC00",
+         "end":"\uD801\uDC4F"
+      },
+      {
+         "name":"Shavian",
+         "start":"\uD801\uDC50",
+         "end":"\uD801\uDC7F"
+      },
+      {
+         "name":"Osmanya",
+         "start":"\uD801\uDC80",
+         "end":"\uD801\uDCAF"
+      },
+      {
+         "name":"Cypriot Syllabary",
+         "start":"\uD802\uDC00",
+         "end":"\uD802\uDC3F"
+      },
+      {
+         "name":"Imperial Aramaic",
+         "start":"\uD802\uDC40",
+         "end":"\uD802\uDC5F"
+      },
+      {
+         "name":"Phoenician",
+         "start":"\uD802\uDD00",
+         "end":"\uD802\uDD1F"
+      },
+      {
+         "name":"Lydian",
+         "start":"\uD802\uDD20",
+         "end":"\uD802\uDD3F"
+      },
+      {
+         "name":"Meroitic Hieroglyphs",
+         "start":"\uD802\uDD80",
+         "end":"\uD802\uDD9F"
+      },
+      {
+         "name":"Meroitic Cursive",
+         "start":"\uD802\uDDA0",
+         "end":"\uD802\uDDFF"
+      },
+      {
+         "name":"Kharoshthi",
+         "start":"\uD802\uDE00",
+         "end":"\uD802\uDE5F"
+      },
+      {
+         "name":"Old South Arabian",
+         "start":"\uD802\uDE60",
+         "end":"\uD802\uDE7F"
+      },
+      {
+         "name":"Avestan",
+         "start":"\uD802\uDF00",
+         "end":"\uD802\uDF3F"
+      },
+      {
+         "name":"Inscriptional Parthian",
+         "start":"\uD802\uDF40",
+         "end":"\uD802\uDF5F"
+      },
+      {
+         "name":"Inscriptional Pahlavi",
+         "start":"\uD802\uDF60",
+         "end":"\uD802\uDF7F"
+      },
+      {
+         "name":"Old Turkic",
+         "start":"\uD803\uDC00",
+         "end":"\uD803\uDC4F"
+      },
+      {
+         "name":"Rumi Numeral Symbols",
+         "start":"\uD803\uDE60",
+         "end":"\uD803\uDE7F"
+      },
+      {
+         "name":"Brahmi",
+         "start":"\uD804\uDC00",
+         "end":"\uD804\uDC7F"
+      },
+      {
+         "name":"Kaithi",
+         "start":"\uD804\uDC80",
+         "end":"\uD804\uDCCF"
+      },
+      {
+         "name":"Sora Sompeng",
+         "start":"\uD804\uDCD0",
+         "end":"\uD804\uDCFF"
+      },
+      {
+         "name":"Chakma",
+         "start":"\uD804\uDD00",
+         "end":"\uD804\uDD4F"
+      },
+      {
+         "name":"Sharada",
+         "start":"\uD804\uDD80",
+         "end":"\uD804\uDDDF"
+      },
+      {
+         "name":"Takri",
+         "start":"\uD805\uDE80",
+         "end":"\uD805\uDECF"
+      },
+      {
+         "name":"Cuneiform",
+         "start":"\uD808\uDC00",
+         "end":"\uD808\uDFFF"
+      },
+      {
+         "name":"Cuneiform Numbers and Punctuation",
+         "start":"\uD809\uDC00",
+         "end":"\uD809\uDC7F"
+      },
+      {
+         "name":"Egyptian Hieroglyphs",
+         "start":"\uD80C\uDC00",
+         "end":"\uD80D\uDC2F"
+      },
+      {
+         "name":"Bamum Supplement",
+         "start":"\uD81A\uDC00",
+         "end":"\uD81A\uDE3F"
+      },
+      {
+         "name":"Miao",
+         "start":"\uD81B\uDF00",
+         "end":"\uD81B\uDF9F"
+      },
+      {
+         "name":"Kana Supplement",
+         "start":"\uD82C\uDC00",
+         "end":"\uD82C\uDCFF"
+      },
+      {
+         "name":"Byzantine Musical Symbols",
+         "start":"\uD834\uDC00",
+         "end":"\uD834\uDCFF"
+      },
+      {
+         "name":"Musical Symbols",
+         "start":"\uD834\uDD00",
+         "end":"\uD834\uDDFF"
+      },
+      {
+         "name":"Ancient Greek Musical Notation",
+         "start":"\uD834\uDE00",
+         "end":"\uD834\uDE4F"
+      },
+      {
+         "name":"Tai Xuan Jing Symbols",
+         "start":"\uD834\uDF00",
+         "end":"\uD834\uDF5F"
+      },
+      {
+         "name":"Counting Rod Numerals",
+         "start":"\uD834\uDF60",
+         "end":"\uD834\uDF7F"
+      },
+      {
+         "name":"Mathematical Alphanumeric Symbols",
+         "start":"\uD835\uDC00",
+         "end":"\uD835\uDFFF"
+      },
+      {
+         "name":"Arabic Mathematical Alphabetic Symbols",
+         "start":"\uD83B\uDE00",
+         "end":"\uD83B\uDEFF"
+      },
+      {
+         "name":"Mahjong Tiles",
+         "start":"\uD83C\uDC00",
+         "end":"\uD83C\uDC2F"
+      },
+      {
+         "name":"Domino Tiles",
+         "start":"\uD83C\uDC30",
+         "end":"\uD83C\uDC9F"
+      },
+      {
+         "name":"Playing Cards",
+         "start":"\uD83C\uDCA0",
+         "end":"\uD83C\uDCFF"
+      },
+      {
+         "name":"Enclosed Alphanumeric Supplement",
+         "start":"\uD83C\uDD00",
+         "end":"\uD83C\uDDFF"
+      },
+      {
+         "name":"Enclosed Ideographic Supplement",
+         "start":"\uD83C\uDE00",
+         "end":"\uD83C\uDEFF"
+      },
+      {
+         "name":"Miscellaneous Symbols And Pictographs",
+         "start":"\uD83C\uDF00",
+         "end":"\uD83D\uDDFF"
+      },
+      {
+         "name":"Emoticons",
+         "start":"\uD83D\uDE00",
+         "end":"\uD83D\uDE4F"
+      },
+      {
+         "name":"Transport And Map Symbols",
+         "start":"\uD83D\uDE80",
+         "end":"\uD83D\uDEFF"
+      },
+      {
+         "name":"Alchemical Symbols",
+         "start":"\uD83D\uDF00",
+         "end":"\uD83D\uDF7F"
+      },
+      {
+         "name":"CJK Unified Ideographs Extension B",
+         "start":"\uD840\uDC00",
+         "end":"\uD869\uDEDF"
+      },
+      {
+         "name":"CJK Unified Ideographs Extension C",
+         "start":"\uD869\uDF00",
+         "end":"\uD86D\uDF3F"
+      },
+      {
+         "name":"CJK Unified Ideographs Extension D",
+         "start":"\uD86D\uDF40",
+         "end":"\uD86E\uDC1F"
+      },
+      {
+         "name":"CJK Compatibility Ideographs Supplement",
+         "start":"\uD87E\uDC00",
+         "end":"\uD87E\uDE1F"
+      },
+      {
+         "name":"Tags",
+         "start":"\uDB40\uDC00",
+         "end":"\uDB40\uDC7F"
+      },
+      {
+         "name":"Variation Selectors Supplement",
+         "start":"\uDB40\uDD00",
+         "end":"\uDB40\uDDEF"
+      },
+      {
+         "name":"Supplementary Private Use Area-A",
+         "start":"\uDB80\uDC00",
+         "end":"\uDBBF\uDFFF"
+      },
+      {
+         "name":"Supplementary Private Use Area-B",
+         "start":"\uDBC0\uDC00",
+         "end":"\uDBFF\uDFFF"
+      }
+   ],
+   "groups":[
+      {
+         "name":"People",
+         "items":[
+
+         ]
+      },
+      {
+         "name":"Nature",
+         "items":[
+
+         ]
+      },
+      {
+         "name":"Objects",
+         "items":[
+
+         ]
+      },
+      {
+         "name":"Places",
+         "items":[
+
+         ]
+      },
+      {
+         "name":"Symbols",
+         "items":[
+
+         ]
+      }
+   ]
 }
