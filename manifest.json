@@ -24,6 +24,7 @@
   ],
   "web_accessible_resources": [
     "images/*.png",
-    "chars.json"
+    "chars.json",
+    "chardict.json"
   ]
 }

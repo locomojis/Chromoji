@@ -50,9 +50,9 @@ function getImageUrlFromString(str) {
 	return chrome.extension.getURL(path);
 }
 
-function readChars(callback) {
+function readCharDictionary(callback) {
     var request = new XMLHttpRequest();
-	var path = "chars.json"
+	var path = "chardict.json"
 	var url = chrome.extension.getURL(path);
 	request.open('GET', url);
 	request.onload = function(e) {

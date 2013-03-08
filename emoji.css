@@ -1,4 +1,6 @@
 img.emoji {
 	height: 1em !important;
     margin: 0px !important;
+    padding: 0px !important;
+    display: inline !important;
 }

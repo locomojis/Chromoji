@@ -1,175 +1,159 @@
 {
    "items":[
       {
-         "name":"",
-         "id":"",
-         "image":"",
+         "name":"Apple Logo",
+         "id":"apple_logo",
+         "image":"f8ff.png",
+         "chars":[
+            "\uF8FF"
+         ]
+      },
+      {
+         "name":"Hash Key",
+         "id":"hash_key",
+         "image":"23-20e3.png",
          "chars":[
             "\u0023\u20E3",
             "\uF7B0"
          ]
       },
       {
-         "name":"",
-         "id":"",
-         "image":"",
+         "name":"Keycap 0",
+         "id":"keycap_0",
+         "image":"30-20e3.png",
          "chars":[
             "\u0030\u20E3",
             "\uF7C5"
          ]
       },
       {
-         "name":"",
-         "id":"",
-         "image":"",
+         "name":"Keycap 1",
+         "id":"keycap_1",
+         "image":"31-20e3.png",
          "chars":[
             "\u0031\u20E3",
             "\uF7BC"
          ]
       },
       {
-         "name":"",
-         "id":"",
-         "image":"",
+         "name":"Keycap 2",
+         "id":"keycap_2",
+         "image":"32-20e3.png",
          "chars":[
             "\u0032\u20E3",
             "\uF7BD"
          ]
       },
       {
-         "name":"",
-         "id":"",
-         "image":"",
+         "name":"Keycap 3",
+         "id":"keycap_3",
+         "image":"33-20e3.png",
          "chars":[
             "\u0033\u20E3",
             "\uF7BE"
          ]
       },
       {
-         "name":"",
-         "id":"",
-         "image":"",
+         "name":"Keycap 4",
+         "id":"keycap_4",
+         "image":"34-20e3.png",
          "chars":[
             "\u0034\u20E3",
             "\uF7BF"
          ]
       },
       {
-         "name":"",
-         "id":"",
-         "image":"",
+         "name":"Keycap 5",
+         "id":"keycap_5",
+         "image":"35-20e3.png",
          "chars":[
             "\u0035\u20E3",
             "\uF7C0"
          ]
       },
       {
-         "name":"",
-         "id":"",
-         "image":"",
+         "name":"Keycap 6",
+         "id":"keycap_6",
+         "image":"36-20e3.png",
          "chars":[
             "\u0036\u20E3",
             "\uF7C1"
          ]
       },
       {
-         "name":"",
-         "id":"",
-         "image":"",
+         "name":"Keycap 7",
+         "id":"keycap_7",
+         "image":"37-20e3.png",
          "chars":[
             "\u0037\u20E3",
             "\uF7C2"
          ]
       },
       {
-         "name":"",
-         "id":"",
-         "image":"",
+         "name":"Keycap 8",
+         "id":"keycap_8",
+         "image":"38-20e3.png",
          "chars":[
             "\u0038\u20E3",
             "\uF7C3"
          ]
       },
       {
-         "name":"",
-         "id":"",
-         "image":"",
+         "name":"Keycap 9",
+         "id":"keycap_9",
+         "image":"39-20e3.png",
          "chars":[
             "\u0039\u20E3",
             "\uF7C4"
          ]
       },
       {
-         "name":"",
-         "id":"",
-         "image":"",
+         "name":"Copyright Sign",
+         "id":"copyright_sign",
+         "image":"a9.png",
          "chars":[
             "\u00A9",
             "\uF7EE"
          ]
       },
       {
-         "name":"",
-         "id":"",
-         "image":"",
+         "name":"Registered Sign",
+         "id":"registered_sign",
+         "image":"ae.png",
          "chars":[
             "\u00AE",
             "\uF7EF"
          ]
       },
       {
-         "name":"",
-         "id":"",
-         "image":"",
-         "chars":[
-            "\u2002"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"",
-         "chars":[
-            "\u2003"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"",
-         "chars":[
-            "\u2005"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"",
+         "name":"Double Exclamation Mark",
+         "id":"double_exclamation_mark",
+         "image":"203c.png",
          "chars":[
             "\u203C"
          ]
       },
       {
-         "name":"",
-         "id":"",
-         "image":"",
+         "name":"Exclamation Question Mark",
+         "id":"exclamation_question_mark",
+         "image":"2049.png",
          "chars":[
             "\u2049"
          ]
       },
       {
-         "name":"",
-         "id":"",
-         "image":"",
+         "name":"Trade Mark Sign",
+         "id":"trade_mark_sign",
+         "image":"2122.png",
          "chars":[
             "\u2122",
             "\uFBD7"
          ]
       },
       {
-         "name":"",
-         "id":"",
-         "image":"",
+         "name":"Information Source",
+         "id":"information_source",
+         "image":"2139.png",
          "chars":[
             "\u2139"
          ]
@@ -177,7 +161,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2194.png",
          "chars":[
             "\u2194"
          ]
@@ -185,7 +169,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2195.png",
          "chars":[
             "\u2195"
          ]
@@ -193,7 +177,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2196.png",
          "chars":[
             "\u2196",
             "\uF7D7"
@@ -202,7 +186,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2197.png",
          "chars":[
             "\u2197",
             "\uF7D6"
@@ -211,7 +195,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2198.png",
          "chars":[
             "\u2198",
             "\uF7D8"
@@ -220,7 +204,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2199.png",
          "chars":[
             "\u2199",
             "\uF7D9"
@@ -229,7 +213,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"21A9.png",
          "chars":[
             "\u21A9"
          ]
@@ -237,7 +221,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"21AA.png",
          "chars":[
             "\u21AA"
          ]
@@ -245,7 +229,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"231A.png",
          "chars":[
             "\u231A"
          ]
@@ -253,7 +237,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"231B.png",
          "chars":[
             "\u231B"
          ]
@@ -261,7 +245,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"23E9.png",
          "chars":[
             "\u23E9",
             "\uF7DC"
@@ -270,7 +254,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"23EA.png",
          "chars":[
             "\u23EA",
             "\uF7DD"
@@ -279,7 +263,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"23EB.png",
          "chars":[
             "\u23EB"
          ]
@@ -287,7 +271,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"23EC.png",
          "chars":[
             "\u23EC"
          ]
@@ -295,7 +279,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"23F0.png",
          "chars":[
             "\u23F0"
          ]
@@ -303,7 +287,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"23F3.png",
          "chars":[
             "\u23F3"
          ]
@@ -311,7 +295,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"24C2.png",
          "chars":[
             "\u24C2"
          ]
@@ -319,7 +303,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"25AA.png",
          "chars":[
             "\u25AA"
          ]
@@ -327,7 +311,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"25AB.png",
          "chars":[
             "\u25AB"
          ]
@@ -335,7 +319,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"25B6.png",
          "chars":[
             "\u25B6",
             "\uF7DA"
@@ -344,7 +328,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"25C0.png",
          "chars":[
             "\u25C0",
             "\uF7DB"
@@ -353,7 +337,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"25FB.png",
          "chars":[
             "\u25FB"
          ]
@@ -361,7 +345,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"25FC.png",
          "chars":[
             "\u25FC"
          ]
@@ -369,7 +353,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"25FD.png",
          "chars":[
             "\u25FD"
          ]
@@ -377,7 +361,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"25FE.png",
          "chars":[
             "\u25FE"
          ]
@@ -385,7 +369,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2600.png",
          "chars":[
             "\u2600",
             "\uF98B"
@@ -394,7 +378,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2601.png",
          "chars":[
             "\u2601",
             "\uF98A"
@@ -403,7 +387,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"260E.png",
          "chars":[
             "\u260E",
             "\uF949"
@@ -412,7 +396,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2611.png",
          "chars":[
             "\u2611"
          ]
@@ -420,7 +404,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2614.png",
          "chars":[
             "\u2614",
             "\uF98C"
@@ -429,7 +413,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2615.png",
          "chars":[
             "\u2615",
             "\uF986"
@@ -438,7 +422,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"261D.png",
          "chars":[
             "\u261D",
             "\uF94F"
@@ -447,7 +431,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"263A.png",
          "chars":[
             "\u263A",
             "\uFB54"
@@ -456,7 +440,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2648.png",
          "chars":[
             "\u2648",
             "\uF7DF"
@@ -465,7 +449,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2649.png",
          "chars":[
             "\u2649",
             "\uF7E0"
@@ -474,7 +458,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"264A.png",
          "chars":[
             "\u264A",
             "\uF7E1"
@@ -483,7 +467,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"264B.png",
          "chars":[
             "\u264B",
             "\uF7E2"
@@ -492,7 +476,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"264C.png",
          "chars":[
             "\u264C",
             "\uF7E3"
@@ -501,7 +485,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"264D.png",
          "chars":[
             "\u264D",
             "\uF7E4"
@@ -510,7 +494,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"264E.png",
          "chars":[
             "\u264E",
             "\uF7E5"
@@ -519,7 +503,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"264F.png",
          "chars":[
             "\u264F",
             "\uF7E6"
@@ -528,7 +512,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2650.png",
          "chars":[
             "\u2650",
             "\uF7E7"
@@ -537,7 +521,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2651.png",
          "chars":[
             "\u2651",
             "\uF7E8"
@@ -546,7 +530,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2652.png",
          "chars":[
             "\u2652",
             "\uF7E9"
@@ -555,7 +539,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2653.png",
          "chars":[
             "\u2653",
             "\uF7EA"
@@ -564,7 +548,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2660.png",
          "chars":[
             "\u2660",
             "\uF7AE"
@@ -573,7 +557,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2663.png",
          "chars":[
             "\u2663",
             "\uF7AF"
@@ -582,7 +566,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2665.png",
          "chars":[
             "\u2665",
             "\uF7AC"
@@ -591,7 +575,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2666.png",
          "chars":[
             "\u2666",
             "\uF7AD"
@@ -600,7 +584,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2668.png",
          "chars":[
             "\u2668",
             "\uF763"
@@ -609,7 +593,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"267B.png",
          "chars":[
             "\u267B"
          ]
@@ -617,7 +601,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"267F.png",
          "chars":[
             "\u267F",
             "\uF7AA"
@@ -626,7 +610,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2693.png",
          "chars":[
             "\u2693"
          ]
@@ -634,7 +618,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"26A0.png",
          "chars":[
             "\u26A0",
             "\uF7F2"
@@ -643,7 +627,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"26A1.png",
          "chars":[
             "\u26A1",
             "\uF77D"
@@ -652,7 +636,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"26AA.png",
          "chars":[
             "\u26AA"
          ]
@@ -660,7 +644,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"26AB.png",
          "chars":[
             "\u26AB"
          ]
@@ -668,7 +652,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"26BD.png",
          "chars":[
             "\u26BD",
             "\uF958"
@@ -677,7 +661,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"26BE.png",
          "chars":[
             "\u26BE",
             "\uF956"
@@ -686,7 +670,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"26C4.png",
          "chars":[
             "\u26C4",
             "\uF989"
@@ -695,7 +679,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"26C5.png",
          "chars":[
             "\u26C5"
          ]
@@ -703,7 +687,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"26CE.png",
          "chars":[
             "\u26CE",
             "\uF7EB"
@@ -712,7 +696,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"26D4.png",
          "chars":[
             "\u26D4"
          ]
@@ -720,7 +704,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"26EA.png",
          "chars":[
             "\u26EA",
             "\uF977"
@@ -729,7 +713,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"26F2.png",
          "chars":[
             "\u26F2",
             "\uF761"
@@ -738,7 +722,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"26F3.png",
          "chars":[
             "\u26F3",
             "\uF954"
@@ -747,7 +731,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"26F5.png",
          "chars":[
             "\u26F5",
             "\uF95C"
@@ -756,7 +740,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"26FA.png",
          "chars":[
             "\u26FA",
             "\uF762"
@@ -765,7 +749,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"26FD.png",
          "chars":[
             "\u26FD",
             "\uF97A"
@@ -774,7 +758,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2702.png",
          "chars":[
             "\u2702",
             "\uF9B3"
@@ -783,7 +767,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2705.png",
          "chars":[
             "\u2705"
          ]
@@ -791,7 +775,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2708.png",
          "chars":[
             "\u2708",
             "\uF95D"
@@ -800,7 +784,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2709.png",
          "chars":[
             "\u2709"
          ]
@@ -808,7 +792,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"270A.png",
          "chars":[
             "\u270A",
             "\uF950"
@@ -817,7 +801,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"270B.png",
          "chars":[
             "\u270B",
             "\uF952"
@@ -826,7 +810,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"270C.png",
          "chars":[
             "\u270C",
             "\uF951"
@@ -835,7 +819,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"270F.png",
          "chars":[
             "\u270F"
          ]
@@ -843,7 +827,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2712.png",
          "chars":[
             "\u2712"
          ]
@@ -851,7 +835,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2714.png",
          "chars":[
             "\u2714"
          ]
@@ -859,7 +843,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2716.png",
          "chars":[
             "\u2716"
          ]
@@ -867,7 +851,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2728.png",
          "chars":[
             "\u2728",
             "\uF9CE"
@@ -876,7 +860,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2733.png",
          "chars":[
             "\u2733",
             "\uF7A6"
@@ -885,7 +869,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2734.png",
          "chars":[
             "\u2734",
             "\uF7A5"
@@ -894,7 +878,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2744.png",
          "chars":[
             "\u2744"
          ]
@@ -902,7 +886,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2747.png",
          "chars":[
             "\u2747"
          ]
@@ -910,7 +894,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"274C.png",
          "chars":[
             "\u274C",
             "\uF9D3"
@@ -919,7 +903,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"274E.png",
          "chars":[
             "\u274E"
          ]
@@ -927,7 +911,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2753.png",
          "chars":[
             "\u2753",
             "\uF960"
@@ -936,7 +920,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2754.png",
          "chars":[
             "\u2754",
             "\uF9D6"
@@ -945,7 +929,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2755.png",
          "chars":[
             "\u2755",
             "\uF9D7"
@@ -954,7 +938,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2762.png",
          "chars":[
             "\u2762",
             "\uF961"
@@ -963,7 +947,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2764.png",
          "chars":[
             "\u2764",
             "\uF962"
@@ -972,7 +956,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2795.png",
          "chars":[
             "\u2795"
          ]
@@ -980,7 +964,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2796.png",
          "chars":[
             "\u2796"
          ]
@@ -988,7 +972,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2797.png",
          "chars":[
             "\u2797"
          ]
@@ -996,7 +980,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"27A1.png",
          "chars":[
             "\u27A1",
             "\uF7D4"
@@ -1005,7 +989,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"27B0.png",
          "chars":[
             "\u27B0"
          ]
@@ -1013,7 +997,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"27BF.png",
          "chars":[
             "\u27BF",
             "\uF7B1"
@@ -1022,7 +1006,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2934.png",
          "chars":[
             "\u2934"
          ]
@@ -1030,7 +1014,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2935.png",
          "chars":[
             "\u2935"
          ]
@@ -1038,7 +1022,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2B05.png",
          "chars":[
             "\u2B05",
             "\uF7D5"
@@ -1047,7 +1031,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2B06.png",
          "chars":[
             "\u2B06",
             "\uF7D2"
@@ -1056,7 +1040,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2B07.png",
          "chars":[
             "\u2B07",
             "\uF7D3"
@@ -1065,7 +1049,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2B1B.png",
          "chars":[
             "\u2B1B"
          ]
@@ -1073,7 +1057,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2B1C.png",
          "chars":[
             "\u2B1C"
          ]
@@ -1081,7 +1065,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2B50.png",
          "chars":[
             "\u2B50",
             "\uF9CF"
@@ -1090,7 +1074,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"2B55.png",
          "chars":[
             "\u2B55",
             "\uF9D2"
@@ -1099,7 +1083,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"3030.png",
          "chars":[
             "\u3030"
          ]
@@ -1107,7 +1091,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"303D.png",
          "chars":[
             "\u303D",
             "\uF76C"
@@ -1116,7 +1100,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"3297.png",
          "chars":[
             "\u3297",
             "\uF9AD"
@@ -1125,7 +1109,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"3299.png",
          "chars":[
             "\u3299",
             "\uF9B5"
@@ -5455,7 +5439,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f600.png",
          "chars":[
             "\uD83D\uDE00",
             "\uF99A"
@@ -5464,7 +5448,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f601.png",
          "chars":[
             "\uD83D\uDE01"
          ]
@@ -5472,7 +5456,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f602.png",
          "chars":[
             "\uD83D\uDE02",
             "\uFB50"

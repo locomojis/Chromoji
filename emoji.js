@@ -233,7 +233,8 @@ function getBodyNodes(regexp) {
 function filterNodes(nodes, regexp) {
     return $(nodes).find('[contenteditable!="true"][contenteditable!="plaintext-only"]').filter(
         function(index) {
-			var contents = regexp.test($(this).justtext());
+            var text = $(this).justtext();
+			var contents = (text.search(regexp) != 0)
 			return contents;
 		}
     );
