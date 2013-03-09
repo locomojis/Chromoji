@@ -1320,22 +1320,22 @@
          "chars":[
             "\uD83C\uDF0C"
          ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f30d.png",
-         "chars":[
-            "\uD83C\uDF0D"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f30e.png",
-         "chars":[
-            "\uD83C\uDF0E"
-         ]
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f30d.png"
+         "chars":
+            "\uD83C\uDF0D
+         
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f30e.png"
+         "chars":
+            "\uD83C\uDF0E
+         
       },
       {
          "name":"",
@@ -1344,14 +1344,14 @@
          "chars":[
             "\uD83C\uDF0F"
          ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f310.png",
-         "chars":[
-            "\uD83C\uDF10"
-         ]
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f310.png"
+         "chars":
+            "\uD83C\uDF10
+         
       },
       {
          "name":"",
@@ -1360,14 +1360,14 @@
          "chars":[
             "\uD83C\uDF11"
          ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f312.png",
-         "chars":[
-            "\uD83C\uDF12"
-         ]
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f312.png"
+         "chars":
+            "\uD83C\uDF12
+         
       },
       {
          "name":"",
@@ -1392,30 +1392,30 @@
          "chars":[
             "\uD83C\uDF15"
          ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f316.png",
-         "chars":[
-            "\uD83C\uDF16"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f317.png",
-         "chars":[
-            "\uD83C\uDF17"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f318.png",
-         "chars":[
-            "\uD83C\uDF18"
-         ]
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f316.png"
+         "chars":
+            "\uD83C\uDF16
+         
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f317.png"
+         "chars":
+            "\uD83C\uDF17
+         
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f318.png"
+         "chars":
+            "\uD83C\uDF18
+         
       },
       {
          "name":"",
@@ -1424,14 +1424,14 @@
          "chars":[
             "\uD83C\uDF19"
          ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f31a.png",
-         "chars":[
-            "\uD83C\uDF1A"
-         ]
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f31a.png"
+         "chars":
+            "\uD83C\uDF1A
+         
       },
       {
          "name":"",
@@ -1440,30 +1440,30 @@
          "chars":[
             "\uD83C\uDF1B"
          ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f31c.png",
-         "chars":[
-            "\uD83C\uDF1C"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f31d.png",
-         "chars":[
-            "\uD83C\uDF1D"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f31e.png",
-         "chars":[
-            "\uD83C\uDF1E"
-         ]
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f31c.png"
+         "chars":
+            "\uD83C\uDF1C
+         
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f31d.png"
+         "chars":
+            "\uD83C\uDF1D
+         
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f31e.png"
+         "chars":
+            "\uD83C\uDF1E
+         
       },
       {
          "name":"",
@@ -1496,22 +1496,22 @@
          "chars":[
             "\uD83C\uDF31"
          ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f332.png",
-         "chars":[
-            "\uD83C\uDF32"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f333.png",
-         "chars":[
-            "\uD83C\uDF33"
-         ]
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f332.png"
+         "chars":
+            "\uD83C\uDF32
+         
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f333.png"
+         "chars":
+            "\uD83C\uDF33
+         
       },
       {
          "name":"",
@@ -5759,51 +5759,51 @@
          "chars":[
             "\uD83D\uDE25"
          ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f626.png",
-         "chars":[
-            "\uD83D\uDE26",
-            "\uFB45"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f627.png",
-         "chars":[
-            "\uD83D\uDE27",
-            "\uFB45"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f628.png",
-         "chars":[
-            "\uD83D\uDE28",
-            "\uFB45"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f629.png",
-         "chars":[
-            "\uD83D\uDE29",
-            "\uFB45"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f62a.png",
-         "chars":[
-            "\uD83D\uDE2A",
-            "\uFB45"
-         ]
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f626.png"
+         "chars":
+            "\uD83D\uDE26"
+            "\uFB45
+         
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f627.png"
+         "chars":
+            "\uD83D\uDE27"
+            "\uFB45
+         
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f628.png"
+         "chars":
+            "\uD83D\uDE28"
+            "\uFB45
+         
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f629.png"
+         "chars":
+            "\uD83D\uDE29"
+            "\uFB45
+         
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f62a.png"
+         "chars":
+            "\uD83D\uDE2A"
+            "\uFB45
+         
       },
       {
          "name":"",
@@ -5964,123 +5964,123 @@
          "chars":[
             "\uD83D\uDE3E"
          ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f63f.png",
-         "chars":[
-            "\uD83D\uDE3F",
-            "\uFB5D"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f640.png",
-         "chars":[
-            "\uD83D\uDE40",
-            "\uFB5D"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f645.png",
-         "chars":[
-            "\uD83D\uDE45",
-            "\uFB5D"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f646.png",
-         "chars":[
-            "\uD83D\uDE46",
-            "\uFB5D"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f647.png",
-         "chars":[
-            "\uD83D\uDE47",
-            "\uFB5D"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f648.png",
-         "chars":[
-            "\uD83D\uDE48",
-            "\uFB5D"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f649.png",
-         "chars":[
-            "\uD83D\uDE49",
-            "\uFB5D"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f64a.png",
-         "chars":[
-            "\uD83D\uDE4A",
-            "\uFB5D"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f64b.png",
-         "chars":[
-            "\uD83D\uDE4B",
-            "\uFB5D"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f64c.png",
-         "chars":[
-            "\uD83D\uDE4C",
-            "\uFB5D"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f64d.png",
-         "chars":[
-            "\uD83D\uDE4D",
-            "\uFB5D"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f64e.png",
-         "chars":[
-            "\uD83D\uDE4e",
-            "\uFB5D"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f64f.png",
-         "chars":[
-            "\uD83D\uDE4f",
-            "\uFB5D"
-         ]
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f63f.png"
+         "chars":
+            "\uD83D\uDE3F"
+            "\uFB5D
+         
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f640.png"
+         "chars":
+            "\uD83D\uDE40"
+            "\uFB5D
+         
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f645.png"
+         "chars":
+            "\uD83D\uDE45"
+            "\uFB5D
+         
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f646.png"
+         "chars":
+            "\uD83D\uDE46"
+            "\uFB5D
+         
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f647.png"
+         "chars":
+            "\uD83D\uDE47"
+            "\uFB5D
+         
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f648.png"
+         "chars":
+            "\uD83D\uDE48"
+            "\uFB5D
+         
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f649.png"
+         "chars":
+            "\uD83D\uDE49"
+            "\uFB5D
+         
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f64a.png"
+         "chars":
+            "\uD83D\uDE4A"
+            "\uFB5D
+         
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f64b.png"
+         "chars":
+            "\uD83D\uDE4B"
+            "\uFB5D
+         
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f64c.png"
+         "chars":
+            "\uD83D\uDE4C"
+            "\uFB5D
+         
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f64d.png"
+         "chars":
+            "\uD83D\uDE4D"
+            "\uFB5D
+         
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f64e.png"
+         "chars":
+            "\uD83D\uDE4e"
+            "\uFB5D
+         
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f64f.png"
+         "chars":
+            "\uD83D\uDE4f"
+            "\uFB5D
+         
       },
       {
          "name":"",
@@ -6089,33 +6089,33 @@
          "chars":[
             "\uD83D\uDE80"
          ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f681.png",
-         "chars":[
-            "\uD83D\uDE81",
-            "\uF74D"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f682.png",
-         "chars":[
-            "\uD83D\uDE82",
-            "\uF74D"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f683.png",
-         "chars":[
-            "\uD83D\uDE83",
-            "\uF74D"
-         ]
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f681.png"
+         "chars":
+            "\uD83D\uDE81"
+            "\uF74D
+         
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f682.png"
+         "chars":
+            "\uD83D\uDE82"
+            "\uF74D
+         
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f683.png"
+         "chars":
+            "\uD83D\uDE83"
+            "\uF74D
+         
       },
       {
          "name":"",
@@ -6148,15 +6148,15 @@
          "chars":[
             "\uD83D\uDE87"
          ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f688.png",
-         "chars":[
-            "\uD83D\uDE88",
-            "\uFB74"
-         ]
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f688.png"
+         "chars":
+            "\uD83D\uDE88"
+            "\uFB74
+         
       },
       {
          "name":"",
@@ -6165,33 +6165,33 @@
          "chars":[
             "\uD83D\uDE89"
          ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f68a.png",
-         "chars":[
-            "\uD83D\uDE8A",
-            "\uF791"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f68b.png",
-         "chars":[
-            "\uD83D\uDE8B",
-            "\uF791"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f68c.png",
-         "chars":[
-            "\uD83D\uDE8C",
-            "\uF791"
-         ]
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f68a.png"
+         "chars":
+            "\uD83D\uDE8A"
+            "\uF791
+         
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f68b.png"
+         "chars":
+            "\uD83D\uDE8B"
+            "\uF791
+         
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f68c.png"
+         "chars":
+            "\uD83D\uDE8C"
+            "\uF791
+         
       },
       {
          "name":"",
@@ -6200,15 +6200,15 @@
          "chars":[
             "\uD83D\uDE8D"
          ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"1f68e.png",
-         "chars":[
-            "\uD83D\uDE8E",
-            "\uF791"
-         ]
+      }
+      
+         "name":""
+         "id":""
+         "image":"1f68e.png"
+         "chars":
+            "\uD83D\uDE8E"
+            "\uF791
+         
       },
       {
          "name":"",
@@ -7934,31 +7934,26 @@
       {
          "name":"People",
          "items":[
-
          ]
       },
       {
          "name":"Nature",
          "items":[
-
          ]
       },
       {
          "name":"Objects",
          "items":[
-
          ]
       },
       {
          "name":"Places",
          "items":[
-
          ]
       },
       {
          "name":"Symbols",
          "items":[
-
          ]
       }
    ]
