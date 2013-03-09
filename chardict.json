@@ -1,4 +1,4 @@
-{
+﻿{
    "items":[
       {
          "name":"Apple Logo",
@@ -9,111 +9,11 @@
          ]
       },
       {
-         "name":"Hash Key",
-         "id":"hash_key",
-         "image":"23-20e3.png",
-         "chars":[
-            "\u0023\u20E3",
-            "\uF7B0"
-         ]
-      },
-      {
-         "name":"Keycap 0",
-         "id":"keycap_0",
-         "image":"30-20e3.png",
-         "chars":[
-            "\u0030\u20E3",
-            "\uF7C5"
-         ]
-      },
-      {
-         "name":"Keycap 1",
-         "id":"keycap_1",
-         "image":"31-20e3.png",
-         "chars":[
-            "\u0031\u20E3",
-            "\uF7BC"
-         ]
-      },
-      {
-         "name":"Keycap 2",
-         "id":"keycap_2",
-         "image":"32-20e3.png",
-         "chars":[
-            "\u0032\u20E3",
-            "\uF7BD"
-         ]
-      },
-      {
-         "name":"Keycap 3",
-         "id":"keycap_3",
-         "image":"33-20e3.png",
-         "chars":[
-            "\u0033\u20E3",
-            "\uF7BE"
-         ]
-      },
-      {
-         "name":"Keycap 4",
-         "id":"keycap_4",
-         "image":"34-20e3.png",
-         "chars":[
-            "\u0034\u20E3",
-            "\uF7BF"
-         ]
-      },
-      {
-         "name":"Keycap 5",
-         "id":"keycap_5",
-         "image":"35-20e3.png",
-         "chars":[
-            "\u0035\u20E3",
-            "\uF7C0"
-         ]
-      },
-      {
-         "name":"Keycap 6",
-         "id":"keycap_6",
-         "image":"36-20e3.png",
-         "chars":[
-            "\u0036\u20E3",
-            "\uF7C1"
-         ]
-      },
-      {
-         "name":"Keycap 7",
-         "id":"keycap_7",
-         "image":"37-20e3.png",
-         "chars":[
-            "\u0037\u20E3",
-            "\uF7C2"
-         ]
-      },
-      {
-         "name":"Keycap 8",
-         "id":"keycap_8",
-         "image":"38-20e3.png",
-         "chars":[
-            "\u0038\u20E3",
-            "\uF7C3"
-         ]
-      },
-      {
-         "name":"Keycap 9",
-         "id":"keycap_9",
-         "image":"39-20e3.png",
-         "chars":[
-            "\u0039\u20E3",
-            "\uF7C4"
-         ]
-      },
-      {
          "name":"Copyright Sign",
          "id":"copyright_sign",
          "image":"a9.png",
          "chars":[
-            "\u00A9",
-            "\uF7EE"
+            "\u00A9"
          ]
       },
       {
@@ -121,8 +21,7 @@
          "id":"registered_sign",
          "image":"ae.png",
          "chars":[
-            "\u00AE",
-            "\uF7EF"
+            "\u00AE"
          ]
       },
       {
@@ -146,8 +45,7 @@
          "id":"trade_mark_sign",
          "image":"2122.png",
          "chars":[
-            "\u2122",
-            "\uFBD7"
+            "\u2122"
          ]
       },
       {
@@ -179,8 +77,7 @@
          "id":"",
          "image":"2196.png",
          "chars":[
-            "\u2196",
-            "\uF7D7"
+            "\u2196"
          ]
       },
       {
@@ -188,8 +85,7 @@
          "id":"",
          "image":"2197.png",
          "chars":[
-            "\u2197",
-            "\uF7D6"
+            "\u2197"
          ]
       },
       {
@@ -197,8 +93,7 @@
          "id":"",
          "image":"2198.png",
          "chars":[
-            "\u2198",
-            "\uF7D8"
+            "\u2198"
          ]
       },
       {
@@ -206,8 +101,7 @@
          "id":"",
          "image":"2199.png",
          "chars":[
-            "\u2199",
-            "\uF7D9"
+            "\u2199"
          ]
       },
       {
@@ -247,8 +141,7 @@
          "id":"",
          "image":"23E9.png",
          "chars":[
-            "\u23E9",
-            "\uF7DC"
+            "\u23E9"
          ]
       },
       {
@@ -256,8 +149,7 @@
          "id":"",
          "image":"23EA.png",
          "chars":[
-            "\u23EA",
-            "\uF7DD"
+            "\u23EA"
          ]
       },
       {
@@ -321,8 +213,7 @@
          "id":"",
          "image":"25B6.png",
          "chars":[
-            "\u25B6",
-            "\uF7DA"
+            "\u25B6"
          ]
       },
       {
@@ -330,8 +221,7 @@
          "id":"",
          "image":"25C0.png",
          "chars":[
-            "\u25C0",
-            "\uF7DB"
+            "\u25C0"
          ]
       },
       {
@@ -371,8 +261,7 @@
          "id":"",
          "image":"2600.png",
          "chars":[
-            "\u2600",
-            "\uF98B"
+            "\uE04A"
          ]
       },
       {
@@ -380,8 +269,7 @@
          "id":"",
          "image":"2601.png",
          "chars":[
-            "\u2601",
-            "\uF98A"
+            "\uE049"
          ]
       },
       {
@@ -389,8 +277,7 @@
          "id":"",
          "image":"260E.png",
          "chars":[
-            "\u260E",
-            "\uF949"
+            "\uE009"
          ]
       },
       {
@@ -406,8 +293,7 @@
          "id":"",
          "image":"2614.png",
          "chars":[
-            "\u2614",
-            "\uF98C"
+            "\u2614"
          ]
       },
       {
@@ -415,8 +301,7 @@
          "id":"",
          "image":"2615.png",
          "chars":[
-            "\u2615",
-            "\uF986"
+            "\u2615"
          ]
       },
       {
@@ -424,8 +309,7 @@
          "id":"",
          "image":"261D.png",
          "chars":[
-            "\u261D",
-            "\uF94F"
+            "\u261D"
          ]
       },
       {
@@ -434,7 +318,7 @@
          "image":"263A.png",
          "chars":[
             "\u263A",
-            "\uFB54"
+            "\uE414"
          ]
       },
       {
@@ -442,8 +326,7 @@
          "id":"",
          "image":"2648.png",
          "chars":[
-            "\u2648",
-            "\uF7DF"
+            "\u2648"
          ]
       },
       {
@@ -451,8 +334,7 @@
          "id":"",
          "image":"2649.png",
          "chars":[
-            "\u2649",
-            "\uF7E0"
+            "\u2649"
          ]
       },
       {
@@ -460,8 +342,7 @@
          "id":"",
          "image":"264A.png",
          "chars":[
-            "\u264A",
-            "\uF7E1"
+            "\u264A"
          ]
       },
       {
@@ -469,8 +350,7 @@
          "id":"",
          "image":"264B.png",
          "chars":[
-            "\u264B",
-            "\uF7E2"
+            "\u264B"
          ]
       },
       {
@@ -478,8 +358,7 @@
          "id":"",
          "image":"264C.png",
          "chars":[
-            "\u264C",
-            "\uF7E3"
+            "\u264C"
          ]
       },
       {
@@ -487,8 +366,7 @@
          "id":"",
          "image":"264D.png",
          "chars":[
-            "\u264D",
-            "\uF7E4"
+            "\u264D"
          ]
       },
       {
@@ -496,8 +374,7 @@
          "id":"",
          "image":"264E.png",
          "chars":[
-            "\u264E",
-            "\uF7E5"
+            "\u264E"
          ]
       },
       {
@@ -505,8 +382,7 @@
          "id":"",
          "image":"264F.png",
          "chars":[
-            "\u264F",
-            "\uF7E6"
+            "\u264F"
          ]
       },
       {
@@ -514,8 +390,7 @@
          "id":"",
          "image":"2650.png",
          "chars":[
-            "\u2650",
-            "\uF7E7"
+            "\u2650"
          ]
       },
       {
@@ -523,8 +398,7 @@
          "id":"",
          "image":"2651.png",
          "chars":[
-            "\u2651",
-            "\uF7E8"
+            "\u2651"
          ]
       },
       {
@@ -532,8 +406,7 @@
          "id":"",
          "image":"2652.png",
          "chars":[
-            "\u2652",
-            "\uF7E9"
+            "\u2652"
          ]
       },
       {
@@ -541,8 +414,7 @@
          "id":"",
          "image":"2653.png",
          "chars":[
-            "\u2653",
-            "\uF7EA"
+            "\u2653"
          ]
       },
       {
@@ -550,8 +422,7 @@
          "id":"",
          "image":"2660.png",
          "chars":[
-            "\u2660",
-            "\uF7AE"
+            "\u2660"
          ]
       },
       {
@@ -559,8 +430,7 @@
          "id":"",
          "image":"2663.png",
          "chars":[
-            "\u2663",
-            "\uF7AF"
+            "\u2663"
          ]
       },
       {
@@ -568,8 +438,7 @@
          "id":"",
          "image":"2665.png",
          "chars":[
-            "\u2665",
-            "\uF7AC"
+            "\u2665"
          ]
       },
       {
@@ -577,8 +446,7 @@
          "id":"",
          "image":"2666.png",
          "chars":[
-            "\u2666",
-            "\uF7AD"
+            "\u2666"
          ]
       },
       {
@@ -586,8 +454,7 @@
          "id":"",
          "image":"2668.png",
          "chars":[
-            "\u2668",
-            "\uF763"
+            "\u2668"
          ]
       },
       {
@@ -603,8 +470,7 @@
          "id":"",
          "image":"267F.png",
          "chars":[
-            "\u267F",
-            "\uF7AA"
+            "\u267F"
          ]
       },
       {
@@ -620,8 +486,7 @@
          "id":"",
          "image":"26A0.png",
          "chars":[
-            "\u26A0",
-            "\uF7F2"
+            "\u26A0"
          ]
       },
       {
@@ -629,8 +494,7 @@
          "id":"",
          "image":"26A1.png",
          "chars":[
-            "\u26A1",
-            "\uF77D"
+            "\uE13D"
          ]
       },
       {
@@ -654,8 +518,7 @@
          "id":"",
          "image":"26BD.png",
          "chars":[
-            "\u26BD",
-            "\uF958"
+            "\u26BD"
          ]
       },
       {
@@ -663,8 +526,7 @@
          "id":"",
          "image":"26BE.png",
          "chars":[
-            "\u26BE",
-            "\uF956"
+            "\u26BE"
          ]
       },
       {
@@ -672,8 +534,7 @@
          "id":"",
          "image":"26C4.png",
          "chars":[
-            "\u26C4",
-            "\uF989"
+            "\u26C4"
          ]
       },
       {
@@ -689,8 +550,7 @@
          "id":"",
          "image":"26CE.png",
          "chars":[
-            "\u26CE",
-            "\uF7EB"
+            "\u26CE"
          ]
       },
       {
@@ -706,8 +566,7 @@
          "id":"",
          "image":"26EA.png",
          "chars":[
-            "\u26EA",
-            "\uF977"
+            "\u26EA"
          ]
       },
       {
@@ -715,8 +574,7 @@
          "id":"",
          "image":"26F2.png",
          "chars":[
-            "\u26F2",
-            "\uF761"
+            "\u26F2"
          ]
       },
       {
@@ -724,8 +582,7 @@
          "id":"",
          "image":"26F3.png",
          "chars":[
-            "\u26F3",
-            "\uF954"
+            "\u26F3"
          ]
       },
       {
@@ -733,8 +590,7 @@
          "id":"",
          "image":"26F5.png",
          "chars":[
-            "\u26F5",
-            "\uF95C"
+            "\u26F5"
          ]
       },
       {
@@ -742,8 +598,7 @@
          "id":"",
          "image":"26FA.png",
          "chars":[
-            "\u26FA",
-            "\uF762"
+            "\u26FA"
          ]
       },
       {
@@ -751,8 +606,7 @@
          "id":"",
          "image":"26FD.png",
          "chars":[
-            "\u26FD",
-            "\uF97A"
+            "\u26FD"
          ]
       },
       {
@@ -760,8 +614,7 @@
          "id":"",
          "image":"2702.png",
          "chars":[
-            "\u2702",
-            "\uF9B3"
+            "\u2702"
          ]
       },
       {
@@ -777,8 +630,7 @@
          "id":"",
          "image":"2708.png",
          "chars":[
-            "\u2708",
-            "\uF95D"
+            "\u2708"
          ]
       },
       {
@@ -794,8 +646,7 @@
          "id":"",
          "image":"270A.png",
          "chars":[
-            "\u270A",
-            "\uF950"
+            "\u270A"
          ]
       },
       {
@@ -803,8 +654,7 @@
          "id":"",
          "image":"270B.png",
          "chars":[
-            "\u270B",
-            "\uF952"
+            "\u270B"
          ]
       },
       {
@@ -812,8 +662,7 @@
          "id":"",
          "image":"270C.png",
          "chars":[
-            "\u270C",
-            "\uF951"
+            "\u270C"
          ]
       },
       {
@@ -853,8 +702,7 @@
          "id":"",
          "image":"2728.png",
          "chars":[
-            "\u2728",
-            "\uF9CE"
+            "\u2728"
          ]
       },
       {
@@ -862,8 +710,7 @@
          "id":"",
          "image":"2733.png",
          "chars":[
-            "\u2733",
-            "\uF7A6"
+            "\u2733"
          ]
       },
       {
@@ -871,8 +718,7 @@
          "id":"",
          "image":"2734.png",
          "chars":[
-            "\u2734",
-            "\uF7A5"
+            "\u2734"
          ]
       },
       {
@@ -896,8 +742,7 @@
          "id":"",
          "image":"274C.png",
          "chars":[
-            "\u274C",
-            "\uF9D3"
+            "\u274C"
          ]
       },
       {
@@ -913,8 +758,7 @@
          "id":"",
          "image":"2753.png",
          "chars":[
-            "\u2753",
-            "\uF960"
+            "\u2753"
          ]
       },
       {
@@ -922,8 +766,7 @@
          "id":"",
          "image":"2754.png",
          "chars":[
-            "\u2754",
-            "\uF9D6"
+            "\u2754"
          ]
       },
       {
@@ -931,8 +774,15 @@
          "id":"",
          "image":"2755.png",
          "chars":[
-            "\u2755",
-            "\uF9D7"
+            "\u2755"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"2757.png",
+         "chars":[
+            "\u2757"
          ]
       },
       {
@@ -940,8 +790,7 @@
          "id":"",
          "image":"2762.png",
          "chars":[
-            "\u2762",
-            "\uF961"
+            "\u2762"
          ]
       },
       {
@@ -949,8 +798,7 @@
          "id":"",
          "image":"2764.png",
          "chars":[
-            "\u2764",
-            "\uF962"
+            "\u2764"
          ]
       },
       {
@@ -982,8 +830,7 @@
          "id":"",
          "image":"27A1.png",
          "chars":[
-            "\u27A1",
-            "\uF7D4"
+            "\u27A1"
          ]
       },
       {
@@ -999,8 +846,7 @@
          "id":"",
          "image":"27BF.png",
          "chars":[
-            "\u27BF",
-            "\uF7B1"
+            "\u27BF"
          ]
       },
       {
@@ -1024,8 +870,7 @@
          "id":"",
          "image":"2B05.png",
          "chars":[
-            "\u2B05",
-            "\uF7D5"
+            "\u2B05"
          ]
       },
       {
@@ -1033,8 +878,7 @@
          "id":"",
          "image":"2B06.png",
          "chars":[
-            "\u2B06",
-            "\uF7D2"
+            "\u2B06"
          ]
       },
       {
@@ -1042,8 +886,7 @@
          "id":"",
          "image":"2B07.png",
          "chars":[
-            "\u2B07",
-            "\uF7D3"
+            "\u2B07"
          ]
       },
       {
@@ -1067,8 +910,7 @@
          "id":"",
          "image":"2B50.png",
          "chars":[
-            "\u2B50",
-            "\uF9CF"
+            "\u2B50"
          ]
       },
       {
@@ -1076,8 +918,7 @@
          "id":"",
          "image":"2B55.png",
          "chars":[
-            "\u2B55",
-            "\uF9D2"
+            "\u2B55"
          ]
       },
       {
@@ -1093,8 +934,7 @@
          "id":"",
          "image":"303D.png",
          "chars":[
-            "\u303D",
-            "\uF76C"
+            "\u303D"
          ]
       },
       {
@@ -1102,8 +942,7 @@
          "id":"",
          "image":"3297.png",
          "chars":[
-            "\u3297",
-            "\uF9AD"
+            "\u3297"
          ]
       },
       {
@@ -1111,23 +950,29 @@
          "id":"",
          "image":"3299.png",
          "chars":[
-            "\u3299",
-            "\uF9B5"
+            "\u3299"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"e50a.png",
          "chars":[
-            "\uD83C\uDC04",
-            "\uF76D"
+            "\uE50A"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f004.png",
+         "chars":[
+            "\uD83C\uDC04"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f0cf.png",
          "chars":[
             "\uD83C\uDCCF"
          ]
@@ -1135,52 +980,47 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f170.png",
          "chars":[
-            "\uD83C\uDD70",
-            "\uFBD2"
+            "\uD83C\uDD70"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f171.png",
          "chars":[
-            "\uD83C\uDD71",
-            "\uFBD3"
+            "\uD83C\uDD71"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f17e.png",
          "chars":[
-            "\uD83C\uDD7E",
-            "\uFBD5"
+            "\uD83C\uDD7E"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f17f.png",
          "chars":[
-            "\uD83C\uDD7F",
-            "\uF790"
+            "\uD83C\uDD7F"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f18e.png",
          "chars":[
-            "\uD83C\uDD8E",
-            "\uFBD4"
+            "\uD83C\uDD8E"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f191.png",
          "chars":[
             "\uD83C\uDD91"
          ]
@@ -1188,16 +1028,15 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f192.png",
          "chars":[
-            "\uD83C\uDD92",
-            "\uF7B4"
+            "\uD83C\uDD92"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f193.png",
          "chars":[
             "\uD83C\uDD93"
          ]
@@ -1205,25 +1044,23 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f194.png",
          "chars":[
-            "\uD83C\uDD94",
-            "\uF7C9"
+            "\uD83C\uDD94"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f195.png",
          "chars":[
-            "\uD83C\uDD95",
-            "\uF7B2"
+            "\uD83C\uDD95"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f196.png",
          "chars":[
             "\uD83C\uDD96"
          ]
@@ -1231,16 +1068,15 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f197.png",
          "chars":[
-            "\uD83C\uDD97",
-            "\uF7ED"
+            "\uD83C\uDD97"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f198.png",
          "chars":[
             "\uD83C\uDD98"
          ]
@@ -1248,151 +1084,55 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f199.png",
          "chars":[
-            "\uD83C\uDD99",
-            "\uF7B3"
+            "\uD83C\uDD99"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f19a.png",
          "chars":[
-            "\uD83C\uDD9A",
-            "\uF76E"
+            "\uD83C\uDD9A"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f201.png",
          "chars":[
-            "\uD83C\uDDE8\uD83C\uDDF3",
-            "\uFBB3"
+            "\uD83C\uDE01"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f202.png",
          "chars":[
-            "\uD83C\uDDE9\uD83C\uDDEA",
-            "\uFBAE"
+            "\uD83C\uDE02"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f21a.png",
          "chars":[
-            "\uD83C\uDDEA\uD83C\uDDF8",
-            "\uFBB1"
+            "\uD83C\uDE1A"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f22f.png",
          "chars":[
-            "\uD83C\uDDEB\uD83C\uDDF7",
-            "\uFBAD"
+            "\uD83C\uDE2F"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
-         "chars":[
-            "\uD83C\uDDEE\uD83C\uDDF9",
-            "\uFBAF"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"",
-         "chars":[
-            "\uD83C\uDDEF\uD83C\uDDF5",
-            "\uFBAB"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"",
-         "chars":[
-            "\uD83C\uDDF0\uD83C\uDDF7",
-            "\uFBB4"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"",
-         "chars":[
-            "\uD83C\uDDF7\uD83C\uDDFA",
-            "\uFBB2"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"",
-         "chars":[
-            "\uD83C\uDDFA\uD83C\uDDF0",
-            "\uFBB0"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"",
-         "chars":[
-            "\uD83C\uDDFA\uD83C\uDDF8",
-            "\uFBAC"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"",
-         "chars":[
-            "\uD83C\uDE01",
-            "\uF7A3"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"",
-         "chars":[
-            "\uD83C\uDE02",
-            "\uF7C8"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"",
-         "chars":[
-            "\uD83C\uDE1A",
-            "\uF7B6"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"",
-         "chars":[
-            "\uD83C\uDE2F",
-            "\uF7CC"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"",
+         "image":"1f232.png",
          "chars":[
             "\uD83C\uDE32"
          ]
@@ -1400,16 +1140,15 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f233.png",
          "chars":[
-            "\uD83C\uDE33",
-            "\uF7CB"
+            "\uD83C\uDE33"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f234.png",
          "chars":[
             "\uD83C\uDE34"
          ]
@@ -1417,70 +1156,63 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f235.png",
          "chars":[
-            "\uD83C\uDE35",
-            "\uF7CA"
+            "\uD83C\uDE35"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f236.png",
          "chars":[
-            "\uD83C\uDE36",
-            "\uF7B5"
+            "\uD83C\uDE36"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f237.png",
          "chars":[
-            "\uD83C\uDE37",
-            "\uF7B7"
+            "\uD83C\uDE37"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f238.png",
          "chars":[
-            "\uD83C\uDE38",
-            "\uF7B8"
+            "\uD83C\uDE38"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f239.png",
          "chars":[
-            "\uD83C\uDE39",
-            "\uF7C7"
+            "\uD83C\uDE39"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f23a.png",
          "chars":[
-            "\uD83C\uDE3A",
-            "\uF7CD"
+            "\uD83C\uDE3A"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f250.png",
          "chars":[
-            "\uD83C\uDE50",
-            "\uF7C6"
+            "\uD83C\uDE50"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f251.png",
          "chars":[
             "\uD83C\uDE51"
          ]
@@ -1488,16 +1220,15 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f300.png",
          "chars":[
-            "\uD83C\uDF00",
-            "\uFB84"
+            "\uD83C\uDF00"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f301.png",
          "chars":[
             "\uD83C\uDF01"
          ]
@@ -1505,70 +1236,63 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f302.png",
          "chars":[
-            "\uD83C\uDF02",
-            "\uFB7C"
+            "\uD83C\uDF02"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f303.png",
          "chars":[
-            "\uD83C\uDF03",
-            "\uFB8C"
+            "\uD83C\uDF03"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f304.png",
          "chars":[
-            "\uD83C\uDF04",
-            "\uF98E"
+            "\uD83C\uDF04"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f305.png",
          "chars":[
-            "\uD83C\uDF05",
-            "\uFB8A"
+            "\uD83C\uDF05"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f306.png",
          "chars":[
-            "\uD83C\uDF06",
-            "\uF787"
+            "\uD83C\uDF06"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f307.png",
          "chars":[
-            "\uD83C\uDF07",
-            "\uFB8B"
+            "\uD83C\uDF07"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f308.png",
          "chars":[
-            "\uD83C\uDF08",
-            "\uFB8D"
+            "\uD83C\uDF08"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f309.png",
          "chars":[
             "\uD83C\uDF09"
          ]
@@ -1576,16 +1300,15 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f30a.png",
          "chars":[
-            "\uD83C\uDF0A",
-            "\uFB7E"
+            "\uD83C\uDF0A"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f30b.png",
          "chars":[
             "\uD83C\uDF0B"
          ]
@@ -1593,7 +1316,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f30c.png",
          "chars":[
             "\uD83C\uDF0C"
          ]
@@ -1601,7 +1324,23 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f30d.png",
+         "chars":[
+            "\uD83C\uDF0D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f30e.png",
+         "chars":[
+            "\uD83C\uDF0E"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f30f.png",
          "chars":[
             "\uD83C\uDF0F"
          ]
@@ -1609,7 +1348,15 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f310.png",
+         "chars":[
+            "\uD83C\uDF10"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f311.png",
          "chars":[
             "\uD83C\uDF11"
          ]
@@ -1617,7 +1364,15 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f312.png",
+         "chars":[
+            "\uD83C\uDF12"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f313.png",
          "chars":[
             "\uD83C\uDF13"
          ]
@@ -1625,7 +1380,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f314.png",
          "chars":[
             "\uD83C\uDF14"
          ]
@@ -1633,7 +1388,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f315.png",
          "chars":[
             "\uD83C\uDF15"
          ]
@@ -1641,16 +1396,47 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f316.png",
          "chars":[
-            "\uD83C\uDF19",
-            "\uF98D"
+            "\uD83C\uDF16"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f317.png",
+         "chars":[
+            "\uD83C\uDF17"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f318.png",
+         "chars":[
+            "\uD83C\uDF18"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f319.png",
+         "chars":[
+            "\uD83C\uDF19"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f31a.png",
+         "chars":[
+            "\uD83C\uDF1A"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f31b.png",
          "chars":[
             "\uD83C\uDF1B"
          ]
@@ -1658,16 +1444,39 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f31c.png",
          "chars":[
-            "\uD83C\uDF1F",
-            "\uF9D5"
+            "\uD83C\uDF1C"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f31d.png",
+         "chars":[
+            "\uD83C\uDF1D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f31e.png",
+         "chars":[
+            "\uD83C\uDF1E"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f31f.png",
+         "chars":[
+            "\uD83C\uDF1F"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f320.png",
          "chars":[
             "\uD83C\uDF20"
          ]
@@ -1675,7 +1484,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f330.png",
          "chars":[
             "\uD83C\uDF30"
          ]
@@ -1683,7 +1492,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f331.png",
          "chars":[
             "\uD83C\uDF31"
          ]
@@ -1691,70 +1500,79 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f332.png",
          "chars":[
-            "\uD83C\uDF34",
-            "\uF9A7"
+            "\uD83C\uDF32"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f333.png",
          "chars":[
-            "\uD83C\uDF35",
-            "\uF9A8"
+            "\uD83C\uDF33"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f334.png",
          "chars":[
-            "\uD83C\uDF37",
-            "\uF9A4"
+            "\uD83C\uDF34"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f335.png",
          "chars":[
-            "\uD83C\uDF38",
-            "\uF970"
+            "\uD83C\uDF35"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f337.png",
          "chars":[
-            "\uD83C\uDF39",
-            "\uF972"
+            "\uD83C\uDF37"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f338.png",
          "chars":[
-            "\uD83C\uDF3A",
-            "\uF9A3"
+            "\uD83C\uDF38"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f339.png",
          "chars":[
-            "\uD83C\uDF3B",
-            "\uF9A5"
+            "\uD83C\uDF39"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f33a.png",
+         "chars":[
+            "\uD83C\uDF3A"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f33b.png",
+         "chars":[
+            "\uD83C\uDF3B"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f33c.png",
          "chars":[
             "\uD83C\uDF3C"
          ]
@@ -1762,7 +1580,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f33d.png",
          "chars":[
             "\uD83C\uDF3D"
          ]
@@ -1770,16 +1588,15 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f33e.png",
          "chars":[
-            "\uD83C\uDF3E",
-            "\uFB85"
+            "\uD83C\uDF3E"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f33f.png",
          "chars":[
             "\uD83C\uDF3F"
          ]
@@ -1787,43 +1604,39 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f340.png",
          "chars":[
-            "\uD83C\uDF40",
-            "\uF750"
+            "\uD83C\uDF40"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f341.png",
          "chars":[
-            "\uD83C\uDF41",
-            "\uF758"
+            "\uD83C\uDF41"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f342.png",
          "chars":[
-            "\uD83C\uDF42",
-            "\uF759"
+            "\uD83C\uDF42"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f343.png",
          "chars":[
-            "\uD83C\uDF43",
-            "\uFB88"
+            "\uD83C\uDF43"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f344.png",
          "chars":[
             "\uD83C\uDF44"
          ]
@@ -1831,25 +1644,23 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f345.png",
          "chars":[
-            "\uD83C\uDF45",
-            "\uF9E9"
+            "\uD83C\uDF45"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f346.png",
          "chars":[
-            "\uD83C\uDF46",
-            "\uF9EA"
+            "\uD83C\uDF46"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f347.png",
          "chars":[
             "\uD83C\uDF47"
          ]
@@ -1857,7 +1668,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f348.png",
          "chars":[
             "\uD83C\uDF48"
          ]
@@ -1865,25 +1676,31 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f349.png",
          "chars":[
-            "\uD83C\uDF49",
-            "\uF9E8"
+            "\uD83C\uDF49"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f34a.png",
          "chars":[
-            "\uD83C\uDF4A",
-            "\uF9E6"
+            "\uD83C\uDF4A"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f34b.png",
+         "chars":[
+            "\uD83C\uDF4B"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f34c.png",
          "chars":[
             "\uD83C\uDF4C"
          ]
@@ -1891,7 +1708,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f34d.png",
          "chars":[
             "\uD83C\uDF4D"
          ]
@@ -1899,16 +1716,15 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f34e.png",
          "chars":[
-            "\uD83C\uDF4E",
-            "\uF9E5"
+            "\uD83C\uDF4E"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f34f.png",
          "chars":[
             "\uD83C\uDF4F"
          ]
@@ -1916,7 +1732,15 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f350.png",
+         "chars":[
+            "\uD83C\uDF50"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f351.png",
          "chars":[
             "\uD83C\uDF51"
          ]
@@ -1924,7 +1748,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f352.png",
          "chars":[
             "\uD83C\uDF52"
          ]
@@ -1932,25 +1756,23 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f353.png",
          "chars":[
-            "\uD83C\uDF53",
-            "\uF9E7"
+            "\uD83C\uDF53"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f354.png",
          "chars":[
-            "\uD83C\uDF54",
-            "\uF760"
+            "\uD83C\uDF54"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f355.png",
          "chars":[
             "\uD83C\uDF55"
          ]
@@ -1958,7 +1780,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f356.png",
          "chars":[
             "\uD83C\uDF56"
          ]
@@ -1966,7 +1788,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f357.png",
          "chars":[
             "\uD83C\uDF57"
          ]
@@ -1974,79 +1796,71 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f358.png",
          "chars":[
-            "\uD83C\uDF58",
-            "\uF9DD"
+            "\uD83C\uDF58"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f359.png",
          "chars":[
-            "\uD83C\uDF59",
-            "\uF9E2"
+            "\uD83C\uDF59"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f35A.png",
          "chars":[
-            "\uD83C\uDF5A",
-            "\uF9DE"
+            "\uD83C\uDF5A"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f35B.png",
          "chars":[
-            "\uD83C\uDF5B",
-            "\uF9E1"
+            "\uD83C\uDF5B"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f35C.png",
          "chars":[
-            "\uD83C\uDF5C",
-            "\uF9E0"
+            "\uD83C\uDF5C"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f35D.png",
          "chars":[
-            "\uD83C\uDF5D",
-            "\uF9DF"
+            "\uD83C\uDF5D"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f35E.png",
          "chars":[
-            "\uD83C\uDF5E",
-            "\uF9D9"
+            "\uD83C\uDF5E"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f35F.png",
          "chars":[
-            "\uD83C\uDF5F",
-            "\uF9DB"
+            "\uD83C\uDF5F"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f360.png",
          "chars":[
             "\uD83C\uDF60"
          ]
@@ -2054,34 +1868,31 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f361.png",
          "chars":[
-            "\uD83C\uDF61",
-            "\uF9DC"
+            "\uD83C\uDF61"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f362.png",
          "chars":[
-            "\uD83C\uDF62",
-            "\uF9E3"
+            "\uD83C\uDF62"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f363.png",
          "chars":[
-            "\uD83C\uDF63",
-            "\uF9E4"
+            "\uD83C\uDF63"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f364.png",
          "chars":[
             "\uD83C\uDF64"
          ]
@@ -2089,7 +1900,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f365.png",
          "chars":[
             "\uD83C\uDF65"
          ]
@@ -2097,25 +1908,23 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f366.png",
          "chars":[
-            "\uD83C\uDF66",
-            "\uF9DA"
+            "\uD83C\uDF66"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f367.png",
          "chars":[
-            "\uD83C\uDF67",
-            "\uFB80"
+            "\uD83C\uDF67"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f368.png",
          "chars":[
             "\uD83C\uDF68"
          ]
@@ -2123,7 +1932,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f369.png",
          "chars":[
             "\uD83C\uDF69"
          ]
@@ -2131,7 +1940,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f36A.png",
          "chars":[
             "\uD83C\uDF6A"
          ]
@@ -2139,7 +1948,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f36B.png",
          "chars":[
             "\uD83C\uDF6B"
          ]
@@ -2147,7 +1956,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f36C.png",
          "chars":[
             "\uD83C\uDF6C"
          ]
@@ -2155,7 +1964,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f36D.png",
          "chars":[
             "\uD83C\uDF6D"
          ]
@@ -2163,7 +1972,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f36E.png",
          "chars":[
             "\uD83C\uDF6E"
          ]
@@ -2171,7 +1980,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f36F.png",
          "chars":[
             "\uD83C\uDF6F"
          ]
@@ -2179,70 +1988,63 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f370.png",
          "chars":[
-            "\uD83C\uDF70",
-            "\uF987"
+            "\uD83C\uDF70"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f371.png",
          "chars":[
-            "\uD83C\uDF71",
-            "\uF9EC"
+            "\uD83C\uDF71"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f372.png",
          "chars":[
-            "\uD83C\uDF72",
-            "\uF9ED"
+            "\uD83C\uDF72"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f373.png",
          "chars":[
-            "\uD83C\uDF73",
-            "\uF788"
+            "\uD83C\uDF73"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f374.png",
          "chars":[
-            "\uD83C\uDF74",
-            "\uF984"
+            "\uD83C\uDF74"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f375.png",
          "chars":[
-            "\uD83C\uDF75",
-            "\uF9D8"
+            "\uD83C\uDF75"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f376.png",
          "chars":[
-            "\uD83C\uDF76",
-            "\uF9AB"
+            "\uD83C\uDF76"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f377.png",
          "chars":[
             "\uD83C\uDF77"
          ]
@@ -2250,16 +2052,15 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f378.png",
          "chars":[
-            "\uD83C\uDF78",
-            "\uF985"
+            "\uD83C\uDF78"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f379.png",
          "chars":[
             "\uD83C\uDF79"
          ]
@@ -2267,115 +2068,111 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f37A.png",
          "chars":[
-            "\uD83C\uDF7A",
-            "\uF988"
+            "\uD83C\uDF7A"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f37B.png",
          "chars":[
-            "\uD83C\uDF7B",
-            "\uF9AC"
+            "\uD83C\uDF7B"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f37c.png",
          "chars":[
-            "\uD83C\uDF80",
-            "\uF9B4"
+            "\uD83C\uDF7C"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f380.png",
          "chars":[
-            "\uD83C\uDF81",
-            "\uF752"
+            "\uD83C\uDF80"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f381.png",
          "chars":[
-            "\uD83C\uDF82",
-            "\uF9EB"
+            "\uD83C\uDF81"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f382.png",
          "chars":[
-            "\uD83C\uDF83",
-            "\uFB86"
+            "\uD83C\uDF82"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f383.png",
          "chars":[
-            "\uD83C\uDF84",
-            "\uF973"
+            "\uD83C\uDF83"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f384.png",
          "chars":[
-            "\uD83C\uDF85",
-            "\uFB89"
+            "\uD83C\uDF84"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f385.png",
          "chars":[
-            "\uD83C\uDF86",
-            "\uF757"
+            "\uD83C\uDF85"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f386.png",
          "chars":[
-            "\uD83C\uDF87",
-            "\uFB81"
+            "\uD83C\uDF86"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f387.png",
          "chars":[
-            "\uD83C\uDF88",
-            "\uF9B0"
+            "\uD83C\uDF87"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f388.png",
          "chars":[
-            "\uD83C\uDF89",
-            "\uF9B2"
+            "\uD83C\uDF88"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f389.png",
+         "chars":[
+            "\uD83C\uDF89"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f38A.png",
          "chars":[
             "\uD83C\uDF8A"
          ]
@@ -2383,7 +2180,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f38B.png",
          "chars":[
             "\uD83C\uDF8B"
          ]
@@ -2391,79 +2188,71 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f38C.png",
          "chars":[
-            "\uD83C\uDF8C",
-            "\uF784"
+            "\uD83C\uDF8C"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f38D.png",
          "chars":[
-            "\uD83C\uDF8D",
-            "\uFB76"
+            "\uD83C\uDF8D"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f38E.png",
          "chars":[
-            "\uD83C\uDF8E",
-            "\uFB78"
+            "\uD83C\uDF8E"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f38F.png",
          "chars":[
-            "\uD83C\uDF8F",
-            "\uFB7B"
+            "\uD83C\uDF8F"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f390.png",
          "chars":[
-            "\uD83C\uDF90",
-            "\uFB83"
+            "\uD83C\uDF90"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f391.png",
          "chars":[
-            "\uD83C\uDF91",
-            "\uFB87"
+            "\uD83C\uDF91"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f392.png",
          "chars":[
-            "\uD83C\uDF92",
-            "\uFB7A"
+            "\uD83C\uDF92"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f393.png",
          "chars":[
-            "\uD83C\uDF93",
-            "\uFB79"
+            "\uD83C\uDF93"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3A0.png",
          "chars":[
             "\uD83C\uDFA0"
          ]
@@ -2471,25 +2260,23 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3A1.png",
          "chars":[
-            "\uD83C\uDFA1",
-            "\uF764"
+            "\uD83C\uDFA1"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3A2.png",
          "chars":[
-            "\uD83C\uDFA2",
-            "\uFB73"
+            "\uD83C\uDFA2"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3A3.png",
          "chars":[
             "\uD83C\uDFA3"
          ]
@@ -2497,61 +2284,55 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3A4.png",
          "chars":[
-            "\uD83C\uDFA4",
-            "\uF97C"
+            "\uD83C\uDFA4"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3A5.png",
          "chars":[
-            "\uD83C\uDFA5",
-            "\uF97D"
+            "\uD83C\uDFA5"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3A6.png",
          "chars":[
-            "\uD83C\uDFA6",
-            "\uFBA7"
+            "\uD83C\uDFA6"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3A7.png",
          "chars":[
-            "\uD83C\uDFA7",
-            "\uF9AA"
+            "\uD83C\uDFA7"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3A8.png",
          "chars":[
-            "\uD83C\uDFA8",
-            "\uFBA2"
+            "\uD83C\uDFA8"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3A9.png",
          "chars":[
-            "\uD83C\uDFA9",
-            "\uFBA3"
+            "\uD83C\uDFA9"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3AA.png",
          "chars":[
             "\uD83C\uDFAA"
          ]
@@ -2559,25 +2340,23 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3AB.png",
          "chars":[
-            "\uD83C\uDFAB",
-            "\uF765"
+            "\uD83C\uDFAB"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3AC.png",
          "chars":[
-            "\uD83C\uDFAC",
-            "\uF9C4"
+            "\uD83C\uDFAC"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3AD.png",
          "chars":[
             "\uD83C\uDFAD"
          ]
@@ -2585,7 +2364,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3AE.png",
          "chars":[
             "\uD83C\uDFAE"
          ]
@@ -2593,34 +2372,31 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3AF.png",
          "chars":[
-            "\uD83C\uDFAF",
-            "\uF770"
+            "\uD83C\uDFAF"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3B0.png",
          "chars":[
-            "\uD83C\uDFB0",
-            "\uF773"
+            "\uD83C\uDFB0"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3B1.png",
          "chars":[
-            "\uD83C\uDFB1",
-            "\uFB6C"
+            "\uD83C\uDFB1"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3B2.png",
          "chars":[
             "\uD83C\uDFB2"
          ]
@@ -2628,7 +2404,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3B3.png",
          "chars":[
             "\uD83C\uDFB3"
          ]
@@ -2636,7 +2412,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3B4.png",
          "chars":[
             "\uD83C\uDFB4"
          ]
@@ -2644,43 +2420,39 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3B5.png",
          "chars":[
-            "\uD83C\uDFB5",
-            "\uF97E"
+            "\uD83C\uDFB5"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3B6.png",
          "chars":[
-            "\uD83C\uDFB6",
-            "\uF9C6"
+            "\uD83C\uDFB6"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3B7.png",
          "chars":[
-            "\uD83C\uDFB7",
-            "\uF981"
+            "\uD83C\uDFB7"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3B8.png",
          "chars":[
-            "\uD83C\uDFB8",
-            "\uF982"
+            "\uD83C\uDFB8"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3B9.png",
          "chars":[
             "\uD83C\uDFB9"
          ]
@@ -2688,16 +2460,15 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3BA.png",
          "chars":[
-            "\uD83C\uDFBA",
-            "\uF983"
+            "\uD83C\uDFBA"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3BB.png",
          "chars":[
             "\uD83C\uDFBB"
          ]
@@ -2705,7 +2476,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3BC.png",
          "chars":[
             "\uD83C\uDFBC"
          ]
@@ -2713,7 +2484,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3BD.png",
          "chars":[
             "\uD83C\uDFBD"
          ]
@@ -2721,43 +2492,39 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3BE.png",
          "chars":[
-            "\uD83C\uDFBE",
-            "\uF955"
+            "\uD83C\uDFBE"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3BF.png",
          "chars":[
-            "\uD83C\uDFBF",
-            "\uF953"
+            "\uD83C\uDFBF"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3C0.png",
          "chars":[
-            "\uD83C\uDFC0",
-            "\uFB6A"
+            "\uD83C\uDFC0"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3C1.png",
          "chars":[
-            "\uD83C\uDFC1",
-            "\uF772"
+            "\uD83C\uDFC1"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3C2.png",
          "chars":[
             "\uD83C\uDFC2"
          ]
@@ -2765,61 +2532,71 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3C3.png",
          "chars":[
-            "\uD83C\uDFC3",
-            "\uF755"
+            "\uD83C\uDFC3"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3C4.png",
          "chars":[
-            "\uD83C\uDFC4",
-            "\uF957"
+            "\uD83C\uDFC4"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3C6.png",
          "chars":[
-            "\uD83C\uDFC6",
-            "\uF771"
+            "\uD83C\uDFC6"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3C7.png",
          "chars":[
-            "\uD83C\uDFC8",
-            "\uFB6B"
+            "\uD83C\uDFC7"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3C8.png",
          "chars":[
-            "\uD83C\uDFCA",
-            "\uFB6D"
+            "\uD83C\uDFC8"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3C9.png",
          "chars":[
-            "\uD83C\uDFE0",
-            "\uF976"
+            "\uD83C\uDFC9"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3CA.png",
+         "chars":[
+            "\uD83C\uDFCA"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f3E0.png",
+         "chars":[
+            "\uD83C\uDFE0"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f3E1.png",
          "chars":[
             "\uD83C\uDFE1"
          ]
@@ -2827,106 +2604,103 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3E2.png",
          "chars":[
-            "\uD83C\uDFE2",
-            "\uF978"
+            "\uD83C\uDFE2"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3E3.png",
          "chars":[
-            "\uD83C\uDFE3",
-            "\uF794"
+            "\uD83C\uDFE3"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3E4.png",
          "chars":[
-            "\uD83C\uDFE5",
-            "\uF796"
+            "\uD83C\uDFE4"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3E5.png",
          "chars":[
-            "\uD83C\uDFE6",
-            "\uF78E"
+            "\uD83C\uDFE5"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3E6.png",
          "chars":[
-            "\uD83C\uDFE7",
-            "\uF795"
+            "\uD83C\uDFE6"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3E7.png",
          "chars":[
-            "\uD83C\uDFE8",
-            "\uF799"
+            "\uD83C\uDFE7"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3E8.png",
          "chars":[
-            "\uD83C\uDFE9",
-            "\uFBA1"
+            "\uD83C\uDFE8"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3E9.png",
          "chars":[
-            "\uD83C\uDFEA",
-            "\uF797"
+            "\uD83C\uDFE9"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3EA.png",
          "chars":[
-            "\uD83C\uDFEB",
-            "\uF798"
+            "\uD83C\uDFEA"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3EB.png",
          "chars":[
-            "\uD83C\uDFEC",
-            "\uFBA4"
+            "\uD83C\uDFEB"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3EC.png",
          "chars":[
-            "\uD83C\uDFED",
-            "\uFBA8"
+            "\uD83C\uDFEC"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3ED.png",
+         "chars":[
+            "\uD83C\uDFED"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f3EE.png",
          "chars":[
             "\uD83C\uDFEE"
          ]
@@ -2934,25 +2708,119 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3EF.png",
          "chars":[
-            "\uD83C\uDFEF",
-            "\uFBA5"
+            "\uD83C\uDFEF"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f3F0.png",
          "chars":[
-            "\uD83C\uDFF0",
-            "\uFBA6"
+            "\uD83C\uDFF0"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f400.png",
+         "chars":[
+            "\uD83D\uDC00"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f401.png",
+         "chars":[
+            "\uD83D\uDC01"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f402.png",
+         "chars":[
+            "\uD83D\uDC02"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f403.png",
+         "chars":[
+            "\uD83D\uDC03"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f404.png",
+         "chars":[
+            "\uD83D\uDC04"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f405.png",
+         "chars":[
+            "\uD83D\uDC05"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f406.png",
+         "chars":[
+            "\uD83D\uDC06"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f407.png",
+         "chars":[
+            "\uD83D\uDC07"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f408.png",
+         "chars":[
+            "\uD83D\uDC08"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f409.png",
+         "chars":[
+            "\uD83D\uDC09"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f40a.png",
+         "chars":[
+            "\uD83D\uDC0A"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f40b.png",
+         "chars":[
+            "\uD83D\uDC0B"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f40C.png",
          "chars":[
             "\uD83D\uDC0C"
          ]
@@ -2960,97 +2828,127 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f40D.png",
          "chars":[
-            "\uD83D\uDC0D",
-            "\uFBCD"
+            "\uD83D\uDC0D"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f40E.png",
          "chars":[
-            "\uD83D\uDC0E",
-            "\uF774"
+            "\uD83D\uDC0E"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f40f.png",
          "chars":[
-            "\uD83D\uDC11",
-            "\uFBC9"
+            "\uD83D\uDC0F"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f410.png",
          "chars":[
-            "\uD83D\uDC12",
-            "\uFBC8"
+            "\uD83D\uDC10"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f411.png",
          "chars":[
-            "\uD83D\uDC14",
-            "\uFBCE"
+            "\uD83D\uDC11"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f412.png",
          "chars":[
-            "\uD83D\uDC17",
-            "\uFBCF"
+            "\uD83D\uDC12"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f413.png",
          "chars":[
-            "\uD83D\uDC18",
-            "\uFBC6"
+            "\uD83D\uDC13"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f414.png",
          "chars":[
-            "\uD83D\uDC19",
-            "\uF74A"
+            "\uD83D\uDC14"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f415.png",
          "chars":[
-            "\uD83D\uDC1A",
-            "\uFB82"
+            "\uD83D\uDC15"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f416.png",
          "chars":[
-            "\uD83D\uDC1B",
-            "\uFBC5"
+            "\uD83D\uDC16"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f417.png",
+         "chars":[
+            "\uD83D\uDC17"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f418.png",
+         "chars":[
+            "\uD83D\uDC18"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f419.png",
+         "chars":[
+            "\uD83D\uDC19"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f41A.png",
+         "chars":[
+            "\uD83D\uDC1A"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f41B.png",
+         "chars":[
+            "\uD83D\uDC1B"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f41C.png",
          "chars":[
             "\uD83D\uDC1C"
          ]
@@ -3058,7 +2956,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f41D.png",
          "chars":[
             "\uD83D\uDC1D"
          ]
@@ -3066,7 +2964,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f41E.png",
          "chars":[
             "\uD83D\uDC1E"
          ]
@@ -3074,25 +2972,23 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f41F.png",
          "chars":[
-            "\uD83D\uDC1F",
-            "\uF959"
+            "\uD83D\uDC1F"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f420.png",
          "chars":[
-            "\uD83D\uDC20",
-            "\uFBC2"
+            "\uD83D\uDC20"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f421.png",
          "chars":[
             "\uD83D\uDC21"
          ]
@@ -3100,7 +2996,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f422.png",
          "chars":[
             "\uD83D\uDC22"
          ]
@@ -3108,7 +3004,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f423.png",
          "chars":[
             "\uD83D\uDC23"
          ]
@@ -3116,16 +3012,15 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f424.png",
          "chars":[
-            "\uD83D\uDC24",
-            "\uFBC3"
+            "\uD83D\uDC24"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f425.png",
          "chars":[
             "\uD83D\uDC25"
          ]
@@ -3133,34 +3028,31 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f426.png",
          "chars":[
-            "\uD83D\uDC26",
-            "\uFBC1"
+            "\uD83D\uDC26"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f427.png",
          "chars":[
-            "\uD83D\uDC27",
-            "\uF996"
+            "\uD83D\uDC27"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f428.png",
          "chars":[
-            "\uD83D\uDC28",
-            "\uFBC7"
+            "\uD83D\uDC28"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f429.png",
          "chars":[
             "\uD83D\uDC29"
          ]
@@ -3168,70 +3060,71 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f42a.png",
          "chars":[
-            "\uD83D\uDC2B",
-            "\uFBD0"
+            "\uD83D\uDC2A"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f42B.png",
          "chars":[
-            "\uD83D\uDC2C",
-            "\uFBC0"
+            "\uD83D\uDC2B"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f42C.png",
          "chars":[
-            "\uD83D\uDC2D",
-            "\uF994"
+            "\uD83D\uDC2C"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f42D.png",
          "chars":[
-            "\uD83D\uDC2E",
-            "\uFBCB"
+            "\uD83D\uDC2D"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f42E.png",
          "chars":[
-            "\uD83D\uDC2F",
-            "\uF991"
+            "\uD83D\uDC2E"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f42F.png",
          "chars":[
-            "\uD83D\uDC30",
-            "\uFBCC"
+            "\uD83D\uDC2F"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f430.png",
          "chars":[
-            "\uD83D\uDC31",
-            "\uF990"
+            "\uD83D\uDC30"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f431.png",
+         "chars":[
+            "\uD83D\uDC31"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f432.png",
          "chars":[
             "\uD83D\uDC32"
          ]
@@ -3239,88 +3132,79 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f433.png",
          "chars":[
-            "\uD83D\uDC33",
-            "\uF995"
+            "\uD83D\uDC33"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f434.png",
          "chars":[
-            "\uD83D\uDC34",
-            "\uF95A"
+            "\uD83D\uDC34"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f435.png",
          "chars":[
-            "\uD83D\uDC35",
-            "\uF749"
+            "\uD83D\uDC35"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f436.png",
          "chars":[
-            "\uD83D\uDC36",
-            "\uF993"
+            "\uD83D\uDC36"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f437.png",
          "chars":[
-            "\uD83D\uDC37",
-            "\uF74B"
+            "\uD83D\uDC37"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f438.png",
          "chars":[
-            "\uD83D\uDC38",
-            "\uFBD1"
+            "\uD83D\uDC38"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f439.png",
          "chars":[
-            "\uD83D\uDC39",
-            "\uFBC4"
+            "\uD83D\uDC39"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f43A.png",
          "chars":[
-            "\uD83D\uDC3A",
-            "\uFBCA"
+            "\uD83D\uDC3A"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f43B.png",
          "chars":[
-            "\uD83D\uDC3B",
-            "\uF992"
+            "\uD83D\uDC3B"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f43C.png",
          "chars":[
             "\uD83D\uDC3C"
          ]
@@ -3328,7 +3212,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f43D.png",
          "chars":[
             "\uD83D\uDC3D"
          ]
@@ -3336,7 +3220,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f43E.png",
          "chars":[
             "\uD83D\uDC3E"
          ]
@@ -3344,43 +3228,39 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f440.png",
          "chars":[
-            "\uD83D\uDC40",
-            "\uFB59"
+            "\uD83D\uDC40"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f442.png",
          "chars":[
-            "\uD83D\uDC42",
-            "\uFB5B"
+            "\uD83D\uDC42"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f443.png",
          "chars":[
-            "\uD83D\uDC43",
-            "\uFB5A"
+            "\uD83D\uDC43"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f444.png",
          "chars":[
-            "\uD83D\uDC44",
-            "\uFB5C"
+            "\uD83D\uDC44"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f445.png",
          "chars":[
             "\uD83D\uDC45"
          ]
@@ -3388,124 +3268,111 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f446.png",
          "chars":[
-            "\uD83D\uDC46",
-            "\uF7CE"
+            "\uD83D\uDC46"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f447.png",
          "chars":[
-            "\uD83D\uDC47",
-            "\uF7CF"
+            "\uD83D\uDC47"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f448.png",
          "chars":[
-            "\uD83D\uDC48",
-            "\uF7D0"
+            "\uD83D\uDC48"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f449.png",
          "chars":[
-            "\uD83D\uDC49",
-            "\uF7D1"
+            "\uD83D\uDC49"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f44A.png",
          "chars":[
-            "\uD83D\uDC4A",
-            "\uF94D"
+            "\uD83D\uDC4A"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f44B.png",
          "chars":[
-            "\uD83D\uDC4B",
-            "\uFB5E"
+            "\uD83D\uDC4B"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f44C.png",
          "chars":[
-            "\uD83D\uDC4C",
-            "\uFB60"
+            "\uD83D\uDC4C"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f44D.png",
          "chars":[
-            "\uD83D\uDC4D",
-            "\uF94E"
+            "\uD83D\uDC4D"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f44E.png",
          "chars":[
-            "\uD83D\uDC4E",
-            "\uFB61"
+            "\uD83D\uDC4E"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f44F.png",
          "chars":[
-            "\uD83D\uDC4F",
-            "\uFB5F"
+            "\uD83D\uDC4F"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f450.png",
          "chars":[
-            "\uD83D\uDC50",
-            "\uFB62"
+            "\uD83D\uDC50"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f451.png",
          "chars":[
-            "\uD83D\uDC51",
-            "\uF74E"
+            "\uD83D\uDC51"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f452.png",
          "chars":[
-            "\uD83D\uDC52",
-            "\uF9B8"
+            "\uD83D\uDC52"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f453.png",
          "chars":[
             "\uD83D\uDC53"
          ]
@@ -3513,25 +3380,23 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f454.png",
          "chars":[
-            "\uD83D\uDC54",
-            "\uF9A2"
+            "\uD83D\uDC54"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f455.png",
          "chars":[
-            "\uD83D\uDC55",
-            "\uF946"
+            "\uD83D\uDC55"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f456.png",
          "chars":[
             "\uD83D\uDC56"
          ]
@@ -3539,34 +3404,31 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f457.png",
          "chars":[
-            "\uD83D\uDC57",
-            "\uF9B9"
+            "\uD83D\uDC57"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f458.png",
          "chars":[
-            "\uD83D\uDC58",
-            "\uF9C1"
+            "\uD83D\uDC58"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f459.png",
          "chars":[
-            "\uD83D\uDC59",
-            "\uF9C2"
+            "\uD83D\uDC59"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f45A.png",
          "chars":[
             "\uD83D\uDC5A"
          ]
@@ -3574,7 +3436,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f45B.png",
          "chars":[
             "\uD83D\uDC5B"
          ]
@@ -3582,16 +3444,15 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f45C.png",
          "chars":[
-            "\uD83D\uDC5C",
-            "\uF9C3"
+            "\uD83D\uDC5C"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f45D.png",
          "chars":[
             "\uD83D\uDC5D"
          ]
@@ -3599,7 +3460,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f45E.png",
          "chars":[
             "\uD83D\uDC5E"
          ]
@@ -3607,52 +3468,47 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f45F.png",
          "chars":[
-            "\uD83D\uDC5F",
-            "\uF947"
+            "\uD83D\uDC5F"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f460.png",
          "chars":[
-            "\uD83D\uDC60",
-            "\uF77E"
+            "\uD83D\uDC60"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f461.png",
          "chars":[
-            "\uD83D\uDC61",
-            "\uF9BA"
+            "\uD83D\uDC61"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f462.png",
          "chars":[
-            "\uD83D\uDC62",
-            "\uF9BB"
+            "\uD83D\uDC62"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f463.png",
          "chars":[
-            "\uD83D\uDC63",
-            "\uFBD6"
+            "\uD83D\uDC63"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f464.png",
          "chars":[
             "\uD83D\uDC64"
          ]
@@ -3660,43 +3516,47 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f465.png",
          "chars":[
-            "\uD83D\uDC66",
-            "\uF941"
+            "\uD83D\uDC65"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f466.png",
          "chars":[
-            "\uD83D\uDC67",
-            "\uF942"
+            "\uD83D\uDC66"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f467.png",
          "chars":[
-            "\uD83D\uDC68",
-            "\uF944"
+            "\uD83D\uDC67"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f468.png",
          "chars":[
-            "\uD83D\uDC69",
-            "\uF945"
+            "\uD83D\uDC68"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f469.png",
+         "chars":[
+            "\uD83D\uDC69"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f46A.png",
          "chars":[
             "\uD83D\uDC6A"
          ]
@@ -3704,34 +3564,47 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f46B.png",
          "chars":[
-            "\uD83D\uDC6B",
-            "\uFB68"
+            "\uD83D\uDC6B"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f46c.png",
          "chars":[
-            "\uD83D\uDC6E",
-            "\uF793"
+            "\uD83D\uDC6C"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f46d.png",
          "chars":[
-            "\uD83D\uDC6F",
-            "\uFB69"
+            "\uD83D\uDC6D"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f46E.png",
+         "chars":[
+            "\uD83D\uDC6E"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f46F.png",
+         "chars":[
+            "\uD83D\uDC6F"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f470.png",
          "chars":[
             "\uD83D\uDC70"
          ]
@@ -3739,79 +3612,71 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f471.png",
          "chars":[
-            "\uD83D\uDC71",
-            "\uFBB5"
+            "\uD83D\uDC71"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f472.png",
          "chars":[
-            "\uD83D\uDC72",
-            "\uFBB6"
+            "\uD83D\uDC72"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f473.png",
          "chars":[
-            "\uD83D\uDC73",
-            "\uFBB7"
+            "\uD83D\uDC73"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f474.png",
          "chars":[
-            "\uD83D\uDC74",
-            "\uFBB8"
+            "\uD83D\uDC74"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f475.png",
          "chars":[
-            "\uD83D\uDC75",
-            "\uFBB9"
+            "\uD83D\uDC75"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f476.png",
          "chars":[
-            "\uD83D\uDC76",
-            "\uFBBA"
+            "\uD83D\uDC76"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f477.png",
          "chars":[
-            "\uD83D\uDC77",
-            "\uFBBB"
+            "\uD83D\uDC77"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f478.png",
          "chars":[
-            "\uD83D\uDC78",
-            "\uFBBC"
+            "\uD83D\uDC78"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f479.png",
          "chars":[
             "\uD83D\uDC79"
          ]
@@ -3819,7 +3684,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f47A.png",
          "chars":[
             "\uD83D\uDC7A"
          ]
@@ -3827,160 +3692,143 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f47B.png",
          "chars":[
-            "\uD83D\uDC7B",
-            "\uF75B"
+            "\uD83D\uDC7B"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f47C.png",
          "chars":[
-            "\uD83D\uDC7C",
-            "\uF98F"
+            "\uD83D\uDC7C"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f47D.png",
          "chars":[
-            "\uD83D\uDC7D",
-            "\uF74C"
+            "\uD83D\uDC7D"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f47E.png",
          "chars":[
-            "\uD83D\uDC7E",
-            "\uF76B"
+            "\uD83D\uDC7E"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f47F.png",
          "chars":[
-            "\uD83D\uDC7F",
-            "\uF75A"
+            "\uD83D\uDC7F"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f480.png",
          "chars":[
-            "\uD83D\uDC80",
-            "\uF75C"
+            "\uD83D\uDC80"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f481.png",
          "chars":[
-            "\uD83D\uDC81",
-            "\uF7F3"
+            "\uD83D\uDC81"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f482.png",
          "chars":[
-            "\uD83D\uDC82",
-            "\uFBBE"
+            "\uD83D\uDC82"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f483.png",
          "chars":[
-            "\uD83D\uDC83",
-            "\uFBBF"
+            "\uD83D\uDC83"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f484.png",
          "chars":[
-            "\uD83D\uDC84",
-            "\uF9BC"
+            "\uD83D\uDC84"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f485.png",
          "chars":[
-            "\uD83D\uDC85",
-            "\uF9BD"
+            "\uD83D\uDC85"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f486.png",
          "chars":[
-            "\uD83D\uDC86",
-            "\uF9BE"
+            "\uD83D\uDC86"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f487.png",
          "chars":[
-            "\uD83D\uDC87",
-            "\uF9BF"
+            "\uD83D\uDC87"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f488.png",
          "chars":[
-            "\uD83D\uDC88",
-            "\uF9C0"
+            "\uD83D\uDC88"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f489.png",
          "chars":[
-            "\uD83D\uDC89",
-            "\uF77B"
+            "\uD83D\uDC89"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f48A.png",
          "chars":[
-            "\uD83D\uDC8A",
-            "\uF9AF"
+            "\uD83D\uDC8A"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f48B.png",
          "chars":[
-            "\uD83D\uDC8B",
-            "\uF943"
+            "\uD83D\uDC8B"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f48C.png",
          "chars":[
             "\uD83D\uDC8C"
          ]
@@ -3988,79 +3836,71 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f48D.png",
          "chars":[
-            "\uD83D\uDC8D",
-            "\uF974"
+            "\uD83D\uDC8D"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f48E.png",
          "chars":[
-            "\uD83D\uDC8E",
-            "\uF975"
+            "\uD83D\uDC8E"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f48F.png",
          "chars":[
-            "\uD83D\uDC8F",
-            "\uF751"
+            "\uD83D\uDC8F"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f490.png",
          "chars":[
-            "\uD83D\uDC90",
-            "\uF9A6"
+            "\uD83D\uDC90"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f491.png",
          "chars":[
-            "\uD83D\uDC91",
-            "\uFB65"
+            "\uD83D\uDC91"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f492.png",
          "chars":[
-            "\uD83D\uDC92",
-            "\uFB7D"
+            "\uD83D\uDC92"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f493.png",
          "chars":[
-            "\uD83D\uDC93",
-            "\uF9C7"
+            "\uD83D\uDC93"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f494.png",
          "chars":[
-            "\uD83D\uDC94",
-            "\uF963"
+            "\uD83D\uDC94"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f495.png",
          "chars":[
             "\uD83D\uDC95"
          ]
@@ -4068,7 +3908,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f496.png",
          "chars":[
             "\uD83D\uDC96"
          ]
@@ -4076,70 +3916,63 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f497.png",
          "chars":[
-            "\uD83D\uDC97",
-            "\uF9C8"
+            "\uD83D\uDC97"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f498.png",
          "chars":[
-            "\uD83D\uDC98",
-            "\uF9C9"
+            "\uD83D\uDC98"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f499.png",
          "chars":[
-            "\uD83D\uDC99",
-            "\uF9CA"
+            "\uD83D\uDC99"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f49A.png",
          "chars":[
-            "\uD83D\uDC9A",
-            "\uF9CB"
+            "\uD83D\uDC9A"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f49B.png",
          "chars":[
-            "\uD83D\uDC9B",
-            "\uF9CC"
+            "\uD83D\uDC9B"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f49C.png",
          "chars":[
-            "\uD83D\uDC9C",
-            "\uF9CD"
+            "\uD83D\uDC9C"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f49D.png",
          "chars":[
-            "\uD83D\uDC9D",
-            "\uFB77"
+            "\uD83D\uDC9D"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f49E.png",
          "chars":[
             "\uD83D\uDC9E"
          ]
@@ -4147,16 +3980,15 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f49F.png",
          "chars":[
-            "\uD83D\uDC9F",
-            "\uF7A4"
+            "\uD83D\uDC9F"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4A0.png",
          "chars":[
             "\uD83D\uDCA0"
          ]
@@ -4164,43 +3996,39 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4A1.png",
          "chars":[
-            "\uD83D\uDCA1",
-            "\uF74F"
+            "\uD83D\uDCA1"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4A2.png",
          "chars":[
-            "\uD83D\uDCA2",
-            "\uF9D4"
+            "\uD83D\uDCA2"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4A3.png",
          "chars":[
-            "\uD83D\uDCA3",
-            "\uF9B1"
+            "\uD83D\uDCA3"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4A4.png",
          "chars":[
-            "\uD83D\uDCA4",
-            "\uF77C"
+            "\uD83D\uDCA4"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4A5.png",
          "chars":[
             "\uD83D\uDCA5"
          ]
@@ -4208,16 +4036,15 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4A6.png",
          "chars":[
-            "\uD83D\uDCA6",
-            "\uF9D1"
+            "\uD83D\uDCA6"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4A7.png",
          "chars":[
             "\uD83D\uDCA7"
          ]
@@ -4225,34 +4052,31 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4A8.png",
          "chars":[
-            "\uD83D\uDCA8",
-            "\uF9D0"
+            "\uD83D\uDCA8"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4A9.png",
          "chars":[
-            "\uD83D\uDCA9",
-            "\uF99B"
+            "\uD83D\uDCA9"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4AA.png",
          "chars":[
-            "\uD83D\uDCAA",
-            "\uF78D"
+            "\uD83D\uDCAA"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4AB.png",
          "chars":[
             "\uD83D\uDCAB"
          ]
@@ -4260,7 +4084,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4AC.png",
          "chars":[
             "\uD83D\uDCAC"
          ]
@@ -4268,7 +4092,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4AE.png",
          "chars":[
             "\uD83D\uDCAE"
          ]
@@ -4276,7 +4100,15 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4Ad.png",
+         "chars":[
+            "\uD83D\uDCAD"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f4AF.png",
          "chars":[
             "\uD83D\uDCAF"
          ]
@@ -4284,25 +4116,23 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4B0.png",
          "chars":[
-            "\uD83D\uDCB0",
-            "\uF76F"
+            "\uD83D\uDCB0"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4B1.png",
          "chars":[
-            "\uD83D\uDCB1",
-            "\uF78A"
+            "\uD83D\uDCB1"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4B2.png",
          "chars":[
             "\uD83D\uDCB2"
          ]
@@ -4310,7 +4140,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4B3.png",
          "chars":[
             "\uD83D\uDCB3"
          ]
@@ -4318,7 +4148,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4B4.png",
          "chars":[
             "\uD83D\uDCB4"
          ]
@@ -4326,7 +4156,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4B5.png",
          "chars":[
             "\uD83D\uDCB5"
          ]
@@ -4334,7 +4164,23 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4B6.png",
+         "chars":[
+            "\uD83D\uDCB6"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f4B7.png",
+         "chars":[
+            "\uD83D\uDCB7"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f4B8.png",
          "chars":[
             "\uD83D\uDCB8"
          ]
@@ -4342,52 +4188,47 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4B9.png",
          "chars":[
-            "\uD83D\uDCB9",
-            "\uF78B"
+            "\uD83D\uDCB9"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4BA.png",
          "chars":[
-            "\uD83D\uDCBA",
-            "\uF75F"
+            "\uD83D\uDCBA"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4BB.png",
          "chars":[
-            "\uD83D\uDCBB",
-            "\uF94C"
+            "\uD83D\uDCBB"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4BC.png",
          "chars":[
-            "\uD83D\uDCBC",
-            "\uF75E"
+            "\uD83D\uDCBC"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4BD.png",
          "chars":[
-            "\uD83D\uDCBD",
-            "\uF9B6"
+            "\uD83D\uDCBD"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4BE.png",
          "chars":[
             "\uD83D\uDCBE"
          ]
@@ -4395,25 +4236,23 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4BF.png",
          "chars":[
-            "\uD83D\uDCBF",
-            "\uF766"
+            "\uD83D\uDCBF"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4C0.png",
          "chars":[
-            "\uD83D\uDCC0",
-            "\uF767"
+            "\uD83D\uDCC0"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4C1.png",
          "chars":[
             "\uD83D\uDCC1"
          ]
@@ -4421,7 +4260,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4C2.png",
          "chars":[
             "\uD83D\uDCC2"
          ]
@@ -4429,7 +4268,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4C3.png",
          "chars":[
             "\uD83D\uDCC3"
          ]
@@ -4437,7 +4276,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4C4.png",
          "chars":[
             "\uD83D\uDCC4"
          ]
@@ -4445,7 +4284,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4C5.png",
          "chars":[
             "\uD83D\uDCC5"
          ]
@@ -4453,7 +4292,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4C6.png",
          "chars":[
             "\uD83D\uDCC6"
          ]
@@ -4461,7 +4300,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4C7.png",
          "chars":[
             "\uD83D\uDCC7"
          ]
@@ -4469,7 +4308,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4C8.png",
          "chars":[
             "\uD83D\uDCC8"
          ]
@@ -4477,7 +4316,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4C9.png",
          "chars":[
             "\uD83D\uDCC9"
          ]
@@ -4485,7 +4324,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4CA.png",
          "chars":[
             "\uD83D\uDCCA"
          ]
@@ -4493,7 +4332,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4CB.png",
          "chars":[
             "\uD83D\uDCCB"
          ]
@@ -4501,7 +4340,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4CC.png",
          "chars":[
             "\uD83D\uDCCC"
          ]
@@ -4509,7 +4348,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4CD.png",
          "chars":[
             "\uD83D\uDCCD"
          ]
@@ -4517,7 +4356,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4CE.png",
          "chars":[
             "\uD83D\uDCCE"
          ]
@@ -4525,7 +4364,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4CF.png",
          "chars":[
             "\uD83D\uDCCF"
          ]
@@ -4533,7 +4372,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4D0.png",
          "chars":[
             "\uD83D\uDCD0"
          ]
@@ -4541,7 +4380,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4D1.png",
          "chars":[
             "\uD83D\uDCD1"
          ]
@@ -4549,7 +4388,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4D2.png",
          "chars":[
             "\uD83D\uDCD2"
          ]
@@ -4557,7 +4396,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4D3.png",
          "chars":[
             "\uD83D\uDCD3"
          ]
@@ -4565,7 +4404,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4D4.png",
          "chars":[
             "\uD83D\uDCD4"
          ]
@@ -4573,7 +4412,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4D5.png",
          "chars":[
             "\uD83D\uDCD5"
          ]
@@ -4581,16 +4420,15 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4D6.png",
          "chars":[
-            "\uD83D\uDCD6",
-            "\uF789"
+            "\uD83D\uDCD6"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4D7.png",
          "chars":[
             "\uD83D\uDCD7"
          ]
@@ -4598,7 +4436,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4D8.png",
          "chars":[
             "\uD83D\uDCD8"
          ]
@@ -4606,7 +4444,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4D9.png",
          "chars":[
             "\uD83D\uDCD9"
          ]
@@ -4614,7 +4452,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4DA.png",
          "chars":[
             "\uD83D\uDCDA"
          ]
@@ -4622,7 +4460,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4DB.png",
          "chars":[
             "\uD83D\uDCDB"
          ]
@@ -4630,7 +4468,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4DC.png",
          "chars":[
             "\uD83D\uDCDC"
          ]
@@ -4638,16 +4476,15 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4DD.png",
          "chars":[
-            "\uD83D\uDCDD",
-            "\uF9A1"
+            "\uD83D\uDCDD"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4DE.png",
          "chars":[
             "\uD83D\uDCDE"
          ]
@@ -4655,7 +4492,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4DF.png",
          "chars":[
             "\uD83D\uDCDF"
          ]
@@ -4663,43 +4500,39 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4E0.png",
          "chars":[
-            "\uD83D\uDCE0",
-            "\uF94B"
+            "\uD83D\uDCE0"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4E1.png",
          "chars":[
-            "\uD83D\uDCE1",
-            "\uF78C"
+            "\uD83D\uDCE1"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4E2.png",
          "chars":[
-            "\uD83D\uDCE2",
-            "\uF783"
+            "\uD83D\uDCE2"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4E3.png",
          "chars":[
-            "\uD83D\uDCE3",
-            "\uF9B7"
+            "\uD83D\uDCE3"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4E4.png",
          "chars":[
             "\uD83D\uDCE4"
          ]
@@ -4707,7 +4540,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4E5.png",
          "chars":[
             "\uD83D\uDCE5"
          ]
@@ -4715,7 +4548,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4E6.png",
          "chars":[
             "\uD83D\uDCE6"
          ]
@@ -4723,7 +4556,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4E7.png",
          "chars":[
             "\uD83D\uDCE7"
          ]
@@ -4731,7 +4564,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4E8.png",
          "chars":[
             "\uD83D\uDCE8"
          ]
@@ -4739,16 +4572,15 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4E9.png",
          "chars":[
-            "\uD83D\uDCE9",
-            "\uF743"
+            "\uD83D\uDCE9"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4EA.png",
          "chars":[
             "\uD83D\uDCEA"
          ]
@@ -4756,25 +4588,47 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4EB.png",
          "chars":[
-            "\uD83D\uDCEB",
-            "\uF741"
+            "\uD83D\uDCEB"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4Ec.png",
          "chars":[
-            "\uD83D\uDCEE",
-            "\uF742"
+            "\uD83D\uDCEC"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4Ed.png",
+         "chars":[
+            "\uD83D\uDCED"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f4EE.png",
+         "chars":[
+            "\uD83D\uDCEE"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f4Ef.png",
+         "chars":[
+            "\uD83D\uDCEF"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f4F0.png",
          "chars":[
             "\uD83D\uDCF0"
          ]
@@ -4782,61 +4636,63 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4F1.png",
          "chars":[
-            "\uD83D\uDCF1",
-            "\uF94A"
+            "\uD83D\uDCF1"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4F2.png",
          "chars":[
-            "\uD83D\uDCF2",
-            "\uF744"
+            "\uD83D\uDCF2"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4F3.png",
          "chars":[
-            "\uD83D\uDCF3",
-            "\uF7F0"
+            "\uD83D\uDCF3"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4F4.png",
          "chars":[
-            "\uD83D\uDCF4",
-            "\uF7F1"
+            "\uD83D\uDCF4"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4F5.png",
          "chars":[
-            "\uD83D\uDCF6",
-            "\uF7AB"
+            "\uD83D\uDCF5"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4F6.png",
          "chars":[
-            "\uD83D\uDCF7",
-            "\uF948"
+            "\uD83D\uDCF6"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4F7.png",
+         "chars":[
+            "\uD83D\uDCF7"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f4F9.png",
          "chars":[
             "\uD83D\uDCF9"
          ]
@@ -4844,34 +4700,55 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4FA.png",
          "chars":[
-            "\uD83D\uDCFA",
-            "\uF76A"
+            "\uD83D\uDCFA"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4FB.png",
          "chars":[
-            "\uD83D\uDCFB",
-            "\uF768"
+            "\uD83D\uDCFB"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f4FC.png",
          "chars":[
-            "\uD83D\uDCFC",
-            "\uF769"
+            "\uD83D\uDCFC"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f500.png",
+         "chars":[
+            "\uD83D\uDD00"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f501.png",
+         "chars":[
+            "\uD83D\uDD01"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f502.png",
+         "chars":[
+            "\uD83D\uDD02"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f503.png",
          "chars":[
             "\uD83D\uDD03"
          ]
@@ -4879,16 +4756,63 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f504.png",
          "chars":[
-            "\uD83D\uDD0A",
-            "\uF782"
+            "\uD83D\uDD04"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f505.png",
+         "chars":[
+            "\uD83D\uDD05"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f506.png",
+         "chars":[
+            "\uD83D\uDD06"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f507.png",
+         "chars":[
+            "\uD83D\uDD07"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f508.png",
+         "chars":[
+            "\uD83D\uDD08"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f509.png",
+         "chars":[
+            "\uD83D\uDD09"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f50A.png",
+         "chars":[
+            "\uD83D\uDD0A"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f50B.png",
          "chars":[
             "\uD83D\uDD0B"
          ]
@@ -4896,7 +4820,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f50C.png",
          "chars":[
             "\uD83D\uDD0C"
          ]
@@ -4904,16 +4828,15 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f50D.png",
          "chars":[
-            "\uD83D\uDD0D",
-            "\uF754"
+            "\uD83D\uDD0D"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f50E.png",
          "chars":[
             "\uD83D\uDD0E"
          ]
@@ -4921,7 +4844,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f50F.png",
          "chars":[
             "\uD83D\uDD0F"
          ]
@@ -4929,7 +4852,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f510.png",
          "chars":[
             "\uD83D\uDD10"
          ]
@@ -4937,43 +4860,47 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f511.png",
          "chars":[
-            "\uD83D\uDD11",
-            "\uF980"
+            "\uD83D\uDD11"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f512.png",
          "chars":[
-            "\uD83D\uDD12",
-            "\uF785"
+            "\uD83D\uDD12"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f513.png",
          "chars":[
-            "\uD83D\uDD13",
-            "\uF786"
+            "\uD83D\uDD13"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f514.png",
          "chars":[
-            "\uD83D\uDD14",
-            "\uF9C5"
+            "\uD83D\uDD14"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f515.png",
+         "chars":[
+            "\uD83D\uDD15"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f516.png",
          "chars":[
             "\uD83D\uDD16"
          ]
@@ -4981,7 +4908,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f517.png",
          "chars":[
             "\uD83D\uDD17"
          ]
@@ -4989,7 +4916,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f518.png",
          "chars":[
             "\uD83D\uDD18"
          ]
@@ -4997,7 +4924,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f519.png",
          "chars":[
             "\uD83D\uDD19"
          ]
@@ -5005,7 +4932,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f51A.png",
          "chars":[
             "\uD83D\uDD1A"
          ]
@@ -5013,7 +4940,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f51B.png",
          "chars":[
             "\uD83D\uDD1B"
          ]
@@ -5021,7 +4948,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f51C.png",
          "chars":[
             "\uD83D\uDD1C"
          ]
@@ -5029,25 +4956,23 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f51D.png",
          "chars":[
-            "\uD83D\uDD1D",
-            "\uF7EC"
+            "\uD83D\uDD1D"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f51E.png",
          "chars":[
-            "\uD83D\uDD1E",
-            "\uF7A7"
+            "\uD83D\uDD1E"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f51F.png",
          "chars":[
             "\uD83D\uDD1F"
          ]
@@ -5055,7 +4980,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f520.png",
          "chars":[
             "\uD83D\uDD20"
          ]
@@ -5063,7 +4988,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f521.png",
          "chars":[
             "\uD83D\uDD21"
          ]
@@ -5071,7 +4996,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f522.png",
          "chars":[
             "\uD83D\uDD22"
          ]
@@ -5079,7 +5004,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f523.png",
          "chars":[
             "\uD83D\uDD23"
          ]
@@ -5087,7 +5012,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f524.png",
          "chars":[
             "\uD83D\uDD24"
          ]
@@ -5095,16 +5020,15 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f525.png",
          "chars":[
-            "\uD83D\uDD25",
-            "\uF75D"
+            "\uD83D\uDD25"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f526.png",
          "chars":[
             "\uD83D\uDD26"
          ]
@@ -5112,7 +5036,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f527.png",
          "chars":[
             "\uD83D\uDD27"
          ]
@@ -5120,16 +5044,15 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f528.png",
          "chars":[
-            "\uD83D\uDD28",
-            "\uF756"
+            "\uD83D\uDD28"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f529.png",
          "chars":[
             "\uD83D\uDD29"
          ]
@@ -5137,7 +5060,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f52A.png",
          "chars":[
             "\uD83D\uDD2A"
          ]
@@ -5145,16 +5068,31 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f52B.png",
          "chars":[
-            "\uD83D\uDD2B",
-            "\uF753"
+            "\uD83D\uDD2B"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f52c.png",
+         "chars":[
+            "\uD83D\uDD2C"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f52d.png",
+         "chars":[
+            "\uD83D\uDD2D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f52E.png",
          "chars":[
             "\uD83D\uDD2E"
          ]
@@ -5162,61 +5100,55 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f52F.png",
          "chars":[
-            "\uD83D\uDD2F",
-            "\uF7DE"
+            "\uD83D\uDD2F"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f530.png",
          "chars":[
-            "\uD83D\uDD30",
-            "\uF7A9"
+            "\uD83D\uDD30"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f531.png",
          "chars":[
-            "\uD83D\uDD31",
-            "\uF971"
+            "\uD83D\uDD31"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f532.png",
          "chars":[
-            "\uD83D\uDD32",
-            "\uF7BA"
+            "\uD83D\uDD32"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f533.png",
          "chars":[
-            "\uD83D\uDD33",
-            "\uF7BB"
+            "\uD83D\uDD33"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f534.png",
          "chars":[
-            "\uD83D\uDD34",
-            "\uF7B9"
+            "\uD83D\uDD34"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f535.png",
          "chars":[
             "\uD83D\uDD35"
          ]
@@ -5224,7 +5156,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f536.png",
          "chars":[
             "\uD83D\uDD36"
          ]
@@ -5232,7 +5164,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f537.png",
          "chars":[
             "\uD83D\uDD37"
          ]
@@ -5240,7 +5172,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f538.png",
          "chars":[
             "\uD83D\uDD38"
          ]
@@ -5248,7 +5180,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f539.png",
          "chars":[
             "\uD83D\uDD39"
          ]
@@ -5256,7 +5188,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f53A.png",
          "chars":[
             "\uD83D\uDD3A"
          ]
@@ -5264,7 +5196,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f53B.png",
          "chars":[
             "\uD83D\uDD3B"
          ]
@@ -5272,7 +5204,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f53C.png",
          "chars":[
             "\uD83D\uDD3C"
          ]
@@ -5280,7 +5212,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f53D.png",
          "chars":[
             "\uD83D\uDD3D"
          ]
@@ -5288,142 +5220,223 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f550.png",
          "chars":[
-            "\uD83D\uDD50",
-            "\uF964"
+            "\uD83D\uDD50"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f551.png",
          "chars":[
-            "\uD83D\uDD51",
-            "\uF965"
+            "\uD83D\uDD51"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f552.png",
          "chars":[
-            "\uD83D\uDD52",
-            "\uF966"
+            "\uD83D\uDD52"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f553.png",
          "chars":[
-            "\uD83D\uDD53",
-            "\uF967"
+            "\uD83D\uDD53"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f554.png",
          "chars":[
-            "\uD83D\uDD54",
-            "\uF968"
+            "\uD83D\uDD54"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f555.png",
          "chars":[
-            "\uD83D\uDD55",
-            "\uF969"
+            "\uD83D\uDD55"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f556.png",
          "chars":[
-            "\uD83D\uDD56",
-            "\uF96A"
+            "\uD83D\uDD56"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f557.png",
          "chars":[
-            "\uD83D\uDD57",
-            "\uF96B"
+            "\uD83D\uDD57"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f558.png",
          "chars":[
-            "\uD83D\uDD58",
-            "\uF96C"
+            "\uD83D\uDD58"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f559.png",
          "chars":[
-            "\uD83D\uDD59",
-            "\uF96D"
+            "\uD83D\uDD59"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f55A.png",
          "chars":[
-            "\uD83D\uDD5A",
-            "\uF96E"
+            "\uD83D\uDD5A"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f55B.png",
          "chars":[
-            "\uD83D\uDD5B",
-            "\uF96F"
+            "\uD83D\uDD5B"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f55c.png",
          "chars":[
-            "\uD83D\uDDFB",
-            "\uF97B"
+            "\uD83D\uDD5C"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f55d.png",
          "chars":[
-            "\uD83D\uDDFC",
-            "\uFBA9"
+            "\uD83D\uDD5D"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f55e.png",
          "chars":[
-            "\uD83D\uDDFD",
-            "\uFBBD"
+            "\uD83D\uDD5E"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f55f.png",
+         "chars":[
+            "\uD83D\uDD5F"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f560.png",
+         "chars":[
+            "\uD83D\uDD60"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f561.png",
+         "chars":[
+            "\uD83D\uDD61"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f562.png",
+         "chars":[
+            "\uD83D\uDD62"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f563.png",
+         "chars":[
+            "\uD83D\uDD63"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f564.png",
+         "chars":[
+            "\uD83D\uDD64"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f565.png",
+         "chars":[
+            "\uD83D\uDD65"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f566.png",
+         "chars":[
+            "\uD83D\uDD66"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f567.png",
+         "chars":[
+            "\uD83D\uDD67"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f5FB.png",
+         "chars":[
+            "\uD83D\uDDFB"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f5FC.png",
+         "chars":[
+            "\uD83D\uDDFC"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f5FD.png",
+         "chars":[
+            "\uD83D\uDDFD"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f5FE.png",
          "chars":[
             "\uD83D\uDDFE"
          ]
@@ -5431,7 +5444,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f5FF.png",
          "chars":[
             "\uD83D\uDDFF"
          ]
@@ -5441,8 +5454,7 @@
          "id":"",
          "image":"1f600.png",
          "chars":[
-            "\uD83D\uDE00",
-            "\uF99A"
+            "\uD83D\uDE00"
          ]
       },
       {
@@ -5458,58 +5470,55 @@
          "id":"",
          "image":"1f602.png",
          "chars":[
-            "\uD83D\uDE02",
-            "\uFB50"
+            "\uD83D\uDE02"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f603.png",
          "chars":[
             "\uD83D\uDE03",
-            "\uF999"
+            "\uE057"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f604.png",
          "chars":[
-            "\uD83D\uDE04"
+            "\uD83D\uDE04",
+            "\uE415"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f605.png",
          "chars":[
-            "\uD83D\uDE05",
-            "\uFB4F"
+            "\uD83D\uDE05"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f606.png",
          "chars":[
-            "\uD83D\uDE06",
-            "\uFB4E"
+            "\uD83D\uDE06"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f607.png",
          "chars":[
-            "\uD83D\uDE07",
-            "\uF746"
+            "\uD83D\uDE07"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f608.png",
          "chars":[
             "\uD83D\uDE08"
          ]
@@ -5517,25 +5526,25 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f609.png",
          "chars":[
             "\uD83D\uDE09",
-            "\uF745"
+            "\uE405"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f60a.png",
          "chars":[
             "\uD83D\uDE0A",
-            "\uFB49"
+            "\uE056"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f60b.png",
          "chars":[
             "\uD83D\uDE0B"
          ]
@@ -5543,52 +5552,48 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f60c.png",
          "chars":[
-            "\uD83D\uDE0C",
-            "\uFB58"
+            "\uD83D\uDE0C"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f60d.png",
          "chars":[
             "\uD83D\uDE0D",
-            "\uFB57"
+            "\uE106"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f60e.png",
          "chars":[
-            "\uD83D\uDE0E",
-            "\uFB4C"
+            "\uD83D\uDE0E"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f60f.png",
          "chars":[
-            "\uD83D\uDE0F",
-            "\uFB4D"
+            "\uD83D\uDE0F"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f610.png",
          "chars":[
-            "\uD83D\uDE10",
-            "\uF998"
+            "\uD83D\uDE10"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f611.png",
          "chars":[
             "\uD83D\uDE11"
          ]
@@ -5596,7 +5601,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f612.png",
          "chars":[
             "\uD83D\uDE12"
          ]
@@ -5604,160 +5609,145 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f613.png",
          "chars":[
-            "\uD83D\uDE13",
-            "\uFB44"
+            "\uD83D\uDE13"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f614.png",
          "chars":[
-            "\uD83D\uDE14",
-            "\uFB52"
+            "\uD83D\uDE14"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f615.png",
          "chars":[
-            "\uD83D\uDE15",
-            "\uF997"
+            "\uD83D\uDE15"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f616.png",
          "chars":[
-            "\uD83D\uDE16",
-            "\uFB55"
+            "\uD83D\uDE16"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f617.png",
          "chars":[
-            "\uD83D\uDE17",
-            "\uFB53"
+            "\uD83D\uDE17"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f618.png",
          "chars":[
             "\uD83D\uDE18",
-            "\uFB51"
+            "\uE418"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f619.png",
          "chars":[
-            "\uD83D\uDE19",
-            "\uFB4B"
+            "\uD83D\uDE19"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f61a.png",
          "chars":[
             "\uD83D\uDE1A",
-            "\uFB46"
+            "\uE417"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f61b.png",
          "chars":[
-            "\uD83D\uDE1B",
-            "\uFB56"
+            "\uD83D\uDE1B"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f61c.png",
          "chars":[
-            "\uD83D\uDE1C",
-            "\uFB4A"
+            "\uD83D\uDE1C"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f61d.png",
          "chars":[
-            "\uD83D\uDE1D",
-            "\uFB47"
+            "\uD83D\uDE1D"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f61e.png",
          "chars":[
-            "\uD83D\uDE1E",
-            "\uFB43"
+            "\uD83D\uDE1E"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f61f.png",
          "chars":[
-            "\uD83D\uDE1F",
-            "\uF747"
+            "\uD83D\uDE1F"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f620.png",
          "chars":[
-            "\uD83D\uDE20",
-            "\uFB48"
+            "\uD83D\uDE20"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f621.png",
          "chars":[
-            "\uD83D\uDE21",
-            "\uFB42"
+            "\uD83D\uDE21"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f622.png",
          "chars":[
-            "\uD83D\uDE22",
-            "\uF748"
+            "\uD83D\uDE22"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f623.png",
          "chars":[
-            "\uD83D\uDE23",
-            "\uFB41"
+            "\uD83D\uDE23"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f624.png",
          "chars":[
             "\uD83D\uDE24"
          ]
@@ -5765,16 +5755,60 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f625.png",
          "chars":[
-            "\uD83D\uDE25",
+            "\uD83D\uDE25"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f626.png",
+         "chars":[
+            "\uD83D\uDE26",
             "\uFB45"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f627.png",
+         "chars":[
+            "\uD83D\uDE27",
+            "\uFB45"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f628.png",
+         "chars":[
+            "\uD83D\uDE28",
+            "\uFB45"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f629.png",
+         "chars":[
+            "\uD83D\uDE29",
+            "\uFB45"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f62a.png",
+         "chars":[
+            "\uD83D\uDE2A",
+            "\uFB45"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f62b.png",
          "chars":[
             "\uD83D\uDE2B"
          ]
@@ -5782,7 +5816,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f62c.png",
          "chars":[
             "\uD83D\uDE2C"
          ]
@@ -5790,7 +5824,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f62d.png",
          "chars":[
             "\uD83D\uDE2D"
          ]
@@ -5798,7 +5832,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f62e.png",
          "chars":[
             "\uD83D\uDE2E"
          ]
@@ -5806,7 +5840,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f62f.png",
          "chars":[
             "\uD83D\uDE2F"
          ]
@@ -5814,7 +5848,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f630.png",
          "chars":[
             "\uD83D\uDE30"
          ]
@@ -5822,7 +5856,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f631.png",
          "chars":[
             "\uD83D\uDE31"
          ]
@@ -5830,7 +5864,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f632.png",
          "chars":[
             "\uD83D\uDE32"
          ]
@@ -5838,7 +5872,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f633.png",
          "chars":[
             "\uD83D\uDE33"
          ]
@@ -5846,34 +5880,31 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f634.png",
          "chars":[
-            "\uD83D\uDE34",
-            "\uFB63"
+            "\uD83D\uDE34"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f635.png",
          "chars":[
-            "\uD83D\uDE35",
-            "\uFB64"
+            "\uD83D\uDE35"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f636.png",
          "chars":[
-            "\uD83D\uDE36",
-            "\uFB66"
+            "\uD83D\uDE36"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f637.png",
          "chars":[
             "\uD83D\uDE37"
          ]
@@ -5881,7 +5912,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f638.png",
          "chars":[
             "\uD83D\uDE38"
          ]
@@ -5889,7 +5920,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f639.png",
          "chars":[
             "\uD83D\uDE39"
          ]
@@ -5897,7 +5928,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f63a.png",
          "chars":[
             "\uD83D\uDE3A"
          ]
@@ -5905,16 +5936,15 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f63b.png",
          "chars":[
-            "\uD83D\uDE3B",
-            "\uFB67"
+            "\uD83D\uDE3B"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f63c.png",
          "chars":[
             "\uD83D\uDE3C"
          ]
@@ -5922,7 +5952,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f63d.png",
          "chars":[
             "\uD83D\uDE3D"
          ]
@@ -5930,187 +5960,460 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f63e.png",
          "chars":[
-            "\uD83D\uDE3E",
+            "\uD83D\uDE3E"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f63f.png",
+         "chars":[
+            "\uD83D\uDE3F",
             "\uFB5D"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f640.png",
          "chars":[
-            "\uD83D\uDE80",
+            "\uD83D\uDE40",
+            "\uFB5D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f645.png",
+         "chars":[
+            "\uD83D\uDE45",
+            "\uFB5D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f646.png",
+         "chars":[
+            "\uD83D\uDE46",
+            "\uFB5D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f647.png",
+         "chars":[
+            "\uD83D\uDE47",
+            "\uFB5D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f648.png",
+         "chars":[
+            "\uD83D\uDE48",
+            "\uFB5D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f649.png",
+         "chars":[
+            "\uD83D\uDE49",
+            "\uFB5D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f64a.png",
+         "chars":[
+            "\uD83D\uDE4A",
+            "\uFB5D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f64b.png",
+         "chars":[
+            "\uD83D\uDE4B",
+            "\uFB5D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f64c.png",
+         "chars":[
+            "\uD83D\uDE4C",
+            "\uFB5D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f64d.png",
+         "chars":[
+            "\uD83D\uDE4D",
+            "\uFB5D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f64e.png",
+         "chars":[
+            "\uD83D\uDE4e",
+            "\uFB5D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f64f.png",
+         "chars":[
+            "\uD83D\uDE4f",
+            "\uFB5D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f680.png",
+         "chars":[
+            "\uD83D\uDE80"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f681.png",
+         "chars":[
+            "\uD83D\uDE81",
             "\uF74D"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f682.png",
          "chars":[
-            "\uD83D\uDE84",
-            "\uFB75"
+            "\uD83D\uDE82",
+            "\uF74D"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f683.png",
          "chars":[
-            "\uD83D\uDE85",
-            "\uF95F"
+            "\uD83D\uDE83",
+            "\uF74D"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f684.png",
          "chars":[
-            "\uD83D\uDE86",
-            "\uF95E"
+            "\uD83D\uDE84"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f685.png",
          "chars":[
-            "\uD83D\uDE87",
+            "\uD83D\uDE85"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f686.png",
+         "chars":[
+            "\uD83D\uDE86"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f687.png",
+         "chars":[
+            "\uD83D\uDE87"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f688.png",
+         "chars":[
+            "\uD83D\uDE88",
             "\uFB74"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f689.png",
          "chars":[
-            "\uD83D\uDE89",
-            "\uF979"
+            "\uD83D\uDE89"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f68a.png",
          "chars":[
-            "\uD83D\uDE8D",
-            "\uF79A"
-         ]
-      },
-      {
-         "name":"",
-         "id":"",
-         "image":"",
-         "chars":[
-            "\uD83D\uDE8F",
+            "\uD83D\uDE8A",
             "\uF791"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f68b.png",
          "chars":[
-            "\uD83D\uDE91",
-            "\uFB71"
+            "\uD83D\uDE8B",
+            "\uF791"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f68c.png",
          "chars":[
-            "\uD83D\uDE92",
-            "\uFB70"
+            "\uD83D\uDE8C",
+            "\uF791"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f68d.png",
          "chars":[
-            "\uD83D\uDE93",
-            "\uFB72"
+            "\uD83D\uDE8D"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f68e.png",
          "chars":[
-            "\uD83D\uDE95",
-            "\uF79B"
+            "\uD83D\uDE8E",
+            "\uF791"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f68f.png",
          "chars":[
-            "\uD83D\uDE97",
-            "\uF95B"
+            "\uD83D\uDE8F"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f690.png",
          "chars":[
-            "\uD83D\uDE99",
-            "\uFB6E"
+            "\uD83D\uDE90"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f691.png",
          "chars":[
-            "\uD83D\uDE9A",
-            "\uFB6F"
+            "\uD83D\uDE91"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f692.png",
          "chars":[
-            "\uD83D\uDEA2",
-            "\uF7A2"
+            "\uD83D\uDE92"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f693.png",
          "chars":[
-            "\uD83D\uDEA4",
-            "\uF775"
+            "\uD83D\uDE93"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f694.png",
          "chars":[
-            "\uD83D\uDEA5",
-            "\uF78F"
+            "\uD83D\uDE94"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f695.png",
          "chars":[
-            "\uD83D\uDEA7",
-            "\uF777"
+            "\uD83D\uDE95"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f696.png",
+         "chars":[
+            "\uD83D\uDE96"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f697.png",
+         "chars":[
+            "\uD83D\uDE97"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f698.png",
+         "chars":[
+            "\uD83D\uDE98"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f699.png",
+         "chars":[
+            "\uD83D\uDE99"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f69A.png",
+         "chars":[
+            "\uD83D\uDE9A"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f69b.png",
+         "chars":[
+            "\uD83D\uDE9B"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f69c.png",
+         "chars":[
+            "\uD83D\uDE9C"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f69d.png",
+         "chars":[
+            "\uD83D\uDE9D"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f69e.png",
+         "chars":[
+            "\uD83D\uDE9E"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f69f.png",
+         "chars":[
+            "\uD83D\uDE9F"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f6A0.png",
+         "chars":[
+            "\uD83D\uDEA0"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f6A1.png",
+         "chars":[
+            "\uD83D\uDEA1"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f6A2.png",
+         "chars":[
+            "\uD83D\uDEA2"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f6A3.png",
+         "chars":[
+            "\uD83D\uDEA3"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f6A4.png",
+         "chars":[
+            "\uD83D\uDEA4"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f6A5.png",
+         "chars":[
+            "\uD83D\uDEA5"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f6A6.png",
+         "chars":[
+            "\uD83D\uDEA6"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f6A7.png",
+         "chars":[
+            "\uD83D\uDEA7"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f6A8.png",
          "chars":[
             "\uD83D\uDEA8"
          ]
@@ -6118,7 +6421,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f6A9.png",
          "chars":[
             "\uD83D\uDEA9"
          ]
@@ -6126,7 +6429,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f6AA.png",
          "chars":[
             "\uD83D\uDEAA"
          ]
@@ -6134,7 +6437,7 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f6AB.png",
          "chars":[
             "\uD83D\uDEAB"
          ]
@@ -6142,100 +6445,386 @@
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f6AC.png",
          "chars":[
-            "\uD83D\uDEAC",
-            "\uF9AE"
+            "\uD83D\uDEAC"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f6AD.png",
          "chars":[
-            "\uD83D\uDEAD",
-            "\uF7A8"
+            "\uD83D\uDEAD"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f6Ae.png",
          "chars":[
-            "\uD83D\uDEB2",
-            "\uF776"
+            "\uD83D\uDEAE"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f6Af.png",
          "chars":[
-            "\uD83D\uDEB6",
-            "\uF7A1"
+            "\uD83D\uDEAF"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f6B0.png",
          "chars":[
-            "\uD83D\uDEB9",
-            "\uF778"
+            "\uD83D\uDEB0"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f6B1.png",
          "chars":[
-            "\uD83D\uDEBA",
-            "\uF779"
+            "\uD83D\uDEB1"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f6B2.png",
          "chars":[
-            "\uD83D\uDEBB",
-            "\uF792"
+            "\uD83D\uDEB2"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f6B3.png",
          "chars":[
-            "\uD83D\uDEBC",
-            "\uF77A"
+            "\uD83D\uDEB3"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f6B4.png",
          "chars":[
-            "\uD83D\uDEBD",
-            "\uF781"
+            "\uD83D\uDEB4"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f6B5.png",
          "chars":[
-            "\uD83D\uDEBE",
-            "\uF9A9"
+            "\uD83D\uDEB5"
          ]
       },
       {
          "name":"",
          "id":"",
-         "image":"",
+         "image":"1f6B6.png",
          "chars":[
-            "\uD83D\uDEC0",
-            "\uF780"
+            "\uD83D\uDEB6"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f6B7.png",
+         "chars":[
+            "\uD83D\uDEB7"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f6B8.png",
+         "chars":[
+            "\uD83D\uDEB8"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f6B9.png",
+         "chars":[
+            "\uD83D\uDEB9"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f6BA.png",
+         "chars":[
+            "\uD83D\uDEBA"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f6BB.png",
+         "chars":[
+            "\uD83D\uDEBB"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f6BC.png",
+         "chars":[
+            "\uD83D\uDEBC"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f6BD.png",
+         "chars":[
+            "\uD83D\uDEBD"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f6BE.png",
+         "chars":[
+            "\uD83D\uDEBE"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f6Bf.png",
+         "chars":[
+            "\uD83D\uDEBf"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f6C0.png",
+         "chars":[
+            "\uD83D\uDEC0"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f6C1.png",
+         "chars":[
+            "\uD83D\uDEC1"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f6C2.png",
+         "chars":[
+            "\uD83D\uDEC2"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f6C3.png",
+         "chars":[
+            "\uD83D\uDEC3"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f6C4.png",
+         "chars":[
+            "\uD83D\uDEC4"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f6C5.png",
+         "chars":[
+            "\uD83D\uDEC5"
+         ]
+      },
+      {
+         "name":"Hash Key",
+         "id":"hash_key",
+         "image":"23-20e3.png",
+         "chars":[
+            "\u0023\u20E3"
+         ]
+      },
+      {
+         "name":"Keycap 0",
+         "id":"keycap_0",
+         "image":"30-20e3.png",
+         "chars":[
+            "\u0030\u20E3"
+         ]
+      },
+      {
+         "name":"Keycap 1",
+         "id":"keycap_1",
+         "image":"31-20e3.png",
+         "chars":[
+            "\u0031\u20E3"
+         ]
+      },
+      {
+         "name":"Keycap 2",
+         "id":"keycap_2",
+         "image":"32-20e3.png",
+         "chars":[
+            "\u0032\u20E3"
+         ]
+      },
+      {
+         "name":"Keycap 3",
+         "id":"keycap_3",
+         "image":"33-20e3.png",
+         "chars":[
+            "\u0033\u20E3"
+         ]
+      },
+      {
+         "name":"Keycap 4",
+         "id":"keycap_4",
+         "image":"34-20e3.png",
+         "chars":[
+            "\u0034\u20E3"
+         ]
+      },
+      {
+         "name":"Keycap 5",
+         "id":"keycap_5",
+         "image":"35-20e3.png",
+         "chars":[
+            "\u0035\u20E3"
+         ]
+      },
+      {
+         "name":"Keycap 6",
+         "id":"keycap_6",
+         "image":"36-20e3.png",
+         "chars":[
+            "\u0036\u20E3"
+         ]
+      },
+      {
+         "name":"Keycap 7",
+         "id":"keycap_7",
+         "image":"37-20e3.png",
+         "chars":[
+            "\u0037\u20E3"
+         ]
+      },
+      {
+         "name":"Keycap 8",
+         "id":"keycap_8",
+         "image":"38-20e3.png",
+         "chars":[
+            "\u0038\u20E3"
+         ]
+      },
+      {
+         "name":"Keycap 9",
+         "id":"keycap_9",
+         "image":"39-20e3.png",
+         "chars":[
+            "\u0039\u20E3"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f1e8-1f1f3.png",
+         "chars":[
+            "\uD83C\uDDE8\uD83C\uDDF3"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f1e9-1f1ea.png",
+         "chars":[
+            "\uD83C\uDDE9\uD83C\uDDEA"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f1ea-1f1f8.png",
+         "chars":[
+            "\uD83C\uDDEA\uD83C\uDDF8"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f1eb-1f1f7.png",
+         "chars":[
+            "\uD83C\uDDEB\uD83C\uDDF7"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f1ee-1f1f9.png",
+         "chars":[
+            "\uD83C\uDDEE\uD83C\uDDF9"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f1ef-1f1f5.png",
+         "chars":[
+            "\uD83C\uDDEF\uD83C\uDDF5"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f1f0-1f1f7.png",
+         "chars":[
+            "\uD83C\uDDF0\uD83C\uDDF7"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f1f7-1f1fa.png",
+         "chars":[
+            "\uD83C\uDDF7\uD83C\uDDFA"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f1fa-1f1f0.png",
+         "chars":[
+            "\uD83C\uDDFA\uD83C\uDDF0"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f1fa-1f1f8.png",
+         "chars":[
+            "\uD83C\uDDFA\uD83C\uDDF8"
+         ]
+      },
+      {
+         "name":"",
+         "id":"",
+         "image":"1f1ec-1f1e7.png",
+         "chars":[
+            "\uD83C\uDDEC\uD83C\uDDE7",
+            "\uFBAC"
          ]
       }
    ],

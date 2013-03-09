@@ -8,12 +8,11 @@
            "48": "icon48.png",
           "128": "icon128.png" },
   "homepage_url": "http://chromoji.blogspot.com/",
-  "options_page": "options.html",
   "permissions": [
     "tabs"
   ],
   "background": {
-    "scripts": ["jquery-1.9.1.min.js", "shared.js", "background.js"]
+    "scripts": ["background.js"]
   },
   "content_scripts": [
     {
