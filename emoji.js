@@ -42,8 +42,13 @@ function fileExists(path){
 function filter_nodes(nodes, regexp) {
     return $(nodes).find('[contenteditable!="true"][contenteditable!="plaintext-only"]').filter(
         function(index) {
+			var result = false;
 			var text = $(this).just_text();
-            var result = (text.search(regexp) != -1)
+            var found = (text.search(regexp) != -1)
+			if(found) {
+				var index = $(this).html().indexOf("document.write");
+				result = (index == -1);
+			}
             return result;
 		}
     );
@@ -64,7 +69,7 @@ function on_mutation(mutations) {
 function get_replacement(image) {
     var relative = "images/" + image;
     var absolute = chrome.extension.getURL(relative);
-    var element = "<img src='" + absolute + "' class='emoji' />";
+    var element = "<img src='" + absolute + "' class='emoji'>";
     return element;
 }
 
