@@ -18,27 +18,6 @@ function readCharDictionary(callback) {
 	request.send(null);
 }
 
-function getVersion(callback) {
-	var request = new XMLHttpRequest();
-	request.open('GET', 'manifest.json');
-	request.onload = function (e) {
-		var manifest = JSON.parse(request.responseText);
-		callback(manifest.version);
-	}
-	request.send(null);
-}
-
-function fileExists(path){
-	try {
-		var request = new XMLHttpRequest();
-		request.open("GET", path, false );
-		request.send(null);
-		return true;
-	} catch(e) {
-		return false;
-	}
-}
-
 function filter_nodes(nodes, regexp) {
     return $(nodes).find('[contenteditable!="true"][contenteditable!="plaintext-only"]').filter(
         function(index) {
@@ -112,7 +91,9 @@ function create_pattern(items) {
             var chars = element.chars;
             chars.forEach(
                 function (element, index, array) {
-                    pattern += (element + "|");
+                    if(hidden.indexOf(element) == -1) {
+                        pattern += (element + "|");
+                    }
                 }
             );
         }
@@ -124,21 +105,37 @@ function create_pattern(items) {
 }
 
 function init() {
-    readCharDictionary(
-        function (chars) {
-            charDictionary = chars
-            items = chars.items;
-            valid = items.filter(
-                function (element, index, array) {
-                    return (element.image != "");
+    chrome.extension.sendMessage({setting: "ioscompat"},
+        function (response) {
+            ioscompat = (response.result == "true");
+            readCharDictionary(
+                function (chars) {
+                    charDictionary = chars
+                    items = chars.items;
+                    if(ioscompat) {
+                        hidden = chars.ioshidden;
+                    } else {
+                        hidden = [];
+                    }
+
+                    // Don't render OS X font chars on OS X
+                    if(window.navigator.appVersion.indexOf("Mac") != -1) {
+                        hidden = hidden.concat(chars.machidden);
+                    }
+
+                    valid = items.filter(
+                        function (element, index, array) {
+                            return (element.image != "");
+                        }
+                    );
+
+                    create_pattern(valid);
+                    regexp = new RegExp(pattern, 'g');
+                    var nodes = filter_nodes($('body'), regexp);
+                    run(nodes);
+                    start_observer();
                 }
             );
-
-            create_pattern(valid);
-            regexp = new RegExp(pattern, 'g');
-            var nodes = filter_nodes($('body'), regexp);
-            run(nodes);
-            start_observer();
         }
     );
 }
@@ -148,6 +145,8 @@ var items;
 var valid;
 var pattern;
 var regexp;
+var ioscompat;
+var hidden;
 
 $(document).ready(
     function () {
