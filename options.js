@@ -8,6 +8,7 @@ function saveOptions() {
 	var ioscompat = document.getElementById("fieldioscompat");
 	var value = ioscompat.checked;
 	localStorage["ioscompat"] = value;
+	window.close();
 }
 
 function cancelOptions() {

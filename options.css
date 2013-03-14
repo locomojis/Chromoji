@@ -27,6 +27,17 @@ div#buttons {
 	text-align: right;
 }
 
+button {
+	width: 73px;
+	height: 21px;
+	margin: 4px;
+}
+
 .fielddescription {
 	display: inline-block;
+}
+
+.donateForm {
+	text-align: center;
+	padding: 1em;
 }
