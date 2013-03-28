@@ -1,7 +1,7 @@
 ﻿{
    "items":[
       {
-         "name":"Copyright Sign",
+         "name":"COPYRIGHT SIGN",
          "id":"copyright_sign",
          "image":"a9.png",
          "chars":[
@@ -9,7 +9,7 @@
          ]
       },
       {
-         "name":"Registered Sign",
+         "name":"REGISTERED SIGN",
          "id":"registered_sign",
          "image":"ae.png",
          "chars":[
@@ -17,7 +17,7 @@
          ]
       },
       {
-         "name":"Double Exclamation Mark",
+         "name":"DOUBLE EXCLAMATION MARK",
          "id":"double_exclamation_mark",
          "image":"203c.png",
          "chars":[
@@ -25,7 +25,7 @@
          ]
       },
       {
-         "name":"Exclamation Question Mark",
+         "name":"EXCLAMATION QUESTION MARK",
          "id":"exclamation_question_mark",
          "image":"2049.png",
          "chars":[
@@ -33,7 +33,7 @@
          ]
       },
       {
-         "name":"Trade Mark Sign",
+         "name":"TRADE MARK SIGN",
          "id":"trade_mark_sign",
          "image":"2122.png",
          "chars":[
@@ -41,7 +41,7 @@
          ]
       },
       {
-         "name":"Information Source",
+         "name":"INFORMATION SOURCE",
          "id":"information_source",
          "image":"2139.png",
          "chars":[
@@ -49,7 +49,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"LEFT RIGHT ARROW",
          "id":"",
          "image":"2194.png",
          "chars":[
@@ -57,7 +57,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"UP DOWN ARROW",
          "id":"",
          "image":"2195.png",
          "chars":[
@@ -65,7 +65,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"NORTH WEST ARROW",
          "id":"",
          "image":"2196.png",
          "chars":[
@@ -74,7 +74,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"NORTH EAST ARROW",
          "id":"",
          "image":"2197.png",
          "chars":[
@@ -83,7 +83,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SOUTH EAST ARROW",
          "id":"",
          "image":"2198.png",
          "chars":[
@@ -92,7 +92,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SOUTH WEST ARROW",
          "id":"",
          "image":"2199.png",
          "chars":[
@@ -101,7 +101,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"LEFTWARDS ARROW WITH HOOK",
          "id":"",
          "image":"21A9.png",
          "chars":[
@@ -109,7 +109,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"RIGHTWARDS ARROW WITH HOOK",
          "id":"",
          "image":"21AA.png",
          "chars":[
@@ -117,7 +117,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WATCH",
          "id":"",
          "image":"231A.png",
          "chars":[
@@ -125,7 +125,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HOURGLASS",
          "id":"",
          "image":"231B.png",
          "chars":[
@@ -133,7 +133,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BLACK RIGHT-POINTING DOUBLE TRIANGLE",
          "id":"",
          "image":"23E9.png",
          "chars":[
@@ -142,7 +142,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BLACK LEFT-POINTING DOUBLE TRIANGLE",
          "id":"",
          "image":"23EA.png",
          "chars":[
@@ -151,7 +151,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BLACK UP-POINTING DOUBLE TRIANGLE",
          "id":"",
          "image":"23EB.png",
          "chars":[
@@ -159,7 +159,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BLACK DOWN-POINTING DOUBLE TRIANGLE",
          "id":"",
          "image":"23EC.png",
          "chars":[
@@ -167,7 +167,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ALARM CLOCK",
          "id":"",
          "image":"23F0.png",
          "chars":[
@@ -175,7 +175,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HOURGLASS WITH FLOWING SAND",
          "id":"",
          "image":"23F3.png",
          "chars":[
@@ -183,7 +183,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CIRCLED CAPITAL LETTER M",
          "id":"",
          "image":"24C2.png",
          "chars":[
@@ -191,7 +191,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BLACK SMALL SQUARE",
          "id":"",
          "image":"25AA.png",
          "chars":[
@@ -199,7 +199,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WHITE SMALL SQUARE",
          "id":"",
          "image":"25AB.png",
          "chars":[
@@ -207,7 +207,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BLACK RIGHT-POINTING TRIANGLE",
          "id":"",
          "image":"25B6.png",
          "chars":[
@@ -216,7 +216,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BLACK LEFT-POINTING TRIANGLE",
          "id":"",
          "image":"25C0.png",
          "chars":[
@@ -225,7 +225,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WHITE MEDIUM SQUARE",
          "id":"",
          "image":"25FB.png",
          "chars":[
@@ -233,7 +233,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BLACK MEDIUM SQUARE",
          "id":"",
          "image":"25FC.png",
          "chars":[
@@ -241,7 +241,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WHITE MEDIUM SMALL SQUARE",
          "id":"",
          "image":"25FD.png",
          "chars":[
@@ -249,7 +249,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BLACK MEDIUM SMALL SQUARE",
          "id":"",
          "image":"25FE.png",
          "chars":[
@@ -257,7 +257,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BLACK SUN WITH RAYS",
          "id":"",
          "image":"2600.png",
          "chars":[
@@ -266,7 +266,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLOUD",
          "id":"",
          "image":"2601.png",
          "chars":[
@@ -275,7 +275,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BLACK TELEPHONE",
          "id":"",
          "image":"260E.png",
          "chars":[
@@ -284,7 +284,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BALLOT BOX WITH X",
          "id":"",
          "image":"2611.png",
          "chars":[
@@ -292,7 +292,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"UMBRELLA WITH RAIN DROPS",
          "id":"",
          "image":"2614.png",
          "chars":[
@@ -301,7 +301,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HOT BEVERAGE",
          "id":"",
          "image":"2615.png",
          "chars":[
@@ -310,7 +310,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WHITE UP POINTING INDEX",
          "id":"",
          "image":"261D.png",
          "chars":[
@@ -319,7 +319,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WHITE SMILING FACE",
          "id":"",
          "image":"263A.png",
          "chars":[
@@ -328,7 +328,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ARIES",
          "id":"",
          "image":"2648.png",
          "chars":[
@@ -337,7 +337,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TAURUS",
          "id":"",
          "image":"2649.png",
          "chars":[
@@ -346,7 +346,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"GEMINI",
          "id":"",
          "image":"264A.png",
          "chars":[
@@ -355,7 +355,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CANCER",
          "id":"",
          "image":"264B.png",
          "chars":[
@@ -364,7 +364,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"LEO",
          "id":"",
          "image":"264C.png",
          "chars":[
@@ -373,7 +373,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"VIRGO",
          "id":"",
          "image":"264D.png",
          "chars":[
@@ -382,7 +382,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"LIBRA",
          "id":"",
          "image":"264E.png",
          "chars":[
@@ -391,7 +391,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SCORPIUS",
          "id":"",
          "image":"264F.png",
          "chars":[
@@ -400,7 +400,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SAGITTARIUS",
          "id":"",
          "image":"2650.png",
          "chars":[
@@ -409,7 +409,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CAPRICORN",
          "id":"",
          "image":"2651.png",
          "chars":[
@@ -418,7 +418,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"AQUARIUS",
          "id":"",
          "image":"2652.png",
          "chars":[
@@ -427,7 +427,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PISCES",
          "id":"",
          "image":"2653.png",
          "chars":[
@@ -436,7 +436,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BLACK SPADE SUIT",
          "id":"",
          "image":"2660.png",
          "chars":[
@@ -445,7 +445,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BLACK CLUB SUIT",
          "id":"",
          "image":"2663.png",
          "chars":[
@@ -454,7 +454,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BLACK HEART SUIT",
          "id":"",
          "image":"2665.png",
          "chars":[
@@ -463,7 +463,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BLACK DIAMOND SUIT",
          "id":"",
          "image":"2666.png",
          "chars":[
@@ -472,7 +472,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HOT SPRINGS",
          "id":"",
          "image":"2668.png",
          "chars":[
@@ -481,7 +481,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BLACK UNIVERSAL RECYCLING SYMBOL",
          "id":"",
          "image":"267B.png",
          "chars":[
@@ -489,7 +489,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WHEELCHAIR SYMBOL",
          "id":"",
          "image":"267F.png",
          "chars":[
@@ -498,7 +498,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ANCHOR",
          "id":"",
          "image":"2693.png",
          "chars":[
@@ -506,7 +506,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WARNING SIGN",
          "id":"",
          "image":"26A0.png",
          "chars":[
@@ -515,7 +515,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HIGH VOLTAGE SIGN",
          "id":"",
          "image":"26A1.png",
          "chars":[
@@ -524,7 +524,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MEDIUM WHITE CIRCLE",
          "id":"",
          "image":"26AA.png",
          "chars":[
@@ -532,7 +532,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MEDIUM BLACK CIRCLE",
          "id":"",
          "image":"26AB.png",
          "chars":[
@@ -540,7 +540,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SOCCER BALL",
          "id":"",
          "image":"26BD.png",
          "chars":[
@@ -549,7 +549,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BASEBALL",
          "id":"",
          "image":"26BE.png",
          "chars":[
@@ -558,7 +558,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SNOWMAN WITHOUT SNOW",
          "id":"",
          "image":"26C4.png",
          "chars":[
@@ -567,7 +567,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SUN BEHIND CLOUD",
          "id":"",
          "image":"26C5.png",
          "chars":[
@@ -575,7 +575,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"OPHIUCHUS",
          "id":"",
          "image":"26CE.png",
          "chars":[
@@ -584,7 +584,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"NO ENTRY",
          "id":"",
          "image":"26D4.png",
          "chars":[
@@ -592,7 +592,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CHURCH",
          "id":"",
          "image":"26EA.png",
          "chars":[
@@ -601,7 +601,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FOUNTAIN",
          "id":"",
          "image":"26F2.png",
          "chars":[
@@ -610,7 +610,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FLAG IN HOLE",
          "id":"",
          "image":"26F3.png",
          "chars":[
@@ -619,7 +619,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SAILBOAT",
          "id":"",
          "image":"26F5.png",
          "chars":[
@@ -628,7 +628,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TENT",
          "id":"",
          "image":"26FA.png",
          "chars":[
@@ -637,7 +637,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FUEL PUMP",
          "id":"",
          "image":"26FD.png",
          "chars":[
@@ -646,7 +646,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BLACK SCISSORS",
          "id":"",
          "image":"2702.png",
          "chars":[
@@ -655,7 +655,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WHITE HEAVY CHECK MARK",
          "id":"",
          "image":"2705.png",
          "chars":[
@@ -663,7 +663,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"AIRPLANE",
          "id":"",
          "image":"2708.png",
          "chars":[
@@ -672,7 +672,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ENVELOPE",
          "id":"",
          "image":"2709.png",
          "chars":[
@@ -680,7 +680,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"RAISED FIST",
          "id":"",
          "image":"270A.png",
          "chars":[
@@ -689,7 +689,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"RAISED HAND",
          "id":"",
          "image":"270B.png",
          "chars":[
@@ -698,7 +698,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"VICTORY HAND",
          "id":"",
          "image":"270C.png",
          "chars":[
@@ -707,7 +707,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PENCIL",
          "id":"",
          "image":"270F.png",
          "chars":[
@@ -715,7 +715,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BLACK NIB",
          "id":"",
          "image":"2712.png",
          "chars":[
@@ -723,7 +723,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HEAVY CHECK MARK",
          "id":"",
          "image":"2714.png",
          "chars":[
@@ -731,7 +731,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HEAVY MULTIPLICATION X",
          "id":"",
          "image":"2716.png",
          "chars":[
@@ -739,7 +739,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SPARKLES",
          "id":"",
          "image":"2728.png",
          "chars":[
@@ -748,7 +748,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"EIGHT SPOKED ASTERISK",
          "id":"",
          "image":"2733.png",
          "chars":[
@@ -757,7 +757,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"EIGHT POINTED BLACK STAR",
          "id":"",
          "image":"2734.png",
          "chars":[
@@ -766,7 +766,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SNOWFLAKE",
          "id":"",
          "image":"2744.png",
          "chars":[
@@ -774,7 +774,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SPARKLE",
          "id":"",
          "image":"2747.png",
          "chars":[
@@ -782,7 +782,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CROSS MARK",
          "id":"",
          "image":"274C.png",
          "chars":[
@@ -791,7 +791,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"NEGATIVE SQUARED CROSS MARK",
          "id":"",
          "image":"274E.png",
          "chars":[
@@ -799,7 +799,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BLACK QUESTION MARK ORNAMENT",
          "id":"",
          "image":"2753.png",
          "chars":[
@@ -807,7 +807,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WHITE QUESTION MARK ORNAMENT",
          "id":"",
          "image":"2754.png",
          "chars":[
@@ -816,7 +816,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WHITE EXCLAMATION MARK ORNAMENT",
          "id":"",
          "image":"2755.png",
          "chars":[
@@ -825,7 +825,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HEAVY EXCLAMATION MARK SYMBOL",
          "id":"",
          "image":"2757.png",
          "chars":[
@@ -833,7 +833,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HEAVY EXCLAMATION MARK ORNAMENT",
          "id":"",
          "image":"2762.png",
          "chars":[
@@ -841,7 +841,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HEAVY BLACK HEART",
          "id":"",
          "image":"2764.png",
          "chars":[
@@ -850,7 +850,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HEAVY PLUS SIGN",
          "id":"",
          "image":"2795.png",
          "chars":[
@@ -858,7 +858,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HEAVY MINUS SIGN",
          "id":"",
          "image":"2796.png",
          "chars":[
@@ -866,7 +866,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HEAVY DIVISION SIGN",
          "id":"",
          "image":"2797.png",
          "chars":[
@@ -874,7 +874,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BLACK RIGHTWARDS ARROW",
          "id":"",
          "image":"27A1.png",
          "chars":[
@@ -883,7 +883,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CURLY LOOP",
          "id":"",
          "image":"27B0.png",
          "chars":[
@@ -891,7 +891,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"DOUBLE CURLY LOOP",
          "id":"",
          "image":"27BF.png",
          "chars":[
@@ -900,7 +900,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS",
          "id":"",
          "image":"2934.png",
          "chars":[
@@ -908,7 +908,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ARROW POINTING RIGHTWARDS THEN DOWNWARDS",
          "id":"",
          "image":"2935.png",
          "chars":[
@@ -916,7 +916,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"LEFTWARDS BLACK ARROW",
          "id":"",
          "image":"2B05.png",
          "chars":[
@@ -925,7 +925,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"UPWARDS BLACK ARROW",
          "id":"",
          "image":"2B06.png",
          "chars":[
@@ -934,7 +934,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"DOWNWARDS BLACK ARROW",
          "id":"",
          "image":"2B07.png",
          "chars":[
@@ -943,7 +943,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BLACK LARGE SQUARE",
          "id":"",
          "image":"2B1B.png",
          "chars":[
@@ -951,7 +951,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WHITE LARGE SQUARE",
          "id":"",
          "image":"2B1C.png",
          "chars":[
@@ -959,7 +959,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WHTE MEDIUM STAR",
          "id":"",
          "image":"2B50.png",
          "chars":[
@@ -967,7 +967,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HEAVY LARGE CIRCLE",
          "id":"",
          "image":"2B55.png",
          "chars":[
@@ -976,7 +976,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WAVY DASH",
          "id":"",
          "image":"3030.png",
          "chars":[
@@ -984,7 +984,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PART ALTERNATION MARK",
          "id":"",
          "image":"303D.png",
          "chars":[
@@ -993,7 +993,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CIRCLED IDEOGRAPH CONGRATULATION",
          "id":"",
          "image":"3297.png",
          "chars":[
@@ -1002,7 +1002,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CIRCLED IDEOGRAPH SECRET",
          "id":"",
          "image":"3299.png",
          "chars":[
@@ -1011,7 +1011,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PRIVATE USE U+E50A",
          "id":"",
          "image":"e50a.png",
          "chars":[
@@ -1019,7 +1019,7 @@
          ]
       },
       {
-         "name":"Apple Logo",
+         "name":"APPLE LOGO",
          "id":"apple_logo",
          "image":"f8ff.png",
          "chars":[
@@ -1027,7 +1027,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MAHJONG TILE RED DRAGON",
          "id":"",
          "image":"1f004.png",
          "chars":[
@@ -1036,7 +1036,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PLAYING CARD BLACK JOKER",
          "id":"",
          "image":"1f0cf.png",
          "chars":[
@@ -1044,7 +1044,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"NEGATIVE SQUARED LATIN CAPITAL LETTER A",
          "id":"",
          "image":"1f170.png",
          "chars":[
@@ -1053,7 +1053,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"NEGATIVE SQUARED LATIN CAPITAL LETTER B",
          "id":"",
          "image":"1f171.png",
          "chars":[
@@ -1062,7 +1062,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"NEGATIVE SQUARED LATIN CAPITAL LETTER O",
          "id":"",
          "image":"1f17e.png",
          "chars":[
@@ -1071,7 +1071,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"NEGATIVE SQUARED LATIN CAPITAL LETTER P",
          "id":"",
          "image":"1f17f.png",
          "chars":[
@@ -1080,7 +1080,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"NEGATIVE SQUARED AB",
          "id":"",
          "image":"1f18e.png",
          "chars":[
@@ -1089,7 +1089,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SQUARED CL",
          "id":"",
          "image":"1f191.png",
          "chars":[
@@ -1097,7 +1097,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SQUARED COOL",
          "id":"",
          "image":"1f192.png",
          "chars":[
@@ -1106,7 +1106,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SQUARED FREE",
          "id":"",
          "image":"1f193.png",
          "chars":[
@@ -1114,7 +1114,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SQUARED ID",
          "id":"",
          "image":"1f194.png",
          "chars":[
@@ -1123,7 +1123,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SQUARED NEW",
          "id":"",
          "image":"1f195.png",
          "chars":[
@@ -1132,7 +1132,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SQUARED NG",
          "id":"",
          "image":"1f196.png",
          "chars":[
@@ -1140,7 +1140,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SQUARED OK",
          "id":"",
          "image":"1f197.png",
          "chars":[
@@ -1149,7 +1149,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SQUARED SOS",
          "id":"",
          "image":"1f198.png",
          "chars":[
@@ -1157,7 +1157,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SQUARED UP WITH EXCLAMATION MARK",
          "id":"",
          "image":"1f199.png",
          "chars":[
@@ -1166,7 +1166,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SQUARED VS",
          "id":"",
          "image":"1f19a.png",
          "chars":[
@@ -1175,7 +1175,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SQUARED KATAKANA KOKO",
          "id":"",
          "image":"1f201.png",
          "chars":[
@@ -1184,7 +1184,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SQUARED KATAKANA SA",
          "id":"",
          "image":"1f202.png",
          "chars":[
@@ -1193,7 +1193,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SQUARED CJK UNIFIED IDEOGRAPH-7121",
          "id":"",
          "image":"1f21a.png",
          "chars":[
@@ -1202,7 +1202,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SQUARED CJK UNIFIED IDEOGRAPH-8D70",
          "id":"",
          "image":"1f22f.png",
          "chars":[
@@ -1211,7 +1211,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SQUARED CJK UNIFIED IDEOGRAPH-7981",
          "id":"",
          "image":"1f232.png",
          "chars":[
@@ -1219,7 +1219,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SQUARED CJK UNIFIED IDEOGRAPH-7A7A",
          "id":"",
          "image":"1f233.png",
          "chars":[
@@ -1228,7 +1228,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SQUARED CJK UNIFIED IDEOGRAPH-5408",
          "id":"",
          "image":"1f234.png",
          "chars":[
@@ -1236,7 +1236,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SQUARED CJK UNIFIED IDEOGRAPH-6E80",
          "id":"",
          "image":"1f235.png",
          "chars":[
@@ -1245,7 +1245,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SQUARED CJK UNIFIED IDEOGRAPH-6709",
          "id":"",
          "image":"1f236.png",
          "chars":[
@@ -1254,7 +1254,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SQUARED CJK UNIFIED IDEOGRAPH-6808",
          "id":"",
          "image":"1f237.png",
          "chars":[
@@ -1263,7 +1263,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SQUARED CJK UNIFIED IDEOGRAPH-7533",
          "id":"",
          "image":"1f238.png",
          "chars":[
@@ -1272,7 +1272,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SQUARED CJK UNIFIED IDEOGRAPH-5272",
          "id":"",
          "image":"1f239.png",
          "chars":[
@@ -1281,7 +1281,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SQUARED CJK UNIFIED IDEOGRAPH-55B6",
          "id":"",
          "image":"1f23a.png",
          "chars":[
@@ -1290,7 +1290,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CIRCLED IDEOGRAPH ADVANTAGE",
          "id":"",
          "image":"1f250.png",
          "chars":[
@@ -1299,7 +1299,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CIRCLED IDEOGRAPH ACCEPT",
          "id":"",
          "image":"1f251.png",
          "chars":[
@@ -1307,7 +1307,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CYCLONE",
          "id":"",
          "image":"1f300.png",
          "chars":[
@@ -1316,7 +1316,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FOGGY",
          "id":"",
          "image":"1f301.png",
          "chars":[
@@ -1324,7 +1324,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLOSED UMBRELLA",
          "id":"",
          "image":"1f302.png",
          "chars":[
@@ -1333,7 +1333,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"NIGHT WITH STARS",
          "id":"",
          "image":"1f303.png",
          "chars":[
@@ -1342,7 +1342,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SUNRISE OVER MOUNTAINS",
          "id":"",
          "image":"1f304.png",
          "chars":[
@@ -1351,7 +1351,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SUNRISE",
          "id":"",
          "image":"1f305.png",
          "chars":[
@@ -1360,7 +1360,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CITYSCAPE AT DUSK",
          "id":"",
          "image":"1f306.png",
          "chars":[
@@ -1369,7 +1369,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SUNSET OVER BUILDINGS",
          "id":"",
          "image":"1f307.png",
          "chars":[
@@ -1378,7 +1378,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"RAINBOW",
          "id":"",
          "image":"1f308.png",
          "chars":[
@@ -1387,7 +1387,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BRIDGE AT NIGHT",
          "id":"",
          "image":"1f309.png",
          "chars":[
@@ -1395,7 +1395,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WATER WAVE",
          "id":"",
          "image":"1f30a.png",
          "chars":[
@@ -1404,7 +1404,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"VOLCANO",
          "id":"",
          "image":"1f30b.png",
          "chars":[
@@ -1412,7 +1412,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MILKY WAY",
          "id":"",
          "image":"1f30c.png",
          "chars":[
@@ -1420,7 +1420,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"EARTH GLOBE EUROPE-AFRICA",
          "id":"",
          "image":"1f30d.png",
          "chars":[
@@ -1428,7 +1428,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"EARTH GLOBE AMERICAS",
          "id":"",
          "image":"1f30e.png",
          "chars":[
@@ -1436,7 +1436,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"EARTH GLOBE ASIA-AUSTRALIA",
          "id":"",
          "image":"1f30f.png",
          "chars":[
@@ -1444,7 +1444,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"GLOBE WITH MERIDIANS",
          "id":"",
          "image":"1f310.png",
          "chars":[
@@ -1452,7 +1452,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"NEW MOON SYMBOL",
          "id":"",
          "image":"1f311.png",
          "chars":[
@@ -1460,7 +1460,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WAXING CRESCENT MOON SYMBOL",
          "id":"",
          "image":"1f312.png",
          "chars":[
@@ -1468,7 +1468,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FIRST QUARTER MOON SYMBOL",
          "id":"",
          "image":"1f313.png",
          "chars":[
@@ -1476,7 +1476,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WAXING GIBBOUS MOON SYMBOL",
          "id":"",
          "image":"1f314.png",
          "chars":[
@@ -1484,7 +1484,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FULL MOON SYMBOL",
          "id":"",
          "image":"1f315.png",
          "chars":[
@@ -1492,7 +1492,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WANING GIBBOUS MOON SYMBOL",
          "id":"",
          "image":"1f316.png",
          "chars":[
@@ -1500,7 +1500,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"LAST QUARTER MOON SYMBOL",
          "id":"",
          "image":"1f317.png",
          "chars":[
@@ -1508,7 +1508,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WANING CRESCENT MOON SYMBOL",
          "id":"",
          "image":"1f318.png",
          "chars":[
@@ -1516,7 +1516,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CRESCENT MOON",
          "id":"",
          "image":"1f319.png",
          "chars":[
@@ -1525,7 +1525,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"NEW MOON WITH FACE",
          "id":"",
          "image":"1f31a.png",
          "chars":[
@@ -1533,7 +1533,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FIRST QUARTER MOON WITH FACE",
          "id":"",
          "image":"1f31b.png",
          "chars":[
@@ -1541,7 +1541,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"LAST QUARTER MOON WITH FACE",
          "id":"",
          "image":"1f31c.png",
          "chars":[
@@ -1549,7 +1549,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FULL MOON WITH FACE",
          "id":"",
          "image":"1f31d.png",
          "chars":[
@@ -1557,7 +1557,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SUN WITH FACE",
          "id":"",
          "image":"1f31e.png",
          "chars":[
@@ -1565,7 +1565,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"GLOWING STAR",
          "id":"",
          "image":"1f31f.png",
          "chars":[
@@ -1574,7 +1574,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SHOOTING STAR",
          "id":"",
          "image":"1f320.png",
          "chars":[
@@ -1582,7 +1582,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CHESTNUT",
          "id":"",
          "image":"1f330.png",
          "chars":[
@@ -1590,7 +1590,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SEEDLING",
          "id":"",
          "image":"1f331.png",
          "chars":[
@@ -1598,7 +1598,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"EVERGREEN TREE",
          "id":"",
          "image":"1f332.png",
          "chars":[
@@ -1606,7 +1606,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"DECIDUOUS TREE",
          "id":"",
          "image":"1f333.png",
          "chars":[
@@ -1614,7 +1614,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PALM TREE",
          "id":"",
          "image":"1f334.png",
          "chars":[
@@ -1623,7 +1623,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CACTUS",
          "id":"",
          "image":"1f335.png",
          "chars":[
@@ -1632,7 +1632,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TULIP",
          "id":"",
          "image":"1f337.png",
          "chars":[
@@ -1641,7 +1641,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CHERRY BLOSSOM",
          "id":"",
          "image":"1f338.png",
          "chars":[
@@ -1650,7 +1650,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ROSE",
          "id":"",
          "image":"1f339.png",
          "chars":[
@@ -1659,7 +1659,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HIBISCUS",
          "id":"",
          "image":"1f33a.png",
          "chars":[
@@ -1668,7 +1668,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SUNFLOWER",
          "id":"",
          "image":"1f33b.png",
          "chars":[
@@ -1677,7 +1677,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BLOSSOM",
          "id":"",
          "image":"1f33c.png",
          "chars":[
@@ -1685,7 +1685,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"EAR OF MAIZE",
          "id":"",
          "image":"1f33d.png",
          "chars":[
@@ -1693,7 +1693,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"EAR OF RICE",
          "id":"",
          "image":"1f33e.png",
          "chars":[
@@ -1702,7 +1702,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HERB",
          "id":"",
          "image":"1f33f.png",
          "chars":[
@@ -1710,7 +1710,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FOUR LEAF CLOVER",
          "id":"",
          "image":"1f340.png",
          "chars":[
@@ -1719,7 +1719,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MAPLE LEAF",
          "id":"",
          "image":"1f341.png",
          "chars":[
@@ -1728,7 +1728,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FALLEN LEAF",
          "id":"",
          "image":"1f342.png",
          "chars":[
@@ -1737,7 +1737,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"LEAF FLUTTERING IN WIND",
          "id":"",
          "image":"1f343.png",
          "chars":[
@@ -1746,7 +1746,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MUSHROOM",
          "id":"",
          "image":"1f344.png",
          "chars":[
@@ -1754,7 +1754,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TOMATO",
          "id":"",
          "image":"1f345.png",
          "chars":[
@@ -1763,7 +1763,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"AUBERGINE",
          "id":"",
          "image":"1f346.png",
          "chars":[
@@ -1772,7 +1772,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"GRAPES",
          "id":"",
          "image":"1f347.png",
          "chars":[
@@ -1780,7 +1780,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MELON",
          "id":"",
          "image":"1f348.png",
          "chars":[
@@ -1788,7 +1788,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WATERMELON",
          "id":"",
          "image":"1f349.png",
          "chars":[
@@ -1797,7 +1797,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TANGERINE",
          "id":"",
          "image":"1f34a.png",
          "chars":[
@@ -1806,7 +1806,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"LEMON",
          "id":"",
          "image":"1f34b.png",
          "chars":[
@@ -1814,7 +1814,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BANANA",
          "id":"",
          "image":"1f34c.png",
          "chars":[
@@ -1822,7 +1822,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PINEAPPLE",
          "id":"",
          "image":"1f34d.png",
          "chars":[
@@ -1830,7 +1830,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"RED APPLE",
          "id":"",
          "image":"1f34e.png",
          "chars":[
@@ -1839,7 +1839,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"GREEN APPLE",
          "id":"",
          "image":"1f34f.png",
          "chars":[
@@ -1847,7 +1847,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PEAR",
          "id":"",
          "image":"1f350.png",
          "chars":[
@@ -1855,7 +1855,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PEACH",
          "id":"",
          "image":"1f351.png",
          "chars":[
@@ -1863,7 +1863,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CHERRIES",
          "id":"",
          "image":"1f352.png",
          "chars":[
@@ -1871,7 +1871,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"STRAWBERRY",
          "id":"",
          "image":"1f353.png",
          "chars":[
@@ -1880,7 +1880,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HAMBURGER",
          "id":"",
          "image":"1f354.png",
          "chars":[
@@ -1889,7 +1889,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SLICE OF PIZZA",
          "id":"",
          "image":"1f355.png",
          "chars":[
@@ -1897,7 +1897,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MEAT ON BONE",
          "id":"",
          "image":"1f356.png",
          "chars":[
@@ -1905,7 +1905,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"POULTRY LEG",
          "id":"",
          "image":"1f357.png",
          "chars":[
@@ -1913,7 +1913,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"RICE CRACKER",
          "id":"",
          "image":"1f358.png",
          "chars":[
@@ -1922,7 +1922,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"RICE BALL",
          "id":"",
          "image":"1f359.png",
          "chars":[
@@ -1931,7 +1931,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"COOKED RICE",
          "id":"",
          "image":"1f35A.png",
          "chars":[
@@ -1940,7 +1940,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CURRY AND RICE",
          "id":"",
          "image":"1f35B.png",
          "chars":[
@@ -1949,7 +1949,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"STEAMING BOWL",
          "id":"",
          "image":"1f35C.png",
          "chars":[
@@ -1958,7 +1958,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SPAGHETTI",
          "id":"",
          "image":"1f35D.png",
          "chars":[
@@ -1967,7 +1967,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BREAD",
          "id":"",
          "image":"1f35E.png",
          "chars":[
@@ -1976,7 +1976,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FRENCH FRIES",
          "id":"",
          "image":"1f35F.png",
          "chars":[
@@ -1985,7 +1985,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ROASTED SWEET POTATO",
          "id":"",
          "image":"1f360.png",
          "chars":[
@@ -1993,7 +1993,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"DANGO",
          "id":"",
          "image":"1f361.png",
          "chars":[
@@ -2002,7 +2002,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ODEN",
          "id":"",
          "image":"1f362.png",
          "chars":[
@@ -2011,7 +2011,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SUSHI",
          "id":"",
          "image":"1f363.png",
          "chars":[
@@ -2020,7 +2020,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FRIED SHRIMP",
          "id":"",
          "image":"1f364.png",
          "chars":[
@@ -2028,7 +2028,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FISH CAKE WITH SWIRL DESIGN",
          "id":"",
          "image":"1f365.png",
          "chars":[
@@ -2036,7 +2036,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SOFT ICE CREAM",
          "id":"",
          "image":"1f366.png",
          "chars":[
@@ -2045,7 +2045,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SHAVED ICE",
          "id":"",
          "image":"1f367.png",
          "chars":[
@@ -2054,7 +2054,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ICE CREAM",
          "id":"",
          "image":"1f368.png",
          "chars":[
@@ -2062,7 +2062,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"DOUGHNUT",
          "id":"",
          "image":"1f369.png",
          "chars":[
@@ -2070,7 +2070,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"COOKIE",
          "id":"",
          "image":"1f36A.png",
          "chars":[
@@ -2078,7 +2078,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CHOCOLATE BAR",
          "id":"",
          "image":"1f36B.png",
          "chars":[
@@ -2086,7 +2086,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CANDY",
          "id":"",
          "image":"1f36C.png",
          "chars":[
@@ -2094,7 +2094,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"LOLLIPOP",
          "id":"",
          "image":"1f36D.png",
          "chars":[
@@ -2102,7 +2102,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CUSTARD",
          "id":"",
          "image":"1f36E.png",
          "chars":[
@@ -2110,7 +2110,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HONEY POT",
          "id":"",
          "image":"1f36F.png",
          "chars":[
@@ -2118,7 +2118,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SHORTCAKE",
          "id":"",
          "image":"1f370.png",
          "chars":[
@@ -2127,7 +2127,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BENTO BOX",
          "id":"",
          "image":"1f371.png",
          "chars":[
@@ -2136,7 +2136,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"POT OF FOOD",
          "id":"",
          "image":"1f372.png",
          "chars":[
@@ -2145,7 +2145,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"COOKING",
          "id":"",
          "image":"1f373.png",
          "chars":[
@@ -2154,7 +2154,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FORK AND KNIFE",
          "id":"",
          "image":"1f374.png",
          "chars":[
@@ -2163,7 +2163,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TEACUP WITHOUT HANDLE",
          "id":"",
          "image":"1f375.png",
          "chars":[
@@ -2172,7 +2172,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SAKE BOTTLE AND CUP",
          "id":"",
          "image":"1f376.png",
          "chars":[
@@ -2181,7 +2181,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WINE GLASS",
          "id":"",
          "image":"1f377.png",
          "chars":[
@@ -2189,7 +2189,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"COCKTAIL GLASS",
          "id":"",
          "image":"1f378.png",
          "chars":[
@@ -2198,7 +2198,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TROPICAL DRINK",
          "id":"",
          "image":"1f379.png",
          "chars":[
@@ -2206,7 +2206,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BEER MUG",
          "id":"",
          "image":"1f37A.png",
          "chars":[
@@ -2215,7 +2215,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLINKING BEER MUGS",
          "id":"",
          "image":"1f37B.png",
          "chars":[
@@ -2224,7 +2224,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BABY BOTTLE",
          "id":"",
          "image":"1f37c.png",
          "chars":[
@@ -2232,7 +2232,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"RIBBON",
          "id":"",
          "image":"1f380.png",
          "chars":[
@@ -2241,7 +2241,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WRAPPED PRESENT",
          "id":"",
          "image":"1f381.png",
          "chars":[
@@ -2250,7 +2250,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BIRTHDAY CAKE",
          "id":"",
          "image":"1f382.png",
          "chars":[
@@ -2259,7 +2259,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"JACK-O-LANTERN",
          "id":"",
          "image":"1f383.png",
          "chars":[
@@ -2268,7 +2268,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CHRISTMAS TREE",
          "id":"",
          "image":"1f384.png",
          "chars":[
@@ -2277,7 +2277,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FATHER CHRISTMAS",
          "id":"",
          "image":"1f385.png",
          "chars":[
@@ -2286,7 +2286,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FIREWORKS",
          "id":"",
          "image":"1f386.png",
          "chars":[
@@ -2295,7 +2295,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FIREWORK SPARKLER",
          "id":"",
          "image":"1f387.png",
          "chars":[
@@ -2304,7 +2304,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BALLOON",
          "id":"",
          "image":"1f388.png",
          "chars":[
@@ -2313,7 +2313,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PARTY POPPER",
          "id":"",
          "image":"1f389.png",
          "chars":[
@@ -2322,7 +2322,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CONFETTI BALL",
          "id":"",
          "image":"1f38A.png",
          "chars":[
@@ -2330,7 +2330,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TANABATA TREE",
          "id":"",
          "image":"1f38B.png",
          "chars":[
@@ -2338,7 +2338,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CROSSED FLAGS",
          "id":"",
          "image":"1f38C.png",
          "chars":[
@@ -2347,7 +2347,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PINE DECORATION",
          "id":"",
          "image":"1f38D.png",
          "chars":[
@@ -2356,7 +2356,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"JAPANESE DOLLS",
          "id":"",
          "image":"1f38E.png",
          "chars":[
@@ -2365,7 +2365,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CARP STREAMER",
          "id":"",
          "image":"1f38F.png",
          "chars":[
@@ -2374,7 +2374,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WIND CHIME",
          "id":"",
          "image":"1f390.png",
          "chars":[
@@ -2383,7 +2383,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MOON VIEWING CEREMONY",
          "id":"",
          "image":"1f391.png",
          "chars":[
@@ -2392,7 +2392,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SCHOOL SATCHEL",
          "id":"",
          "image":"1f392.png",
          "chars":[
@@ -2401,7 +2401,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"GRADUATION CAP",
          "id":"",
          "image":"1f393.png",
          "chars":[
@@ -2410,7 +2410,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CAROUSEL HORSE",
          "id":"",
          "image":"1f3A0.png",
          "chars":[
@@ -2418,7 +2418,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FERRIS WHEEL",
          "id":"",
          "image":"1f3A1.png",
          "chars":[
@@ -2427,7 +2427,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ROLLER COASTER",
          "id":"",
          "image":"1f3A2.png",
          "chars":[
@@ -2436,7 +2436,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FISHING POLE AND FISH",
          "id":"",
          "image":"1f3A3.png",
          "chars":[
@@ -2444,7 +2444,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MICROPHONE",
          "id":"",
          "image":"1f3A4.png",
          "chars":[
@@ -2453,7 +2453,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MOVIE CAMERA",
          "id":"",
          "image":"1f3A5.png",
          "chars":[
@@ -2462,7 +2462,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CINEMA",
          "id":"",
          "image":"1f3A6.png",
          "chars":[
@@ -2471,7 +2471,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HEADPHONE",
          "id":"",
          "image":"1f3A7.png",
          "chars":[
@@ -2480,7 +2480,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ARTIST PALETTE",
          "id":"",
          "image":"1f3A8.png",
          "chars":[
@@ -2489,7 +2489,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TOP HAT",
          "id":"",
          "image":"1f3A9.png",
          "chars":[
@@ -2498,7 +2498,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CIRCUS TENT",
          "id":"",
          "image":"1f3AA.png",
          "chars":[
@@ -2506,7 +2506,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TICKET",
          "id":"",
          "image":"1f3AB.png",
          "chars":[
@@ -2515,7 +2515,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLAPPER BOARD",
          "id":"",
          "image":"1f3AC.png",
          "chars":[
@@ -2524,7 +2524,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PERFORMING ARTS",
          "id":"",
          "image":"1f3AD.png",
          "chars":[
@@ -2532,7 +2532,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"VIDEO GAME",
          "id":"",
          "image":"1f3AE.png",
          "chars":[
@@ -2540,7 +2540,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"DIRECT HIT",
          "id":"",
          "image":"1f3AF.png",
          "chars":[
@@ -2549,7 +2549,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SLOT MACHINE",
          "id":"",
          "image":"1f3B0.png",
          "chars":[
@@ -2558,7 +2558,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BILLIARDS",
          "id":"",
          "image":"1f3B1.png",
          "chars":[
@@ -2567,7 +2567,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"GAME DIE",
          "id":"",
          "image":"1f3B2.png",
          "chars":[
@@ -2575,7 +2575,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BOWLING",
          "id":"",
          "image":"1f3B3.png",
          "chars":[
@@ -2583,7 +2583,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FLOWER PLAYING CARDS",
          "id":"",
          "image":"1f3B4.png",
          "chars":[
@@ -2591,7 +2591,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MUSICAL NOTE",
          "id":"",
          "image":"1f3B5.png",
          "chars":[
@@ -2600,7 +2600,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MULTIPLE MUSIC NOTES",
          "id":"",
          "image":"1f3B6.png",
          "chars":[
@@ -2609,7 +2609,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SAXOPHONE",
          "id":"",
          "image":"1f3B7.png",
          "chars":[
@@ -2618,7 +2618,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"GUITAR",
          "id":"",
          "image":"1f3B8.png",
          "chars":[
@@ -2627,7 +2627,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MUSICAL KEYBOARD",
          "id":"",
          "image":"1f3B9.png",
          "chars":[
@@ -2635,7 +2635,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TRUMPET",
          "id":"",
          "image":"1f3BA.png",
          "chars":[
@@ -2644,7 +2644,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"VIOLIN",
          "id":"",
          "image":"1f3BB.png",
          "chars":[
@@ -2652,7 +2652,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MUSICAL SCORE",
          "id":"",
          "image":"1f3BC.png",
          "chars":[
@@ -2660,7 +2660,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"RUNNING SHIRT WITH SASH",
          "id":"",
          "image":"1f3BD.png",
          "chars":[
@@ -2668,7 +2668,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TENNIS RACQUET AND BALL",
          "id":"",
          "image":"1f3BE.png",
          "chars":[
@@ -2677,7 +2677,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SKI AND SKI BOOT",
          "id":"",
          "image":"1f3BF.png",
          "chars":[
@@ -2686,7 +2686,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BASKETBALL AND HOOP",
          "id":"",
          "image":"1f3C0.png",
          "chars":[
@@ -2695,7 +2695,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CHEQUERED FLAG",
          "id":"",
          "image":"1f3C1.png",
          "chars":[
@@ -2704,7 +2704,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SNOWBOARDER",
          "id":"",
          "image":"1f3C2.png",
          "chars":[
@@ -2712,7 +2712,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"RUNNER",
          "id":"",
          "image":"1f3C3.png",
          "chars":[
@@ -2721,7 +2721,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SURFER",
          "id":"",
          "image":"1f3C4.png",
          "chars":[
@@ -2730,7 +2730,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TROPHY",
          "id":"",
          "image":"1f3C6.png",
          "chars":[
@@ -2739,7 +2739,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HORSE RACING",
          "id":"",
          "image":"1f3C7.png",
          "chars":[
@@ -2747,7 +2747,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"AMERICAN FOOTBALL",
          "id":"",
          "image":"1f3C8.png",
          "chars":[
@@ -2756,7 +2756,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"RUGBY FOOTBALL",
          "id":"",
          "image":"1f3C9.png",
          "chars":[
@@ -2764,7 +2764,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SWIMMER",
          "id":"",
          "image":"1f3CA.png",
          "chars":[
@@ -2773,7 +2773,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HOUSE BUILDING",
          "id":"",
          "image":"1f3E0.png",
          "chars":[
@@ -2782,7 +2782,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HOUSE WITH GARDEN",
          "id":"",
          "image":"1f3E1.png",
          "chars":[
@@ -2790,7 +2790,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"OFFICE BUILDING",
          "id":"",
          "image":"1f3E2.png",
          "chars":[
@@ -2799,7 +2799,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"JAPANESE POST OFFICE",
          "id":"",
          "image":"1f3E3.png",
          "chars":[
@@ -2808,7 +2808,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"EUROPEAN POST OFFICE",
          "id":"",
          "image":"1f3E4.png",
          "chars":[
@@ -2816,7 +2816,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HOSPITAL",
          "id":"",
          "image":"1f3E5.png",
          "chars":[
@@ -2825,7 +2825,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BANK",
          "id":"",
          "image":"1f3E6.png",
          "chars":[
@@ -2834,7 +2834,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"AUTOMATED TELLER MACHINE",
          "id":"",
          "image":"1f3E7.png",
          "chars":[
@@ -2843,7 +2843,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HOTEL",
          "id":"",
          "image":"1f3E8.png",
          "chars":[
@@ -2852,7 +2852,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"LOVE HOTEL",
          "id":"",
          "image":"1f3E9.png",
          "chars":[
@@ -2861,7 +2861,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CONVENIENCE STORE",
          "id":"",
          "image":"1f3EA.png",
          "chars":[
@@ -2870,7 +2870,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SCHOOL",
          "id":"",
          "image":"1f3EB.png",
          "chars":[
@@ -2879,7 +2879,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"DEPARTMENT STORE",
          "id":"",
          "image":"1f3EC.png",
          "chars":[
@@ -2888,7 +2888,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FACTORY",
          "id":"",
          "image":"1f3ED.png",
          "chars":[
@@ -2897,7 +2897,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"IZAKAYA LANTERN",
          "id":"",
          "image":"1f3EE.png",
          "chars":[
@@ -2905,7 +2905,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"JAPANESE CASTLE",
          "id":"",
          "image":"1f3EF.png",
          "chars":[
@@ -2914,7 +2914,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"EUROPEAN CASTLE",
          "id":"",
          "image":"1f3F0.png",
          "chars":[
@@ -2923,7 +2923,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"RAT",
          "id":"",
          "image":"1f400.png",
          "chars":[
@@ -2931,7 +2931,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MOUSE",
          "id":"",
          "image":"1f401.png",
          "chars":[
@@ -2939,7 +2939,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"OX",
          "id":"",
          "image":"1f402.png",
          "chars":[
@@ -2947,7 +2947,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WATER BUFFALO",
          "id":"",
          "image":"1f403.png",
          "chars":[
@@ -2955,7 +2955,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"COW",
          "id":"",
          "image":"1f404.png",
          "chars":[
@@ -2963,7 +2963,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TIGER",
          "id":"",
          "image":"1f405.png",
          "chars":[
@@ -2971,7 +2971,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"LEOPARD",
          "id":"",
          "image":"1f406.png",
          "chars":[
@@ -2979,7 +2979,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"RABBIT",
          "id":"",
          "image":"1f407.png",
          "chars":[
@@ -2987,7 +2987,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CAT",
          "id":"",
          "image":"1f408.png",
          "chars":[
@@ -2995,7 +2995,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"DRAGON",
          "id":"",
          "image":"1f409.png",
          "chars":[
@@ -3003,7 +3003,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CROCODILE",
          "id":"",
          "image":"1f40a.png",
          "chars":[
@@ -3011,7 +3011,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WHALE",
          "id":"",
          "image":"1f40b.png",
          "chars":[
@@ -3019,7 +3019,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SNAIL",
          "id":"",
          "image":"1f40C.png",
          "chars":[
@@ -3027,7 +3027,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SNAKE",
          "id":"",
          "image":"1f40D.png",
          "chars":[
@@ -3036,7 +3036,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HORSE",
          "id":"",
          "image":"1f40E.png",
          "chars":[
@@ -3045,7 +3045,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"RAM",
          "id":"",
          "image":"1f40f.png",
          "chars":[
@@ -3053,7 +3053,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"GOAT",
          "id":"",
          "image":"1f410.png",
          "chars":[
@@ -3061,7 +3061,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SHEEP",
          "id":"",
          "image":"1f411.png",
          "chars":[
@@ -3070,7 +3070,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MONKEY",
          "id":"",
          "image":"1f412.png",
          "chars":[
@@ -3079,7 +3079,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ROOSTER",
          "id":"",
          "image":"1f413.png",
          "chars":[
@@ -3087,7 +3087,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CHICKEN",
          "id":"",
          "image":"1f414.png",
          "chars":[
@@ -3096,7 +3096,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"DOG",
          "id":"",
          "image":"1f415.png",
          "chars":[
@@ -3104,7 +3104,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PIG",
          "id":"",
          "image":"1f416.png",
          "chars":[
@@ -3112,7 +3112,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BOAR",
          "id":"",
          "image":"1f417.png",
          "chars":[
@@ -3121,7 +3121,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ELEPHANT",
          "id":"",
          "image":"1f418.png",
          "chars":[
@@ -3130,7 +3130,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"OCTOPUS",
          "id":"",
          "image":"1f419.png",
          "chars":[
@@ -3139,7 +3139,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SPIRAL SHELL",
          "id":"",
          "image":"1f41A.png",
          "chars":[
@@ -3148,7 +3148,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BUG",
          "id":"",
          "image":"1f41B.png",
          "chars":[
@@ -3157,7 +3157,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ANT",
          "id":"",
          "image":"1f41C.png",
          "chars":[
@@ -3165,7 +3165,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HONEYBEE",
          "id":"",
          "image":"1f41D.png",
          "chars":[
@@ -3173,7 +3173,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"LADY BEETLE",
          "id":"",
          "image":"1f41E.png",
          "chars":[
@@ -3181,7 +3181,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FISH",
          "id":"",
          "image":"1f41F.png",
          "chars":[
@@ -3190,7 +3190,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TROPICAL FISH",
          "id":"",
          "image":"1f420.png",
          "chars":[
@@ -3199,7 +3199,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BLOWFISH",
          "id":"",
          "image":"1f421.png",
          "chars":[
@@ -3207,7 +3207,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TURTLE",
          "id":"",
          "image":"1f422.png",
          "chars":[
@@ -3215,7 +3215,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HATCHING CHICK",
          "id":"",
          "image":"1f423.png",
          "chars":[
@@ -3223,7 +3223,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BABY CHICK",
          "id":"",
          "image":"1f424.png",
          "chars":[
@@ -3232,7 +3232,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FRONT-FACING BABY CHICK",
          "id":"",
          "image":"1f425.png",
          "chars":[
@@ -3240,7 +3240,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BIRD",
          "id":"",
          "image":"1f426.png",
          "chars":[
@@ -3249,7 +3249,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PENGUIN",
          "id":"",
          "image":"1f427.png",
          "chars":[
@@ -3258,7 +3258,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"KOALA",
          "id":"",
          "image":"1f428.png",
          "chars":[
@@ -3267,7 +3267,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"POODLE",
          "id":"",
          "image":"1f429.png",
          "chars":[
@@ -3275,7 +3275,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"DROMEDARY CAMEL",
          "id":"",
          "image":"1f42a.png",
          "chars":[
@@ -3283,7 +3283,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BACTRIAN CAMEL",
          "id":"",
          "image":"1f42B.png",
          "chars":[
@@ -3292,7 +3292,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"DOLPHIN",
          "id":"",
          "image":"1f42C.png",
          "chars":[
@@ -3301,7 +3301,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MOUSE FACE",
          "id":"",
          "image":"1f42D.png",
          "chars":[
@@ -3310,7 +3310,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"COW FACE",
          "id":"",
          "image":"1f42E.png",
          "chars":[
@@ -3319,7 +3319,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TIGER FACE",
          "id":"",
          "image":"1f42F.png",
          "chars":[
@@ -3328,7 +3328,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"RABBIT FACE",
          "id":"",
          "image":"1f430.png",
          "chars":[
@@ -3337,7 +3337,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CAT FACE",
          "id":"",
          "image":"1f431.png",
          "chars":[
@@ -3346,7 +3346,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"DRAGON FACE",
          "id":"",
          "image":"1f432.png",
          "chars":[
@@ -3354,7 +3354,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SPOUTING WHALE",
          "id":"",
          "image":"1f433.png",
          "chars":[
@@ -3363,7 +3363,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HORSE FACE",
          "id":"",
          "image":"1f434.png",
          "chars":[
@@ -3372,7 +3372,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MONKEY FACE",
          "id":"",
          "image":"1f435.png",
          "chars":[
@@ -3381,7 +3381,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"DOG FACE",
          "id":"",
          "image":"1f436.png",
          "chars":[
@@ -3390,7 +3390,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PIG FACE",
          "id":"",
          "image":"1f437.png",
          "chars":[
@@ -3399,7 +3399,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FROG FACE",
          "id":"",
          "image":"1f438.png",
          "chars":[
@@ -3408,7 +3408,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HAMSTER FACE",
          "id":"",
          "image":"1f439.png",
          "chars":[
@@ -3417,7 +3417,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WOLF FACE",
          "id":"",
          "image":"1f43A.png",
          "chars":[
@@ -3426,7 +3426,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BEAR FACE",
          "id":"",
          "image":"1f43B.png",
          "chars":[
@@ -3435,7 +3435,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PANDA FACE",
          "id":"",
          "image":"1f43C.png",
          "chars":[
@@ -3443,7 +3443,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PIG NOSE",
          "id":"",
          "image":"1f43D.png",
          "chars":[
@@ -3451,7 +3451,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PAW PRINTS",
          "id":"",
          "image":"1f43E.png",
          "chars":[
@@ -3459,7 +3459,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"EYES",
          "id":"",
          "image":"1f440.png",
          "chars":[
@@ -3468,7 +3468,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"EAR",
          "id":"",
          "image":"1f442.png",
          "chars":[
@@ -3477,7 +3477,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"NOSE",
          "id":"",
          "image":"1f443.png",
          "chars":[
@@ -3486,7 +3486,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MOUTH",
          "id":"",
          "image":"1f444.png",
          "chars":[
@@ -3495,7 +3495,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TONGUE",
          "id":"",
          "image":"1f445.png",
          "chars":[
@@ -3503,7 +3503,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WHITE UP POINTING BACKHAND INDEX",
          "id":"",
          "image":"1f446.png",
          "chars":[
@@ -3512,7 +3512,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WHITE DOWN POINTING BACKHAND INDEX",
          "id":"",
          "image":"1f447.png",
          "chars":[
@@ -3521,7 +3521,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WHITE LEFT POINTING BACKHAND INDEX",
          "id":"",
          "image":"1f448.png",
          "chars":[
@@ -3530,7 +3530,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WHITE RIGHT POINTING BACKHAND INDEX",
          "id":"",
          "image":"1f449.png",
          "chars":[
@@ -3539,7 +3539,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FISTED HAND SIGN",
          "id":"",
          "image":"1f44A.png",
          "chars":[
@@ -3548,7 +3548,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WAVING HAND SIGN",
          "id":"",
          "image":"1f44B.png",
          "chars":[
@@ -3557,7 +3557,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"OK HAND SIGN",
          "id":"",
          "image":"1f44C.png",
          "chars":[
@@ -3566,7 +3566,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"THUMBS UP SIGN",
          "id":"",
          "image":"1f44D.png",
          "chars":[
@@ -3575,7 +3575,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"THUMBS DOWN SIGN",
          "id":"",
          "image":"1f44E.png",
          "chars":[
@@ -3584,7 +3584,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLAPPING HANDS SIGN",
          "id":"",
          "image":"1f44F.png",
          "chars":[
@@ -3593,7 +3593,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"OPEN HANDS SIGN",
          "id":"",
          "image":"1f450.png",
          "chars":[
@@ -3602,7 +3602,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CROWN",
          "id":"",
          "image":"1f451.png",
          "chars":[
@@ -3611,7 +3611,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WOMANS HAT",
          "id":"",
          "image":"1f452.png",
          "chars":[
@@ -3620,7 +3620,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"EYEGLASSES",
          "id":"",
          "image":"1f453.png",
          "chars":[
@@ -3628,7 +3628,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"NECKTIE",
          "id":"",
          "image":"1f454.png",
          "chars":[
@@ -3637,7 +3637,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"T-SHIRT",
          "id":"",
          "image":"1f455.png",
          "chars":[
@@ -3646,7 +3646,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"JEANS",
          "id":"",
          "image":"1f456.png",
          "chars":[
@@ -3654,7 +3654,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"DRESS",
          "id":"",
          "image":"1f457.png",
          "chars":[
@@ -3663,7 +3663,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"KIMONO",
          "id":"",
          "image":"1f458.png",
          "chars":[
@@ -3672,7 +3672,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BIKINI",
          "id":"",
          "image":"1f459.png",
          "chars":[
@@ -3681,7 +3681,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WOMANS CLOTHES",
          "id":"",
          "image":"1f45A.png",
          "chars":[
@@ -3689,7 +3689,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PURSE",
          "id":"",
          "image":"1f45B.png",
          "chars":[
@@ -3697,7 +3697,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HANDBAG",
          "id":"",
          "image":"1f45C.png",
          "chars":[
@@ -3706,7 +3706,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"POUCH",
          "id":"",
          "image":"1f45D.png",
          "chars":[
@@ -3714,7 +3714,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MANS SHOE",
          "id":"",
          "image":"1f45E.png",
          "chars":[
@@ -3722,7 +3722,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ATHLETIC SHOE",
          "id":"",
          "image":"1f45F.png",
          "chars":[
@@ -3731,7 +3731,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HIGH-HEELED SHOE",
          "id":"",
          "image":"1f460.png",
          "chars":[
@@ -3740,7 +3740,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WOMANS SANDAL",
          "id":"",
          "image":"1f461.png",
          "chars":[
@@ -3749,7 +3749,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WOMANS BOOTS",
          "id":"",
          "image":"1f462.png",
          "chars":[
@@ -3758,7 +3758,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FOOTPRINTS",
          "id":"",
          "image":"1f463.png",
          "chars":[
@@ -3767,7 +3767,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BUST IN SILHOUETTE",
          "id":"",
          "image":"1f464.png",
          "chars":[
@@ -3775,7 +3775,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BUSTS IN SILHOUETTE",
          "id":"",
          "image":"1f465.png",
          "chars":[
@@ -3783,7 +3783,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BOY",
          "id":"",
          "image":"1f466.png",
          "chars":[
@@ -3792,7 +3792,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"GIRL",
          "id":"",
          "image":"1f467.png",
          "chars":[
@@ -3801,7 +3801,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MAN",
          "id":"",
          "image":"1f468.png",
          "chars":[
@@ -3810,7 +3810,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WOMAN",
          "id":"",
          "image":"1f469.png",
          "chars":[
@@ -3819,7 +3819,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FAMILY",
          "id":"",
          "image":"1f46A.png",
          "chars":[
@@ -3827,7 +3827,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MAN AND WOMAN HOLDING HANDS",
          "id":"",
          "image":"1f46B.png",
          "chars":[
@@ -3836,7 +3836,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TWO MEN HOLDING HANDS",
          "id":"",
          "image":"1f46c.png",
          "chars":[
@@ -3844,7 +3844,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TWO WOMEN HOLDING HANDS",
          "id":"",
          "image":"1f46d.png",
          "chars":[
@@ -3852,7 +3852,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"POLICE OFFICER",
          "id":"",
          "image":"1f46E.png",
          "chars":[
@@ -3861,7 +3861,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WOMAN WITH BUNNY EARS",
          "id":"",
          "image":"1f46F.png",
          "chars":[
@@ -3870,7 +3870,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BRIDE WITH VEIL",
          "id":"",
          "image":"1f470.png",
          "chars":[
@@ -3878,7 +3878,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PERSON WITH BOLND HAIR",
          "id":"",
          "image":"1f471.png",
          "chars":[
@@ -3887,7 +3887,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MAN WITH GUA PI MAO",
          "id":"",
          "image":"1f472.png",
          "chars":[
@@ -3896,7 +3896,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MAN WITH TURBAN",
          "id":"",
          "image":"1f473.png",
          "chars":[
@@ -3905,7 +3905,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"OLDER MAN",
          "id":"",
          "image":"1f474.png",
          "chars":[
@@ -3914,7 +3914,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"OLDER WOMAN",
          "id":"",
          "image":"1f475.png",
          "chars":[
@@ -3923,7 +3923,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BABY",
          "id":"",
          "image":"1f476.png",
          "chars":[
@@ -3932,7 +3932,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CONSTRUCTION WORKER",
          "id":"",
          "image":"1f477.png",
          "chars":[
@@ -3941,7 +3941,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PRINCESS",
          "id":"",
          "image":"1f478.png",
          "chars":[
@@ -3950,7 +3950,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"JAPANESE OGRE",
          "id":"",
          "image":"1f479.png",
          "chars":[
@@ -3958,7 +3958,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"JAPANESE GOBLIN",
          "id":"",
          "image":"1f47A.png",
          "chars":[
@@ -3966,7 +3966,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"GHOST",
          "id":"",
          "image":"1f47B.png",
          "chars":[
@@ -3975,7 +3975,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BABY ANGEL",
          "id":"",
          "image":"1f47C.png",
          "chars":[
@@ -3984,7 +3984,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"EXTRATERRESTRIAL ALIEN",
          "id":"",
          "image":"1f47D.png",
          "chars":[
@@ -3993,7 +3993,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ALIEN MONSTER",
          "id":"",
          "image":"1f47E.png",
          "chars":[
@@ -4002,7 +4002,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"IMP",
          "id":"",
          "image":"1f47F.png",
          "chars":[
@@ -4011,7 +4011,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SKULL",
          "id":"",
          "image":"1f480.png",
          "chars":[
@@ -4020,7 +4020,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"INFORMATION DESK PERSON",
          "id":"",
          "image":"1f481.png",
          "chars":[
@@ -4029,7 +4029,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"GUARDSMAN",
          "id":"",
          "image":"1f482.png",
          "chars":[
@@ -4038,7 +4038,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"DANCER",
          "id":"",
          "image":"1f483.png",
          "chars":[
@@ -4047,7 +4047,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"LIPSTICK",
          "id":"",
          "image":"1f484.png",
          "chars":[
@@ -4056,7 +4056,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"NAIL POLISH",
          "id":"",
          "image":"1f485.png",
          "chars":[
@@ -4065,7 +4065,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FACE MASSAGE",
          "id":"",
          "image":"1f486.png",
          "chars":[
@@ -4074,7 +4074,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HAIRCUT",
          "id":"",
          "image":"1f487.png",
          "chars":[
@@ -4083,7 +4083,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BARBER POLE",
          "id":"",
          "image":"1f488.png",
          "chars":[
@@ -4092,7 +4092,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SYRINGE",
          "id":"",
          "image":"1f489.png",
          "chars":[
@@ -4101,7 +4101,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PILL",
          "id":"",
          "image":"1f48A.png",
          "chars":[
@@ -4110,7 +4110,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"KISS MARK",
          "id":"",
          "image":"1f48B.png",
          "chars":[
@@ -4119,7 +4119,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"LOVE LETTER",
          "id":"",
          "image":"1f48C.png",
          "chars":[
@@ -4127,7 +4127,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"RING",
          "id":"",
          "image":"1f48D.png",
          "chars":[
@@ -4136,7 +4136,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"GEM STONE",
          "id":"",
          "image":"1f48E.png",
          "chars":[
@@ -4145,7 +4145,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"KISS",
          "id":"",
          "image":"1f48F.png",
          "chars":[
@@ -4154,7 +4154,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BOUQUET",
          "id":"",
          "image":"1f490.png",
          "chars":[
@@ -4163,7 +4163,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"COUPLE WITH HEART",
          "id":"",
          "image":"1f491.png",
          "chars":[
@@ -4172,7 +4172,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WEDDING",
          "id":"",
          "image":"1f492.png",
          "chars":[
@@ -4181,7 +4181,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BEATING HEART",
          "id":"",
          "image":"1f493.png",
          "chars":[
@@ -4190,7 +4190,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BROKEN HEART",
          "id":"",
          "image":"1f494.png",
          "chars":[
@@ -4199,7 +4199,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TWO HEARTS",
          "id":"",
          "image":"1f495.png",
          "chars":[
@@ -4207,7 +4207,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SPARKLING HEART",
          "id":"",
          "image":"1f496.png",
          "chars":[
@@ -4215,7 +4215,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"GROWING HEART",
          "id":"",
          "image":"1f497.png",
          "chars":[
@@ -4224,7 +4224,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HEART WITH ARROW",
          "id":"",
          "image":"1f498.png",
          "chars":[
@@ -4233,7 +4233,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BLUE HEART",
          "id":"",
          "image":"1f499.png",
          "chars":[
@@ -4242,7 +4242,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"GREEN HEART",
          "id":"",
          "image":"1f49A.png",
          "chars":[
@@ -4251,7 +4251,7 @@
          ]
       },
       {
-         "name":"Yellow Heart",
+         "name":"YELLOW HEART",
          "id":"yellow_heart",
          "image":"1f49B.png",
          "chars":[
@@ -4260,7 +4260,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PURPLE HEART",
          "id":"",
          "image":"1f49C.png",
          "chars":[
@@ -4269,7 +4269,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HEART WITH RIBBON",
          "id":"",
          "image":"1f49D.png",
          "chars":[
@@ -4278,7 +4278,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"REVOLVING HEARTS",
          "id":"",
          "image":"1f49E.png",
          "chars":[
@@ -4286,7 +4286,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HEART DECORATION",
          "id":"",
          "image":"1f49F.png",
          "chars":[
@@ -4295,7 +4295,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"DIAMOND SHAPE WITH A DOT INSIDE",
          "id":"",
          "image":"1f4A0.png",
          "chars":[
@@ -4303,7 +4303,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ELECTRIC LIGHT BULB",
          "id":"",
          "image":"1f4A1.png",
          "chars":[
@@ -4312,7 +4312,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ANGER SYMBOL",
          "id":"",
          "image":"1f4A2.png",
          "chars":[
@@ -4321,7 +4321,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BOMB",
          "id":"",
          "image":"1f4A3.png",
          "chars":[
@@ -4330,7 +4330,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SLEEPING SYMBOL",
          "id":"",
          "image":"1f4A4.png",
          "chars":[
@@ -4339,7 +4339,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"COLLISION SYMBOL",
          "id":"",
          "image":"1f4A5.png",
          "chars":[
@@ -4347,7 +4347,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SPLASHING SWEAT SYMBOL",
          "id":"",
          "image":"1f4A6.png",
          "chars":[
@@ -4356,7 +4356,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"DROPLET",
          "id":"",
          "image":"1f4A7.png",
          "chars":[
@@ -4364,7 +4364,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"DASH SYMBOL",
          "id":"",
          "image":"1f4A8.png",
          "chars":[
@@ -4373,7 +4373,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PILE OF POO",
          "id":"",
          "image":"1f4A9.png",
          "chars":[
@@ -4382,7 +4382,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FLEXED BICEPS",
          "id":"",
          "image":"1f4AA.png",
          "chars":[
@@ -4391,7 +4391,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"DIZZY SYMBOL",
          "id":"",
          "image":"1f4AB.png",
          "chars":[
@@ -4399,7 +4399,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SPEECH BALLOON",
          "id":"",
          "image":"1f4AC.png",
          "chars":[
@@ -4407,15 +4407,7 @@
          ]
       },
       {
-         "name":"",
-         "id":"",
-         "image":"1f4AE.png",
-         "chars":[
-            "\uD83D\uDCAE"
-         ]
-      },
-      {
-         "name":"",
+         "name":"THOUGHT BALLOON",
          "id":"",
          "image":"1f4Ad.png",
          "chars":[
@@ -4423,7 +4415,15 @@
          ]
       },
       {
-         "name":"",
+         "name":"WHITE FLOWER",
+         "id":"",
+         "image":"1f4AE.png",
+         "chars":[
+            "\uD83D\uDCAE"
+         ]
+      },
+      {
+         "name":"HUNDRED POINTS SYMBOL",
          "id":"",
          "image":"1f4AF.png",
          "chars":[
@@ -4431,7 +4431,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MONEY BAG",
          "id":"",
          "image":"1f4B0.png",
          "chars":[
@@ -4440,7 +4440,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CURRENCY EXCHANGE",
          "id":"",
          "image":"1f4B1.png",
          "chars":[
@@ -4449,7 +4449,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HEAVY DOLLAR SIGN",
          "id":"",
          "image":"1f4B2.png",
          "chars":[
@@ -4457,7 +4457,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CREDIT CARD",
          "id":"",
          "image":"1f4B3.png",
          "chars":[
@@ -4465,7 +4465,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BANKNOTE WITH YEN SYMBOL",
          "id":"",
          "image":"1f4B4.png",
          "chars":[
@@ -4473,7 +4473,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BANKNOTE WITH DOLLAR SIGN",
          "id":"",
          "image":"1f4B5.png",
          "chars":[
@@ -4481,7 +4481,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BANKNOTE WITH EURO SIGN",
          "id":"",
          "image":"1f4B6.png",
          "chars":[
@@ -4489,7 +4489,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BANKNOTE WITH POUND SIGN",
          "id":"",
          "image":"1f4B7.png",
          "chars":[
@@ -4497,7 +4497,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MONEY WITH WINGS",
          "id":"",
          "image":"1f4B8.png",
          "chars":[
@@ -4505,7 +4505,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CHART WITH UPWARDS TREND AND YEN SIGN",
          "id":"",
          "image":"1f4B9.png",
          "chars":[
@@ -4514,7 +4514,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SEAT",
          "id":"",
          "image":"1f4BA.png",
          "chars":[
@@ -4523,7 +4523,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PERSONAL COMPUTER",
          "id":"",
          "image":"1f4BB.png",
          "chars":[
@@ -4532,7 +4532,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BRIEFCASE",
          "id":"",
          "image":"1f4BC.png",
          "chars":[
@@ -4541,7 +4541,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MINIDISC",
          "id":"",
          "image":"1f4BD.png",
          "chars":[
@@ -4550,7 +4550,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FLOPPY DISK",
          "id":"",
          "image":"1f4BE.png",
          "chars":[
@@ -4558,7 +4558,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"OPTICAL DISC",
          "id":"",
          "image":"1f4BF.png",
          "chars":[
@@ -4567,7 +4567,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"DVD",
          "id":"",
          "image":"1f4C0.png",
          "chars":[
@@ -4576,7 +4576,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FILE FOLDER",
          "id":"",
          "image":"1f4C1.png",
          "chars":[
@@ -4584,7 +4584,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"OPEN FILE FOLDER",
          "id":"",
          "image":"1f4C2.png",
          "chars":[
@@ -4592,7 +4592,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PAGE WITH CURL",
          "id":"",
          "image":"1f4C3.png",
          "chars":[
@@ -4600,7 +4600,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PAGE FACING UP",
          "id":"",
          "image":"1f4C4.png",
          "chars":[
@@ -4608,7 +4608,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CALENDAR",
          "id":"",
          "image":"1f4C5.png",
          "chars":[
@@ -4616,7 +4616,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TEAR-OFF CALENDAR",
          "id":"",
          "image":"1f4C6.png",
          "chars":[
@@ -4624,7 +4624,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CARD INDEX",
          "id":"",
          "image":"1f4C7.png",
          "chars":[
@@ -4632,7 +4632,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CHART WITH UPWARDS TREND",
          "id":"",
          "image":"1f4C8.png",
          "chars":[
@@ -4640,7 +4640,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CHART WITH DOWNWARDS TREND",
          "id":"",
          "image":"1f4C9.png",
          "chars":[
@@ -4648,7 +4648,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BAR CHART",
          "id":"",
          "image":"1f4CA.png",
          "chars":[
@@ -4656,7 +4656,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLIPBOARD",
          "id":"",
          "image":"1f4CB.png",
          "chars":[
@@ -4664,7 +4664,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PUSHPIN",
          "id":"",
          "image":"1f4CC.png",
          "chars":[
@@ -4672,7 +4672,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ROUND PUSHPIN",
          "id":"",
          "image":"1f4CD.png",
          "chars":[
@@ -4680,7 +4680,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PAPERCLIP",
          "id":"",
          "image":"1f4CE.png",
          "chars":[
@@ -4688,7 +4688,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"STRAIGHT RULER",
          "id":"",
          "image":"1f4CF.png",
          "chars":[
@@ -4696,7 +4696,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TRIANGULAR RULER",
          "id":"",
          "image":"1f4D0.png",
          "chars":[
@@ -4704,7 +4704,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BOOKMARK TABS",
          "id":"",
          "image":"1f4D1.png",
          "chars":[
@@ -4712,7 +4712,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"LEDGER",
          "id":"",
          "image":"1f4D2.png",
          "chars":[
@@ -4720,7 +4720,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"NOTEBOOK",
          "id":"",
          "image":"1f4D3.png",
          "chars":[
@@ -4728,7 +4728,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"NOTEBOOK WITH DECORATIVE COVER",
          "id":"",
          "image":"1f4D4.png",
          "chars":[
@@ -4736,7 +4736,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLOSED BOOK",
          "id":"",
          "image":"1f4D5.png",
          "chars":[
@@ -4744,7 +4744,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"OPEN BOOK",
          "id":"",
          "image":"1f4D6.png",
          "chars":[
@@ -4753,7 +4753,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"GREEN BOOK",
          "id":"",
          "image":"1f4D7.png",
          "chars":[
@@ -4761,7 +4761,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BLUE BOOK",
          "id":"",
          "image":"1f4D8.png",
          "chars":[
@@ -4769,7 +4769,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ORANGE BOOK",
          "id":"",
          "image":"1f4D9.png",
          "chars":[
@@ -4777,7 +4777,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BOOKS",
          "id":"",
          "image":"1f4DA.png",
          "chars":[
@@ -4785,7 +4785,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"NAME BADGE",
          "id":"",
          "image":"1f4DB.png",
          "chars":[
@@ -4793,7 +4793,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SCROLL",
          "id":"",
          "image":"1f4DC.png",
          "chars":[
@@ -4801,7 +4801,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MEMO",
          "id":"",
          "image":"1f4DD.png",
          "chars":[
@@ -4810,7 +4810,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TELEPHONE RECEIVER",
          "id":"",
          "image":"1f4DE.png",
          "chars":[
@@ -4818,7 +4818,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PAGER",
          "id":"",
          "image":"1f4DF.png",
          "chars":[
@@ -4826,7 +4826,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FAX MACHINE",
          "id":"",
          "image":"1f4E0.png",
          "chars":[
@@ -4835,7 +4835,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SATELLITE ANTENNA",
          "id":"",
          "image":"1f4E1.png",
          "chars":[
@@ -4844,7 +4844,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PUBLIC ADDRESS LOUDSPEAKER",
          "id":"",
          "image":"1f4E2.png",
          "chars":[
@@ -4853,7 +4853,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CHEERING MEGAPHONE",
          "id":"",
          "image":"1f4E3.png",
          "chars":[
@@ -4862,7 +4862,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"OUTBOX TRAY",
          "id":"",
          "image":"1f4E4.png",
          "chars":[
@@ -4870,7 +4870,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"INBOX TRAY",
          "id":"",
          "image":"1f4E5.png",
          "chars":[
@@ -4878,7 +4878,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PACKAGE",
          "id":"",
          "image":"1f4E6.png",
          "chars":[
@@ -4886,7 +4886,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"E-MAIL SYMBOL",
          "id":"",
          "image":"1f4E7.png",
          "chars":[
@@ -4894,7 +4894,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"INCOMING ENVELOPE",
          "id":"",
          "image":"1f4E8.png",
          "chars":[
@@ -4902,7 +4902,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ENVELOPE WITH DOWNWARDS ARROW ABOVE",
          "id":"",
          "image":"1f4E9.png",
          "chars":[
@@ -4911,7 +4911,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLOSED MAILBOX WITH LOWERED FLAG",
          "id":"",
          "image":"1f4EA.png",
          "chars":[
@@ -4919,7 +4919,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLOSED MAILBOX WITH RAISED FLAG",
          "id":"",
          "image":"1f4EB.png",
          "chars":[
@@ -4928,7 +4928,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"OPEN MAILBOX WITH RAISED FLAG",
          "id":"",
          "image":"1f4Ec.png",
          "chars":[
@@ -4936,7 +4936,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"OPEN MAILBOX WITH LOWERED FLAG",
          "id":"",
          "image":"1f4Ed.png",
          "chars":[
@@ -4944,7 +4944,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"POSTBOX",
          "id":"",
          "image":"1f4EE.png",
          "chars":[
@@ -4953,7 +4953,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"POSTAL HORN",
          "id":"",
          "image":"1f4Ef.png",
          "chars":[
@@ -4961,7 +4961,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"NEWSPAPER",
          "id":"",
          "image":"1f4F0.png",
          "chars":[
@@ -4969,7 +4969,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MOBILE PHONE",
          "id":"",
          "image":"1f4F1.png",
          "chars":[
@@ -4978,7 +4978,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MOBILE PHONE WITH RIGHTWARDS ARROW",
          "id":"",
          "image":"1f4F2.png",
          "chars":[
@@ -4987,7 +4987,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"VIBRATION MODE",
          "id":"",
          "image":"1f4F3.png",
          "chars":[
@@ -4996,7 +4996,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MOBILE PHONE OFF",
          "id":"",
          "image":"1f4F4.png",
          "chars":[
@@ -5005,7 +5005,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"NO MOBILE PHONES",
          "id":"",
          "image":"1f4F5.png",
          "chars":[
@@ -5013,7 +5013,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ANTENNA WITH BARS",
          "id":"",
          "image":"1f4F6.png",
          "chars":[
@@ -5022,7 +5022,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CAMERA",
          "id":"",
          "image":"1f4F7.png",
          "chars":[
@@ -5031,7 +5031,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"VIDEO CAMERA",
          "id":"",
          "image":"1f4F9.png",
          "chars":[
@@ -5039,7 +5039,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TELEVISION",
          "id":"",
          "image":"1f4FA.png",
          "chars":[
@@ -5048,7 +5048,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"RADIO",
          "id":"",
          "image":"1f4FB.png",
          "chars":[
@@ -5057,7 +5057,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"VIDEOCASSETTE",
          "id":"",
          "image":"1f4FC.png",
          "chars":[
@@ -5066,7 +5066,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TWISTED RIGHTWARDS ARROWS",
          "id":"",
          "image":"1f500.png",
          "chars":[
@@ -5074,7 +5074,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS",
          "id":"",
          "image":"1f501.png",
          "chars":[
@@ -5082,7 +5082,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS WITH CIRCLED ONE OVERLAY",
          "id":"",
          "image":"1f502.png",
          "chars":[
@@ -5090,7 +5090,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS",
          "id":"",
          "image":"1f503.png",
          "chars":[
@@ -5098,7 +5098,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ANTICLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS",
          "id":"",
          "image":"1f504.png",
          "chars":[
@@ -5106,7 +5106,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"LOW BRIGHTNESS SYMBOLS",
          "id":"",
          "image":"1f505.png",
          "chars":[
@@ -5114,7 +5114,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HIGH BRIGHTNESS SYMBOLS",
          "id":"",
          "image":"1f506.png",
          "chars":[
@@ -5122,7 +5122,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SPEAKER WITH CANCELLATION STROKE",
          "id":"",
          "image":"1f507.png",
          "chars":[
@@ -5130,7 +5130,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SPEAKER",
          "id":"",
          "image":"1f508.png",
          "chars":[
@@ -5138,7 +5138,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SPEAKER WITH ONE SOUND WAVE",
          "id":"",
          "image":"1f509.png",
          "chars":[
@@ -5146,7 +5146,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SPEAKER WITH THREE SOUND WAVES",
          "id":"",
          "image":"1f50A.png",
          "chars":[
@@ -5155,7 +5155,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BATTERY",
          "id":"",
          "image":"1f50B.png",
          "chars":[
@@ -5163,7 +5163,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ELECTRIC PLUG",
          "id":"",
          "image":"1f50C.png",
          "chars":[
@@ -5171,7 +5171,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"LEFT-POINTING MAGNIFYING GLASS",
          "id":"",
          "image":"1f50D.png",
          "chars":[
@@ -5180,7 +5180,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"RIGHT POINTING MAGNIFYING GLASS",
          "id":"",
          "image":"1f50E.png",
          "chars":[
@@ -5188,7 +5188,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"LOCK WITH INK PEN",
          "id":"",
          "image":"1f50F.png",
          "chars":[
@@ -5196,7 +5196,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLOSED LOCK WITH KEY",
          "id":"",
          "image":"1f510.png",
          "chars":[
@@ -5204,7 +5204,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"KEY",
          "id":"",
          "image":"1f511.png",
          "chars":[
@@ -5213,7 +5213,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"LOCK",
          "id":"",
          "image":"1f512.png",
          "chars":[
@@ -5222,7 +5222,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"OPEN LOCK",
          "id":"",
          "image":"1f513.png",
          "chars":[
@@ -5231,7 +5231,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BELL",
          "id":"",
          "image":"1f514.png",
          "chars":[
@@ -5240,7 +5240,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BELL WITH CANCELLATION STROKE",
          "id":"",
          "image":"1f515.png",
          "chars":[
@@ -5248,7 +5248,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BOOKMARK",
          "id":"",
          "image":"1f516.png",
          "chars":[
@@ -5256,7 +5256,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"LINK SYMBOL",
          "id":"",
          "image":"1f517.png",
          "chars":[
@@ -5264,7 +5264,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"RADIO BUTTON",
          "id":"",
          "image":"1f518.png",
          "chars":[
@@ -5272,7 +5272,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BACK WITH LEFTWARDS ARROW ABOVE",
          "id":"",
          "image":"1f519.png",
          "chars":[
@@ -5280,7 +5280,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"END WITH LEFTWARDS ARROW ABOVE",
          "id":"",
          "image":"1f51A.png",
          "chars":[
@@ -5288,7 +5288,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ON WITH EXCLAMATION MARK WITH LEFT RIGHT ARROW ABOVE",
          "id":"",
          "image":"1f51B.png",
          "chars":[
@@ -5296,7 +5296,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SOON WITH RIGHTWARDS ARROW ABOVE",
          "id":"",
          "image":"1f51C.png",
          "chars":[
@@ -5304,7 +5304,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TOP WITH UPWARDS ARROW ABOVE",
          "id":"",
          "image":"1f51D.png",
          "chars":[
@@ -5313,7 +5313,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"NO ONE UNDER EIGHTEEN SYMBOL",
          "id":"",
          "image":"1f51E.png",
          "chars":[
@@ -5322,7 +5322,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"KEYCAP TEN",
          "id":"",
          "image":"1f51F.png",
          "chars":[
@@ -5330,7 +5330,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"INPUT SYMBOL FOR LATIN CAPITAL LETTERS",
          "id":"",
          "image":"1f520.png",
          "chars":[
@@ -5338,7 +5338,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"INPUT SYMBOL FOR LATIN SMALL LETTERS",
          "id":"",
          "image":"1f521.png",
          "chars":[
@@ -5346,7 +5346,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"INPUT SYMBOL FOR NUMBERS",
          "id":"",
          "image":"1f522.png",
          "chars":[
@@ -5354,7 +5354,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"INPUT SYMBOL FOR SYMBOLS",
          "id":"",
          "image":"1f523.png",
          "chars":[
@@ -5362,7 +5362,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"INPUT SYMBOL FOR LATIN LETTERS",
          "id":"",
          "image":"1f524.png",
          "chars":[
@@ -5370,7 +5370,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FIRE",
          "id":"",
          "image":"1f525.png",
          "chars":[
@@ -5379,7 +5379,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ELECTRIC TORCH",
          "id":"",
          "image":"1f526.png",
          "chars":[
@@ -5387,7 +5387,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WRENCH",
          "id":"",
          "image":"1f527.png",
          "chars":[
@@ -5395,7 +5395,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HAMMER",
          "id":"",
          "image":"1f528.png",
          "chars":[
@@ -5404,7 +5404,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"NUT AND BOLT",
          "id":"",
          "image":"1f529.png",
          "chars":[
@@ -5412,7 +5412,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HOCHO",
          "id":"",
          "image":"1f52A.png",
          "chars":[
@@ -5420,7 +5420,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PISTOL",
          "id":"",
          "image":"1f52B.png",
          "chars":[
@@ -5429,7 +5429,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MICROSCOPE",
          "id":"",
          "image":"1f52c.png",
          "chars":[
@@ -5437,7 +5437,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TELESCOPE",
          "id":"",
          "image":"1f52d.png",
          "chars":[
@@ -5445,7 +5445,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CRYSTAL BALL",
          "id":"",
          "image":"1f52E.png",
          "chars":[
@@ -5453,7 +5453,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SIX POINTED STAR WITH MIDDLE DOT",
          "id":"",
          "image":"1f52F.png",
          "chars":[
@@ -5462,7 +5462,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"JAPANESE SYMBOL FOR BEGINNER",
          "id":"",
          "image":"1f530.png",
          "chars":[
@@ -5471,7 +5471,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TRIDENT EMBLEM",
          "id":"",
          "image":"1f531.png",
          "chars":[
@@ -5480,7 +5480,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BLACK SQUARE BUTTON",
          "id":"",
          "image":"1f532.png",
          "chars":[
@@ -5489,7 +5489,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WHITE SQUARE BUTTON",
          "id":"",
          "image":"1f533.png",
          "chars":[
@@ -5498,7 +5498,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"LARGE RED CIRCLE",
          "id":"",
          "image":"1f534.png",
          "chars":[
@@ -5507,7 +5507,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"LARGE BLUE CIRCLE",
          "id":"",
          "image":"1f535.png",
          "chars":[
@@ -5515,7 +5515,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"LARGE ORANGE DIAMOND",
          "id":"",
          "image":"1f536.png",
          "chars":[
@@ -5523,7 +5523,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"LARGE BLUE DIAMOND",
          "id":"",
          "image":"1f537.png",
          "chars":[
@@ -5531,7 +5531,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SMALL ORANGE DIAMOND",
          "id":"",
          "image":"1f538.png",
          "chars":[
@@ -5539,7 +5539,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SMALL BLUE DIAMOND",
          "id":"",
          "image":"1f539.png",
          "chars":[
@@ -5547,7 +5547,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"UP-POINTING RED TRIANGLE",
          "id":"",
          "image":"1f53A.png",
          "chars":[
@@ -5555,7 +5555,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"DOWN-POINTING RED TRIANGLE",
          "id":"",
          "image":"1f53B.png",
          "chars":[
@@ -5563,7 +5563,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"UP-POINTING SMALL RED TRIANGLE",
          "id":"",
          "image":"1f53C.png",
          "chars":[
@@ -5571,7 +5571,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"DOWN-POINTING SMALL RED TRIANGLE",
          "id":"",
          "image":"1f53D.png",
          "chars":[
@@ -5579,7 +5579,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLOCK FACE ONE OCLOCK",
          "id":"",
          "image":"1f550.png",
          "chars":[
@@ -5588,7 +5588,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLOCK FACE TWO OCLOCK",
          "id":"",
          "image":"1f551.png",
          "chars":[
@@ -5597,7 +5597,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLOCK FACE THREE OCLOCK",
          "id":"",
          "image":"1f552.png",
          "chars":[
@@ -5606,7 +5606,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLOCK FACE FOUR OCLOCK",
          "id":"",
          "image":"1f553.png",
          "chars":[
@@ -5615,7 +5615,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLOCK FACE FIVE OCLOCK",
          "id":"",
          "image":"1f554.png",
          "chars":[
@@ -5624,7 +5624,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLOCK FACE SIX OCLOCK",
          "id":"",
          "image":"1f555.png",
          "chars":[
@@ -5633,7 +5633,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLOCK FACE SEVEN OCLOCK",
          "id":"",
          "image":"1f556.png",
          "chars":[
@@ -5642,7 +5642,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLOCK FACE EIGHT OCLOCK",
          "id":"",
          "image":"1f557.png",
          "chars":[
@@ -5651,7 +5651,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLOCK FACE NINE OCLOCK",
          "id":"",
          "image":"1f558.png",
          "chars":[
@@ -5660,7 +5660,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLOCK FACE TEN OCLOCK",
          "id":"",
          "image":"1f559.png",
          "chars":[
@@ -5669,7 +5669,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLOCK FACE ELEVEN OCLOCK",
          "id":"",
          "image":"1f55A.png",
          "chars":[
@@ -5678,7 +5678,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLOCK FACE TWELVE OCLOCK",
          "id":"",
          "image":"1f55B.png",
          "chars":[
@@ -5687,7 +5687,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLOCK FACE ONE-THIRTY",
          "id":"",
          "image":"1f55c.png",
          "chars":[
@@ -5695,7 +5695,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLOCK FACE TWO-THIRTY",
          "id":"",
          "image":"1f55d.png",
          "chars":[
@@ -5703,7 +5703,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLOCK FACE THREE-THIRTY",
          "id":"",
          "image":"1f55e.png",
          "chars":[
@@ -5711,7 +5711,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLOCK FACE FOUR-THIRTY",
          "id":"",
          "image":"1f55f.png",
          "chars":[
@@ -5719,7 +5719,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLOCK FACE FIVE-THIRTY",
          "id":"",
          "image":"1f560.png",
          "chars":[
@@ -5727,7 +5727,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLOCK FACE SIX-THIRTY",
          "id":"",
          "image":"1f561.png",
          "chars":[
@@ -5735,7 +5735,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLOCK FACE SEVEN-THIRTY",
          "id":"",
          "image":"1f562.png",
          "chars":[
@@ -5743,7 +5743,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLOCK FACE EIGHT-THIRTY",
          "id":"",
          "image":"1f563.png",
          "chars":[
@@ -5751,7 +5751,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLOCK FACE NINE-THIRTY",
          "id":"",
          "image":"1f564.png",
          "chars":[
@@ -5759,7 +5759,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLOCK FACE TEN-THIRTY",
          "id":"",
          "image":"1f565.png",
          "chars":[
@@ -5767,7 +5767,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLOCK FACE ELEVEN-THIRTY",
          "id":"",
          "image":"1f566.png",
          "chars":[
@@ -5775,7 +5775,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CLOCK FACE TWELVE-THIRTY",
          "id":"",
          "image":"1f567.png",
          "chars":[
@@ -5783,7 +5783,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MOUNT FUJI",
          "id":"",
          "image":"1f5FB.png",
          "chars":[
@@ -5792,7 +5792,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TOKYO TOWER",
          "id":"",
          "image":"1f5FC.png",
          "chars":[
@@ -5801,7 +5801,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"STATUE OF LIBERTY",
          "id":"",
          "image":"1f5FD.png",
          "chars":[
@@ -5810,7 +5810,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SILHOUETTE OF JAPAN",
          "id":"",
          "image":"1f5FE.png",
          "chars":[
@@ -5818,7 +5818,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MOYAI",
          "id":"",
          "image":"1f5FF.png",
          "chars":[
@@ -5826,7 +5826,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"GRINNING FACE",
          "id":"",
          "image":"1f600.png",
          "chars":[
@@ -5834,7 +5834,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"GRINNING FACE WITH SMILING EYES",
          "id":"",
          "image":"1f601.png",
          "chars":[
@@ -5843,7 +5843,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FACE WITH TEARS OF JOY",
          "id":"",
          "image":"1f602.png",
          "chars":[
@@ -5852,7 +5852,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SMILING FACE WITH OPEN MOUTH",
          "id":"",
          "image":"1f603.png",
          "chars":[
@@ -5861,7 +5861,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SMILING FACE WITH OPEN MOUTH AND SMILING EYES",
          "id":"",
          "image":"1f604.png",
          "chars":[
@@ -5870,7 +5870,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SMILING FACE WITH OPEN MOUTH AND COLD SWEAT",
          "id":"",
          "image":"1f605.png",
          "chars":[
@@ -5878,7 +5878,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SMILING FACE WITH OPEN MOUTH AND TIGHTLY-CLOSED EYES",
          "id":"",
          "image":"1f606.png",
          "chars":[
@@ -5886,7 +5886,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SMILING FACE WITH HALO",
          "id":"",
          "image":"1f607.png",
          "chars":[
@@ -5894,7 +5894,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SMILING FACE WITH HORNS",
          "id":"",
          "image":"1f608.png",
          "chars":[
@@ -5902,7 +5902,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WINKING FACE",
          "id":"",
          "image":"1f609.png",
          "chars":[
@@ -5911,7 +5911,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SMILING FACE WITH SMILING EYES",
          "id":"",
          "image":"1f60a.png",
          "chars":[
@@ -5920,7 +5920,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FACE SAVOURING DELICIOUS FOOD",
          "id":"",
          "image":"1f60b.png",
          "chars":[
@@ -5928,7 +5928,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"RELIEVED FACE",
          "id":"",
          "image":"1f60c.png",
          "chars":[
@@ -5937,7 +5937,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SMILING FACE WITH HEART-SHAPED EYES",
          "id":"",
          "image":"1f60d.png",
          "chars":[
@@ -5946,7 +5946,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SMILING FACE WITH SUNGLASSES",
          "id":"",
          "image":"1f60e.png",
          "chars":[
@@ -5954,7 +5954,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SMIRKING FACE",
          "id":"",
          "image":"1f60f.png",
          "chars":[
@@ -5963,7 +5963,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"NEUTRAL FACE",
          "id":"",
          "image":"1f610.png",
          "chars":[
@@ -5971,7 +5971,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"EXPRESSIONLESS FACE",
          "id":"",
          "image":"1f611.png",
          "chars":[
@@ -5979,7 +5979,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"UNAMUSED FACE",
          "id":"",
          "image":"1f612.png",
          "chars":[
@@ -5988,7 +5988,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FACE WITH COLD SWEAT",
          "id":"",
          "image":"1f613.png",
          "chars":[
@@ -5997,7 +5997,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PENSIVE FACE",
          "id":"",
          "image":"1f614.png",
          "chars":[
@@ -6006,7 +6006,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CONFUSED FACE",
          "id":"",
          "image":"1f615.png",
          "chars":[
@@ -6014,7 +6014,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CONFOUNDED FACE",
          "id":"",
          "image":"1f616.png",
          "chars":[
@@ -6023,7 +6023,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"KISSING FACE",
          "id":"",
          "image":"1f617.png",
          "chars":[
@@ -6031,7 +6031,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FACE THROWING A KISS",
          "id":"",
          "image":"1f618.png",
          "chars":[
@@ -6040,7 +6040,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"KISSING FACE WITH SMILING EYES",
          "id":"",
          "image":"1f619.png",
          "chars":[
@@ -6048,7 +6048,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"KISSING FACE WITH CLOSED EYES",
          "id":"",
          "image":"1f61a.png",
          "chars":[
@@ -6057,7 +6057,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FACE WITH STUCK-OUT TONGUE",
          "id":"",
          "image":"1f61b.png",
          "chars":[
@@ -6065,7 +6065,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FACE WITH STUCK-OUT TONGUE AND WINKING EYE",
          "id":"",
          "image":"1f61c.png",
          "chars":[
@@ -6074,7 +6074,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FACE WITH STUCK-OUT TONGUE AND TIGHTLY-CLOSED EYES",
          "id":"",
          "image":"1f61d.png",
          "chars":[
@@ -6083,7 +6083,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"DISAPPOINTED FACE",
          "id":"",
          "image":"1f61e.png",
          "chars":[
@@ -6092,7 +6092,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WORRIED FACE",
          "id":"",
          "image":"1f61f.png",
          "chars":[
@@ -6100,7 +6100,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ANGRY FACE",
          "id":"",
          "image":"1f620.png",
          "chars":[
@@ -6109,7 +6109,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"POUTING FACE",
          "id":"",
          "image":"1f621.png",
          "chars":[
@@ -6118,7 +6118,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CRYING FACE",
          "id":"",
          "image":"1f622.png",
          "chars":[
@@ -6127,7 +6127,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PERSEVERING FACE",
          "id":"",
          "image":"1f623.png",
          "chars":[
@@ -6136,7 +6136,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FACE WITH LOOK OF TRIUMPH",
          "id":"",
          "image":"1f624.png",
          "chars":[
@@ -6144,7 +6144,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"DISAPPOINTED BUT RELIEVED FACE",
          "id":"",
          "image":"1f625.png",
          "chars":[
@@ -6153,7 +6153,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FROWNING FACE WITH OPEN MOUTH",
          "id":"",
          "image":"1f626.png",
          "chars":[
@@ -6161,7 +6161,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ANGUISHED FACE",
          "id":"",
          "image":"1f627.png",
          "chars":[
@@ -6169,7 +6169,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FEARFUL FACE",
          "id":"",
          "image":"1f628.png",
          "chars":[
@@ -6178,7 +6178,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WEARY FACE",
          "id":"",
          "image":"1f629.png",
          "chars":[
@@ -6186,7 +6186,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SLEEPY FACE",
          "id":"",
          "image":"1f62a.png",
          "chars":[
@@ -6195,7 +6195,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TIRED FACE",
          "id":"",
          "image":"1f62b.png",
          "chars":[
@@ -6203,7 +6203,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"GRIMACING FACE",
          "id":"",
          "image":"1f62c.png",
          "chars":[
@@ -6211,7 +6211,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"LOUDLY CRYING FACE",
          "id":"",
          "image":"1f62d.png",
          "chars":[
@@ -6220,7 +6220,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FACE WITH OPEN MOUTH",
          "id":"",
          "image":"1f62e.png",
          "chars":[
@@ -6228,7 +6228,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HUSHED FACE",
          "id":"",
          "image":"1f62f.png",
          "chars":[
@@ -6236,7 +6236,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FACE WITH OPEN MOUTH AND COLD SWEAT",
          "id":"",
          "image":"1f630.png",
          "chars":[
@@ -6245,7 +6245,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FACE SCREAMING IN FEAR",
          "id":"",
          "image":"1f631.png",
          "chars":[
@@ -6254,7 +6254,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ASTONISHED FACE",
          "id":"",
          "image":"1f632.png",
          "chars":[
@@ -6263,7 +6263,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FLUSHED FACE",
          "id":"",
          "image":"1f633.png",
          "chars":[
@@ -6272,7 +6272,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SLEEPING FACE",
          "id":"",
          "image":"1f634.png",
          "chars":[
@@ -6280,7 +6280,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"DIZZY FACE",
          "id":"",
          "image":"1f635.png",
          "chars":[
@@ -6288,7 +6288,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FACE WITHOUT MOUTH",
          "id":"",
          "image":"1f636.png",
          "chars":[
@@ -6296,7 +6296,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FACE WITH MEDICAL MASK",
          "id":"",
          "image":"1f637.png",
          "chars":[
@@ -6305,7 +6305,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"GRINNING CAT FACE WITH SMILING EYES",
          "id":"",
          "image":"1f638.png",
          "chars":[
@@ -6313,7 +6313,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CAT FACE WITH TEARS OF JOY",
          "id":"",
          "image":"1f639.png",
          "chars":[
@@ -6321,7 +6321,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SMILING CAT FACE WITH OPEN MOUTH",
          "id":"",
          "image":"1f63a.png",
          "chars":[
@@ -6329,7 +6329,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SMILING CAT FACE WITH HEART-SHAPED EYES",
          "id":"",
          "image":"1f63b.png",
          "chars":[
@@ -6337,7 +6337,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CAT FACE WITH WRY SMILE",
          "id":"",
          "image":"1f63c.png",
          "chars":[
@@ -6345,7 +6345,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"KISSING CAT FACE WITH CLOSED EYES",
          "id":"",
          "image":"1f63d.png",
          "chars":[
@@ -6353,7 +6353,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"POUTING CAT FACE",
          "id":"",
          "image":"1f63e.png",
          "chars":[
@@ -6361,7 +6361,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CRYING CAT FACE",
          "id":"",
          "image":"1f63f.png",
          "chars":[
@@ -6369,7 +6369,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WEARY CAT FACE",
          "id":"",
          "image":"1f640.png",
          "chars":[
@@ -6377,7 +6377,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FACE WITH NO GOOD GESTURE",
          "id":"",
          "image":"1f645.png",
          "chars":[
@@ -6386,7 +6386,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FACE WITH OK GESTURE",
          "id":"",
          "image":"1f646.png",
          "chars":[
@@ -6395,7 +6395,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PERSON BOWING DEEPLY",
          "id":"",
          "image":"1f647.png",
          "chars":[
@@ -6404,7 +6404,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SEE-NO-EVIL MONKEY",
          "id":"",
          "image":"1f648.png",
          "chars":[
@@ -6412,7 +6412,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HEAR-NO-EVIL MONKEY",
          "id":"",
          "image":"1f649.png",
          "chars":[
@@ -6420,7 +6420,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SPEAK-NO-EVIL MONKEY",
          "id":"",
          "image":"1f64a.png",
          "chars":[
@@ -6428,7 +6428,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HAPPY PERSON RAISING ONE HAND",
          "id":"",
          "image":"1f64b.png",
          "chars":[
@@ -6436,7 +6436,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PERSON RAISING BOTH HANDS IN CELEBRATION",
          "id":"",
          "image":"1f64c.png",
          "chars":[
@@ -6445,7 +6445,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PERSON FROWNING",
          "id":"",
          "image":"1f64d.png",
          "chars":[
@@ -6453,7 +6453,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PERSON WITH POUTING FACE",
          "id":"",
          "image":"1f64e.png",
          "chars":[
@@ -6461,7 +6461,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PERSON WITH FOLDED HANDS",
          "id":"",
          "image":"1f64f.png",
          "chars":[
@@ -6470,7 +6470,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ROCKET",
          "id":"",
          "image":"1f680.png",
          "chars":[
@@ -6479,7 +6479,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HELICOPTER",
          "id":"",
          "image":"1f681.png",
          "chars":[
@@ -6487,7 +6487,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"STEAM LOCOMOTIVE",
          "id":"",
          "image":"1f682.png",
          "chars":[
@@ -6495,7 +6495,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"RAILWAY CAR",
          "id":"",
          "image":"1f683.png",
          "chars":[
@@ -6504,7 +6504,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HIGH-SPEED TRAIN",
          "id":"",
          "image":"1f684.png",
          "chars":[
@@ -6513,7 +6513,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HIGH-SPEED TRAIN WITH BULLET NOSE",
          "id":"",
          "image":"1f685.png",
          "chars":[
@@ -6522,7 +6522,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TRAIN",
          "id":"",
          "image":"1f686.png",
          "chars":[
@@ -6530,7 +6530,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"METRO",
          "id":"",
          "image":"1f687.png",
          "chars":[
@@ -6539,7 +6539,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"LIGHT RAIL",
          "id":"",
          "image":"1f688.png",
          "chars":[
@@ -6547,7 +6547,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"STATION",
          "id":"",
          "image":"1f689.png",
          "chars":[
@@ -6556,7 +6556,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TRAM",
          "id":"",
          "image":"1f68a.png",
          "chars":[
@@ -6564,7 +6564,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TRAM CAR",
          "id":"",
          "image":"1f68b.png",
          "chars":[
@@ -6572,7 +6572,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BUS",
          "id":"",
          "image":"1f68c.png",
          "chars":[
@@ -6581,7 +6581,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ONCOMING BUS",
          "id":"",
          "image":"1f68d.png",
          "chars":[
@@ -6589,7 +6589,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TROLLEYBUS",
          "id":"",
          "image":"1f68e.png",
          "chars":[
@@ -6597,7 +6597,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BUS STOP",
          "id":"",
          "image":"1f68f.png",
          "chars":[
@@ -6606,7 +6606,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MINIBUS",
          "id":"",
          "image":"1f690.png",
          "chars":[
@@ -6614,7 +6614,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"AMBULANCE",
          "id":"",
          "image":"1f691.png",
          "chars":[
@@ -6623,7 +6623,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FIRE ENGINE",
          "id":"",
          "image":"1f692.png",
          "chars":[
@@ -6632,7 +6632,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"POLICE CAR",
          "id":"",
          "image":"1f693.png",
          "chars":[
@@ -6641,7 +6641,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ONCOMING POLICE CAR",
          "id":"",
          "image":"1f694.png",
          "chars":[
@@ -6649,7 +6649,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TAXI",
          "id":"",
          "image":"1f695.png",
          "chars":[
@@ -6658,7 +6658,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ONCOMING TAXI",
          "id":"",
          "image":"1f696.png",
          "chars":[
@@ -6666,7 +6666,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"AUTOMOBILE",
          "id":"",
          "image":"1f697.png",
          "chars":[
@@ -6675,7 +6675,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ONCOMING AUTOMOBILE",
          "id":"",
          "image":"1f698.png",
          "chars":[
@@ -6683,7 +6683,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"RECREATIONAL VEHICLE",
          "id":"",
          "image":"1f699.png",
          "chars":[
@@ -6692,7 +6692,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"DELIVERY TRUCK",
          "id":"",
          "image":"1f69A.png",
          "chars":[
@@ -6701,7 +6701,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ARTICULATED LORRY",
          "id":"",
          "image":"1f69b.png",
          "chars":[
@@ -6709,7 +6709,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TRACTOR",
          "id":"",
          "image":"1f69c.png",
          "chars":[
@@ -6717,7 +6717,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MONORAIL",
          "id":"",
          "image":"1f69d.png",
          "chars":[
@@ -6725,7 +6725,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MOUNTAIN RAILWAY",
          "id":"",
          "image":"1f69e.png",
          "chars":[
@@ -6733,7 +6733,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SUSPENSION RAILWAY",
          "id":"",
          "image":"1f69f.png",
          "chars":[
@@ -6741,7 +6741,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MOUNTAIN CABLEWAY",
          "id":"",
          "image":"1f6A0.png",
          "chars":[
@@ -6749,7 +6749,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"AERIAL TRAMWAY",
          "id":"",
          "image":"1f6A1.png",
          "chars":[
@@ -6757,7 +6757,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SHIP",
          "id":"",
          "image":"1f6A2.png",
          "chars":[
@@ -6766,7 +6766,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"ROWBOAT",
          "id":"",
          "image":"1f6A3.png",
          "chars":[
@@ -6774,7 +6774,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SPEEDBOAT",
          "id":"",
          "image":"1f6A4.png",
          "chars":[
@@ -6783,7 +6783,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"HORIZONTAL TRAFFIC LIGHT",
          "id":"",
          "image":"1f6A5.png",
          "chars":[
@@ -6792,7 +6792,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"VERTICAL TRAFFIC LIGHT",
          "id":"",
          "image":"1f6A6.png",
          "chars":[
@@ -6800,7 +6800,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CONSTRUCTION SIGN",
          "id":"",
          "image":"1f6A7.png",
          "chars":[
@@ -6809,7 +6809,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"POLICE CARS REVOLVING LIGHT",
          "id":"",
          "image":"1f6A8.png",
          "chars":[
@@ -6817,7 +6817,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TRIANGULAR FLAG ON POST",
          "id":"",
          "image":"1f6A9.png",
          "chars":[
@@ -6825,7 +6825,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"DOOR",
          "id":"",
          "image":"1f6AA.png",
          "chars":[
@@ -6833,7 +6833,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"NO ENTRY SIGN",
          "id":"",
          "image":"1f6AB.png",
          "chars":[
@@ -6841,7 +6841,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SMOKING SYMBOL",
          "id":"",
          "image":"1f6AC.png",
          "chars":[
@@ -6850,7 +6850,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"NO SMOKING SYMBOL",
          "id":"",
          "image":"1f6AD.png",
          "chars":[
@@ -6859,7 +6859,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PUT LITTER IN ITS PLACE SYMBOL",
          "id":"",
          "image":"1f6Ae.png",
          "chars":[
@@ -6867,7 +6867,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"DO NOT LITTER SYMBOL",
          "id":"",
          "image":"1f6Af.png",
          "chars":[
@@ -6875,7 +6875,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"POTABLE WATER SYMBOL",
          "id":"",
          "image":"1f6B0.png",
          "chars":[
@@ -6883,7 +6883,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"NON-POTABLE WATER SYMBOL",
          "id":"",
          "image":"1f6B1.png",
          "chars":[
@@ -6891,7 +6891,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BICYCLE",
          "id":"",
          "image":"1f6B2.png",
          "chars":[
@@ -6900,7 +6900,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"NO BICYCLES",
          "id":"",
          "image":"1f6B3.png",
          "chars":[
@@ -6908,7 +6908,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BICYCLIST",
          "id":"",
          "image":"1f6B4.png",
          "chars":[
@@ -6916,7 +6916,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MOUNTAIN BICYCLIST",
          "id":"",
          "image":"1f6B5.png",
          "chars":[
@@ -6924,7 +6924,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PEDESTRIAN",
          "id":"",
          "image":"1f6B6.png",
          "chars":[
@@ -6933,7 +6933,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"NO PEDESTRIANS",
          "id":"",
          "image":"1f6B7.png",
          "chars":[
@@ -6941,7 +6941,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CHILDREN CROSSING",
          "id":"",
          "image":"1f6B8.png",
          "chars":[
@@ -6949,7 +6949,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"MENS SYMBOL",
          "id":"",
          "image":"1f6B9.png",
          "chars":[
@@ -6958,7 +6958,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WOMENS SYMBOL",
          "id":"",
          "image":"1f6BA.png",
          "chars":[
@@ -6967,7 +6967,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"RESTROOM",
          "id":"",
          "image":"1f6BB.png",
          "chars":[
@@ -6976,7 +6976,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BABY SYMBOL",
          "id":"",
          "image":"1f6BC.png",
          "chars":[
@@ -6985,7 +6985,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"TOILET",
          "id":"",
          "image":"1f6BD.png",
          "chars":[
@@ -6994,7 +6994,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"WATER CLOSET",
          "id":"",
          "image":"1f6BE.png",
          "chars":[
@@ -7003,7 +7003,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"SHOWER",
          "id":"",
          "image":"1f6Bf.png",
          "chars":[
@@ -7011,7 +7011,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BATH",
          "id":"",
          "image":"1f6C0.png",
          "chars":[
@@ -7020,7 +7020,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BATHTUB",
          "id":"",
          "image":"1f6C1.png",
          "chars":[
@@ -7028,7 +7028,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"PASSPORT CONTROL",
          "id":"",
          "image":"1f6C2.png",
          "chars":[
@@ -7036,7 +7036,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"CUSTOMS",
          "id":"",
          "image":"1f6C3.png",
          "chars":[
@@ -7044,7 +7044,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"BAGGAGE CLAIM",
          "id":"",
          "image":"1f6C4.png",
          "chars":[
@@ -7052,7 +7052,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"LEFT LUGGAGE",
          "id":"",
          "image":"1f6C5.png",
          "chars":[
@@ -7060,7 +7060,7 @@
          ]
       },
       {
-         "name":"Hash Key",
+         "name":"HASH KEY",
          "id":"hash_key",
          "image":"23-20e3.png",
          "chars":[
@@ -7069,7 +7069,7 @@
          ]
       },
       {
-         "name":"Keycap 0",
+         "name":"KEYCAP 0",
          "id":"keycap_0",
          "image":"30-20e3.png",
          "chars":[
@@ -7078,7 +7078,7 @@
          ]
       },
       {
-         "name":"Keycap 1",
+         "name":"KEYCAP 1",
          "id":"keycap_1",
          "image":"31-20e3.png",
          "chars":[
@@ -7087,7 +7087,7 @@
          ]
       },
       {
-         "name":"Keycap 2",
+         "name":"KEYCAP 2",
          "id":"keycap_2",
          "image":"32-20e3.png",
          "chars":[
@@ -7096,7 +7096,7 @@
          ]
       },
       {
-         "name":"Keycap 3",
+         "name":"KEYCAP 3",
          "id":"keycap_3",
          "image":"33-20e3.png",
          "chars":[
@@ -7105,7 +7105,7 @@
          ]
       },
       {
-         "name":"Keycap 4",
+         "name":"KEYCAP 4",
          "id":"keycap_4",
          "image":"34-20e3.png",
          "chars":[
@@ -7114,7 +7114,7 @@
          ]
       },
       {
-         "name":"Keycap 5",
+         "name":"KEYCAP 5",
          "id":"keycap_5",
          "image":"35-20e3.png",
          "chars":[
@@ -7123,7 +7123,7 @@
          ]
       },
       {
-         "name":"Keycap 6",
+         "name":"KEYCAP 6",
          "id":"keycap_6",
          "image":"36-20e3.png",
          "chars":[
@@ -7132,7 +7132,7 @@
          ]
       },
       {
-         "name":"Keycap 7",
+         "name":"KEYCAP 7",
          "id":"keycap_7",
          "image":"37-20e3.png",
          "chars":[
@@ -7141,7 +7141,7 @@
          ]
       },
       {
-         "name":"Keycap 8",
+         "name":"KEYCAP 8",
          "id":"keycap_8",
          "image":"38-20e3.png",
          "chars":[
@@ -7150,7 +7150,7 @@
          ]
       },
       {
-         "name":"Keycap 9",
+         "name":"KEYCAP 9",
          "id":"keycap_9",
          "image":"39-20e3.png",
          "chars":[
@@ -7159,7 +7159,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FLAG OF CHINA",
          "id":"",
          "image":"1f1e8-1f1f3.png",
          "chars":[
@@ -7168,7 +7168,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FLAG OF GERMANY",
          "id":"",
          "image":"1f1e9-1f1ea.png",
          "chars":[
@@ -7177,7 +7177,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FLAG OF SPAIN",
          "id":"",
          "image":"1f1ea-1f1f8.png",
          "chars":[
@@ -7186,7 +7186,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FLAG OF FRANCE",
          "id":"",
          "image":"1f1eb-1f1f7.png",
          "chars":[
@@ -7195,7 +7195,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FLAG OF ITALY",
          "id":"",
          "image":"1f1ee-1f1f9.png",
          "chars":[
@@ -7204,7 +7204,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FLAG OF JAPAN",
          "id":"",
          "image":"1f1ef-1f1f5.png",
          "chars":[
@@ -7213,7 +7213,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FLAG OF SOUTH KOREA",
          "id":"",
          "image":"1f1f0-1f1f7.png",
          "chars":[
@@ -7222,7 +7222,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FLAG OF RUSSIA",
          "id":"",
          "image":"1f1f7-1f1fa.png",
          "chars":[
@@ -7231,7 +7231,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FLAG OF THE UNITED STATES",
          "id":"",
          "image":"1f1fa-1f1f8.png",
          "chars":[
@@ -7240,7 +7240,7 @@
          ]
       },
       {
-         "name":"",
+         "name":"FLAG OF THE UNITED KINGDOM",
          "id":"",
          "image":"1f1ec-1f1e7.png",
          "chars":[

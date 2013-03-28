@@ -45,10 +45,23 @@ function on_mutation(mutations) {
     }
 }
 
-function get_replacement(image) {
+function get_replacement(matched) {
+    var image = matched.image;
+    var name = "";
+    var id = matched.id;
+    if(id != "") {
+        name = chrome.i18n.getMessage(id);
+    }
+    if(name == "") {
+        name = matched.name;
+    }
     var relative = "images/" + image;
     var absolute = chrome.extension.getURL(relative);
-    var element = "<img src='" + absolute + "' class='emoji'>";
+    var element = "<img src='" + absolute + "' class='emoji'";
+    if(name != "") {
+        element += " title='" + name + "' alt='" + name + "' ";
+    }
+    element += ">";
     return element;
 }
 
@@ -66,8 +79,7 @@ function run(nodes) {
                     );
                     
                     if(matched.length > 0) {
-                        var image = matched[0].image
-                        return get_replacement(image);
+                        return get_replacement(matched[0]);
                     }
                     
                     return c;
