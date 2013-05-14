@@ -103,7 +103,7 @@
       {
          "name":"LEFTWARDS ARROW WITH HOOK",
          "id":"leftwards_arrow_with_hook",
-         "image":"21A9.png",
+         "image":"21a9.png",
          "chars":[
             "\u21A9"
          ]
@@ -111,7 +111,7 @@
       {
          "name":"RIGHTWARDS ARROW WITH HOOK",
          "id":"rightwards_arrow_with_hook",
-         "image":"21AA.png",
+         "image":"21aa.png",
          "chars":[
             "\u21AA"
          ]
@@ -119,7 +119,7 @@
       {
          "name":"WATCH",
          "id":"watch",
-         "image":"231A.png",
+         "image":"231a.png",
          "chars":[
             "\u231A"
          ]
@@ -127,7 +127,7 @@
       {
          "name":"HOURGLASS",
          "id":"hourglass",
-         "image":"231B.png",
+         "image":"231b.png",
          "chars":[
             "\u231B"
          ]
@@ -135,7 +135,7 @@
       {
          "name":"BLACK RIGHT-POINTING DOUBLE TRIANGLE",
          "id":"black_right-pointing_double_triangle",
-         "image":"23E9.png",
+         "image":"23e9.png",
          "chars":[
             "\u23E9",
             "\uE23C"
@@ -144,7 +144,7 @@
       {
          "name":"BLACK LEFT-POINTING DOUBLE TRIANGLE",
          "id":"black_left-pointing_double_triangle",
-         "image":"23EA.png",
+         "image":"23ea.png",
          "chars":[
             "\u23EA",
             "\uE23D"
@@ -153,7 +153,7 @@
       {
          "name":"BLACK UP-POINTING DOUBLE TRIANGLE",
          "id":"black_up-pointing_double_triangle",
-         "image":"23EB.png",
+         "image":"23eb.png",
          "chars":[
             "\u23EB"
          ]
@@ -161,7 +161,7 @@
       {
          "name":"BLACK DOWN-POINTING DOUBLE TRIANGLE",
          "id":"black_down-pointing_double_triangle",
-         "image":"23EC.png",
+         "image":"23ec.png",
          "chars":[
             "\u23EC"
          ]
@@ -169,7 +169,7 @@
       {
          "name":"ALARM CLOCK",
          "id":"alarm_clock",
-         "image":"23F0.png",
+         "image":"23f0.png",
          "chars":[
             "\u23F0"
          ]
@@ -177,7 +177,7 @@
       {
          "name":"HOURGLASS WITH FLOWING SAND",
          "id":"hourglass_with_flowing_sand",
-         "image":"23F3.png",
+         "image":"23f3.png",
          "chars":[
             "\u23F3"
          ]
@@ -185,7 +185,7 @@
       {
          "name":"CIRCLED CAPITAL LETTER M",
          "id":"circled_capital_letter_m",
-         "image":"24C2.png",
+         "image":"24c2.png",
          "chars":[
             "\u24C2"
          ]
@@ -193,7 +193,7 @@
       {
          "name":"BLACK SMALL SQUARE",
          "id":"black_small_square",
-         "image":"25AA.png",
+         "image":"25aa.png",
          "chars":[
             "\u25AA"
          ]
@@ -201,7 +201,7 @@
       {
          "name":"WHITE SMALL SQUARE",
          "id":"white_small_square",
-         "image":"25AB.png",
+         "image":"25ab.png",
          "chars":[
             "\u25AB"
          ]
@@ -209,7 +209,7 @@
       {
          "name":"BLACK RIGHT-POINTING TRIANGLE",
          "id":"black_right-pointing_triangle",
-         "image":"25B6.png",
+         "image":"25b6.png",
          "chars":[
             "\u25B6",
             "\uE23A"
@@ -218,7 +218,7 @@
       {
          "name":"BLACK LEFT-POINTING TRIANGLE",
          "id":"black_left-pointing_triangle",
-         "image":"25C0.png",
+         "image":"25c0.png",
          "chars":[
             "\u25C0",
             "\uE23B"
@@ -227,7 +227,7 @@
       {
          "name":"WHITE MEDIUM SQUARE",
          "id":"white_medium_square",
-         "image":"25FB.png",
+         "image":"25fb.png",
          "chars":[
             "\u25FB"
          ]
@@ -235,7 +235,7 @@
       {
          "name":"BLACK MEDIUM SQUARE",
          "id":"black_medium_square",
-         "image":"25FC.png",
+         "image":"25fc.png",
          "chars":[
             "\u25FC"
          ]
@@ -243,7 +243,7 @@
       {
          "name":"WHITE MEDIUM SMALL SQUARE",
          "id":"white_medium_small_square",
-         "image":"25FD.png",
+         "image":"25fd.png",
          "chars":[
             "\u25FD"
          ]
@@ -251,7 +251,7 @@
       {
          "name":"BLACK MEDIUM SMALL SQUARE",
          "id":"black_medium_small_square",
-         "image":"25FE.png",
+         "image":"25fe.png",
          "chars":[
             "\u25FE"
          ]
@@ -277,7 +277,7 @@
       {
          "name":"BLACK TELEPHONE",
          "id":"black_telephone",
-         "image":"260E.png",
+         "image":"260e.png",
          "chars":[
             "\u260E",
             "\uE009"
@@ -312,7 +312,7 @@
       {
          "name":"WHITE UP POINTING INDEX",
          "id":"white_up_pointing_index",
-         "image":"261D.png",
+         "image":"261d.png",
          "chars":[
             "\u261D",
             "\uE00F"
@@ -321,7 +321,7 @@
       {
          "name":"WHITE SMILING FACE",
          "id":"white_smiling_face",
-         "image":"263A.png",
+         "image":"263a.png",
          "chars":[
             "\u263A",
             "\uE414"
@@ -348,7 +348,7 @@
       {
          "name":"GEMINI",
          "id":"gemini",
-         "image":"264A.png",
+         "image":"264a.png",
          "chars":[
             "\u264A",
             "\uE241"
@@ -357,7 +357,7 @@
       {
          "name":"CANCER",
          "id":"cancer",
-         "image":"264B.png",
+         "image":"264b.png",
          "chars":[
             "\u264B",
             "\uE242"
@@ -366,7 +366,7 @@
       {
          "name":"LEO",
          "id":"leo",
-         "image":"264C.png",
+         "image":"264c.png",
          "chars":[
             "\u264C",
             "\uE243"
@@ -375,7 +375,7 @@
       {
          "name":"VIRGO",
          "id":"virgo",
-         "image":"264D.png",
+         "image":"264d.png",
          "chars":[
             "\u264D",
             "\uE244"
@@ -384,7 +384,7 @@
       {
          "name":"LIBRA",
          "id":"libra",
-         "image":"264E.png",
+         "image":"264e.png",
          "chars":[
             "\u264E",
             "\uE245"
@@ -393,7 +393,7 @@
       {
          "name":"SCORPIUS",
          "id":"scorpius",
-         "image":"264F.png",
+         "image":"264f.png",
          "chars":[
             "\u264F",
             "\uE246"
@@ -483,7 +483,7 @@
       {
          "name":"BLACK UNIVERSAL RECYCLING SYMBOL",
          "id":"black_universal_recycling_symbol",
-         "image":"267B.png",
+         "image":"267b.png",
          "chars":[
             "\u267B"
          ]
@@ -491,7 +491,7 @@
       {
          "name":"WHEELCHAIR SYMBOL",
          "id":"wheelchair_symbol",
-         "image":"267F.png",
+         "image":"267f.png",
          "chars":[
             "\u267F",
             "\uE20A"
@@ -508,7 +508,7 @@
       {
          "name":"WARNING SIGN",
          "id":"warning_sign",
-         "image":"26A0.png",
+         "image":"26a0.png",
          "chars":[
             "\u26A0",
             "\uE252"
@@ -517,7 +517,7 @@
       {
          "name":"HIGH VOLTAGE SIGN",
          "id":"high_voltage_sign",
-         "image":"26A1.png",
+         "image":"26a1.png",
          "chars":[
             "\u26A1",
             "\uE13D"
@@ -526,7 +526,7 @@
       {
          "name":"MEDIUM WHITE CIRCLE",
          "id":"medium_white_circle",
-         "image":"26AA.png",
+         "image":"26aa.png",
          "chars":[
             "\u26AA"
          ]
@@ -534,7 +534,7 @@
       {
          "name":"MEDIUM BLACK CIRCLE",
          "id":"medium_black_circle",
-         "image":"26AB.png",
+         "image":"26ab.png",
          "chars":[
             "\u26AB"
          ]
@@ -542,7 +542,7 @@
       {
          "name":"SOCCER BALL",
          "id":"soccer_ball",
-         "image":"26BD.png",
+         "image":"26bd.png",
          "chars":[
             "\u26BD",
             "\uE018"
@@ -551,7 +551,7 @@
       {
          "name":"BASEBALL",
          "id":"baseball",
-         "image":"26BE.png",
+         "image":"26be.png",
          "chars":[
             "\u26BE",
             "\uE016"
@@ -560,7 +560,7 @@
       {
          "name":"SNOWMAN WITHOUT SNOW",
          "id":"snowman_without_snow",
-         "image":"26C4.png",
+         "image":"26c4.png",
          "chars":[
             "\u26C4",
             "\uE048"
@@ -569,7 +569,7 @@
       {
          "name":"SUN BEHIND CLOUD",
          "id":"sun_behind_cloud",
-         "image":"26C5.png",
+         "image":"26c5.png",
          "chars":[
             "\u26C5"
          ]
@@ -577,7 +577,7 @@
       {
          "name":"OPHIUCHUS",
          "id":"ophiuchus",
-         "image":"26CE.png",
+         "image":"26ce.png",
          "chars":[
             "\u26CE",
             "\uE24B"
@@ -586,7 +586,7 @@
       {
          "name":"NO ENTRY",
          "id":"no_entry",
-         "image":"26D4.png",
+         "image":"26d4.png",
          "chars":[
             "\u26D4"
          ]
@@ -594,7 +594,7 @@
       {
          "name":"CHURCH",
          "id":"church",
-         "image":"26EA.png",
+         "image":"26ea.png",
          "chars":[
             "\u26EA",
             "\uE037"
@@ -603,7 +603,7 @@
       {
          "name":"FOUNTAIN",
          "id":"fountain",
-         "image":"26F2.png",
+         "image":"26f2.png",
          "chars":[
             "\u26F2",
             "\uE121"
@@ -612,7 +612,7 @@
       {
          "name":"FLAG IN HOLE",
          "id":"flag_in_hole",
-         "image":"26F3.png",
+         "image":"26f3.png",
          "chars":[
             "\u26F3",
             "\uE014"
@@ -621,7 +621,7 @@
       {
          "name":"SAILBOAT",
          "id":"sailboat",
-         "image":"26F5.png",
+         "image":"26f5.png",
          "chars":[
             "\u26F5",
             "\uE01C"
@@ -630,7 +630,7 @@
       {
          "name":"TENT",
          "id":"tent",
-         "image":"26FA.png",
+         "image":"26fa.png",
          "chars":[
             "\u26FA",
             "\uE122"
@@ -639,7 +639,7 @@
       {
          "name":"FUEL PUMP",
          "id":"fuel_pump",
-         "image":"26FD.png",
+         "image":"26fd.png",
          "chars":[
             "\u26FD",
             "\uE03A"
@@ -682,7 +682,7 @@
       {
          "name":"RAISED FIST",
          "id":"raised_fist",
-         "image":"270A.png",
+         "image":"270a.png",
          "chars":[
             "\u270A",
             "\uE010"
@@ -691,7 +691,7 @@
       {
          "name":"RAISED HAND",
          "id":"raised_hand",
-         "image":"270B.png",
+         "image":"270b.png",
          "chars":[
             "\u270B",
             "\uE012"
@@ -700,7 +700,7 @@
       {
          "name":"VICTORY HAND",
          "id":"victory_hand",
-         "image":"270C.png",
+         "image":"270c.png",
          "chars":[
             "\u270C",
             "\uE011"
@@ -709,7 +709,7 @@
       {
          "name":"PENCIL",
          "id":"pencil",
-         "image":"270F.png",
+         "image":"270f.png",
          "chars":[
             "\u270F"
          ]
@@ -784,7 +784,7 @@
       {
          "name":"CROSS MARK",
          "id":"cross_mark",
-         "image":"274C.png",
+         "image":"274c.png",
          "chars":[
             "\u274C",
             "\uE333"
@@ -793,7 +793,7 @@
       {
          "name":"NEGATIVE SQUARED CROSS MARK",
          "id":"negative_squared_cross_mark",
-         "image":"274E.png",
+         "image":"274e.png",
          "chars":[
             "\u274E"
          ]
@@ -876,7 +876,7 @@
       {
          "name":"BLACK RIGHTWARDS ARROW",
          "id":"black_rightwards_arrow",
-         "image":"27A1.png",
+         "image":"27a1.png",
          "chars":[
             "\u27A1",
             "\uE234"
@@ -885,7 +885,7 @@
       {
          "name":"CURLY LOOP",
          "id":"curly_loop",
-         "image":"27B0.png",
+         "image":"27b0.png",
          "chars":[
             "\u27B0"
          ]
@@ -893,7 +893,7 @@
       {
          "name":"DOUBLE CURLY LOOP",
          "id":"double_curly_loop",
-         "image":"27BF.png",
+         "image":"27bf.png",
          "chars":[
             "\u27BF",
             "\uE211"
@@ -918,7 +918,7 @@
       {
          "name":"LEFTWARDS BLACK ARROW",
          "id":"leftwards_black_arrow",
-         "image":"2B05.png",
+         "image":"2b05.png",
          "chars":[
             "\u2B05",
             "\uE235"
@@ -927,7 +927,7 @@
       {
          "name":"UPWARDS BLACK ARROW",
          "id":"upwards_black_arrow",
-         "image":"2B06.png",
+         "image":"2b06.png",
          "chars":[
             "\u2B06",
             "\uE232"
@@ -936,7 +936,7 @@
       {
          "name":"DOWNWARDS BLACK ARROW",
          "id":"downwards_black_arrow",
-         "image":"2B07.png",
+         "image":"2b07.png",
          "chars":[
             "\u2B07",
             "\uE233"
@@ -945,7 +945,7 @@
       {
          "name":"BLACK LARGE SQUARE",
          "id":"black_large_square",
-         "image":"2B1B.png",
+         "image":"2b1b.png",
          "chars":[
             "\u2B1B"
          ]
@@ -953,7 +953,7 @@
       {
          "name":"WHITE LARGE SQUARE",
          "id":"white_large_square",
-         "image":"2B1C.png",
+         "image":"2b1c.png",
          "chars":[
             "\u2B1C"
          ]
@@ -961,7 +961,7 @@
       {
          "name":"WHTE MEDIUM STAR",
          "id":"whte_medium_star",
-         "image":"2B50.png",
+         "image":"2b50.png",
          "chars":[
             "\u2B50"
          ]
@@ -969,7 +969,7 @@
       {
          "name":"HEAVY LARGE CIRCLE",
          "id":"heavy_large_circle",
-         "image":"2B55.png",
+         "image":"2b55.png",
          "chars":[
             "\u2B55",
             "\uE332"
@@ -986,7 +986,7 @@
       {
          "name":"PART ALTERNATION MARK",
          "id":"part_alternation_mark",
-         "image":"303D.png",
+         "image":"303d.png",
          "chars":[
             "\u303D",
             "\uE12C"
@@ -1933,7 +1933,7 @@
       {
          "name":"COOKED RICE",
          "id":"cooked_rice",
-         "image":"1f35A.png",
+         "image":"1f35a.png",
          "chars":[
             "\uD83C\uDF5A",
             "\uE33E"
@@ -1942,7 +1942,7 @@
       {
          "name":"CURRY AND RICE",
          "id":"curry_and_rice",
-         "image":"1f35B.png",
+         "image":"1f35b.png",
          "chars":[
             "\uD83C\uDF5B",
             "\uE341"
@@ -1951,7 +1951,7 @@
       {
          "name":"STEAMING BOWL",
          "id":"steaming_bowl",
-         "image":"1f35C.png",
+         "image":"1f35c.png",
          "chars":[
             "\uD83C\uDF5C",
             "\uE340"
@@ -1960,7 +1960,7 @@
       {
          "name":"SPAGHETTI",
          "id":"spaghetti",
-         "image":"1f35D.png",
+         "image":"1f35d.png",
          "chars":[
             "\uD83C\uDF5D",
             "\uE33F"
@@ -1969,7 +1969,7 @@
       {
          "name":"BREAD",
          "id":"bread",
-         "image":"1f35E.png",
+         "image":"1f35e.png",
          "chars":[
             "\uD83C\uDF5E",
             "\uE339"
@@ -1978,7 +1978,7 @@
       {
          "name":"FRENCH FRIES",
          "id":"french_fries",
-         "image":"1f35F.png",
+         "image":"1f35f.png",
          "chars":[
             "\uD83C\uDF5F",
             "\uE33B"
@@ -2072,7 +2072,7 @@
       {
          "name":"COOKIE",
          "id":"cookie",
-         "image":"1f36A.png",
+         "image":"1f36a.png",
          "chars":[
             "\uD83C\uDF6A"
          ]
@@ -2080,7 +2080,7 @@
       {
          "name":"CHOCOLATE BAR",
          "id":"chocolate_bar",
-         "image":"1f36B.png",
+         "image":"1f36b.png",
          "chars":[
             "\uD83C\uDF6B"
          ]
@@ -2088,7 +2088,7 @@
       {
          "name":"CANDY",
          "id":"candy",
-         "image":"1f36C.png",
+         "image":"1f36c.png",
          "chars":[
             "\uD83C\uDF6C"
          ]
@@ -2096,7 +2096,7 @@
       {
          "name":"LOLLIPOP",
          "id":"lollipop",
-         "image":"1f36D.png",
+         "image":"1f36d.png",
          "chars":[
             "\uD83C\uDF6D"
          ]
@@ -2104,7 +2104,7 @@
       {
          "name":"CUSTARD",
          "id":"custard",
-         "image":"1f36E.png",
+         "image":"1f36e.png",
          "chars":[
             "\uD83C\uDF6E"
          ]
@@ -2112,7 +2112,7 @@
       {
          "name":"HONEY POT",
          "id":"honey_pot",
-         "image":"1f36F.png",
+         "image":"1f36f.png",
          "chars":[
             "\uD83C\uDF6F"
          ]
@@ -2208,7 +2208,7 @@
       {
          "name":"BEER MUG",
          "id":"beer_mug",
-         "image":"1f37A.png",
+         "image":"1f37a.png",
          "chars":[
             "\uD83C\uDF7A",
             "\uE047"
@@ -2217,7 +2217,7 @@
       {
          "name":"CLINKING BEER MUGS",
          "id":"clinking_beer_mugs",
-         "image":"1f37B.png",
+         "image":"1f37b.png",
          "chars":[
             "\uD83C\uDF7B",
             "\uE30C"
@@ -2324,7 +2324,7 @@
       {
          "name":"CONFETTI BALL",
          "id":"confetti_ball",
-         "image":"1f38A.png",
+         "image":"1f38a.png",
          "chars":[
             "\uD83C\uDF8A"
          ]
@@ -2332,7 +2332,7 @@
       {
          "name":"TANABATA TREE",
          "id":"tanabata_tree",
-         "image":"1f38B.png",
+         "image":"1f38b.png",
          "chars":[
             "\uD83C\uDF8B"
          ]
@@ -2340,7 +2340,7 @@
       {
          "name":"CROSSED FLAGS",
          "id":"crossed_flags",
-         "image":"1f38C.png",
+         "image":"1f38c.png",
          "chars":[
             "\uD83C\uDF8C",
             "\uE143"
@@ -2349,7 +2349,7 @@
       {
          "name":"PINE DECORATION",
          "id":"pine_decoration",
-         "image":"1f38D.png",
+         "image":"1f38d.png",
          "chars":[
             "\uD83C\uDF8D",
             "\uE436"
@@ -2358,7 +2358,7 @@
       {
          "name":"JAPANESE DOLLS",
          "id":"japanese_dolls",
-         "image":"1f38E.png",
+         "image":"1f38e.png",
          "chars":[
             "\uD83C\uDF8E",
             "\uE438"
@@ -2367,7 +2367,7 @@
       {
          "name":"CARP STREAMER",
          "id":"carp_streamer",
-         "image":"1f38F.png",
+         "image":"1f38f.png",
          "chars":[
             "\uD83C\uDF8F",
             "\uE43B"
@@ -2412,7 +2412,7 @@
       {
          "name":"CAROUSEL HORSE",
          "id":"carousel_horse",
-         "image":"1f3A0.png",
+         "image":"1f3a0.png",
          "chars":[
             "\uD83C\uDFA0"
          ]
@@ -2420,7 +2420,7 @@
       {
          "name":"FERRIS WHEEL",
          "id":"ferris_wheel",
-         "image":"1f3A1.png",
+         "image":"1f3a1.png",
          "chars":[
             "\uD83C\uDFA1",
             "\uE124"
@@ -2429,7 +2429,7 @@
       {
          "name":"ROLLER COASTER",
          "id":"roller_coaster",
-         "image":"1f3A2.png",
+         "image":"1f3a2.png",
          "chars":[
             "\uD83C\uDFA2",
             "\uE433"
@@ -2438,7 +2438,7 @@
       {
          "name":"FISHING POLE AND FISH",
          "id":"fishing_pole_and_fish",
-         "image":"1f3A3.png",
+         "image":"1f3a3.png",
          "chars":[
             "\uD83C\uDFA3"
          ]
@@ -2446,7 +2446,7 @@
       {
          "name":"MICROPHONE",
          "id":"microphone",
-         "image":"1f3A4.png",
+         "image":"1f3a4.png",
          "chars":[
             "\uD83C\uDFA4",
             "\uE03C"
@@ -2455,7 +2455,7 @@
       {
          "name":"MOVIE CAMERA",
          "id":"movie_camera",
-         "image":"1f3A5.png",
+         "image":"1f3a5.png",
          "chars":[
             "\uD83C\uDFA5",
             "\uE03D"
@@ -2464,7 +2464,7 @@
       {
          "name":"CINEMA",
          "id":"cinema",
-         "image":"1f3A6.png",
+         "image":"1f3a6.png",
          "chars":[
             "\uD83C\uDFA6",
             "\uE507"
@@ -2473,7 +2473,7 @@
       {
          "name":"HEADPHONE",
          "id":"headphone",
-         "image":"1f3A7.png",
+         "image":"1f3a7.png",
          "chars":[
             "\uD83C\uDFA7",
             "\uE30A"
@@ -2482,7 +2482,7 @@
       {
          "name":"ARTIST PALETTE",
          "id":"artist_palette",
-         "image":"1f3A8.png",
+         "image":"1f3a8.png",
          "chars":[
             "\uD83C\uDFA8",
             "\uE502"
@@ -2491,7 +2491,7 @@
       {
          "name":"TOP HAT",
          "id":"top_hat",
-         "image":"1f3A9.png",
+         "image":"1f3a9.png",
          "chars":[
             "\uD83C\uDFA9",
             "\uE503"
@@ -2500,7 +2500,7 @@
       {
          "name":"CIRCUS TENT",
          "id":"circus_tent",
-         "image":"1f3AA.png",
+         "image":"1f3aa.png",
          "chars":[
             "\uD83C\uDFAA"
          ]
@@ -2508,7 +2508,7 @@
       {
          "name":"TICKET",
          "id":"ticket",
-         "image":"1f3AB.png",
+         "image":"1f3ab.png",
          "chars":[
             "\uD83C\uDFAB",
             "\uE125"
@@ -2517,7 +2517,7 @@
       {
          "name":"CLAPPER BOARD",
          "id":"clapper_board",
-         "image":"1f3AC.png",
+         "image":"1f3ac.png",
          "chars":[
             "\uD83C\uDFAC",
             "\uE324"
@@ -2526,7 +2526,7 @@
       {
          "name":"PERFORMING ARTS",
          "id":"performing_arts",
-         "image":"1f3AD.png",
+         "image":"1f3ad.png",
          "chars":[
             "\uD83C\uDFAD"
          ]
@@ -2534,7 +2534,7 @@
       {
          "name":"VIDEO GAME",
          "id":"video_game",
-         "image":"1f3AE.png",
+         "image":"1f3ae.png",
          "chars":[
             "\uD83C\uDFAE"
          ]
@@ -2542,7 +2542,7 @@
       {
          "name":"DIRECT HIT",
          "id":"direct_hit",
-         "image":"1f3AF.png",
+         "image":"1f3af.png",
          "chars":[
             "\uD83C\uDFAF",
             "\uE130"
@@ -2551,7 +2551,7 @@
       {
          "name":"SLOT MACHINE",
          "id":"slot_machine",
-         "image":"1f3B0.png",
+         "image":"1f3b0.png",
          "chars":[
             "\uD83C\uDFB0",
             "\uE133"
@@ -2560,7 +2560,7 @@
       {
          "name":"BILLIARDS",
          "id":"billiards",
-         "image":"1f3B1.png",
+         "image":"1f3b1.png",
          "chars":[
             "\uD83C\uDFB1",
             "\uE42C"
@@ -2569,7 +2569,7 @@
       {
          "name":"GAME DIE",
          "id":"game_die",
-         "image":"1f3B2.png",
+         "image":"1f3b2.png",
          "chars":[
             "\uD83C\uDFB2"
          ]
@@ -2577,7 +2577,7 @@
       {
          "name":"BOWLING",
          "id":"bowling",
-         "image":"1f3B3.png",
+         "image":"1f3b3.png",
          "chars":[
             "\uD83C\uDFB3"
          ]
@@ -2585,7 +2585,7 @@
       {
          "name":"FLOWER PLAYING CARDS",
          "id":"flower_playing_cards",
-         "image":"1f3B4.png",
+         "image":"1f3b4.png",
          "chars":[
             "\uD83C\uDFB4"
          ]
@@ -2593,7 +2593,7 @@
       {
          "name":"MUSICAL NOTE",
          "id":"musical_note",
-         "image":"1f3B5.png",
+         "image":"1f3b5.png",
          "chars":[
             "\uD83C\uDFB5",
             "\uE03E"
@@ -2602,7 +2602,7 @@
       {
          "name":"MULTIPLE MUSIC NOTES",
          "id":"multiple_music_notes",
-         "image":"1f3B6.png",
+         "image":"1f3b6.png",
          "chars":[
             "\uD83C\uDFB6",
             "\uE326"
@@ -2611,7 +2611,7 @@
       {
          "name":"SAXOPHONE",
          "id":"saxophone",
-         "image":"1f3B7.png",
+         "image":"1f3b7.png",
          "chars":[
             "\uD83C\uDFB7",
             "\uE040"
@@ -2620,7 +2620,7 @@
       {
          "name":"GUITAR",
          "id":"guitar",
-         "image":"1f3B8.png",
+         "image":"1f3b8.png",
          "chars":[
             "\uD83C\uDFB8",
             "\uE041"
@@ -2629,7 +2629,7 @@
       {
          "name":"MUSICAL KEYBOARD",
          "id":"musical_keyboard",
-         "image":"1f3B9.png",
+         "image":"1f3b9.png",
          "chars":[
             "\uD83C\uDFB9"
          ]
@@ -2637,7 +2637,7 @@
       {
          "name":"TRUMPET",
          "id":"trumpet",
-         "image":"1f3BA.png",
+         "image":"1f3ba.png",
          "chars":[
             "\uD83C\uDFBA",
             "\uE042"
@@ -2646,7 +2646,7 @@
       {
          "name":"VIOLIN",
          "id":"violin",
-         "image":"1f3BB.png",
+         "image":"1f3bb.png",
          "chars":[
             "\uD83C\uDFBB"
          ]
@@ -2654,7 +2654,7 @@
       {
          "name":"MUSICAL SCORE",
          "id":"musical_score",
-         "image":"1f3BC.png",
+         "image":"1f3bc.png",
          "chars":[
             "\uD83C\uDFBC"
          ]
@@ -2662,7 +2662,7 @@
       {
          "name":"RUNNING SHIRT WITH SASH",
          "id":"running_shirt_with_sash",
-         "image":"1f3BD.png",
+         "image":"1f3bd.png",
          "chars":[
             "\uD83C\uDFBD"
          ]
@@ -2670,7 +2670,7 @@
       {
          "name":"TENNIS RACQUET AND BALL",
          "id":"tennis_racquet_and_ball",
-         "image":"1f3BE.png",
+         "image":"1f3be.png",
          "chars":[
             "\uD83C\uDFBE",
             "\uE015"
@@ -2679,7 +2679,7 @@
       {
          "name":"SKI AND SKI BOOT",
          "id":"ski_and_ski_boot",
-         "image":"1f3BF.png",
+         "image":"1f3bf.png",
          "chars":[
             "\uD83C\uDFBF",
             "\uE013"
@@ -2688,7 +2688,7 @@
       {
          "name":"BASKETBALL AND HOOP",
          "id":"basketball_and_hoop",
-         "image":"1f3C0.png",
+         "image":"1f3c0.png",
          "chars":[
             "\uD83C\uDFC0",
             "\uE42A"
@@ -2697,7 +2697,7 @@
       {
          "name":"CHEQUERED FLAG",
          "id":"chequered_flag",
-         "image":"1f3C1.png",
+         "image":"1f3c1.png",
          "chars":[
             "\uD83C\uDFC1",
             "\uE132"
@@ -2706,7 +2706,7 @@
       {
          "name":"SNOWBOARDER",
          "id":"snowboarder",
-         "image":"1f3C2.png",
+         "image":"1f3c2.png",
          "chars":[
             "\uD83C\uDFC2"
          ]
@@ -2714,7 +2714,7 @@
       {
          "name":"RUNNER",
          "id":"runner",
-         "image":"1f3C3.png",
+         "image":"1f3c3.png",
          "chars":[
             "\uD83C\uDFC3",
             "\uE115"
@@ -2723,7 +2723,7 @@
       {
          "name":"SURFER",
          "id":"surfer",
-         "image":"1f3C4.png",
+         "image":"1f3c4.png",
          "chars":[
             "\uD83C\uDFC4",
             "\uE017"
@@ -2732,7 +2732,7 @@
       {
          "name":"TROPHY",
          "id":"trophy",
-         "image":"1f3C6.png",
+         "image":"1f3c6.png",
          "chars":[
             "\uD83C\uDFC6",
             "\uE131"
@@ -2741,7 +2741,7 @@
       {
          "name":"HORSE RACING",
          "id":"horse_racing",
-         "image":"1f3C7.png",
+         "image":"1f3c7.png",
          "chars":[
             "\uD83C\uDFC7"
          ]
@@ -2749,7 +2749,7 @@
       {
          "name":"AMERICAN FOOTBALL",
          "id":"american_football",
-         "image":"1f3C8.png",
+         "image":"1f3c8.png",
          "chars":[
             "\uD83C\uDFC8",
             "\uE42B"
@@ -2758,7 +2758,7 @@
       {
          "name":"RUGBY FOOTBALL",
          "id":"rugby_football",
-         "image":"1f3C9.png",
+         "image":"1f3c9.png",
          "chars":[
             "\uD83C\uDFC9"
          ]
@@ -2766,7 +2766,7 @@
       {
          "name":"SWIMMER",
          "id":"swimmer",
-         "image":"1f3CA.png",
+         "image":"1f3ca.png",
          "chars":[
             "\uD83C\uDFCA",
             "\uE42D"
@@ -2775,7 +2775,7 @@
       {
          "name":"HOUSE BUILDING",
          "id":"house_building",
-         "image":"1f3E0.png",
+         "image":"1f3e0.png",
          "chars":[
             "\uD83C\uDFE0",
             "\uE036"
@@ -2784,7 +2784,7 @@
       {
          "name":"HOUSE WITH GARDEN",
          "id":"house_with_garden",
-         "image":"1f3E1.png",
+         "image":"1f3e1.png",
          "chars":[
             "\uD83C\uDFE1"
          ]
@@ -2792,7 +2792,7 @@
       {
          "name":"OFFICE BUILDING",
          "id":"office_building",
-         "image":"1f3E2.png",
+         "image":"1f3e2.png",
          "chars":[
             "\uD83C\uDFE2",
             "\uE038"
@@ -2801,7 +2801,7 @@
       {
          "name":"JAPANESE POST OFFICE",
          "id":"japanese_post_office",
-         "image":"1f3E3.png",
+         "image":"1f3e3.png",
          "chars":[
             "\uD83C\uDFE3",
             "\uE153"
@@ -2810,7 +2810,7 @@
       {
          "name":"EUROPEAN POST OFFICE",
          "id":"european_post_office",
-         "image":"1f3E4.png",
+         "image":"1f3e4.png",
          "chars":[
             "\uD83C\uDFE4"
          ]
@@ -2818,7 +2818,7 @@
       {
          "name":"HOSPITAL",
          "id":"hospital",
-         "image":"1f3E5.png",
+         "image":"1f3e5.png",
          "chars":[
             "\uD83C\uDFE5",
             "\uE155"
@@ -2827,7 +2827,7 @@
       {
          "name":"BANK",
          "id":"bank",
-         "image":"1f3E6.png",
+         "image":"1f3e6.png",
          "chars":[
             "\uD83C\uDFE6",
             "\uE14D"
@@ -2836,7 +2836,7 @@
       {
          "name":"AUTOMATED TELLER MACHINE",
          "id":"automated_teller_machine",
-         "image":"1f3E7.png",
+         "image":"1f3e7.png",
          "chars":[
             "\uD83C\uDFE7",
             "\uE154"
@@ -2845,7 +2845,7 @@
       {
          "name":"HOTEL",
          "id":"hotel",
-         "image":"1f3E8.png",
+         "image":"1f3e8.png",
          "chars":[
             "\uD83C\uDFE8",
             "\uE158"
@@ -2854,7 +2854,7 @@
       {
          "name":"LOVE HOTEL",
          "id":"love_hotel",
-         "image":"1f3E9.png",
+         "image":"1f3e9.png",
          "chars":[
             "\uD83C\uDFE9",
             "\uE501"
@@ -2863,7 +2863,7 @@
       {
          "name":"CONVENIENCE STORE",
          "id":"convenience_store",
-         "image":"1f3EA.png",
+         "image":"1f3ea.png",
          "chars":[
             "\uD83C\uDFEA",
             "\uE156"
@@ -2872,7 +2872,7 @@
       {
          "name":"SCHOOL",
          "id":"school",
-         "image":"1f3EB.png",
+         "image":"1f3eb.png",
          "chars":[
             "\uD83C\uDFEB",
             "\uE157"
@@ -2881,7 +2881,7 @@
       {
          "name":"DEPARTMENT STORE",
          "id":"department_store",
-         "image":"1f3EC.png",
+         "image":"1f3ec.png",
          "chars":[
             "\uD83C\uDFEC",
             "\uE504"
@@ -2890,7 +2890,7 @@
       {
          "name":"FACTORY",
          "id":"factory",
-         "image":"1f3ED.png",
+         "image":"1f3ed.png",
          "chars":[
             "\uD83C\uDFED",
             "\uE508"
@@ -2899,7 +2899,7 @@
       {
          "name":"IZAKAYA LANTERN",
          "id":"izakaya_lantern",
-         "image":"1f3EE.png",
+         "image":"1f3ee.png",
          "chars":[
             "\uD83C\uDFEE"
          ]
@@ -2907,7 +2907,7 @@
       {
          "name":"JAPANESE CASTLE",
          "id":"japanese_castle",
-         "image":"1f3EF.png",
+         "image":"1f3ef.png",
          "chars":[
             "\uD83C\uDFEF",
             "\uE505"
@@ -2916,7 +2916,7 @@
       {
          "name":"EUROPEAN CASTLE",
          "id":"european_castle",
-         "image":"1f3F0.png",
+         "image":"1f3f0.png",
          "chars":[
             "\uD83C\uDFF0",
             "\uE506"
@@ -3021,7 +3021,7 @@
       {
          "name":"SNAIL",
          "id":"snail",
-         "image":"1f40C.png",
+         "image":"1f40c.png",
          "chars":[
             "\uD83D\uDC0C"
          ]
@@ -3029,7 +3029,7 @@
       {
          "name":"SNAKE",
          "id":"snake",
-         "image":"1f40D.png",
+         "image":"1f40d.png",
          "chars":[
             "\uD83D\uDC0D",
             "\uE52D"
@@ -3038,7 +3038,7 @@
       {
          "name":"HORSE",
          "id":"horse",
-         "image":"1f40E.png",
+         "image":"1f40e.png",
          "chars":[
             "\uD83D\uDC0E",
             "\uE134"
@@ -3141,7 +3141,7 @@
       {
          "name":"SPIRAL SHELL",
          "id":"spiral_shell",
-         "image":"1f41A.png",
+         "image":"1f41a.png",
          "chars":[
             "\uD83D\uDC1A",
             "\uE441"
@@ -3150,7 +3150,7 @@
       {
          "name":"BUG",
          "id":"bug",
-         "image":"1f41B.png",
+         "image":"1f41b.png",
          "chars":[
             "\uD83D\uDC1B",
             "\uE525"
@@ -3159,7 +3159,7 @@
       {
          "name":"ANT",
          "id":"ant",
-         "image":"1f41C.png",
+         "image":"1f41c.png",
          "chars":[
             "\uD83D\uDC1C"
          ]
@@ -3167,7 +3167,7 @@
       {
          "name":"HONEYBEE",
          "id":"honeybee",
-         "image":"1f41D.png",
+         "image":"1f41d.png",
          "chars":[
             "\uD83D\uDC1D"
          ]
@@ -3175,7 +3175,7 @@
       {
          "name":"LADY BEETLE",
          "id":"lady_beetle",
-         "image":"1f41E.png",
+         "image":"1f41e.png",
          "chars":[
             "\uD83D\uDC1E"
          ]
@@ -3183,7 +3183,7 @@
       {
          "name":"FISH",
          "id":"fish",
-         "image":"1f41F.png",
+         "image":"1f41f.png",
          "chars":[
             "\uD83D\uDC1F",
             "\uE019"
@@ -3285,7 +3285,7 @@
       {
          "name":"BACTRIAN CAMEL",
          "id":"bactrian_camel",
-         "image":"1f42B.png",
+         "image":"1f42b.png",
          "chars":[
             "\uD83D\uDC2B",
             "\uE530"
@@ -3294,7 +3294,7 @@
       {
          "name":"DOLPHIN",
          "id":"dolphin",
-         "image":"1f42C.png",
+         "image":"1f42c.png",
          "chars":[
             "\uD83D\uDC2C",
             "\uE520"
@@ -3303,7 +3303,7 @@
       {
          "name":"MOUSE FACE",
          "id":"mouse_face",
-         "image":"1f42D.png",
+         "image":"1f42d.png",
          "chars":[
             "\uD83D\uDC2D",
             "\uE053"
@@ -3312,7 +3312,7 @@
       {
          "name":"COW FACE",
          "id":"cow_face",
-         "image":"1f42E.png",
+         "image":"1f42e.png",
          "chars":[
             "\uD83D\uDC2E",
             "\uE52B"
@@ -3321,7 +3321,7 @@
       {
          "name":"TIGER FACE",
          "id":"tiger_face",
-         "image":"1f42F.png",
+         "image":"1f42f.png",
          "chars":[
             "\uD83D\uDC2F",
             "\uE050"
@@ -3419,7 +3419,7 @@
       {
          "name":"WOLF FACE",
          "id":"wolf_face",
-         "image":"1f43A.png",
+         "image":"1f43a.png",
          "chars":[
             "\uD83D\uDC3A",
             "\uE52A"
@@ -3428,7 +3428,7 @@
       {
          "name":"BEAR FACE",
          "id":"bear_face",
-         "image":"1f43B.png",
+         "image":"1f43b.png",
          "chars":[
             "\uD83D\uDC3B",
             "\uE051"
@@ -3437,7 +3437,7 @@
       {
          "name":"PANDA FACE",
          "id":"panda_face",
-         "image":"1f43C.png",
+         "image":"1f43c.png",
          "chars":[
             "\uD83D\uDC3C"
          ]
@@ -3445,7 +3445,7 @@
       {
          "name":"PIG NOSE",
          "id":"pig_nose",
-         "image":"1f43D.png",
+         "image":"1f43d.png",
          "chars":[
             "\uD83D\uDC3D"
          ]
@@ -3453,7 +3453,7 @@
       {
          "name":"PAW PRINTS",
          "id":"paw_prints",
-         "image":"1f43E.png",
+         "image":"1f43e.png",
          "chars":[
             "\uD83D\uDC3E"
          ]
@@ -3541,7 +3541,7 @@
       {
          "name":"FISTED HAND SIGN",
          "id":"fisted_hand_sign",
-         "image":"1f44A.png",
+         "image":"1f44a.png",
          "chars":[
             "\uD83D\uDC4A",
             "\uE00D"
@@ -3550,7 +3550,7 @@
       {
          "name":"WAVING HAND SIGN",
          "id":"waving_hand_sign",
-         "image":"1f44B.png",
+         "image":"1f44b.png",
          "chars":[
             "\uD83D\uDC4B",
             "\uE41E"
@@ -3559,7 +3559,7 @@
       {
          "name":"OK HAND SIGN",
          "id":"ok_hand_sign",
-         "image":"1f44C.png",
+         "image":"1f44c.png",
          "chars":[
             "\uD83D\uDC4C",
             "\uE420"
@@ -3568,7 +3568,7 @@
       {
          "name":"THUMBS UP SIGN",
          "id":"thumbs_up_sign",
-         "image":"1f44D.png",
+         "image":"1f44d.png",
          "chars":[
             "\uD83D\uDC4D",
             "\uE00E"
@@ -3577,7 +3577,7 @@
       {
          "name":"THUMBS DOWN SIGN",
          "id":"thumbs_down_sign",
-         "image":"1f44E.png",
+         "image":"1f44e.png",
          "chars":[
             "\uD83D\uDC4E",
             "\uE421"
@@ -3586,7 +3586,7 @@
       {
          "name":"CLAPPING HANDS SIGN",
          "id":"clapping_hands_sign",
-         "image":"1f44F.png",
+         "image":"1f44f.png",
          "chars":[
             "\uD83D\uDC4F",
             "\uE41F"
@@ -3683,7 +3683,7 @@
       {
          "name":"WOMANS CLOTHES",
          "id":"womans_clothes",
-         "image":"1f45A.png",
+         "image":"1f45a.png",
          "chars":[
             "\uD83D\uDC5A"
          ]
@@ -3691,7 +3691,7 @@
       {
          "name":"PURSE",
          "id":"purse",
-         "image":"1f45B.png",
+         "image":"1f45b.png",
          "chars":[
             "\uD83D\uDC5B"
          ]
@@ -3699,7 +3699,7 @@
       {
          "name":"HANDBAG",
          "id":"handbag",
-         "image":"1f45C.png",
+         "image":"1f45c.png",
          "chars":[
             "\uD83D\uDC5C",
             "\uE323"
@@ -3708,7 +3708,7 @@
       {
          "name":"POUCH",
          "id":"pouch",
-         "image":"1f45D.png",
+         "image":"1f45d.png",
          "chars":[
             "\uD83D\uDC5D"
          ]
@@ -3716,7 +3716,7 @@
       {
          "name":"MANS SHOE",
          "id":"mans_shoe",
-         "image":"1f45E.png",
+         "image":"1f45e.png",
          "chars":[
             "\uD83D\uDC5E"
          ]
@@ -3724,7 +3724,7 @@
       {
          "name":"ATHLETIC SHOE",
          "id":"athletic_shoe",
-         "image":"1f45F.png",
+         "image":"1f45f.png",
          "chars":[
             "\uD83D\uDC5F",
             "\uE007"
@@ -3821,7 +3821,7 @@
       {
          "name":"FAMILY",
          "id":"family",
-         "image":"1f46A.png",
+         "image":"1f46a.png",
          "chars":[
             "\uD83D\uDC6A"
          ]
@@ -3829,7 +3829,7 @@
       {
          "name":"MAN AND WOMAN HOLDING HANDS",
          "id":"man_and_woman_holding_hands",
-         "image":"1f46B.png",
+         "image":"1f46b.png",
          "chars":[
             "\uD83D\uDC6B",
             "\uE428"
@@ -3854,7 +3854,7 @@
       {
          "name":"POLICE OFFICER",
          "id":"police_officer",
-         "image":"1f46E.png",
+         "image":"1f46e.png",
          "chars":[
             "\uD83D\uDC6E",
             "\uE152"
@@ -3863,7 +3863,7 @@
       {
          "name":"WOMAN WITH BUNNY EARS",
          "id":"woman_with_bunny_ears",
-         "image":"1f46F.png",
+         "image":"1f46f.png",
          "chars":[
             "\uD83D\uDC6F",
             "\uE429"
@@ -3960,7 +3960,7 @@
       {
          "name":"JAPANESE GOBLIN",
          "id":"japanese_goblin",
-         "image":"1f47A.png",
+         "image":"1f47a.png",
          "chars":[
             "\uD83D\uDC7A"
          ]
@@ -3968,7 +3968,7 @@
       {
          "name":"GHOST",
          "id":"ghost",
-         "image":"1f47B.png",
+         "image":"1f47b.png",
          "chars":[
             "\uD83D\uDC7B",
             "\uE11B"
@@ -3977,7 +3977,7 @@
       {
          "name":"BABY ANGEL",
          "id":"baby_angel",
-         "image":"1f47C.png",
+         "image":"1f47c.png",
          "chars":[
             "\uD83D\uDC7C",
             "\uE04E"
@@ -3986,7 +3986,7 @@
       {
          "name":"EXTRATERRESTRIAL ALIEN",
          "id":"extraterrestrial_alien",
-         "image":"1f47D.png",
+         "image":"1f47d.png",
          "chars":[
             "\uD83D\uDC7D",
             "\uE10C"
@@ -3995,7 +3995,7 @@
       {
          "name":"ALIEN MONSTER",
          "id":"alien_monster",
-         "image":"1f47E.png",
+         "image":"1f47e.png",
          "chars":[
             "\uD83D\uDC7E",
             "\uE12B"
@@ -4004,7 +4004,7 @@
       {
          "name":"IMP",
          "id":"imp",
-         "image":"1f47F.png",
+         "image":"1f47f.png",
          "chars":[
             "\uD83D\uDC7F",
             "\uE11A"
@@ -4103,7 +4103,7 @@
       {
          "name":"PILL",
          "id":"pill",
-         "image":"1f48A.png",
+         "image":"1f48a.png",
          "chars":[
             "\uD83D\uDC8A",
             "\uE30F"
@@ -4112,7 +4112,7 @@
       {
          "name":"KISS MARK",
          "id":"kiss_mark",
-         "image":"1f48B.png",
+         "image":"1f48b.png",
          "chars":[
             "\uD83D\uDC8B",
             "\uE003"
@@ -4121,7 +4121,7 @@
       {
          "name":"LOVE LETTER",
          "id":"love_letter",
-         "image":"1f48C.png",
+         "image":"1f48c.png",
          "chars":[
             "\uD83D\uDC8C"
          ]
@@ -4129,7 +4129,7 @@
       {
          "name":"RING",
          "id":"ring",
-         "image":"1f48D.png",
+         "image":"1f48d.png",
          "chars":[
             "\uD83D\uDC8D",
             "\uE034"
@@ -4138,7 +4138,7 @@
       {
          "name":"GEM STONE",
          "id":"gem_stone",
-         "image":"1f48E.png",
+         "image":"1f48e.png",
          "chars":[
             "\uD83D\uDC8E",
             "\uE035"
@@ -4147,7 +4147,7 @@
       {
          "name":"KISS",
          "id":"kiss",
-         "image":"1f48F.png",
+         "image":"1f48f.png",
          "chars":[
             "\uD83D\uDC8F",
             "\uE111"
@@ -4244,7 +4244,7 @@
       {
          "name":"GREEN HEART",
          "id":"green_heart",
-         "image":"1f49A.png",
+         "image":"1f49a.png",
          "chars":[
             "\uD83D\uDC9A",
             "\uE32B"
@@ -4253,7 +4253,7 @@
       {
          "name":"YELLOW HEART",
          "id":"yellow_heart",
-         "image":"1f49B.png",
+         "image":"1f49b.png",
          "chars":[
             "\uD83D\uDC9B",
             "\uE32C"
@@ -4262,7 +4262,7 @@
       {
          "name":"PURPLE HEART",
          "id":"purple_heart",
-         "image":"1f49C.png",
+         "image":"1f49c.png",
          "chars":[
             "\uD83D\uDC9C",
             "\uE32D"
@@ -4271,7 +4271,7 @@
       {
          "name":"HEART WITH RIBBON",
          "id":"heart_with_ribbon",
-         "image":"1f49D.png",
+         "image":"1f49d.png",
          "chars":[
             "\uD83D\uDC9D",
             "\uE437"
@@ -4280,7 +4280,7 @@
       {
          "name":"REVOLVING HEARTS",
          "id":"revolving_hearts",
-         "image":"1f49E.png",
+         "image":"1f49e.png",
          "chars":[
             "\uD83D\uDC9E"
          ]
@@ -4288,7 +4288,7 @@
       {
          "name":"HEART DECORATION",
          "id":"heart_decoration",
-         "image":"1f49F.png",
+         "image":"1f49f.png",
          "chars":[
             "\uD83D\uDC9F",
             "\uE204"
@@ -4297,7 +4297,7 @@
       {
          "name":"DIAMOND SHAPE WITH A DOT INSIDE",
          "id":"diamond_shape_with_a_dot_inside",
-         "image":"1f4A0.png",
+         "image":"1f4a0.png",
          "chars":[
             "\uD83D\uDCA0"
          ]
@@ -4305,7 +4305,7 @@
       {
          "name":"ELECTRIC LIGHT BULB",
          "id":"electric_light_bulb",
-         "image":"1f4A1.png",
+         "image":"1f4a1.png",
          "chars":[
             "\uD83D\uDCA1",
             "\uE10F"
@@ -4314,7 +4314,7 @@
       {
          "name":"ANGER SYMBOL",
          "id":"anger_symbol",
-         "image":"1f4A2.png",
+         "image":"1f4a2.png",
          "chars":[
             "\uD83D\uDCA2",
             "\uE334"
@@ -4323,7 +4323,7 @@
       {
          "name":"BOMB",
          "id":"bomb",
-         "image":"1f4A3.png",
+         "image":"1f4a3.png",
          "chars":[
             "\uD83D\uDCA3",
             "\uE311"
@@ -4332,7 +4332,7 @@
       {
          "name":"SLEEPING SYMBOL",
          "id":"sleeping_symbol",
-         "image":"1f4A4.png",
+         "image":"1f4a4.png",
          "chars":[
             "\uD83D\uDCA4",
             "\uE13C"
@@ -4341,7 +4341,7 @@
       {
          "name":"COLLISION SYMBOL",
          "id":"collision_symbol",
-         "image":"1f4A5.png",
+         "image":"1f4a5.png",
          "chars":[
             "\uD83D\uDCA5"
          ]
@@ -4349,7 +4349,7 @@
       {
          "name":"SPLASHING SWEAT SYMBOL",
          "id":"splashing_sweat_symbol",
-         "image":"1f4A6.png",
+         "image":"1f4a6.png",
          "chars":[
             "\uD83D\uDCA6",
             "\uE331"
@@ -4358,7 +4358,7 @@
       {
          "name":"DROPLET",
          "id":"droplet",
-         "image":"1f4A7.png",
+         "image":"1f4a7.png",
          "chars":[
             "\uD83D\uDCA7"
          ]
@@ -4366,7 +4366,7 @@
       {
          "name":"DASH SYMBOL",
          "id":"dash_symbol",
-         "image":"1f4A8.png",
+         "image":"1f4a8.png",
          "chars":[
             "\uD83D\uDCA8",
             "\uE330"
@@ -4375,7 +4375,7 @@
       {
          "name":"PILE OF POO",
          "id":"pile_of_poo",
-         "image":"1f4A9.png",
+         "image":"1f4a9.png",
          "chars":[
             "\uD83D\uDCA9",
             "\uE05A"
@@ -4384,7 +4384,7 @@
       {
          "name":"FLEXED BICEPS",
          "id":"flexed_biceps",
-         "image":"1f4AA.png",
+         "image":"1f4aa.png",
          "chars":[
             "\uD83D\uDCAA",
             "\uE14C"
@@ -4393,7 +4393,7 @@
       {
          "name":"DIZZY SYMBOL",
          "id":"dizzy_symbol",
-         "image":"1f4AB.png",
+         "image":"1f4ab.png",
          "chars":[
             "\uD83D\uDCAB"
          ]
@@ -4401,7 +4401,7 @@
       {
          "name":"SPEECH BALLOON",
          "id":"speech_balloon",
-         "image":"1f4AC.png",
+         "image":"1f4ac.png",
          "chars":[
             "\uD83D\uDCAC"
          ]
@@ -4409,7 +4409,7 @@
       {
          "name":"THOUGHT BALLOON",
          "id":"thought_balloon",
-         "image":"1f4Ad.png",
+         "image":"1f4ad.png",
          "chars":[
             "\uD83D\uDCAD"
          ]
@@ -4417,7 +4417,7 @@
       {
          "name":"WHITE FLOWER",
          "id":"white_flower",
-         "image":"1f4AE.png",
+         "image":"1f4ae.png",
          "chars":[
             "\uD83D\uDCAE"
          ]
@@ -4425,7 +4425,7 @@
       {
          "name":"HUNDRED POINTS SYMBOL",
          "id":"hundred_points_symbol",
-         "image":"1f4AF.png",
+         "image":"1f4af.png",
          "chars":[
             "\uD83D\uDCAF"
          ]
@@ -4433,7 +4433,7 @@
       {
          "name":"MONEY BAG",
          "id":"money_bag",
-         "image":"1f4B0.png",
+         "image":"1f4b0.png",
          "chars":[
             "\uD83D\uDCB0",
             "\uE12F"
@@ -4442,7 +4442,7 @@
       {
          "name":"CURRENCY EXCHANGE",
          "id":"currency_exchange",
-         "image":"1f4B1.png",
+         "image":"1f4b1.png",
          "chars":[
             "\uD83D\uDCB1",
             "\uE149"
@@ -4451,7 +4451,7 @@
       {
          "name":"HEAVY DOLLAR SIGN",
          "id":"heavy_dollar_sign",
-         "image":"1f4B2.png",
+         "image":"1f4b2.png",
          "chars":[
             "\uD83D\uDCB2"
          ]
@@ -4459,7 +4459,7 @@
       {
          "name":"CREDIT CARD",
          "id":"credit_card",
-         "image":"1f4B3.png",
+         "image":"1f4b3.png",
          "chars":[
             "\uD83D\uDCB3"
          ]
@@ -4467,7 +4467,7 @@
       {
          "name":"BANKNOTE WITH YEN SYMBOL",
          "id":"banknote_with_yen_symbol",
-         "image":"1f4B4.png",
+         "image":"1f4b4.png",
          "chars":[
             "\uD83D\uDCB4"
          ]
@@ -4475,7 +4475,7 @@
       {
          "name":"BANKNOTE WITH DOLLAR SIGN",
          "id":"banknote_with_dollar_sign",
-         "image":"1f4B5.png",
+         "image":"1f4b5.png",
          "chars":[
             "\uD83D\uDCB5"
          ]
@@ -4483,7 +4483,7 @@
       {
          "name":"BANKNOTE WITH EURO SIGN",
          "id":"banknote_with_euro_sign",
-         "image":"1f4B6.png",
+         "image":"1f4b6.png",
          "chars":[
             "\uD83D\uDCB6"
          ]
@@ -4491,7 +4491,7 @@
       {
          "name":"BANKNOTE WITH POUND SIGN",
          "id":"banknote_with_pound_sign",
-         "image":"1f4B7.png",
+         "image":"1f4b7.png",
          "chars":[
             "\uD83D\uDCB7"
          ]
@@ -4499,7 +4499,7 @@
       {
          "name":"MONEY WITH WINGS",
          "id":"money_with_wings",
-         "image":"1f4B8.png",
+         "image":"1f4b8.png",
          "chars":[
             "\uD83D\uDCB8"
          ]
@@ -4507,7 +4507,7 @@
       {
          "name":"CHART WITH UPWARDS TREND AND YEN SIGN",
          "id":"chart_with_upwards_trend_and_yen_sign",
-         "image":"1f4B9.png",
+         "image":"1f4b9.png",
          "chars":[
             "\uD83D\uDCB9",
             "\uE14A"
@@ -4516,7 +4516,7 @@
       {
          "name":"SEAT",
          "id":"seat",
-         "image":"1f4BA.png",
+         "image":"1f4ba.png",
          "chars":[
             "\uD83D\uDCBA",
             "\uE11F"
@@ -4525,7 +4525,7 @@
       {
          "name":"PERSONAL COMPUTER",
          "id":"personal_computer",
-         "image":"1f4BB.png",
+         "image":"1f4bb.png",
          "chars":[
             "\uD83D\uDCBB",
             "\uE00C"
@@ -4534,7 +4534,7 @@
       {
          "name":"BRIEFCASE",
          "id":"briefcase",
-         "image":"1f4BC.png",
+         "image":"1f4bc.png",
          "chars":[
             "\uD83D\uDCBC",
             "\uE11E"
@@ -4543,7 +4543,7 @@
       {
          "name":"MINIDISC",
          "id":"minidisc",
-         "image":"1f4BD.png",
+         "image":"1f4bd.png",
          "chars":[
             "\uD83D\uDCBD",
             "\uE316"
@@ -4552,7 +4552,7 @@
       {
          "name":"FLOPPY DISK",
          "id":"floppy_disk",
-         "image":"1f4BE.png",
+         "image":"1f4be.png",
          "chars":[
             "\uD83D\uDCBE"
          ]
@@ -4560,7 +4560,7 @@
       {
          "name":"OPTICAL DISC",
          "id":"optical_disc",
-         "image":"1f4BF.png",
+         "image":"1f4bf.png",
          "chars":[
             "\uD83D\uDCBF",
             "\uE126"
@@ -4569,7 +4569,7 @@
       {
          "name":"DVD",
          "id":"dvd",
-         "image":"1f4C0.png",
+         "image":"1f4c0.png",
          "chars":[
             "\uD83D\uDCC0",
             "\uE127"
@@ -4578,7 +4578,7 @@
       {
          "name":"FILE FOLDER",
          "id":"file_folder",
-         "image":"1f4C1.png",
+         "image":"1f4c1.png",
          "chars":[
             "\uD83D\uDCC1"
          ]
@@ -4586,7 +4586,7 @@
       {
          "name":"OPEN FILE FOLDER",
          "id":"open_file_folder",
-         "image":"1f4C2.png",
+         "image":"1f4c2.png",
          "chars":[
             "\uD83D\uDCC2"
          ]
@@ -4594,7 +4594,7 @@
       {
          "name":"PAGE WITH CURL",
          "id":"page_with_curl",
-         "image":"1f4C3.png",
+         "image":"1f4c3.png",
          "chars":[
             "\uD83D\uDCC3"
          ]
@@ -4602,7 +4602,7 @@
       {
          "name":"PAGE FACING UP",
          "id":"page_facing_up",
-         "image":"1f4C4.png",
+         "image":"1f4c4.png",
          "chars":[
             "\uD83D\uDCC4"
          ]
@@ -4610,7 +4610,7 @@
       {
          "name":"CALENDAR",
          "id":"calendar",
-         "image":"1f4C5.png",
+         "image":"1f4c5.png",
          "chars":[
             "\uD83D\uDCC5"
          ]
@@ -4618,7 +4618,7 @@
       {
          "name":"TEAR-OFF CALENDAR",
          "id":"tear-off_calendar",
-         "image":"1f4C6.png",
+         "image":"1f4c6.png",
          "chars":[
             "\uD83D\uDCC6"
          ]
@@ -4626,7 +4626,7 @@
       {
          "name":"CARD INDEX",
          "id":"card_index",
-         "image":"1f4C7.png",
+         "image":"1f4c7.png",
          "chars":[
             "\uD83D\uDCC7"
          ]
@@ -4634,7 +4634,7 @@
       {
          "name":"CHART WITH UPWARDS TREND",
          "id":"chart_with_upwards_trend",
-         "image":"1f4C8.png",
+         "image":"1f4c8.png",
          "chars":[
             "\uD83D\uDCC8"
          ]
@@ -4642,7 +4642,7 @@
       {
          "name":"CHART WITH DOWNWARDS TREND",
          "id":"chart_with_downwards_trend",
-         "image":"1f4C9.png",
+         "image":"1f4c9.png",
          "chars":[
             "\uD83D\uDCC9"
          ]
@@ -4650,7 +4650,7 @@
       {
          "name":"BAR CHART",
          "id":"bar_chart",
-         "image":"1f4CA.png",
+         "image":"1f4ca.png",
          "chars":[
             "\uD83D\uDCCA"
          ]
@@ -4658,7 +4658,7 @@
       {
          "name":"CLIPBOARD",
          "id":"clipboard",
-         "image":"1f4CB.png",
+         "image":"1f4cb.png",
          "chars":[
             "\uD83D\uDCCB"
          ]
@@ -4666,7 +4666,7 @@
       {
          "name":"PUSHPIN",
          "id":"pushpin",
-         "image":"1f4CC.png",
+         "image":"1f4cc.png",
          "chars":[
             "\uD83D\uDCCC"
          ]
@@ -4674,7 +4674,7 @@
       {
          "name":"ROUND PUSHPIN",
          "id":"round_pushpin",
-         "image":"1f4CD.png",
+         "image":"1f4cd.png",
          "chars":[
             "\uD83D\uDCCD"
          ]
@@ -4682,7 +4682,7 @@
       {
          "name":"PAPERCLIP",
          "id":"paperclip",
-         "image":"1f4CE.png",
+         "image":"1f4ce.png",
          "chars":[
             "\uD83D\uDCCE"
          ]
@@ -4690,7 +4690,7 @@
       {
          "name":"STRAIGHT RULER",
          "id":"straight_ruler",
-         "image":"1f4CF.png",
+         "image":"1f4cf.png",
          "chars":[
             "\uD83D\uDCCF"
          ]
@@ -4698,7 +4698,7 @@
       {
          "name":"TRIANGULAR RULER",
          "id":"triangular_ruler",
-         "image":"1f4D0.png",
+         "image":"1f4d0.png",
          "chars":[
             "\uD83D\uDCD0"
          ]
@@ -4706,7 +4706,7 @@
       {
          "name":"BOOKMARK TABS",
          "id":"bookmark_tabs",
-         "image":"1f4D1.png",
+         "image":"1f4d1.png",
          "chars":[
             "\uD83D\uDCD1"
          ]
@@ -4714,7 +4714,7 @@
       {
          "name":"LEDGER",
          "id":"ledger",
-         "image":"1f4D2.png",
+         "image":"1f4d2.png",
          "chars":[
             "\uD83D\uDCD2"
          ]
@@ -4722,7 +4722,7 @@
       {
          "name":"NOTEBOOK",
          "id":"notebook",
-         "image":"1f4D3.png",
+         "image":"1f4d3.png",
          "chars":[
             "\uD83D\uDCD3"
          ]
@@ -4730,7 +4730,7 @@
       {
          "name":"NOTEBOOK WITH DECORATIVE COVER",
          "id":"notebook_with_decorative_cover",
-         "image":"1f4D4.png",
+         "image":"1f4d4.png",
          "chars":[
             "\uD83D\uDCD4"
          ]
@@ -4738,7 +4738,7 @@
       {
          "name":"CLOSED BOOK",
          "id":"closed_book",
-         "image":"1f4D5.png",
+         "image":"1f4d5.png",
          "chars":[
             "\uD83D\uDCD5"
          ]
@@ -4746,7 +4746,7 @@
       {
          "name":"OPEN BOOK",
          "id":"open_book",
-         "image":"1f4D6.png",
+         "image":"1f4d6.png",
          "chars":[
             "\uD83D\uDCD6",
             "\uE148"
@@ -4755,7 +4755,7 @@
       {
          "name":"GREEN BOOK",
          "id":"green_book",
-         "image":"1f4D7.png",
+         "image":"1f4d7.png",
          "chars":[
             "\uD83D\uDCD7"
          ]
@@ -4763,7 +4763,7 @@
       {
          "name":"BLUE BOOK",
          "id":"blue_book",
-         "image":"1f4D8.png",
+         "image":"1f4d8.png",
          "chars":[
             "\uD83D\uDCD8"
          ]
@@ -4771,7 +4771,7 @@
       {
          "name":"ORANGE BOOK",
          "id":"orange_book",
-         "image":"1f4D9.png",
+         "image":"1f4d9.png",
          "chars":[
             "\uD83D\uDCD9"
          ]
@@ -4779,7 +4779,7 @@
       {
          "name":"BOOKS",
          "id":"books",
-         "image":"1f4DA.png",
+         "image":"1f4da.png",
          "chars":[
             "\uD83D\uDCDA"
          ]
@@ -4787,7 +4787,7 @@
       {
          "name":"NAME BADGE",
          "id":"name_badge",
-         "image":"1f4DB.png",
+         "image":"1f4db.png",
          "chars":[
             "\uD83D\uDCDB"
          ]
@@ -4795,7 +4795,7 @@
       {
          "name":"SCROLL",
          "id":"scroll",
-         "image":"1f4DC.png",
+         "image":"1f4dc.png",
          "chars":[
             "\uD83D\uDCDC"
          ]
@@ -4803,7 +4803,7 @@
       {
          "name":"MEMO",
          "id":"memo",
-         "image":"1f4DD.png",
+         "image":"1f4dd.png",
          "chars":[
             "\uD83D\uDCDD",
             "\uE301"
@@ -4812,7 +4812,7 @@
       {
          "name":"TELEPHONE RECEIVER",
          "id":"telephone_receiver",
-         "image":"1f4DE.png",
+         "image":"1f4de.png",
          "chars":[
             "\uD83D\uDCDE"
          ]
@@ -4820,7 +4820,7 @@
       {
          "name":"PAGER",
          "id":"pager",
-         "image":"1f4DF.png",
+         "image":"1f4df.png",
          "chars":[
             "\uD83D\uDCDF"
          ]
@@ -4828,7 +4828,7 @@
       {
          "name":"FAX MACHINE",
          "id":"fax_machine",
-         "image":"1f4E0.png",
+         "image":"1f4e0.png",
          "chars":[
             "\uD83D\uDCE0",
             "\uE00B"
@@ -4837,7 +4837,7 @@
       {
          "name":"SATELLITE ANTENNA",
          "id":"satellite_antenna",
-         "image":"1f4E1.png",
+         "image":"1f4e1.png",
          "chars":[
             "\uD83D\uDCE1",
             "\uE14B"
@@ -4846,7 +4846,7 @@
       {
          "name":"PUBLIC ADDRESS LOUDSPEAKER",
          "id":"public_address_loudspeaker",
-         "image":"1f4E2.png",
+         "image":"1f4e2.png",
          "chars":[
             "\uD83D\uDCE2",
             "\uE142"
@@ -4855,7 +4855,7 @@
       {
          "name":"CHEERING MEGAPHONE",
          "id":"cheering_megaphone",
-         "image":"1f4E3.png",
+         "image":"1f4e3.png",
          "chars":[
             "\uD83D\uDCE3",
             "\uE317"
@@ -4864,7 +4864,7 @@
       {
          "name":"OUTBOX TRAY",
          "id":"outbox_tray",
-         "image":"1f4E4.png",
+         "image":"1f4e4.png",
          "chars":[
             "\uD83D\uDCE4"
          ]
@@ -4872,7 +4872,7 @@
       {
          "name":"INBOX TRAY",
          "id":"inbox_tray",
-         "image":"1f4E5.png",
+         "image":"1f4e5.png",
          "chars":[
             "\uD83D\uDCE5"
          ]
@@ -4880,7 +4880,7 @@
       {
          "name":"PACKAGE",
          "id":"package",
-         "image":"1f4E6.png",
+         "image":"1f4e6.png",
          "chars":[
             "\uD83D\uDCE6"
          ]
@@ -4888,7 +4888,7 @@
       {
          "name":"E-MAIL SYMBOL",
          "id":"e-mail_symbol",
-         "image":"1f4E7.png",
+         "image":"1f4e7.png",
          "chars":[
             "\uD83D\uDCE7"
          ]
@@ -4896,7 +4896,7 @@
       {
          "name":"INCOMING ENVELOPE",
          "id":"incoming_envelope",
-         "image":"1f4E8.png",
+         "image":"1f4e8.png",
          "chars":[
             "\uD83D\uDCE8"
          ]
@@ -4904,7 +4904,7 @@
       {
          "name":"ENVELOPE WITH DOWNWARDS ARROW ABOVE",
          "id":"envelope_with_downwards_arrow_above",
-         "image":"1f4E9.png",
+         "image":"1f4e9.png",
          "chars":[
             "\uD83D\uDCE9",
             "\uE103"
@@ -4913,7 +4913,7 @@
       {
          "name":"CLOSED MAILBOX WITH LOWERED FLAG",
          "id":"closed_mailbox_with_lowered_flag",
-         "image":"1f4EA.png",
+         "image":"1f4ea.png",
          "chars":[
             "\uD83D\uDCEA"
          ]
@@ -4921,7 +4921,7 @@
       {
          "name":"CLOSED MAILBOX WITH RAISED FLAG",
          "id":"closed_mailbox_with_raised_flag",
-         "image":"1f4EB.png",
+         "image":"1f4eb.png",
          "chars":[
             "\uD83D\uDCEB",
             "\uE101"
@@ -4930,7 +4930,7 @@
       {
          "name":"OPEN MAILBOX WITH RAISED FLAG",
          "id":"open_mailbox_with_raised_flag",
-         "image":"1f4Ec.png",
+         "image":"1f4ec.png",
          "chars":[
             "\uD83D\uDCEC"
          ]
@@ -4938,7 +4938,7 @@
       {
          "name":"OPEN MAILBOX WITH LOWERED FLAG",
          "id":"open_mailbox_with_lowered_flag",
-         "image":"1f4Ed.png",
+         "image":"1f4ed.png",
          "chars":[
             "\uD83D\uDCED"
          ]
@@ -4946,7 +4946,7 @@
       {
          "name":"POSTBOX",
          "id":"postbox",
-         "image":"1f4EE.png",
+         "image":"1f4ee.png",
          "chars":[
             "\uD83D\uDCEE",
             "\uE102"
@@ -4955,7 +4955,7 @@
       {
          "name":"POSTAL HORN",
          "id":"postal_horn",
-         "image":"1f4Ef.png",
+         "image":"1f4ef.png",
          "chars":[
             "\uD83D\uDCEF"
          ]
@@ -4963,7 +4963,7 @@
       {
          "name":"NEWSPAPER",
          "id":"newspaper",
-         "image":"1f4F0.png",
+         "image":"1f4f0.png",
          "chars":[
             "\uD83D\uDCF0"
          ]
@@ -4971,7 +4971,7 @@
       {
          "name":"MOBILE PHONE",
          "id":"mobile_phone",
-         "image":"1f4F1.png",
+         "image":"1f4f1.png",
          "chars":[
             "\uD83D\uDCF1",
             "\uE00A"
@@ -4980,7 +4980,7 @@
       {
          "name":"MOBILE PHONE WITH RIGHTWARDS ARROW",
          "id":"mobile_phone_with_rightwards_arrow",
-         "image":"1f4F2.png",
+         "image":"1f4f2.png",
          "chars":[
             "\uD83D\uDCF2",
             "\uE104"
@@ -4989,7 +4989,7 @@
       {
          "name":"VIBRATION MODE",
          "id":"vibration_mode",
-         "image":"1f4F3.png",
+         "image":"1f4f3.png",
          "chars":[
             "\uD83D\uDCF3",
             "\uE250"
@@ -4998,7 +4998,7 @@
       {
          "name":"MOBILE PHONE OFF",
          "id":"mobile_phone_off",
-         "image":"1f4F4.png",
+         "image":"1f4f4.png",
          "chars":[
             "\uD83D\uDCF4",
             "\uE251"
@@ -5007,7 +5007,7 @@
       {
          "name":"NO MOBILE PHONES",
          "id":"no_mobile_phones",
-         "image":"1f4F5.png",
+         "image":"1f4f5.png",
          "chars":[
             "\uD83D\uDCF5"
          ]
@@ -5015,7 +5015,7 @@
       {
          "name":"ANTENNA WITH BARS",
          "id":"antenna_with_bars",
-         "image":"1f4F6.png",
+         "image":"1f4f6.png",
          "chars":[
             "\uD83D\uDCF6",
             "\uE20B"
@@ -5024,7 +5024,7 @@
       {
          "name":"CAMERA",
          "id":"camera",
-         "image":"1f4F7.png",
+         "image":"1f4f7.png",
          "chars":[
             "\uD83D\uDCF7",
             "\uE008"
@@ -5033,7 +5033,7 @@
       {
          "name":"VIDEO CAMERA",
          "id":"video_camera",
-         "image":"1f4F9.png",
+         "image":"1f4f9.png",
          "chars":[
             "\uD83D\uDCF9"
          ]
@@ -5041,7 +5041,7 @@
       {
          "name":"TELEVISION",
          "id":"television",
-         "image":"1f4FA.png",
+         "image":"1f4fa.png",
          "chars":[
             "\uD83D\uDCFA",
             "\uE12A"
@@ -5050,7 +5050,7 @@
       {
          "name":"RADIO",
          "id":"radio",
-         "image":"1f4FB.png",
+         "image":"1f4fb.png",
          "chars":[
             "\uD83D\uDCFB",
             "\uE128"
@@ -5059,7 +5059,7 @@
       {
          "name":"VIDEOCASSETTE",
          "id":"videocassette",
-         "image":"1f4FC.png",
+         "image":"1f4fc.png",
          "chars":[
             "\uD83D\uDCFC",
             "\uE129"
@@ -5148,7 +5148,7 @@
       {
          "name":"SPEAKER WITH THREE SOUND WAVES",
          "id":"speaker_with_three_sound_waves",
-         "image":"1f50A.png",
+         "image":"1f50a.png",
          "chars":[
             "\uD83D\uDD0A",
             "\uE141"
@@ -5157,7 +5157,7 @@
       {
          "name":"BATTERY",
          "id":"battery",
-         "image":"1f50B.png",
+         "image":"1f50b.png",
          "chars":[
             "\uD83D\uDD0B"
          ]
@@ -5165,7 +5165,7 @@
       {
          "name":"ELECTRIC PLUG",
          "id":"electric_plug",
-         "image":"1f50C.png",
+         "image":"1f50c.png",
          "chars":[
             "\uD83D\uDD0C"
          ]
@@ -5173,7 +5173,7 @@
       {
          "name":"LEFT-POINTING MAGNIFYING GLASS",
          "id":"left-pointing_magnifying_glass",
-         "image":"1f50D.png",
+         "image":"1f50d.png",
          "chars":[
             "\uD83D\uDD0D",
             "\uE114"
@@ -5182,7 +5182,7 @@
       {
          "name":"RIGHT POINTING MAGNIFYING GLASS",
          "id":"right_pointing_magnifying_glass",
-         "image":"1f50E.png",
+         "image":"1f50e.png",
          "chars":[
             "\uD83D\uDD0E"
          ]
@@ -5190,7 +5190,7 @@
       {
          "name":"LOCK WITH INK PEN",
          "id":"lock_with_ink_pen",
-         "image":"1f50F.png",
+         "image":"1f50f.png",
          "chars":[
             "\uD83D\uDD0F"
          ]
@@ -5282,7 +5282,7 @@
       {
          "name":"END WITH LEFTWARDS ARROW ABOVE",
          "id":"end_with_leftwards_arrow_above",
-         "image":"1f51A.png",
+         "image":"1f51a.png",
          "chars":[
             "\uD83D\uDD1A"
          ]
@@ -5290,7 +5290,7 @@
       {
          "name":"ON WITH EXCLAMATION MARK WITH LEFT RIGHT ARROW ABOVE",
          "id":"on_with_exclamation_mark_with_left_right_arrow_above",
-         "image":"1f51B.png",
+         "image":"1f51b.png",
          "chars":[
             "\uD83D\uDD1B"
          ]
@@ -5298,7 +5298,7 @@
       {
          "name":"SOON WITH RIGHTWARDS ARROW ABOVE",
          "id":"soon_with_rightwards_arrow_above",
-         "image":"1f51C.png",
+         "image":"1f51c.png",
          "chars":[
             "\uD83D\uDD1C"
          ]
@@ -5306,7 +5306,7 @@
       {
          "name":"TOP WITH UPWARDS ARROW ABOVE",
          "id":"top_with_upwards_arrow_above",
-         "image":"1f51D.png",
+         "image":"1f51d.png",
          "chars":[
             "\uD83D\uDD1D",
             "\uE24C"
@@ -5315,7 +5315,7 @@
       {
          "name":"NO ONE UNDER EIGHTEEN SYMBOL",
          "id":"no_one_under_eighteen_symbol",
-         "image":"1f51E.png",
+         "image":"1f51e.png",
          "chars":[
             "\uD83D\uDD1E",
             "\uE207"
@@ -5324,7 +5324,7 @@
       {
          "name":"KEYCAP TEN",
          "id":"keycap_ten",
-         "image":"1f51F.png",
+         "image":"1f51f.png",
          "chars":[
             "\uD83D\uDD1F"
          ]
@@ -5414,7 +5414,7 @@
       {
          "name":"HOCHO",
          "id":"hocho",
-         "image":"1f52A.png",
+         "image":"1f52a.png",
          "chars":[
             "\uD83D\uDD2A"
          ]
@@ -5422,7 +5422,7 @@
       {
          "name":"PISTOL",
          "id":"pistol",
-         "image":"1f52B.png",
+         "image":"1f52b.png",
          "chars":[
             "\uD83D\uDD2B",
             "\uE113"
@@ -5447,7 +5447,7 @@
       {
          "name":"CRYSTAL BALL",
          "id":"crystal_ball",
-         "image":"1f52E.png",
+         "image":"1f52e.png",
          "chars":[
             "\uD83D\uDD2E"
          ]
@@ -5455,7 +5455,7 @@
       {
          "name":"SIX POINTED STAR WITH MIDDLE DOT",
          "id":"six_pointed_star_with_middle_dot",
-         "image":"1f52F.png",
+         "image":"1f52f.png",
          "chars":[
             "\uD83D\uDD2F",
             "\uE23E"
@@ -5549,7 +5549,7 @@
       {
          "name":"UP-POINTING RED TRIANGLE",
          "id":"up-pointing_red_triangle",
-         "image":"1f53A.png",
+         "image":"1f53a.png",
          "chars":[
             "\uD83D\uDD3A"
          ]
@@ -5557,7 +5557,7 @@
       {
          "name":"DOWN-POINTING RED TRIANGLE",
          "id":"down-pointing_red_triangle",
-         "image":"1f53B.png",
+         "image":"1f53b.png",
          "chars":[
             "\uD83D\uDD3B"
          ]
@@ -5565,7 +5565,7 @@
       {
          "name":"UP-POINTING SMALL RED TRIANGLE",
          "id":"up-pointing_small_red_triangle",
-         "image":"1f53C.png",
+         "image":"1f53c.png",
          "chars":[
             "\uD83D\uDD3C"
          ]
@@ -5573,7 +5573,7 @@
       {
          "name":"DOWN-POINTING SMALL RED TRIANGLE",
          "id":"down-pointing_small_red_triangle",
-         "image":"1f53D.png",
+         "image":"1f53d.png",
          "chars":[
             "\uD83D\uDD3D"
          ]
@@ -5671,7 +5671,7 @@
       {
          "name":"CLOCK FACE ELEVEN OCLOCK",
          "id":"clock_face_eleven_oclock",
-         "image":"1f55A.png",
+         "image":"1f55a.png",
          "chars":[
             "\uD83D\uDD5A",
             "\uE02E"
@@ -5680,7 +5680,7 @@
       {
          "name":"CLOCK FACE TWELVE OCLOCK",
          "id":"clock_face_twelve_oclock",
-         "image":"1f55B.png",
+         "image":"1f55b.png",
          "chars":[
             "\uD83D\uDD5B",
             "\uE02F"
@@ -5785,7 +5785,7 @@
       {
          "name":"MOUNT FUJI",
          "id":"mount_fuji",
-         "image":"1f5FB.png",
+         "image":"1f5fb.png",
          "chars":[
             "\uD83D\uDDFB",
             "\uE03B"
@@ -5794,7 +5794,7 @@
       {
          "name":"TOKYO TOWER",
          "id":"tokyo_tower",
-         "image":"1f5FC.png",
+         "image":"1f5fc.png",
          "chars":[
             "\uD83D\uDDFC",
             "\uE509"
@@ -5803,7 +5803,7 @@
       {
          "name":"STATUE OF LIBERTY",
          "id":"statue_of_liberty",
-         "image":"1f5FD.png",
+         "image":"1f5fd.png",
          "chars":[
             "\uD83D\uDDFD",
             "\uE51D"
@@ -5812,7 +5812,7 @@
       {
          "name":"SILHOUETTE OF JAPAN",
          "id":"silhouette_of_japan",
-         "image":"1f5FE.png",
+         "image":"1f5fe.png",
          "chars":[
             "\uD83D\uDDFE"
          ]
@@ -5820,7 +5820,7 @@
       {
          "name":"MOYAI",
          "id":"moyai",
-         "image":"1f5FF.png",
+         "image":"1f5ff.png",
          "chars":[
             "\uD83D\uDDFF"
          ]
@@ -6694,7 +6694,7 @@
       {
          "name":"DELIVERY TRUCK",
          "id":"delivery_truck",
-         "image":"1f69A.png",
+         "image":"1f69a.png",
          "chars":[
             "\uD83D\uDE9A",
             "\uE42F"
@@ -6743,7 +6743,7 @@
       {
          "name":"MOUNTAIN CABLEWAY",
          "id":"mountain_cableway",
-         "image":"1f6A0.png",
+         "image":"1f6a0.png",
          "chars":[
             "\uD83D\uDEA0"
          ]
@@ -6751,7 +6751,7 @@
       {
          "name":"AERIAL TRAMWAY",
          "id":"aerial_tramway",
-         "image":"1f6A1.png",
+         "image":"1f6a1.png",
          "chars":[
             "\uD83D\uDEA1"
          ]
@@ -6759,7 +6759,7 @@
       {
          "name":"SHIP",
          "id":"ship",
-         "image":"1f6A2.png",
+         "image":"1f6a2.png",
          "chars":[
             "\uD83D\uDEA2",
             "\uE202"
@@ -6768,7 +6768,7 @@
       {
          "name":"ROWBOAT",
          "id":"rowboat",
-         "image":"1f6A3.png",
+         "image":"1f6a3.png",
          "chars":[
             "\uD83D\uDEA3"
          ]
@@ -6776,7 +6776,7 @@
       {
          "name":"SPEEDBOAT",
          "id":"speedboat",
-         "image":"1f6A4.png",
+         "image":"1f6a4.png",
          "chars":[
             "\uD83D\uDEA4",
             "\uE135"
@@ -6785,7 +6785,7 @@
       {
          "name":"HORIZONTAL TRAFFIC LIGHT",
          "id":"horizontal_traffic_light",
-         "image":"1f6A5.png",
+         "image":"1f6a5.png",
          "chars":[
             "\uD83D\uDEA5",
             "\uE14E"
@@ -6794,7 +6794,7 @@
       {
          "name":"VERTICAL TRAFFIC LIGHT",
          "id":"vertical_traffic_light",
-         "image":"1f6A6.png",
+         "image":"1f6a6.png",
          "chars":[
             "\uD83D\uDEA6"
          ]
@@ -6802,7 +6802,7 @@
       {
          "name":"CONSTRUCTION SIGN",
          "id":"construction_sign",
-         "image":"1f6A7.png",
+         "image":"1f6a7.png",
          "chars":[
             "\uD83D\uDEA7",
             "\uE137"
@@ -6811,7 +6811,7 @@
       {
          "name":"POLICE CARS REVOLVING LIGHT",
          "id":"police_cars_revolving_light",
-         "image":"1f6A8.png",
+         "image":"1f6a8.png",
          "chars":[
             "\uD83D\uDEA8"
          ]
@@ -6819,7 +6819,7 @@
       {
          "name":"TRIANGULAR FLAG ON POST",
          "id":"triangular_flag_on_post",
-         "image":"1f6A9.png",
+         "image":"1f6a9.png",
          "chars":[
             "\uD83D\uDEA9"
          ]
@@ -6827,7 +6827,7 @@
       {
          "name":"DOOR",
          "id":"door",
-         "image":"1f6AA.png",
+         "image":"1f6aa.png",
          "chars":[
             "\uD83D\uDEAA"
          ]
@@ -6835,7 +6835,7 @@
       {
          "name":"NO ENTRY SIGN",
          "id":"no_entry_sign",
-         "image":"1f6AB.png",
+         "image":"1f6ab.png",
          "chars":[
             "\uD83D\uDEAB"
          ]
@@ -6843,7 +6843,7 @@
       {
          "name":"SMOKING SYMBOL",
          "id":"smoking_symbol",
-         "image":"1f6AC.png",
+         "image":"1f6ac.png",
          "chars":[
             "\uD83D\uDEAC",
             "\uE30E"
@@ -6852,7 +6852,7 @@
       {
          "name":"NO SMOKING SYMBOL",
          "id":"no_smoking_symbol",
-         "image":"1f6AD.png",
+         "image":"1f6ad.png",
          "chars":[
             "\uD83D\uDEAD",
             "\uE208"
@@ -6861,7 +6861,7 @@
       {
          "name":"PUT LITTER IN ITS PLACE SYMBOL",
          "id":"put_litter_in_its_place_symbol",
-         "image":"1f6Ae.png",
+         "image":"1f6ae.png",
          "chars":[
             "\uD83D\uDEAE"
          ]
@@ -6869,7 +6869,7 @@
       {
          "name":"DO NOT LITTER SYMBOL",
          "id":"do_not_litter_symbol",
-         "image":"1f6Af.png",
+         "image":"1f6af.png",
          "chars":[
             "\uD83D\uDEAF"
          ]
@@ -6877,7 +6877,7 @@
       {
          "name":"POTABLE WATER SYMBOL",
          "id":"potable_water_symbol",
-         "image":"1f6B0.png",
+         "image":"1f6b0.png",
          "chars":[
             "\uD83D\uDEB0"
          ]
@@ -6885,7 +6885,7 @@
       {
          "name":"NON-POTABLE WATER SYMBOL",
          "id":"non-potable_water_symbol",
-         "image":"1f6B1.png",
+         "image":"1f6b1.png",
          "chars":[
             "\uD83D\uDEB1"
          ]
@@ -6893,7 +6893,7 @@
       {
          "name":"BICYCLE",
          "id":"bicycle",
-         "image":"1f6B2.png",
+         "image":"1f6b2.png",
          "chars":[
             "\uD83D\uDEB2",
             "\uE136"
@@ -6902,7 +6902,7 @@
       {
          "name":"NO BICYCLES",
          "id":"no_bicycles",
-         "image":"1f6B3.png",
+         "image":"1f6b3.png",
          "chars":[
             "\uD83D\uDEB3"
          ]
@@ -6910,7 +6910,7 @@
       {
          "name":"BICYCLIST",
          "id":"bicyclist",
-         "image":"1f6B4.png",
+         "image":"1f6b4.png",
          "chars":[
             "\uD83D\uDEB4"
          ]
@@ -6918,7 +6918,7 @@
       {
          "name":"MOUNTAIN BICYCLIST",
          "id":"mountain_bicyclist",
-         "image":"1f6B5.png",
+         "image":"1f6b5.png",
          "chars":[
             "\uD83D\uDEB5"
          ]
@@ -6926,7 +6926,7 @@
       {
          "name":"PEDESTRIAN",
          "id":"pedestrian",
-         "image":"1f6B6.png",
+         "image":"1f6b6.png",
          "chars":[
             "\uD83D\uDEB6",
             "\uE201"
@@ -6935,7 +6935,7 @@
       {
          "name":"NO PEDESTRIANS",
          "id":"no_pedestrians",
-         "image":"1f6B7.png",
+         "image":"1f6b7.png",
          "chars":[
             "\uD83D\uDEB7"
          ]
@@ -6943,7 +6943,7 @@
       {
          "name":"CHILDREN CROSSING",
          "id":"children_crossing",
-         "image":"1f6B8.png",
+         "image":"1f6b8.png",
          "chars":[
             "\uD83D\uDEB8"
          ]
@@ -6951,7 +6951,7 @@
       {
          "name":"MENS SYMBOL",
          "id":"mens_symbol",
-         "image":"1f6B9.png",
+         "image":"1f6b9.png",
          "chars":[
             "\uD83D\uDEB9",
             "\uE138"
@@ -6960,7 +6960,7 @@
       {
          "name":"WOMENS SYMBOL",
          "id":"womens_symbol",
-         "image":"1f6BA.png",
+         "image":"1f6ba.png",
          "chars":[
             "\uD83D\uDEBA",
             "\uE139"
@@ -6969,7 +6969,7 @@
       {
          "name":"RESTROOM",
          "id":"restroom",
-         "image":"1f6BB.png",
+         "image":"1f6bb.png",
          "chars":[
             "\uD83D\uDEBB",
             "\uE151"
@@ -6978,7 +6978,7 @@
       {
          "name":"BABY SYMBOL",
          "id":"baby_symbol",
-         "image":"1f6BC.png",
+         "image":"1f6bc.png",
          "chars":[
             "\uD83D\uDEBC",
             "\uE13A"
@@ -6987,7 +6987,7 @@
       {
          "name":"TOILET",
          "id":"toilet",
-         "image":"1f6BD.png",
+         "image":"1f6bd.png",
          "chars":[
             "\uD83D\uDEBD",
             "\uE140"
@@ -6996,7 +6996,7 @@
       {
          "name":"WATER CLOSET",
          "id":"water_closet",
-         "image":"1f6BE.png",
+         "image":"1f6be.png",
          "chars":[
             "\uD83D\uDEBE",
             "\uE309"
@@ -7005,7 +7005,7 @@
       {
          "name":"SHOWER",
          "id":"shower",
-         "image":"1f6Bf.png",
+         "image":"1f6bf.png",
          "chars":[
             "\uD83D\uDEBf"
          ]
@@ -7013,7 +7013,7 @@
       {
          "name":"BATH",
          "id":"bath",
-         "image":"1f6C0.png",
+         "image":"1f6c0.png",
          "chars":[
             "\uD83D\uDEC0",
             "\uE13F"
@@ -7022,7 +7022,7 @@
       {
          "name":"BATHTUB",
          "id":"bathtub",
-         "image":"1f6C1.png",
+         "image":"1f6c1.png",
          "chars":[
             "\uD83D\uDEC1"
          ]
@@ -7030,7 +7030,7 @@
       {
          "name":"PASSPORT CONTROL",
          "id":"passport_control",
-         "image":"1f6C2.png",
+         "image":"1f6c2.png",
          "chars":[
             "\uD83D\uDEC2"
          ]
@@ -7038,7 +7038,7 @@
       {
          "name":"CUSTOMS",
          "id":"customs",
-         "image":"1f6C3.png",
+         "image":"1f6c3.png",
          "chars":[
             "\uD83D\uDEC3"
          ]
@@ -7046,7 +7046,7 @@
       {
          "name":"BAGGAGE CLAIM",
          "id":"baggage_claim",
-         "image":"1f6C4.png",
+         "image":"1f6c4.png",
          "chars":[
             "\uD83D\uDEC4"
          ]
@@ -7054,7 +7054,7 @@
       {
          "name":"LEFT LUGGAGE",
          "id":"left_luggage",
-         "image":"1f6C5.png",
+         "image":"1f6c5.png",
          "chars":[
             "\uD83D\uDEC5"
          ]
