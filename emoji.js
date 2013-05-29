@@ -147,9 +147,31 @@ var pattern;
 var regexp;
 var ioscompat;
 var hidden;
+var blacklist;
 
 $(document).ready(
     function () {
-        init();
+        chrome.extension.sendMessage({setting: "blacklist"},
+            function (response) {
+                if(response.result) {
+                    blacklist = response.result.split(',');
+                } else {
+                    blacklist = [];
+                }
+
+                var blacklisted = false;
+                $.each(blacklist,
+                    function(key, value) {
+                        if(document.domain.indexOf(value) == document.domain.length - value.length) {
+                            blacklisted = true;
+                        }
+                    }
+                );
+
+                if(!blacklisted) {                    
+                    init();
+                }
+            }
+        );
     }
 );

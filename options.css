@@ -19,10 +19,6 @@ label {
 	font-weight: bold;
 }
 
-label:after {
-	content: ":";
-}
-
 div#buttons {
 	text-align: right;
 }

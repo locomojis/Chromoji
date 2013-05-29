@@ -3,6 +3,11 @@ function setDefaultSettings() {
     if(!value) {
         localStorage["ioscompat"] = true;
     }
+
+    value = localStorage["blacklist"];
+    if(!value) {
+        localStorage["blacklist"] = '';
+    }
 }
 
 function listener(request, sender, sendResponse) {

@@ -1,13 +1,27 @@
+var ioscompatname = "ioscompat";
+var fieldioscompatname = "fieldioscompat";
+var blacklistname = "blacklist";
+var fieldblacklistname = "fieldblacklist";
+
 function loadOptions() {
-	var ioscompat = document.getElementById("fieldioscompat");
-	var value = localStorage["ioscompat"];
+	var ioscompat = document.getElementById(fieldioscompatname);
+	var value = localStorage[ioscompatname];
 	ioscompat.checked = (value == "true");
+
+	var blacklist = document.getElementById(fieldblacklistname);
+	var value = localStorage[blacklistname];
+	blacklist.value = value;
 }
 
 function saveOptions() {
-	var ioscompat = document.getElementById("fieldioscompat");
+	var ioscompat = document.getElementById(fieldioscompatname);
 	var value = ioscompat.checked;
-	localStorage["ioscompat"] = value;
+	localStorage[ioscompatname] = value;
+
+	var blacklist = document.getElementById(fieldblacklistname);
+	value = blacklist.value;
+	localStorage[blacklistname] = value;
+
 	window.close();
 }
 
