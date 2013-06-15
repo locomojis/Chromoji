@@ -1,3 +1,5 @@
+var scalename = "scale";
+var fieldscalename = "fieldscale";
 var ioscompatname = "ioscompat";
 var fieldioscompatname = "fieldioscompat";
 var usefontname = "usefont";
@@ -6,26 +8,34 @@ var blacklistname = "blacklist";
 var fieldblacklistname = "fieldblacklist";
 
 function loadOptions() {
+	var scale = document.getElementById(fieldscalename);
+	var value = localStorage[scalename];
+	scale.value = value;
+
 	var ioscompat = document.getElementById(fieldioscompatname);
-	var value = localStorage[ioscompatname];
+	value = localStorage[ioscompatname];
 	ioscompat.checked = (value == "true");
 
 	var usefont = document.getElementById(fieldusefontname);
-	var value = localStorage[usefontname];
+	value = localStorage[usefontname];
 	usefont.checked = (value == "true");
 
 	var blacklist = document.getElementById(fieldblacklistname);
-	var value = localStorage[blacklistname];
+	value = localStorage[blacklistname];
 	blacklist.value = value;
 }
 
 function saveOptions() {
+	var scale = document.getElementById(fieldscalename);
+	var value = scale.value;
+	localStorage[scalename] = value;
+
 	var ioscompat = document.getElementById(fieldioscompatname);
-	var value = ioscompat.checked;
+	value = ioscompat.checked;
 	localStorage[ioscompatname] = value;
 	
 	var usefont = document.getElementById(fieldusefontname);
-	var value = usefont.checked;
+	value = usefont.checked;
 	localStorage[usefontname] = value;
 
 	var blacklist = document.getElementById(fieldblacklistname);

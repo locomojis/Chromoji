@@ -55,6 +55,8 @@ function get_replacement(matched) {
 	if(name != "") {
 		element += " title='" + name + "' alt='" + name + "' ";
 	}
+	element += "style='height:" + scale + "em !important; ";
+	element += "width:" + scale + "em !important' ";
 	element += ">";
 	return element;
 }
@@ -73,7 +75,7 @@ function run(nodes) {
 				var replace = html.replace(regexp,
 					function(c) {
 						if(usefont) {
-							return "<span class='emojifont'>" + c + "</span>";
+							return "<span class='emojifont' style='font-size:" + scale + "em !important' >" + c + "</span>";
 						} else {
 							var matched = valid.filter(
 								function(element, index, array) {
@@ -125,44 +127,49 @@ function create_pattern(items) {
 }
 
 function init() {
-    chrome.extension.sendMessage({setting: "ioscompat"},
+	chrome.extension.sendMessage({setting: "scale"},
         function (response) {
-            ioscompat = (response.result == "true");
-            chrome.extension.sendMessage({setting: "usefont"},
-            	function(response) {
-            		usefont = (response.result == "true");
-					readCharDictionary(
-						function (chars) {
-							charDictionary = chars
-							items = chars.items;
-							if(ioscompat) {
-								hidden = chars.ioshidden;
-							} else {
-								hidden = [];
-							}
+        	scale = response.result;
+			chrome.extension.sendMessage({setting: "ioscompat"},
+				function (response) {
+					ioscompat = (response.result == "true");
+					chrome.extension.sendMessage({setting: "usefont"},
+						function(response) {
+							usefont = (response.result == "true");
+							readCharDictionary(
+								function (chars) {
+									charDictionary = chars
+									items = chars.items;
+									if(ioscompat) {
+										hidden = chars.ioshidden;
+									} else {
+										hidden = [];
+									}
 
-							// Don't render OS X font chars on OS X
-							if(window.navigator.appVersion.indexOf("Mac") != -1) {
-								hidden = hidden.concat(chars.machidden);
-							}
+									// Don't render OS X font chars on OS X
+									if(window.navigator.appVersion.indexOf("Mac") != -1) {
+										hidden = hidden.concat(chars.machidden);
+									}
 
-							valid = items.filter(
-								function (element, index, array) {
-									return (element.image != "");
+									valid = items.filter(
+										function (element, index, array) {
+											return (element.image != "");
+										}
+									);
+
+									create_pattern(valid);
+									regexp = new RegExp(pattern, 'g');
+									var nodes = filter_nodes($('body'), regexp);
+									run(nodes);
+									start_observer();
 								}
 							);
-
-							create_pattern(valid);
-							regexp = new RegExp(pattern, 'g');
-							var nodes = filter_nodes($('body'), regexp);
-							run(nodes);
-							start_observer();
 						}
 					);
 				}
 			);
-        }
-    );
+		}
+	);
 }
 
 var charDictionary;
@@ -174,6 +181,7 @@ var ioscompat;
 var hidden;
 var blacklist;
 var usefont;
+var scale;
 
 $(document).ready(
     function () {

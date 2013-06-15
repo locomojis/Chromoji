@@ -1,5 +1,10 @@
 function setDefaultSettings() {
-    var value = localStorage["ioscompat"];
+	var value = localStorage["scale"];
+	if(!value) {
+		localStorage["scale"] = 1.0;
+	}
+
+    value = localStorage["ioscompat"];
     if(!value) {
         localStorage["ioscompat"] = true;
     }
