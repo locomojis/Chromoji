@@ -7,14 +7,19 @@
 }
 
 function filter_nodes(nodes, regexp) {
-    return $(nodes).find('[contenteditable!="true"][contenteditable!="plaintext-only"]').filter(
+    return $(nodes).find('[contenteditable!="true"][contenteditable!="plaintext-only"]').addBack().filter(
         function(index) {
 			var result = false;
 			var text = $(this).just_text();
             var found = (text.search(regexp) != -1)
 			if(found) {
-				var index = $(this).html().indexOf("document.write");
-				result = (index == -1);
+				var html = $(this).html();
+				if(html) {
+					var index = html.indexOf("document.write");
+					result = (index == -1);
+				} else {
+					result = true;
+				}
 			}
             return result;
 		}
@@ -25,6 +30,7 @@ function on_mutation(mutations) {
     for(var i = 0; i < mutations.length; i++) {
         var mutation = mutations[i];
         var added = mutation.addedNodes;
+        var target = mutation.target;
         
         if(added.length > 0) {
             var nodes = filter_nodes(added, regexp);
@@ -56,23 +62,33 @@ function get_replacement(matched) {
 function run(nodes) {
     $.each(nodes,
         function() {
-            $(this).html($(this).html().replace(regexp,
-                function(c) {
-                    var matched = valid.filter(
-                        function(element, index, array) {
-                            if(element.chars.indexOf(c) != -1) {
-                                return element.image;
-                            }
-                        }
-                    );
-                    
-                    if(matched.length > 0) {
-                        return get_replacement(matched[0]);
-                    }
-                    
-                    return c;
-                }
-            ));
+        	var node = $(this);
+        	
+        	if(!$(node).html()) {
+        		node = $(node).parent();
+        	}
+        	
+        	if($(node).html()) {
+        		var html = $(node).html();
+				var replace = html.replace(regexp,
+					function(c) {
+						var matched = valid.filter(
+							function(element, index, array) {
+								if(element.chars.indexOf(c) != -1) {
+									return element.image;
+								}
+							}
+						);
+					
+						if(matched.length > 0) {
+							return get_replacement(matched[0]);
+						}
+					
+						return c;
+					}
+				);
+				$(node).html(replace);
+            }
         }
     );
 }
