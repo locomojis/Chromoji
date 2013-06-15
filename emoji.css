@@ -18,3 +18,7 @@ img.emoji {
     z-index: inherit !important;
     -webkit-perspective: none !important;
 }
+
+span.emojifont {
+	font-family: "Apple Color Emoji", "Segoe UI Symbol", "Symbola" !important;
+}

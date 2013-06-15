@@ -3,6 +3,11 @@ function setDefaultSettings() {
     if(!value) {
         localStorage["ioscompat"] = true;
     }
+    
+    value = localStorage["usefont"];
+    if(!value) {
+    	localStorage["usefont"] = false;
+    }
 
     value = localStorage["blacklist"];
     if(!value) {

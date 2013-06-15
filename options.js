@@ -1,5 +1,7 @@
 var ioscompatname = "ioscompat";
 var fieldioscompatname = "fieldioscompat";
+var usefontname = "usefont";
+var fieldusefontname = "fieldusefont";
 var blacklistname = "blacklist";
 var fieldblacklistname = "fieldblacklist";
 
@@ -7,6 +9,10 @@ function loadOptions() {
 	var ioscompat = document.getElementById(fieldioscompatname);
 	var value = localStorage[ioscompatname];
 	ioscompat.checked = (value == "true");
+
+	var usefont = document.getElementById(fieldusefontname);
+	var value = localStorage[usefontname];
+	usefont.checked = (value == "true");
 
 	var blacklist = document.getElementById(fieldblacklistname);
 	var value = localStorage[blacklistname];
@@ -17,6 +23,10 @@ function saveOptions() {
 	var ioscompat = document.getElementById(fieldioscompatname);
 	var value = ioscompat.checked;
 	localStorage[ioscompatname] = value;
+	
+	var usefont = document.getElementById(fieldusefontname);
+	var value = usefont.checked;
+	localStorage[usefontname] = value;
 
 	var blacklist = document.getElementById(fieldblacklistname);
 	value = blacklist.value;

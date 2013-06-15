@@ -40,23 +40,23 @@ function on_mutation(mutations) {
 }
 
 function get_replacement(matched) {
-    var image = matched.image;
-    var name = "";
-    var id = matched.id;
-    if(id != "") {
-        name = chrome.i18n.getMessage(id);
-    }
-    if(name == "") {
-        name = matched.name;
-    }
-    var relative = "images/" + image;
-    var absolute = chrome.extension.getURL(relative);
-    var element = "<img src='" + absolute + "' class='emoji'";
-    if(name != "") {
-        element += " title='" + name + "' alt='" + name + "' ";
-    }
-    element += ">";
-    return element;
+	var image = matched.image;
+	var name = "";
+	var id = matched.id;
+	if(id != "") {
+		name = chrome.i18n.getMessage(id);
+	}
+	if(name == "") {
+		name = matched.name;
+	}
+	var relative = "images/" + image;
+	var absolute = chrome.extension.getURL(relative);
+	var element = "<img src='" + absolute + "' class='emoji'";
+	if(name != "") {
+		element += " title='" + name + "' alt='" + name + "' ";
+	}
+	element += ">";
+	return element;
 }
 
 function run(nodes) {
@@ -72,16 +72,20 @@ function run(nodes) {
         		var html = $(node).html();
 				var replace = html.replace(regexp,
 					function(c) {
-						var matched = valid.filter(
-							function(element, index, array) {
-								if(element.chars.indexOf(c) != -1) {
-									return element.image;
+						if(usefont) {
+							return "<span class='emojifont'>" + c + "</span>";
+						} else {
+							var matched = valid.filter(
+								function(element, index, array) {
+									if(element.chars.indexOf(c) != -1) {
+										return element.image;
+									}
 								}
-							}
-						);
+							);
 					
-						if(matched.length > 0) {
-							return get_replacement(matched[0]);
+							if(matched.length > 0) {
+								return get_replacement(matched[0]);
+							}
 						}
 					
 						return c;
@@ -124,34 +128,39 @@ function init() {
     chrome.extension.sendMessage({setting: "ioscompat"},
         function (response) {
             ioscompat = (response.result == "true");
-            readCharDictionary(
-                function (chars) {
-                    charDictionary = chars
-                    items = chars.items;
-                    if(ioscompat) {
-                        hidden = chars.ioshidden;
-                    } else {
-                        hidden = [];
-                    }
+            chrome.extension.sendMessage({setting: "usefont"},
+            	function(response) {
+            		usefont = (response.result == "true");
+					readCharDictionary(
+						function (chars) {
+							charDictionary = chars
+							items = chars.items;
+							if(ioscompat) {
+								hidden = chars.ioshidden;
+							} else {
+								hidden = [];
+							}
 
-                    // Don't render OS X font chars on OS X
-                    if(window.navigator.appVersion.indexOf("Mac") != -1) {
-                        hidden = hidden.concat(chars.machidden);
-                    }
+							// Don't render OS X font chars on OS X
+							if(window.navigator.appVersion.indexOf("Mac") != -1) {
+								hidden = hidden.concat(chars.machidden);
+							}
 
-                    valid = items.filter(
-                        function (element, index, array) {
-                            return (element.image != "");
-                        }
-                    );
+							valid = items.filter(
+								function (element, index, array) {
+									return (element.image != "");
+								}
+							);
 
-                    create_pattern(valid);
-                    regexp = new RegExp(pattern, 'g');
-                    var nodes = filter_nodes($('body'), regexp);
-                    run(nodes);
-                    start_observer();
-                }
-            );
+							create_pattern(valid);
+							regexp = new RegExp(pattern, 'g');
+							var nodes = filter_nodes($('body'), regexp);
+							run(nodes);
+							start_observer();
+						}
+					);
+				}
+			);
         }
     );
 }
@@ -164,6 +173,7 @@ var regexp;
 var ioscompat;
 var hidden;
 var blacklist;
+var usefont;
 
 $(document).ready(
     function () {
