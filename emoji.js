@@ -56,7 +56,8 @@ function get_replacement(matched) {
 		element += " title='" + name + "' alt='" + name + "' ";
 	}
 	element += "style='height:" + scale + "em !important; ";
-	element += "width:" + scale + "em !important' ";
+	element += "width:" + scale + "em !important; ";
+	element += "float:none !important' ";
 	element += ">";
 	return element;
 }
