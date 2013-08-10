@@ -1,7 +1,5 @@
 ﻿jQuery.fn.just_text = function() {
-    return $(this).clone()
-        .children()
-        .remove()
+    return $(this).children()
         .end()
         .text();
 }
