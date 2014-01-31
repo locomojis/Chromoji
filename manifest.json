@@ -1,7 +1,7 @@
 ﻿{
   "name": "__MSG_extName__",
   "description": "__MSG_desc__",
-  "version": "1.2.9",
+  "version": "1.2.10",
   "manifest_version": 2,
   "default_locale": "en_GB",
   "icons": { "16": "icon16.png",
@@ -21,6 +21,7 @@
   ],
   "web_accessible_resources": [
     "images/*.png",
-    "chardict.json"
+    "chardict.json",
+    "jquery.min.map"
   ]
 }
